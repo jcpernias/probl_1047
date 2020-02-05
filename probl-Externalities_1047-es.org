@@ -12,6 +12,10 @@
    estudios, el Estado debe pagar porque devolverás mucho al Estado
    consiguiendo un mejor trabajo y pagando más impuestos". Comente.
 
+   #+begin_answer
+
+   #+end_answer
+
 2. En un pueblo pesquero las capturas mensuales totales de pescado,
    $Q$ (medidas en kg), dependen del número de barcas que faenan, $N$:
    \begin{equation*}
@@ -29,17 +33,37 @@
    a) Suponga que operan $16$ barcas. ¿Qué beneficios obtiene cada
       barca?
 
+      #+begin_answer
+
+      #+end_answer
+
    b) Si una barca más empieza a pescar, calcule el efecto externo
       que tienen que soportar los pescadores que ya estaban operando.
 
+      #+begin_answer
+
+      #+end_answer
+
    c) Calcule el número de barcas de equilibrio.
 
+      #+begin_answer
+
+      #+end_answer
+
    d) Calcule el número de barcas socialmente óptimo.
+
+      #+begin_answer
+
+      #+end_answer
 
    e) El ayuntamiento está considerando la posibilidad de introducir
       un sistema de licencias. ¿Qué precio debería fijar para cada
       licencia si quiere conseguir que opere el número socialmente
       óptimo de barcas?
+
+      #+begin_answer
+
+      #+end_answer
 
 3. El beneficio marginal privado asociado al consumo de un producto es
    $\BMP = 360 - 4 Q$ y el coste marginal privado de producción es
@@ -50,13 +74,25 @@
    a) Obtenga y represente el equilibrio en este mercado. Calcule la
       pérdida irrecuperable de eficiencia.
 
+      #+begin_answer
+
+      #+end_answer
+
    b) El gobierno quiere introducir un impuesto sobre la producción
       para corregir la externalidad. ¿Cuál debería ser el valor del
       impuesto por unidad producida? ¿Y la recaudación total?
 
+      #+begin_answer
+
+      #+end_answer
+
    c) El gobierno también se está planteado utilizar una subvención
       para corregir la externalidad. ¿Cómo debería diseñarse? ¿Cuál
       sería el coste de esta medida?
+
+      #+begin_answer
+
+      #+end_answer
 
 4. El daño marginal que puede ser evitado reduciendo la polución
    generada por una empresa es $\DM = 200 - 5 Q$. El coste marginal de
@@ -65,11 +101,23 @@
    a) ¿Cuál es el nivel de reducción óptimo desde el punto de vista
       social?
 
+      #+begin_answer
+
+      #+end_answer
+
    b) ¿Qué multa por unidad de polución debería fijarse para conseguir
       el nivel óptimo de polución?
 
+      #+begin_answer
+
+      #+end_answer
+
    c) ¿Cómo podría alcanzarse el nivel óptimo de polución mediante una
       subvención?
+
+      #+begin_answer
+
+      #+end_answer
 
 5. \DANGER Las empresas $A$ y $B$ producen cada una 80 unidades de
    polución. El gobierno quiere intervenir para reducir los niveles de
@@ -82,13 +130,29 @@
 
    a) ¿Cuál es el nivel de polución total socialmente óptimo?
 
+      #+begin_answer
+
+      #+end_answer
+
    b) Si se establece un sistema de permisos no transferibles y se
       reparte la mitad a cada empresa, ¿se obtiene el nivel de
       polución eficiente?
+
+      #+begin_answer
+
+      #+end_answer
 
    c) ¿Qué ventajas tiene el que se pueden transferir los permisos?
       Si se reparten a partes iguales los permisos correspondientes al
       óptimo social y se establece un mercado de permisos,
       calcule cuánto reduciría la polución cada empresa.
 
+      #+begin_answer
+
+      #+end_answer
+
    d) ¿Puede alcanzarse el óptimo social mediante un impuesto a la polución?
+
+      #+begin_answer
+
+      #+end_answer

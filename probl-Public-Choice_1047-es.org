@@ -7,6 +7,10 @@
 1. ¿Coincide el votante mediano con el votante con renta mediana? Use
    ejemplos.
 
+   #+begin_answer
+
+   #+end_answer
+
 2. Andrea, Blas y Carla valoran la protección policial de forma
    diferente. Las demandas del bien público son:
 
@@ -21,6 +25,10 @@
    socialmente óptimo de protección policial? Si se utiliza la
    propuesta de Lindahl, ¿qué parte de la carga impositiva soportaría
    cada ciudadano?
+
+   #+begin_answer
+
+   #+end_answer
 
 3. Suponga que hay 5 personas (1, 2, ... 5) que ordenan cuatro
    posibles proyectos ($A$, $B$, $C$ y $D$) como se muestra en la
@@ -41,8 +49,16 @@
    #+END_EXPORT
    a) Represente gráficamente las preferencias.
 
+      #+begin_answer
+
+      #+end_answer
+
    b) Si se usa la regla de la mayoría, ¿se elegirá algún proyecto?
       ¿Cuál? Si no se elige ninguno explique por qué.
+
+      #+begin_answer
+
+      #+end_answer
 
 4. Para determinar el ganador de un premio a los méritos deportivos
    una asociación utiliza el siguiente sistema: cada votante asigna 5
@@ -74,6 +90,18 @@
 
    a) ¿Quién ganará el premio si $C$ es declarado inocente?
 
+      #+begin_answer
+
+      #+end_answer
+
    b) ¿Y si $C$ es declarado culpable?
 
+      #+begin_answer
+
+      #+end_answer
+
    c) ¿Que tipo de problema presenta este sistema de votación?
+
+      #+begin_answer
+
+      #+end_answer

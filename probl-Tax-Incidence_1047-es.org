@@ -1,0 +1,87 @@
+# -*- ispell-dictionary: "castellano" -*-
+
+#+SETUPFILE: ./course-es.org
+
+#+TITLE: Incidencia de los impuestos: ejercicios
+
+
+1. El gobierno quiere introducir un nuevo impuesto sobre las ventas de
+   determinados productos y está considerando varias alternativas: a)
+   un impuesto sobre las ventas de leche semidesnatada; b) sobre los
+   productos lácteos; o c) sobre todos los productos
+   alimenticios. ¿Cuál de esas tres alternativas tendría un mayor
+   impacto sobre los precios de los productos gravados?
+
+2. En 2003 se estableció en Hong Kong un impuesto de \money{51} al
+   mes a los empleadores de asistentes domésticos extranjeros. Muchos
+   de esos trabajadores provenían de Filipinas y el presidente de ese
+   país se refirió a este impuesto como "injusto y no
+   equitativo". Teniendo en cuenta que el impuesto era pagado por los
+   empleadores, ¿bajo qué condiciones estaría justificada la
+   preocupación del presidente filipino?
+
+3. Considere un mercado competitivo con curva de demanda: $Q = \num{54000} -
+   4000 P$; y curva de oferta: $Q = 1400 P$.
+
+   a) Analice la incidencia de un impuesto sobre las ventas del 15%
+      sobre el precio.
+
+   b) Analice la incidencia de un impuesto de \money{1.35} por unidad
+      vendida.
+
+   c) Compare los resultados obtenidos en los dos apartados
+      anteriores.
+
+4. Un monopolista vende su producto en un mercado con demanda: $P =
+   50 - 0.05 Q$. La producción se caracteriza por costes marginales
+   constantes: $\CM = \price{10}$.
+
+   a) Determine la incidencia de un impuesto específico de \price{2}.
+
+   b) Determine la incidencia de un impuesto del 20% sobre el precio
+      de venta.
+
+5. Considere un monopolista con curva de demanda: $Q =
+   \num{10000}/P^2$; y costes marginales: $\CM = \price{0.5}$. Analice
+   la incidencia de un impuesto específico de \price{1} por unidad
+   vendida.
+
+6. Las curvas de demanda y oferta de un mercado de trabajo competitivo
+   son:
+   \begin{gather*}
+     L^{d} = \num{60000} - 3000 w \\
+     L^{s} = \num{20000} + 1000 w
+   \end{gather*}
+   donde $L$ se mide en horas y $w$ es el salario por hora.
+
+   a) ¿Cuál sería la incidencia de un impuesto de \wage{4} pagado por
+      los empleadores? ¿Cómo cambiaría su respuesta si el impuesto
+      fuese pagado a partes iguales por empleadores y empleados?
+
+   b) Suponga ahora que una nueva ley establece un salario mínimo de
+      \wage{8}. Repita el análisis del apartado anterior.
+
+7. Una ciudad está considerando introducir un impuesto del 10% de los
+   ingresos de los hoteles situados en el término municipal. A pesar
+   de no ser muy diferentes a los de localidades vecinas, los hoteles
+   de la ciudad están mucho más próximos a un aeropuerto y a muchos
+   centros de convenciones. Por estas razones los viajeros están
+   dispuestos a pagar un precio más alto por alojarse en ellos.
+
+   Por otro lado los terrenos de la ciudad que pueden destinarse a
+   usos comerciales están completamente utilizados por los hoteles y
+   los restantes negocios de la ciudad. Si un hotel dejase de operar
+   en la ciudad, el terreno sería utilizado rápidamente por alguna
+   otra empresa.
+
+   El alcalde está preocupado por quién acabará soportando la
+   incidencia del impuesto a corto plazo (un mes) y a largo plazo
+   (cinco años).
+
+   a) ¿Cómo se repartiría la incidencia del impuesto a corto plazo?
+
+   b) ¿Y a largo plazo?
+
+   c) ¿Cómo cambiarían sus respuestas si los hoteles de las
+      localidades cercanas fueran sustitutos perfectos de los situados
+      dentro de la ciudad?

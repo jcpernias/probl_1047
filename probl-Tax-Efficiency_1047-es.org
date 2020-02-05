@@ -1,0 +1,39 @@
+# -*- ispell-dictionary: "castellano" -*-
+
+#+SETUPFILE: ./course-es.org
+
+#+TITLE: Impuestos y eficiencia: ejercicios
+
+1. La demanda de mercado de un producto viene dada por $P = 20 - 0.001
+   Q$. La curva de oferta de mercado es perfectamente elástica: $P =
+   10$. Suponiendo que los efectos renta son despreciables:
+   a) Calcule el exceso de gravamen si se establece un impuesto de
+      \money{2} por unidad producida.
+   b) Calcule el exceso de gravamen si el impuesto fuera de \money{3}
+      por unidad producida. Compare los resultados con los del
+      apartado anterior.
+   c) ¿Cómo cree que variará el exceso de gravamen en el largo plazo?
+      ¿Será mayor o menor que a corto plazo?
+
+2. Un producto se vende en un mercado competitivo cuyas curvas de
+   demanda y oferta son:
+   \begin{gather*}
+     P = 90 - 0.03 Q \\
+     P = 30 + 0.02 Q
+   \end{gather*}
+   Determine el exceso de gravamen de un impuesto de \money{2.5} por
+   unidad vendida (suponga que no existe efecto renta).
+
+3. En el mercado de un bien la curva de demanda es: $P = 10 - 0.01 Q$
+   (suponga que el efecto renta es despreciable). El bien es producido
+   por un monopolista y los costes marginales son constantes: $\CM =
+   \price{2}$.
+   a) ¿Cuál sería el exceso de gravamen de un impuesto de \money{2}
+      por unidad producida?
+
+   b) ¿Cómo cambiaría su respuesta al apartado anterior si el
+      productor actuara como una empresa competitiva?
+
+4. Después de introducir un impuesto sobre el precio de un bien no se
+   observan cambios en el consumo del bien. ¿Quiere esto decir que el
+   impuesto es eficiente en este caso?

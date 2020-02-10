@@ -2,6 +2,7 @@ SHELL := /bin/sh
 
 subject_code := 1047
 probl_units := \
+	Size \
 	Efficiency-Equity \
 	Public-Goods \
 	Externalities \

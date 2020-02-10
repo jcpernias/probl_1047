@@ -1,0 +1,71 @@
+# -*- ispell-dictionary: "castellano" -*-
+
+#+SETUPFILE: ./course-es.org
+
+#+TITLE: Delimitación del sector público: ejercicios
+
+
+Responda a las siguientes preguntas a partir de la información
+estadística contenida en las publicaciones:
+
+- [[https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/Paginas/iaavanceactuacioneconomica.aspx][Avance de la actuación económica y financiera de las
+  Administraciones Públicas (2018)]], IGAE.
+- [[https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/Paginas/iacogof.aspx][Informe sobre la clasificación funcional del gasto público
+  (COFOG). Período 2014-2018]], IGAE.
+- [[https://www.oecd-ilibrary.org/governance/government-at-a-glance_22214399][Government at a glance 2019]], OECD.
+
+
+1. ¿A cuánto asciende el gasto público en España en los últimos años?
+   ¿Qué porcentaje con respecto al PIB representa el gasto público?
+   ¿Es muy diferente esta última cifra con la media para los países de
+   la OECD?
+
+   #+begin_answer
+
+   #+end_answer
+
+2. ¿Cómo se distribuye el gasto público del Estado entre las
+   diferentes administraciones que lo componen?
+
+   #+begin_answer
+
+   #+end_answer
+
+3. Atendiendo a la clasificación funcional de los gastos, ¿qué grupos
+   de gasto tienen un mayor peso en España? ¿Cuáles son los grupos más
+   importantes para las diferentes administraciones?
+
+   #+begin_answer
+
+   #+end_answer
+
+4. ¿A cuanto ascienden los ingresos del Estado en España? ¿Qué
+   porcentaje representan con respecto al PIB? ¿Es muy diferente esta
+   última cifra con la media para los países de la OECD?
+
+   #+begin_answer
+
+   #+end_answer
+
+5. ¿Cuál es el peso que tienen en España los impuestos directos, los
+   indirectos y las cotizaciones sociales?
+
+   #+begin_answer
+
+   #+end_answer
+
+6. ¿Qué valor toma la presión fiscal en España? ¿Es muy diferente de
+   los países de nuestro entorno?
+
+   #+begin_answer
+
+   #+end_answer
+
+7. ¿Cuál es el tamaño del déficit público en España? ¿Cómo se
+   distribuye este déficit en las diferentes administraciones que
+   componen el Estado? ¿Es muy diferente el déficit de España del de
+   otros países de su entorno?
+
+   #+begin_answer
+
+   #+end_answer

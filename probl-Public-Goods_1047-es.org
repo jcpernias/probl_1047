@@ -11,7 +11,18 @@
 
    #+end_answer
 
-2. El coste marginal de producir Q unidades de un bien público puro
+2. Considere una economía con dos habitantes $A$ y $B$. Sólo se
+   producen dos bienes: el bien público puro $X$ y el bien privado
+   $Y$. Las relaciones marginales de sustitución son: $\RMS_A = 5$ y
+   $\RMS_B = 10$ unidades de $Y$ por unidad de $X$. La relación
+   marginal de transformación es $\RMT = 20$ unidades de $Y$ por
+   unidad de $X$. ¿Es eficiente la situación descrita?
+
+   #+begin_answer
+
+   #+end_answer
+
+3. El coste marginal de producir Q unidades de un bien público puro
    es: $\CM = 3 Q$. Sólo existen dos demandantes: $A$ cuya demanda
    viene dada por $Q_A = 10 - P$; y $B$ con demanda es $Q_B = 20 -
    P$. ¿Cuál sería la provisión eficiente del bien público?
@@ -20,7 +31,7 @@
 
    #+end_answer
 
-3. Tarzán y Jane viven en la jungla y han adiestrado a Chita para que
+4. Tarzán y Jane viven en la jungla y han adiestrado a Chita para que
    patrulle los límites de su asentamiento y para que recolecte
    fruta. Chita puede recoger 3 kg de fruta por hora y actualmente
    dedica 6 horas a patrullar, 8 horas a recolectar y 10 horas a
@@ -41,7 +52,7 @@
 
       #+end_answer
 
-4. La curva de demanda de un bien privado viene dada por $P = 50 -
+5. La curva de demanda de un bien privado viene dada por $P = 50 -
    Q$. El coste de producir una unidad adicional del bien es de
    \price{15} y no depende de la cantidad producida. Cuando el bien es
    provisto por empresas competitivas, estas tienen que afrontar unos
@@ -54,7 +65,7 @@
 
    #+end_answer
 
-5. \DDANGER En una pequeña ciudad sólo viven dos personas: Alba y
+6. \DDANGER En una pequeña ciudad sólo viven dos personas: Alba y
    Blanca. El servicio de bomberos de la ciudad se financia
    exclusivamente con las aportaciones que voluntariamente realizan
    sus habitantes. Tanto Alba como Blanca tienen las mismas

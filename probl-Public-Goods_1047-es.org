@@ -41,22 +41,23 @@
 
    #+end_answer
 
-4. En una ciudad hay tres tipos de ciudadanos que se distinguen
-   únicamente por sus preferencias con respecto a los parques. Los
-   individuos del primer tipo tienen una disposición a pagar $D_{I} =
-   \money{100}$ por la existencia de paqrques en la ciudad y esta
-   disposición es independiente del número de parques. Por otro lado,
-   la disposición a pagar de los individos de los otros dos tipos es:
+4. En una ciudad hay tres tipos de personas que se distinguen
+   únicamente por sus preferencias con respecto a los parques
+   municipales. Cada una de las personas del primer tipo están
+   dispuestas a pagar $D_{I} = \money{100}$ por la mera existencia de
+   algún parque y esta disposición es independiente del número de
+   parques que haya. Por otro lado, la disposición a pagar de los
+   individuos de los otros dos tipos es:
    #+begin_export latex
    \begin{gather*}
-     D_{II} = 200 + 30 N + 1.5 N^{2} \\
-     D_{III} = 150 + 90 N + 4.5 N^{2}
+     D_{II} = 200 + 30 N - 1.5 N^{2} \\
+     D_{III} = 150 + 90 N - 4.5 N^{2}
    \end{gather*}
    #+end_export
    donde $N$ es el número de parques de la ciudad. Si hay 500
    individuos de cada tipo, cada parque cuesta \money{40000} y sólo se
-   puede construir un número entero de paqrques, ¿cuántos se deben de
-   proveer?
+   puede construir un número entero de parques, ¿cuántos deben de
+   construirse?
 
    #+begin_answer
 

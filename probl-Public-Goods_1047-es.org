@@ -63,61 +63,41 @@
 
    #+end_answer
 
-5. \DANGER En una pequeña ciudad sólo viven dos personas: Alba y
-   Blanca. El servicio de bomberos de la ciudad se financia
-   exclusivamente con las aportaciones que voluntariamente realizan
-   sus habitantes. Tanto Alba como Blanca tienen las mismas
-   preferencias sobre su consumo de bienes privados, $X_i$, y sobre el
-   número total de bomberos contratado por el ayuntamiento, $N$. Estas
-   preferencias se pueden representar por la función de utilidad:
-   \begin{equation*}
-     U_i = 4\log X_i + 2\log N \qquad (i = A, B)
-   \end{equation*}
-   El número total de bomberos es la suma de los contratados por las
-   aportaciones de Ana, $N_A$, y de Blanca, $N_B$: $N = N_A +
-   N_B$. Tanto Ana como Blanca disponen de una renta de \money{150} y
-   los precios por unidad de $X$ y de $N$ son iguales a \money{1}.
-
-   a) ¿Cuántos bomberos se contratarán en estas condiciones?
-
-      #+begin_answer
-
-      #+end_answer
-
-   b) ¿Cuál es el número socialmente óptimo de bomberos? Si su
-      respuesta difiere de la del apartado anterior, explique por qué.
-
-      #+begin_answer
-
-      #+end_answer
-
-   c) El gobierno decide contratar 40 bomberos más que financia
-      mediante un impuesto de \money{20} a cada habitante. ¿Cuál es
-      ahora número total de bomberos contratados? ¿Se ha alcanzado el
-      óptimo social? ¿Por qué?
-
-      #+begin_answer
-
-      #+end_answer
-
-   d) Suponga ahora que en vez de tener que financiar con impuestos
-      los 40 bomberos contratados por el gobierno, un misterioso
-      benefactor se hace cargo de los gastos adicionales. ¿Se obtienen
-      en este caso los mismos resultados que en el apartado anterior?
-
-      #+begin_answer
-
-      #+end_answer
-
-6. La curva de demanda de un bien privado viene dada por $P = 50 -
+5. La curva de demanda de un bien privado viene dada por $P = 50 -
    Q$. El coste de producir una unidad adicional del bien es de
    \price{15} y no depende de la cantidad producida. Cuando el bien es
    provisto por empresas competitivas, estas tienen que afrontar unos
    costes de transacción de \price{10}. El gobierno está planteándose
    la posibilidad de proveer el bien gratuitamente, en cuyo caso no
-   existirían costes de transacción. ¿Cuál de las dos opciones es más
+   existirían costes de transacción. ¿Es eficiente la provisión
+   privada? ¿Y la pública? ¿Cuál de las dos opciones es más
    conveniente desde el punto de vista social?
 
    #+begin_answer
 
    #+end_answer
+
+6. La curva de costes de un monopolio natural es: $\CT(Q) =
+   \num{10000} + Q$. La curva de demanda de mercado es $Q = 5150 - 50
+   P$.
+
+   a) ¿Cuál sería el precio que maximiza el beneficio de la empresa?
+      Calcule la pérdida de eficiencia en esta situación.
+
+      #+begin_answer
+
+      #+end_answer
+
+   b) Si el Gobierno obliga al monopolista a fijar el precio
+      competitivo, ¿cuál sería el beneficio del monopolista?
+
+      #+begin_answer
+
+      #+end_answer
+
+   c) Calcule el precio que debería fijar el monopolio para obtener
+      beneficios nulos.
+
+      #+begin_answer
+
+      #+end_answer

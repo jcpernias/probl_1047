@@ -13,9 +13,8 @@
 
 2. Tarzán y Jane viven en la jungla y han adiestrado a Chita para que
    patrulle los límites de su asentamiento y para que recolecte
-   fruta. Chita puede recoger 3 kg de fruta por hora y actualmente
-   dedica 6 horas a patrullar, 8 horas a recolectar y 10 horas a
-   dormir.
+   fruta. Chita puede recoger 3 kg de fruta por hora y
+   dedica 6 horas al día a patrullar y 8 horas a recolectar fruta.
 
    a) Identifique si los bienes de este ejemplo son públicos o privados.
 

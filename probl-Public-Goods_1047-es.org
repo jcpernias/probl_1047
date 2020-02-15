@@ -11,16 +11,7 @@
 
    #+end_answer
 
-2. El coste marginal de producir Q unidades de un bien público puro
-   es: $\CM = 3 Q$. Sólo existen dos demandantes: $A$ cuya demanda
-   viene dada por $Q_A = 10 - P$; y $B$ con demanda es $Q_B = 20 -
-   P$. ¿Cuál sería la provisión eficiente del bien público?
-
-   #+begin_answer
-
-   #+end_answer
-
-3. Tarzán y Jane viven en la jungla y han adiestrado a Chita para que
+2. Tarzán y Jane viven en la jungla y han adiestrado a Chita para que
    patrulle los límites de su asentamiento y para que recolecte
    fruta. Chita puede recoger 3 kg de fruta por hora y actualmente
    dedica 6 horas a patrullar, 8 horas a recolectar y 10 horas a
@@ -40,6 +31,15 @@
       #+begin_answer
 
       #+end_answer
+
+3. El coste marginal de producir Q unidades de un bien público puro
+   es: $\CM = 3 Q$. Sólo existen dos demandantes: $A$ cuya demanda
+   viene dada por $Q_A = 10 - P$; y $B$ con demanda es $Q_B = 20 -
+   P$. ¿Cuál sería la provisión eficiente del bien público?
+
+   #+begin_answer
+
+   #+end_answer
 
 4. En una ciudad hay tres tipos de ciudadanos que se distinguen
    únicamente por sus preferencias con respecto a los parques. Los

@@ -32,9 +32,10 @@
       #+end_answer
 
 3. El coste marginal de producir Q unidades de un bien público puro
-   es: $\CM = 3 Q$. Sólo existen dos demandantes: $A$ cuya demanda
-   viene dada por $Q_A = 10 - P$; y $B$ con demanda es $Q_B = 20 -
-   P$. ¿Cuál sería la provisión eficiente del bien público?
+   es: $\CM = 5 Q$. Existen 100 demandantes: 75 cuya demanda viene
+   dada por $Q = 50 - 5 P$; y 25 con demanda es $Q = 100 - 5 P$. ¿Cuál
+   sería la provisión eficiente del bien público? Represente
+   gráficamente.
 
    #+begin_answer
 

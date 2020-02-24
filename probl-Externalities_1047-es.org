@@ -8,7 +8,7 @@
    los estudiantes universitarios deberían pagar una parte del coste
    de sus estudios superiores. Un portavoz de los estudiantes declaró:
    "Consideramos la gratuidad de la matricula como un derecho
-   ... Siempre se nos ha dicho que si eliges continuar con tus
+   [...] Siempre se nos ha dicho que si eliges continuar con tus
    estudios, el Estado debe pagar porque devolverás mucho al Estado
    consiguiendo un mejor trabajo y pagando más impuestos". Comente.
 
@@ -65,87 +65,86 @@
 
       #+end_answer
 
-3. El beneficio marginal privado asociado al consumo de un producto es
-   $\BMP = 360 - 4 Q$ y el coste marginal privado de producción es
-   $\CMP = 6 Q$. Existe un daño marginal asociado a la producción que
-   expresamos como $\DM = 2Q$. No existe daño marginal asociado al
-   consumo del bien.
+3. La demanda de un producto es $Q = 1200 - 4 P$ y la oferta es $Q = 2
+   P$. Al producir el bien se vierten sustancias contaminantes que
+   generan un daño a la sociedad valorado en \money{30} por unidad de
+   producto.
 
-   a) Obtenga y represente el equilibrio en este mercado. Calcule la
-      pérdida irrecuperable de eficiencia.
-
-      #+begin_answer
-
-      #+end_answer
-
-   b) El gobierno quiere introducir un impuesto sobre la producción
-      para corregir la externalidad. ¿Cuál debería ser el valor del
-      impuesto por unidad producida? ¿Y la recaudación total?
+   a) Obtenga y represente el equilibrio en este mercado en ausencia
+      de cualquier tipo de intervención. Calcule la pérdida
+      irrecuperable de eficiencia.
 
       #+begin_answer
 
       #+end_answer
 
-   c) El gobierno también se está planteado utilizar una subvención
-      para corregir la externalidad. ¿Cómo debería diseñarse? ¿Cuál
-      sería el coste de esta medida?
+   b) Para corregir la externalidad, el Gobierno quiere introducir un
+      impuesto de $t$ euros por unidad producida. ¿Qué valor debe
+      tomar $t$ para conseguir el nivel de producción socialmente
+      óptimo? ¿Cuanto recaudaría el Gobierno?
 
       #+begin_answer
 
       #+end_answer
 
-4. El daño marginal que puede ser evitado reduciendo la polución
-   generada por una empresa es $\DM = 200 - 5 Q$. El coste marginal de
-   la reducción de la polución es $\CM = 10 + Q$.
-
-   a) ¿Cuál es el nivel de reducción óptimo desde el punto de vista
-      social?
+   c) El Gobierno también está barajando la posibilidad de utilizar
+      una subvención para corregir la externalidad. ¿Cómo debería
+      diseñarse? ¿Cuál sería el coste de esta medida?
 
       #+begin_answer
 
       #+end_answer
 
-   b) ¿Qué multa por unidad de polución debería fijarse para conseguir
-      el nivel óptimo de polución?
+   d) ¿Cuál de las dos medidas, impuesto o subvención, preferirían las
+      empresas? ¿Y los compradores del bien?
 
       #+begin_answer
 
       #+end_answer
 
-   c) ¿Cómo podría alcanzarse el nivel óptimo de polución mediante una
-      subvención?
+4. El Gobierno quiere mejorar la calidad de las aguas de un río en el
+   que una empresa vierte residuos. El beneficio marginal social de
+   reducir los vertidos en $R$ toneladas es: $\BMS = 200 - 5 R$.  El
+   coste marginal de reducir los vertidos es: $\CM = 20 + R$. ¿Cuál es
+   el nivel de reducción óptimo desde el punto de vista social? ¿Qué
+   multa por unidad de polución debería fijarse para conseguir el
+   nivel óptimo de polución?
+
+   #+begin_answer
+
+   #+end_answer
+
+5. \DANGER Tanto la empresa $A$ como la $B$ emiten al mes 150
+   toneladas de sustancias contaminantes. El Gobierno quiere
+   intervenir para reducir los niveles de contaminación. Los costes
+   marginales de reducción de una tonelada de emisiones son $\CM_A = 3
+   R_A$ para la empresa $A$ y $\CM_B = 6 R_B$ para la empresa $B$,
+   donde $R_A$ y $R_B$ son las cantidades en que reduce la
+   contaminación cada empresa. El beneficio marginal social debido a
+   la reducción de la polución es $\BMS = 600 - 3 R_T$ donde $R_T =
+   R_A + R_B$.
+
+   a) ¿Cuál es el nivel eficiente de reducción de las emisiones? ¿Y el
+      nivel socialmente óptimo de emisiones?
 
       #+begin_answer
 
       #+end_answer
 
-5. \DANGER Las empresas $A$ y $B$ producen cada una 80 unidades de
-   polución. El gobierno quiere intervenir para reducir los niveles de
-   contaminación. Los costes marginales de reducción de la polución
-   son $\CM_A = 50 + 3 Q_A$ para la empresa $A$ y $\CM_B = 20 + 6 Q_B$
-   para la empresa $B$, donde $Q_A$ y $Q_B$ son las cantidades de
-   reducción de la contaminación de cada empresa. El beneficio
-   marginal social debido a la reducción de la polución es $\BMS =
-   590 - 3 Q_T$ donde $Q_T$ es las reducción de la polución total.
-
-   a) ¿Cuál es el nivel de polución total socialmente óptimo?
+   b) Si se establece un sistema de permisos *no* transferibles y se
+      reparte la mitad a cada empresa, ¿cuantos deben repartirse a
+      cada empresa para obtener el nivel de emisiones eficiente? ¿Es
+      posible encontrar repartos de los permisos que permitan alcanzar
+      el óptimo social de una forma menos costosa?
 
       #+begin_answer
 
       #+end_answer
 
-   b) Si se establece un sistema de permisos no transferibles y se
-      reparte la mitad a cada empresa, ¿se obtiene el nivel de
-      polución eficiente?
-
-      #+begin_answer
-
-      #+end_answer
-
-   c) ¿Qué ventajas tiene el que se pueden transferir los permisos?
-      Si se reparten a partes iguales los permisos correspondientes al
-      óptimo social y se establece un mercado de permisos,
-      calcule cuánto reduciría la polución cada empresa.
+   c) Si se reparten a partes iguales los permisos correspondientes al
+      óptimo social y se permite la compra y la venta de estos
+      permisos, ¿en cuántas toneladas reduciría cada empresa sus
+      emisiones?
 
       #+begin_answer
 

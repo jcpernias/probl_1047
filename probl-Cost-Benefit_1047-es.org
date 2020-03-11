@@ -4,59 +4,105 @@
 
 #+TITLE: Análisis coste-beneficio: ejercicios
 
-1. Considere un proyecto que cueste \money{100000} este año y produzca
+1. Un ayuntamiento debe de elegir entre dos proyectos cuya duración es
+   menor de un año. Un consultor financiero ha calculado a cuanto
+   ascenderían los costes y beneficios de ambos proyectos:
+
+   #+begin_center
+   #+attr_latex: :booktabs :center :align lp{0.5cm}rp{0.5cm}r
+   |------------+---+--------------+---+--------------|
+   |            |   |   Beneficios |   |       Costes |
+   |            |   | (miles de €) |   | (miles de €) |
+   |------------+---+--------------+---+--------------|
+   | Proyecto 1 |   |          100 |   |           60 |
+   | Proyecto 2 |   |           21 |   |           10 |
+   |------------+---+--------------+---+--------------|
+   #+end_center
+
+   El consultor recomienda que se seleccione el proyecto con un mayor
+   ratio beneficio-coste. De acuerdo con ese criterio, ¿qué proyecto
+   sería preferible? ¿Está de acuerdo con esa recomendación?
+
+   #+begin_answer
+
+   #+end_answer
+
+2. Considere un proyecto que cueste \money{100000} este año y produzca
    unos ingresos de \money{30000} durante los 5 años siguientes. Al
    final del último año habría que soportar un coste de limpieza por
-   valor de \money{20000}. ¿Debería llevarse a cabo el proyecto si la
-   tasa de descuento es 0? ¿Y si fuera del 10%? ¿15%?
+   valor de \money{20000}.
+
+   a) ¿Debería llevarse a cabo el proyecto si la tasa de descuento es
+      10%?
+
+      #+begin_answer
+
+      #+end_answer
+
+   b) Considere que existe incertidumbre con respecto al coste de
+      limpieza que puede ascender a \money{15000} o a \money{35000},
+      ambas cifras con un 50% de probabilidad. Suponiendo neutralidad
+      frente al riesgo, ¿debería llevarse a cabo el proyecto?
+
+      #+begin_answer
+
+      #+end_answer
+
+3. Un artículo periodístico enumeraba los costes y los beneficios de
+   un nuevo programa de fomento del reciclaje en la ciudad de
+   Springfield. El reportero destacaba como principal beneficio la
+   creación de 100 puestos de trabajo relacionados directa o
+   indirectamente con el reciclaje. Discuta.
 
    #+begin_answer
 
    #+end_answer
 
-2. El doctor Jones está decidiendo dónde ir en sus próximas
-   vacaciones. Si se decide a visitar el país $A$, el riesgo de morir
-   es de 1 entre \num{10000} y estaría dispuesto a pagar hasta
-   \money{6000}. Si se decide por el país $B$ el riesgo de muerte es
-   de 1 entre \num{20000} y su disposición a pagar sería de
-   \money{9000}. Si el doctor Jones se muestra indiferente entre los
-   dos destinos salvo por el diferencial de riesgo de muerte, ¿qué se
-   puede inferir acerca de cómo valora su propia vida?
+4. Lara trata de decidir el destino de sus próximas
+   vacaciones. Estaría dispuesta a pagar hasta \money{6000} por viajar
+   al país $A$ donde el riesgo de morir es de 1 entre \num{10000}. Por
+   otro lado, su disposición a pagar sería de \money{6500} si se
+   decide por el país $B$ donde el riesgo de muerte es de 1 entre
+   \num{22500}. Si Lara se muestra indiferente entre los dos destinos
+   salvo por el diferencial de riesgo de muerte, ¿qué se puede inferir
+   de los datos anteriores con respecto a la valoración de Lara de
+   acerca de su propia vida?
 
    #+begin_answer
 
    #+end_answer
 
-3. Una consultora elaboró por encargo de un gobierno un análisis
-   coste-beneficio de una serie de limitaciones legales a fumar en
-   público. El informe señalaba que fumar tiene un beneficio neto
-   positivo porque el tabaco causa muertes prematuras con el
-   consiguiente ahorro para el sistema sanitario, por un lado, y el
-   sistema de pensiones, por otro. Discuta.
+5. Las autoridades de Tierra Media están considerando la posibilidad
+   de construir un puente que mejore la conexión por carretera de dos
+   ciudades separadas por un río.
 
-   #+begin_answer
+   Actualmente, solo se puede salvar el río con un ferry que
+   transporta \num{25000} vehículos por año. La empresa que opera el
+   ferry es un monopolio que cobra un peaje de \money{2} a cada
+   vehículo por trayecto y soporta unos costes de \money{1.5} por cada
+   vehículo y trayecto. El número de vehículos que cruzarían el río
+   cada año viene dado por la curva de demanda: $q = \num{125000} -
+   \num{50000} p$ donde $p$ es el peaje que se paga por cruzar el río.
 
-   #+end_answer
+   Se tardaría un año en construir el puente y los costes ascenderían
+   a 1 millón de euros. Una vez en funcionamiento, los costes de
+   mantenimiento del puente serían de \money{50000} por año. Se estima
+   que el tiempo de viaje entre las dos ciudades sería aproximadamente
+   el mismo que con el ferry. En caso de llevarse a término el
+   proyecto, no se cobraría ningún peaje por cruzar el puente. En
+   consecuencia, el ferry dejaría de operar.
 
-4. Un artículo periodístico sobre los costes y los beneficios de
-   reciclar en Nueva York, señalaba como beneficio principal la
-   creación de 1000 puestos de trabajo en el sector privado
-   relacionados directa o indirectamente con el reciclaje. Discuta.
+   a) Determine si se debería construir el puente suponiendo una tasa
+      de descuento del 10% y que el puente tiene una duración
+      infinita.
 
-   #+begin_answer
+      #+begin_answer
 
-   #+end_answer
+      #+end_answer
 
-5. Un gobierno está planteando la posibilidad de gastar ahora
-   \num{10000} millones de euros para reducir los daños que el cambio
-   climático causaría dentro de 100 años.  Se estima que el proyecto
-   conseguiría evitar daños por valor de \num{80000} millones de
-   euros. Un miembro del parlamento, muy crítico con el gobierno,
-   propone invertir los \num{10000} millones de euros en el mercado de
-   valores para obtener una tasa de rendimiento media de un 6% y usar
-   los resultados de esa inversión para reparar dentro de 100 años los
-   daños causados por el cambio climático. Discuta.
+   b) ¿Cambiaría su respuesta al apartado anterior si se cobrara un
+      peaje de \money{0.40} por trayecto?
 
-   #+begin_answer
+      #+begin_answer
 
-   #+end_answer
+      #+end_answer

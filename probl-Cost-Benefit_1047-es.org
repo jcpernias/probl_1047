@@ -61,12 +61,12 @@
 4. Lara trata de decidir el destino de sus próximas
    vacaciones. Estaría dispuesta a pagar hasta \money{6000} por viajar
    al país $A$ donde el riesgo de morir es de 1 entre \num{10000}. Por
-   otro lado, su disposición a pagar sería de \money{6500} si se
-   decide por el país $B$ donde el riesgo de muerte es de 1 entre
+   otro lado, estaría dispuesta a pagar como mucho \money{6500} por
+   viajar al país $B$, donde el riesgo de muerte es de 1 entre
    \num{22500}. Si Lara se muestra indiferente entre los dos destinos
    salvo por el diferencial de riesgo de muerte, ¿qué se puede inferir
-   de los datos anteriores con respecto a la valoración de Lara de
-   acerca de su propia vida?
+   de los datos anteriores con respecto a la valoración de Lara de su
+   propia vida?
 
    #+begin_answer
 

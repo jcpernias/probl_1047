@@ -2,106 +2,83 @@
 
 #+SETUPFILE: ./course-es.org
 
-#+TITLE: Elección pública: ejercicios
+#+TITLE: Economía política: ejercicios
 
-1. ¿Coincide el votante mediano con el votante con renta mediana? Use
-   ejemplos.
+1. Andrea, Blas y Carla son los únicos habitantes de una pequeña
+   ciudad. Cada uno de ellos valora la protección policial de forma
+   diferente. Sus demandas son:
 
-   #+begin_answer
+   - Andrea: $Q = 55 - 5 P_A$
 
-   #+end_answer
+   - Blas: $Q = 80 - 4 P_B$
 
-2. Andrea, Blas y Carla valoran la protección policial de forma
-   diferente. Las demandas del bien público son:
+   - Carla: $Q = 100 - 10 P_C$
 
-   - Andrea: $Q = 55 - 5 P$.
-
-   - Blas: $Q = 80 - 4 P$.
-
-   - Carla: $Q = 100 - 10 P$.
-
-   Si el coste marginal de proporcionar una hora adicional de
-   protección policial es \wage{13.5}, ¿cuál es el nivel
-   socialmente óptimo de protección policial? Si se utiliza la
-   propuesta de Lindahl, ¿qué parte de la carga impositiva soportaría
-   cada ciudadano?
+   donde $Q$ son las horas de protección policial en la ciudad y $P_i$
+   el precio que tendría que pagar el habitante $i$ por cada hora que
+   se contrate.  Si el coste marginal de proporcionar una hora
+   adicional de protección policial es \wage{13.5}, ¿cuál es el nivel
+   socialmente óptimo de $Q$? Si se utiliza la propuesta de Lindahl,
+   ¿qué parte de la carga impositiva soportaría cada ciudadano?
 
    #+begin_answer
+     La determinación de la cantidad óptima, $Q^*$, se hace igual que
+     en el tema de bienes públicos (ver las soluciones del problema 3
+     y del problema 4).
 
+     Una vez tenemos $Q^*$, los precios de Lindahl coinciden con las
+     disposiciones a pagar de cada individuo.
    #+end_answer
 
-3. Suponga que hay 5 personas (1, 2, ... 5) que ordenan cuatro
-   posibles proyectos ($A$, $B$, $C$ y $D$) como se muestra en la
-   siguiente tabla:
-   #+BEGIN_EXPORT latex
+2. Algunos autores piensan que las preferencias con respecto a la
+   sanidad pública presentan con frecuencia un patron bimodal. ¿Qué
+   característica de la sanidad pública podría justificar esta opinión?
+   ¿Por qué?
+
+   #+begin_answer
+     Es un caso similar al de la educación pública que se menciona
+     varias veces en el vídeo.
+   #+end_answer
+
+3. Los cinco filántropos más acaudalados de una ciudad: Alicia, Bruno,
+   Celia, David y Elena, quieren donar parte de sus riquezas a una
+   causa benéfica. Para evitar odiosas comparaciones, han decidido que
+   todos aportarán la misma cantidad de dinero. Cada uno hace una
+   propuesta, las cuales se presentan en la siguiente tabla:
+   #+begin_export latex
    \begin{center}
-   \begin{tabular}{@{}>{$}l<{$}*{4}{p{1cm}>{$}l<{$}}@{}}
-     \toprule
-     1 && 2 && 3 && 4 && 5 \\
-     \midrule
-     A && A && D && C && B \\
-     D && C && B && B && C \\
-     C && B && C && D && D \\
-     B && D && A && A && A \\
-     \bottomrule
-   \end{tabular}
+     \begin{tabular}{@{}l*{4}{p{0.3cm}l@{}}}
+       \toprule
+       Alicia && Bruno && Celia && David && Elena \\
+       \midrule
+       \money{500000} && \money{100000} &&
+       \money{50000} && \money{250000} &&
+       \money{200000} \\
+       \bottomrule
+     \end{tabular}
    \end{center}
-   #+END_EXPORT
-   a) Represente gráficamente las preferencias.
+   #+end_export
+   Usando votaciones por mayoría entre los diferentes pares de
+   propuestas se elegirá una. Por otro lado, las preferencias de cada
+   uno de los potentados alcanzan un máximo en su propuesta y
+   disminuyen conforme se alejan de esa donación preferida. Represente
+   gráficamente las preferencias de cada uno de los filántropos. ¿Es
+   posible encontrar una ordenación colectiva consistente de las
+   propuestas a partir de las preferencias individuales? Si su
+   respuesta es afirmativa, ¿cuál es esa ordenación? ¿Es posible
+   determinar sin ambigüedad la propuesta elegida?
 
-      #+begin_answer
+   #+begin_answer
+     Primero ordena las 5 propuestas de acuerdo a las preferencias de
+     cada uno de los individuos. Utiliza diferentes colores para
+     representar las preferencias de cada uno de los filántropos o
+     represéntalas en gráficos separados. ¿Tienen alguna propiedad
+     interesante esas preferencias? ¿Garantiza esa propiedad la
+     existencia de un orden colectivo?
 
-      #+end_answer
-
-   b) Si se usa la regla de la mayoría, ¿se elegirá algún proyecto?
-      ¿Cuál? Si no se elige ninguno explique por qué.
-
-      #+begin_answer
-
-      #+end_answer
-
-4. Para determinar el ganador de un premio a los méritos deportivos
-   una asociación utiliza el siguiente sistema: cada votante asigna 5
-   puntos a su atleta preferido, 3 puntos al segundo y 1 punto al
-   tercero. Los puntos recibidos por todos los votantes se suman y el
-   premio se otorga a quien consiga más votos. En la edición de este
-   año hay 3 votantes (1, 2 y 3) y 5 candidatos ($A$, $B$, $C$, $D$, y
-   $E$). La siguiente tabla muestra como ordena cada votante a los 5
-   candidatos:
-   #+BEGIN_EXPORT latex
-   \begin{center}
-   \begin{tabular}{@{}>{$}l<{$}*{2}{p{1cm}>{$}l<{$}}@{}}
-     \toprule
-     1 && 2 && 3 \\
-     \midrule
-     D && D && C \\
-     A && A && A \\
-     C && C && B \\
-     B && B && E \\
-     E && E && D \\
-     \bottomrule
-   \end{tabular}
-   \end{center}
-   #+END_EXPORT
-   El candidato $C$ se ha visto implicado en una trama de dopaje y el
-   día anterior a la votación se anunciará el veredicto del tribunal
-   que le ha juzgado. Si fuera declarado culpable, los estatutos de la
-   asociación deportiva impedirían que optase al premio.
-
-   a) ¿Quién ganará el premio si $C$ es declarado inocente?
-
-      #+begin_answer
-
-      #+end_answer
-
-   b) ¿Y si $C$ es declarado culpable?
-
-      #+begin_answer
-
-      #+end_answer
-
-   c) ¿Que tipo de problema presenta este sistema de votación?
-
-      #+begin_answer
-
-      #+end_answer
+     Si es así, el orden y la propuesta elegida pueden hallarse de
+     varias formas. Se pueden comparar todos los pares de propuestas y
+     ver que opciones ganan en las diferentes votaciones. O quizá sea
+     posible identificar a un votante cuyas preferencias coincidan con
+     las colectivas.
+   #+end_answer

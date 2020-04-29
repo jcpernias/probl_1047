@@ -9,7 +9,8 @@ probl_units := \
 	Public-Choice \
 	Cost-Benefit \
 	Tax-Incidence \
-	Tax-Efficiency
+	Tax-Efficiency \
+	Eval3
 
 probl_figs :=
 

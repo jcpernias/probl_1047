@@ -1,0 +1,112 @@
+# -*- ispell-dictionary: "castellano" -*-
+
+#+SETUPFILE: ./course-es.org
+
+#+TITLE: Ejercicios de los temas 1 a 5
+
+1. Indique si cada una de las siguientes afirmaciones es cierta, falsa
+   o imprecisa y justifique su respuesta:
+
+   a) Si todo el mundo tiene la misma relación marginal de
+      sustitución, entonces la asignación de recursos es eficiente en
+      el sentido de Pareto.
+
+      #+begin_answer
+
+      #+end_answer
+
+   b) Si la asignación de recursos es Pareto eficiente todo el mundo
+      tiene la misma relación marginal de sustitución.
+
+      #+begin_answer
+
+      #+end_answer
+
+   c) Cuando alguien se vacuna de sarampión está generando una
+      externalidad positiva.
+
+      #+begin_answer
+
+      #+end_answer
+
+   d) El Segundo Teorema Fundamental de la Economía del Bienestar dice
+      que la asignación de recursos competitiva es socialmente deseable.
+
+      #+begin_answer
+
+      #+end_answer
+
+2. Rocío y Pablo comparten un piso. La siguiente tabla muestra, para
+   un conjunto de temperaturas, el beneficio marginal de Rocío, el
+   beneficio marginal de Pablo y el coste marginal de mantener el piso
+   a esa temperatura durante una semana:
+   #+begin_center
+   #+latex: \small\normalfont%
+   #+attr_latex: :booktabs :center :align @{}*{4}{c}@{}
+   |-------------+--------------------+--------------------+----------------|
+   | Temperatura | Beneficio marginal | Beneficio marginal | Coste marginal |
+   |        (ºC) |       Rocío (€/ºC) |       Pablo (€/ºC) |         (€/ºC) |
+   |-------------+--------------------+--------------------+----------------|
+   |          18 |                  8 |                 12 |             14 |
+   |          19 |                  7 |                 10 |             17 |
+   |          20 |                  5 |                  8 |             21 |
+   |          21 |                  2 |                  6 |             26 |
+   |          22 |                  1 |                  3 |             32 |
+   |-------------+--------------------+--------------------+----------------|
+   #+end_center
+
+   ¿Es la temperatura del piso un bien público? ¿Cuál sería la
+   temperatura eficiente?
+
+   #+begin_answer
+
+   #+end_answer
+
+3. El beneficio marginal privado asociado con el consumo de un bien es
+   $\BMP = 360 - 4 Q$ y el coste marginal privado asociado a la
+   producción del bien es $\CMP = 6 Q$. El daño marginal causado por
+   la producción del bien es $\DM = 2 Q$.
+
+   a) Calcule la pérdida irrecuperable de eficiencia. Represente
+      gráficamente.
+
+      #+begin_answer
+
+      #+end_answer
+
+   b) Para corregir la externalidad el gobierno quiere establecer un
+      impuesto de $T$ euros por unidad vendida. ¿Cuál debería ser la
+      cuantía del impuesto para alcanzar el óptimo social?
+
+      #+begin_answer
+
+      #+end_answer
+
+   c) Si en vez del impuesto el gobierno utilizara una subvención para
+      corregir la ineficiencia, ¿cómo debería diseñarla?
+
+      #+begin_answer
+
+      #+end_answer
+
+   d) Compare los resultados de los dos apartados anteriores. ¿Cuál de
+      las dos medidas sería preferible?
+
+      #+begin_answer
+
+      #+end_answer
+
+4. Considere un programa de formación dirigido a trabajadores
+   desempleados. El programa tiene una duración de un año y se estima
+   que los 200 participantes verán sus ingresos incrementarse en
+   \money{1000} al año durante los 10 años posteriores al programa. El
+   total de los salarios que perciben los formadores asciende
+   \money{1400000}. Los costes de materiales y suministros suponen
+   \money{1000} por cada participante. Determine el valor actual neto
+   del programa de formación para las siguientes tasas de descuento:
+   0%, 1%, 3%, 5% y 10%. ¿Para qué tasas de descuento sería viable el
+   programa de formación?
+
+   #+begin_answer
+
+   #+end_answer

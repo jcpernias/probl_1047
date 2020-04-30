@@ -2,7 +2,7 @@
 
 #+SETUPFILE: ./course-es.org
 
-#+TITLE: Ejercicios de los temas 1 a 5
+#+TITLE: Ejercicios de los temas 2 a 5
 
 1. Indique si cada una de las siguientes afirmaciones es cierta, falsa
    o imprecisa y justifique su respuesta:

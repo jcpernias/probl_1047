@@ -24,7 +24,7 @@ estadística contenida en las publicaciones:
 
    #+end_answer
 
-2. ¿Cómo se distribuye el gasto público del Estado entre las
+2. ¿Cómo se distribuye el gasto público del Sector Público entre las
    diferentes administraciones que lo componen?
 
    #+begin_answer
@@ -39,7 +39,7 @@ estadística contenida en las publicaciones:
 
    #+end_answer
 
-4. ¿A cuanto ascienden los ingresos del Estado en España? ¿Qué
+4. ¿A cuanto ascienden los ingresos del Sector Público en España? ¿Qué
    porcentaje representan con respecto al PIB? ¿Es muy diferente esta
    última cifra con la media para los países de la OECD?
 

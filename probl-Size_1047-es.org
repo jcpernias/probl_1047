@@ -2,7 +2,7 @@
 
 #+SETUPFILE: ./course-es.org
 
-#+TITLE: Delimitación del sector público: ejercicios
+#+TITLE: La dimensión del Sector Público: ejercicios
 
 
 Responda a las siguientes preguntas a partir de la información
@@ -24,8 +24,8 @@ estadística contenida en las publicaciones:
 
    #+end_answer
 
-2. ¿Cómo se distribuye el gasto público del Sector Público entre las
-   diferentes administraciones que lo componen?
+2. ¿Cómo se distribuye el gasto público entre las diferentes
+   Administraciones Públicas?
 
    #+begin_answer
 
@@ -33,15 +33,16 @@ estadística contenida en las publicaciones:
 
 3. Atendiendo a la clasificación funcional de los gastos, ¿qué grupos
    de gasto tienen un mayor peso en España? ¿Cuáles son los grupos más
-   importantes para las diferentes administraciones?
+   importantes para las diferentes Administraciones Públicas?
 
    #+begin_answer
 
    #+end_answer
 
-4. ¿A cuanto ascienden los ingresos del Sector Público en España? ¿Qué
-   porcentaje representan con respecto al PIB? ¿Es muy diferente esta
-   última cifra con la media para los países de la OECD?
+4. ¿A cuanto ascienden los ingresos de las Administraciones Públicas
+   en España? ¿Qué porcentaje representan con respecto al PIB? ¿Es muy
+   diferente esta última cifra con la media para los países de la
+   OECD?
 
    #+begin_answer
 
@@ -62,9 +63,9 @@ estadística contenida en las publicaciones:
    #+end_answer
 
 7. ¿Cuál es el tamaño del déficit público en España? ¿Cómo se
-   distribuye este déficit en las diferentes administraciones que
-   componen el Estado? ¿Es muy diferente el déficit de España del de
-   otros países de su entorno?
+   distribuye este déficit en las diferentes Administraciones Públicas
+   que componen el Estado? ¿Es muy diferente el déficit de España del
+   de otros países de su entorno?
 
    #+begin_answer
 

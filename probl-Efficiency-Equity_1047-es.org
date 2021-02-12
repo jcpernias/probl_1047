@@ -5,8 +5,16 @@
 #+TITLE: Eficiencia y equidad: ejercicios
 
 
-1. Considere una economía con dos personas: Ana y Berto, que consumen
-   dos bienes: pan y agua. Debido a la pertinaz sequía, las
+1. Un avión se estrella en el Océano Pacífico. Los dos únicos
+   supervivientes consiguen ponerse a salvo en una isla desierta donde
+   no hay nada que comer. En la playa encuentran entre los restos del
+   accidente una caja que contiene $1{.}000$ bolsitas de
+   cacahuetes. Encuentre las posibles asignaciones de las bolsas de
+   cacahuetes entre los dos supervivientes que sean óptimas en el
+   sentido de Pareto. ¿Cuáles de estas asignaciones son justas?
+
+2. Considere una economía con dos personas, Ana y Berto, que consumen
+   dos bienes, pan y agua. Debido a la pertinaz sequía, las
    autoridades deciden reasignar las dotaciones de agua de forma que
    cada persona disponga exactamente de la mitad del agua
    disponible. Se estipula, además, la prohibición de intercambiar pan
@@ -15,52 +23,61 @@
    sentido de Pareto? ¿Es posible que la asignación resultante sea
    Pareto eficiente?
 
-   #+begin_answer
+3. En una economía de intercambio puro:
 
-   #+end_answer
+   a) ¿Es posible que exista un asignación Pareto-eficiente donde
+      alguien esté peor que en otra asignación que no es
+      Pareto-eficiente?
 
-2. En una economía de mercado que opera eficientemente se producen
-   \num{1000000} de unidades del bien $X$ y \num{500000} unidades del
+   b) ¿Es posible que exista un asignación Pareto-eficiente donde
+      todos los individuos estén peor que en otra asignación que no es
+      Pareto-eficiente?
+
+   c) ¿Es posible conseguir que algún individuo mejore si la economía
+      se encuentra en un óptimo de Pareto?
+
+4. En una economía de mercado que opera eficientemente se producen
+   $1{.}000{.}000$ de unidades del bien $X$ y $500{.}000$ unidades del
    bien $X$. Los precios a los que se venden estos bienes son $P_X =
    \price{10}$ y $P_Y = \price{2}$. ¿Cuántas unidades adicionales del
-   bien $X$ podrían producirse en esta economía si se deja de producir
-   una unidad del bien $Y$?
+   bien $Y$ podrían producirse en esta economía si se deja de producir
+   una unidad del bien $X$?
 
-   #+begin_answer
-
-   #+end_answer
-
-3. Una economía está compuesta por dos consumidores: Alicia y Bruno; y
-   dos bienes de consumo: café y donuts. Tanto Alicia como Bruno están
+5. Una economía está compuesta por dos consumidores, Alicia y Bruno, y
+   dos bienes de consumo, café y donuts. Tanto Alicia como Bruno están
    dispuestos a intercambiar dos tazas de café por un donut. Por otro
    lado, si se produjera una taza de café menos se liberarían
    suficientes factores para producir tres donuts. ¿Se cumplen las
    condiciones de eficiencia en esta economía? Si la respuesta es
    negativa, ¿habría que producir más tazas de café o más donuts?
 
-   #+begin_answer
+6. El gobierno de un país quiere fomentar la producción de aceite de
+   oliva. Para ello establece un impuesto adicional a los consumidores
+   sobre la compra de aceites de semillas. ¿Es esta medida compatible
+   con una asignación de recursos eficiente en el sentido de Pareto?
 
-   #+end_answer
+7. Imagine una economía donde sólo habitan dos consumidores, Aurora y Bernardo.
 
-4. En un mercado con curva inversa de demanda $P = 14 - 0.04 Q$ opera
-   un monopolista cuyos costes marginales son $\CM = 2 + 0.02 Q$. Las
-   autoridades económicas están considerando regular las actividades
-   del monopolio.
+   a) Si la función de bienestar social es:
+      #+begin_export latex
+      \[ W_1 = U_A + U_B \]
+      #+end_export
+      donde $U_A$ y $U_B$ son las utilidades de Aurora y Bernardo,
+      respectivamente. Dibuje las curvas de indiferencia social. ¿Cómo
+      describiría la importancia relativa que se asigna a cada
+      utilidad?
 
-   a) Calcule la ineficiencia del monopolio.
+   b) ¿Cómo cambiaría su respuesta al apartado anterior si la función
+      de bienestar social fuera $W_2 = U_A + 2 U_B$?
 
-      #+begin_answer
+   c) ¿Y si fuera $W_3 = \min\{U_A, U_B\}$?
 
-      #+end_answer
+   d) Suponga que la función de posibilidades de utilidad es:
+      #+MATS: fig fig-Efficiency-Equity_1047-01-*.pdf
+      Muestre gráficamente como difieren las soluciones óptimas para
+      las funciones de bienestar social de los apartados anteriores.
 
-   b) Si se obliga al monopolista a fijar el precio competitivo, ¿cuál
-      sería el aumento del bienestar de los consumidores?
-
-      #+begin_answer
-
-      #+end_answer
-
-5. Un programa público elevaría ligeramente el bienestar de los
+8. Un programa público elevaría ligeramente el bienestar de los
    ciudadanos más pobres pero disminuye considerablemente el bienestar
    de los demás individuos. ¿Debería llevarse a cabo este programa si
    se adopta el criterio utilitarista? ¿Y si se utiliza el criterio
@@ -70,10 +87,10 @@
 
    #+end_answer
 
-5. En un país sólo viven dos ciudadanos: Blanca y Teo. Blanca es
+9. En un país sólo viven dos ciudadanos: Blanca y Teo. Blanca es
    abogada y gana \money{50} por hora. Cuando la tasa impositiva sobre
-   la renta, $t$, es del 0%, Blanca trabaja 20 horas a la semana; si
-   $t = \SI{25}{\percent}$, trabajaría 16 horas; y si $t =
+   la renta es $t = \SI{0}{\percent}$, Blanca trabaja 20 horas a la
+   semana; si $t = \SI{25}{\percent}$, trabajaría 16 horas; y si $t =
    \SI{40}{\percent}$ sólo trabajaría 8 horas. Teo trabaja en un
    pequeño taller de reparaciones y gana \money{6} por hora. Teo
    siempre trabaja 20 horas por semana sea cual sea la tasa
@@ -107,3 +124,21 @@
       #+begin_answer
 
       #+end_answer
+
+10. En un mercado con curva inversa de demanda $P = 14 - 0.04 Q$ opera
+    un monopolista cuyos costes marginales son $\CM = 2 + 0.02 Q$. Las
+    autoridades económicas están considerando regular las actividades
+    del monopolio.
+
+    a) Calcule la ineficiencia del monopolio.
+
+       #+begin_answer
+
+       #+end_answer
+
+    b) Si se obliga al monopolista a fijar el precio competitivo, ¿cuál
+       sería el aumento del bienestar de los consumidores?
+
+       #+begin_answer
+
+       #+end_answer

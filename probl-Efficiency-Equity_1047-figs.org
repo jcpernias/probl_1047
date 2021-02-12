@@ -1,0 +1,47 @@
+#+SETUPFILE: ./course-es.org
+
+#+TITLE: Eficiencia y equidad
+
+#+PROPERTY: header-args:latex :noweb yes :eval no
+
+* Chunks
+
+
+** Frontera de posibilidades de utilidad
+
+#+begin_src latex :noweb-ref upf-scale
+  xscale=0.4, yscale=0.4
+#+end_src
+
+#+begin_src latex :noweb-ref upf-axes
+  \draw[axis] (0,23) node[left] {$U_{B}$} |-
+    (28,0) node[below] {$U_{A}$};
+#+end_src
+
+
+
+* Elección social
+
+#+begin_src latex :tangle fig-Efficiency-Equity_1047-01.tex
+  \begin{tikzpicture}[<<upf-scale>>]
+    \coordinate (A) at ( 0, 19) ;
+    \coordinate (B) at ( 4, 18) ;
+    \coordinate (C) at ( 7, 17) ;
+    \coordinate (D) at (10, 14) ;
+    \coordinate (E) at (11, 11) ;
+    \coordinate (F) at (13, 10) ;
+    \coordinate (G) at (17,  9) ;
+    \coordinate (H) at (21,  7) ;
+    \coordinate (I) at (23,  4) ;
+    \coordinate (J) at (24,  0) ;
+
+    \draw[help lines, step = 2.0]
+      (0, 0) grid (26.5, 21.5) ;
+
+    \draw[curve, use Hobby shortcut]
+      (A) .. (B) .. (C) .. (D) .. (E) .. (F) .. (G) .. (H) .. (I) .. (J)
+      ;
+
+    <<upf-axes>>
+  \end{tikzpicture}
+#+end_src

@@ -12,7 +12,9 @@ probl_units := \
 	Tax-Efficiency \
 	Eval3
 
-probl_figs :=
+probl_figs := \
+	Efficiency-Equity
+
 
 
 TEXI2DVI_SILENT := -q
@@ -109,10 +111,10 @@ docs_deps := $(addprefix $(depsdir)/, \
 tex_deps := $(addprefix $(depsdir)/unit-, \
 	$(addsuffix _$(subject_code)-es.tex.d, $(units)))
 
-unit_figs_deps := $(addprefix $(depsdir)/unit-,\
-	$(addsuffix _$(subject_code)-figs.d, $(unit_figs)))
+probl_figs_deps := $(addprefix $(depsdir)/probl-,\
+	$(addsuffix _$(subject_code)-figs.d, $(probl_figs)))
 
-all_deps := $(docs_deps) $(tex_deps) $(unit_figs_deps)
+all_deps := $(docs_deps) $(tex_deps) $(probl_figs_deps)
 
 FIGURES :=
 
@@ -243,6 +245,9 @@ $(figdir)/fig-%.pdf: $(builddir)/fig-%.tex | $(figdir)
 	$(TEXI2DVI) --output=$@ $<
 
 $(depsdir)/unit-%-figs.d: unit-%-figs.org | $(depsdir)
+	$(MAKEFIGDEPS) -o $@ $<
+
+$(depsdir)/probl-%-figs.d: probl-%-figs.org | $(depsdir)
 	$(MAKEFIGDEPS) -o $@ $<
 
 # from R to latex

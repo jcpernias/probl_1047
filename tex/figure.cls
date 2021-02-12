@@ -66,7 +66,7 @@
 \colorlet{worsefill}{Thistle!85!Black}
 
 
-\usetikzlibrary{arrows, calc, hobby, intersections,
+\usetikzlibrary{arrows.meta, babel, calc, hobby, intersections,
   matrix, positioning, backgrounds, decorations.markings,
   decorations.pathreplacing, spy, shapes.geometric, shapes.misc}
 
@@ -97,7 +97,7 @@
   fillA/.style={color = solarizedCyan!25!White},
   fillB/.style={color = solarizedOrange!25!White},
   fillC/.style={color = solarizedGreen!25!White},
-  axis/.style={very thick, <->, >=stealth', line join=miter},
+  axis/.style={semithick, <->, >=stealth, line join=miter},
   curve label/.style={font=\small},
   curve/.style={very thick, every node/.style={black, curve label}},
   curve A/.style={very thick, colorA, every node/.style={black, curve label}},

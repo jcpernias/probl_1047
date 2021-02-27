@@ -125,23 +125,12 @@ ifneq (,$(findstring clean,$(MAKECMDGOALS)))
 INCLUDEDEPS := no
 endif
 
-# $(call tex-wrapper,pres-or-hdout,tex-src,lang) -> write to a file
-define tex-wrapper
-\PassOptionsToClass{$1}{unit}
-\AtBeginDocument{\graphicspath{{$(realpath $(figdir))/}{$(realpath $(imgdir))/}}}
-\RequirePackage{etoolbox}
-\AtEndPreamble{%
-  \InputIfFileExists{$(subject_code)-macros.tex}{}{}%
-  \InputIfFileExists{$2-macros.tex}{}{}}
-\input{$(realpath $(builddir))/$2-$3}
-endef
-
 # $(call probl-wrapper,ans-option,tex-src,lang) -> write to a file
 define probl-wrapper
 \PassOptionsToClass{$1}{probl}
-\AtBeginDocument{\graphicspath{{$(realpath $(figdir))/}{$(realpath $(imgdir))/}}}
 \RequirePackage{etoolbox}
 \AtEndPreamble{%
+  \graphicspath{{$(realpath $(figdir))/}{$(realpath $(imgdir))/}}%
   \InputIfFileExists{$(subject_code)-macros.tex}{}{}%
   \InputIfFileExists{$2-macros.tex}{}{}}
 \input{$(realpath $(builddir))/$2-$3}

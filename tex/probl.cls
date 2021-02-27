@@ -53,7 +53,7 @@
 \RequirePackage{docs-units}
 \RequirePackage{docs-tables}
 \RequirePackage{docs-hyper}
-\RequirePackage{docs-cclic}
+%\RequirePackage{docs-cclic}
 \RequirePackage{docs-answers}
 
 
@@ -96,7 +96,7 @@
     \ifbool{toc}{\tableofcontents}{}%
     \thispagestyle{empty}%
     \cleardoublepage{}%
-    \ccpage%
+    %\ccpage%
     \pagenumbering{arabic}
     \oldmaketitle
     \let\maketitle\oldmaketitle%

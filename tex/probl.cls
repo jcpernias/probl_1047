@@ -32,8 +32,8 @@
 \DeclareOption{shortanswers}{\boolfalse{answers}\booltrue{shortanswers}}
 \DeclareOption{notoc}{\boolfalse{toc}}
 \DeclareOption*{%
-  \ClassError{syllabus}{Unknown option `\CurrentOption'}{%
-    Check the options passed to the `syllabus' class}}
+  \ClassError{probl}{Unknown option `\CurrentOption'}{%
+    Check the options passed to the `probl' class}}
 \ExecuteOptions{Spanish}
 \ProcessOptions*\relax
 

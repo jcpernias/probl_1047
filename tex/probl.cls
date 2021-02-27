@@ -48,7 +48,6 @@
 \RequirePackage{docs-pages}
 \RequirePackage{docs-math}
 \RequirePackage{docs-colors}
-\RequirePackage{docs-rules}
 \RequirePackage{docs-lists}
 \RequirePackage{docs-units}
 \RequirePackage{docs-tables}

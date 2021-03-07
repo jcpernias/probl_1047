@@ -8,7 +8,7 @@
 1. Un avión se estrella en el Océano Pacífico. Los dos únicos
    supervivientes consiguen ponerse a salvo en una isla desierta donde
    no hay nada que comer. En la playa encuentran entre los restos del
-   accidente una caja que contiene $1{.}000$ bolsitas de
+   accidente una caja que contiene \num{1000} bolsitas de
    cacahuetes. Encuentre las posibles asignaciones de las bolsas de
    cacahuetes entre los dos supervivientes que sean óptimas en el
    sentido de Pareto. ¿Cuáles de estas asignaciones son justas?

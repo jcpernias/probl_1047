@@ -10,8 +10,7 @@ estadística contenida en las publicaciones:
 
 - [[https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/Paginas/iaavanceactuacioneconomica.aspx][Avance de la actuación económica y financiera de las
   Administraciones Públicas (2018)]], IGAE.
-- [[https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/Paginas/iacogof.aspx][Informe sobre la clasificación funcional del gasto público
-  (COFOG). Período 2015-2019]], IGAE.
+- [[https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/Paginas/iacogof.aspx][Informe sobre la clasificación funcional del gasto público (COFOG). Período 2015-2019]], IGAE.
 - [[https://www.oecd-ilibrary.org/governance/government-at-a-glance_22214399][Government at a glance 2019]], OECD.
 
 

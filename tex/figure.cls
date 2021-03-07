@@ -18,13 +18,13 @@
 \newbool{langES}
 \newbool{langEN}
 
-\DeclareOption{Spanish}{\booltrue{langES}\boolfalse{langEN}}
-\DeclareOption{English}{\booltrue{langEN}\boolfalse{langES}}
+\DeclareOption{es}{\booltrue{langES}\boolfalse{langEN}}
+\DeclareOption{en}{\booltrue{langEN}\boolfalse{langES}}
 
 \DeclareOption*{%
-  \ClassError{exam}{Unknown option `\CurrentOption'}{%
+  \ClassError{figure}{Unknown option `\CurrentOption'}{%
     Check the options passed to the `figure' class}}
-\ExecuteOptions{Spanish}
+\ExecuteOptions{es}
 \ProcessOptions*\relax
 
 %% Class loading
@@ -94,14 +94,19 @@
   colorA/.style={color = solarizedBlue!70!Black},
   colorB/.style={color = solarizedRed!70!Black},
   colorC/.style={color = solarizedGreen!70!Black},
+  colorD/.style={color = solarizedOrange!70!Black},
+  colorE/.style={color = solarizedViolet!70!Black},
   fillA/.style={color = solarizedCyan!25!White},
   fillB/.style={color = solarizedOrange!25!White},
   fillC/.style={color = solarizedGreen!25!White},
-  axis/.style={semithick, <->, >=Stealth, line join=miter},
+  axis/.style={very thick, <->, >=Stealth, line join=miter},
   curve label/.style={font=\small},
   curve/.style={very thick, every node/.style={black, curve label}},
   curve A/.style={very thick, colorA, every node/.style={black, curve label}},
   curve B/.style={very thick, colorB, every node/.style={black, curve label}},
+  curve C/.style={very thick, colorC, every node/.style={black, curve label}},
+  curve D/.style={very thick, colorD, every node/.style={black, curve label}},
+  curve E/.style={very thick, colorE, every node/.style={black, curve label}},
   shaded/.style={opacity=0.4},
   help lines/.style = {thin, gray, every node/.style={black, curve label}},
   shift arrow/.style={%

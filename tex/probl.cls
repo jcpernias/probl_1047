@@ -56,6 +56,13 @@
 \RequirePackage{docs-answers}
 
 
+%% Bombs
+%% --------------------------------------------------------------------------------
+\RequirePackage{fourier-orns}
+
+\newcommand*{\DANGER}{\raisebox{3pt}{\large\bomb}\quad}
+\newcommand*{\DDANGER}{\raisebox{2pt}{\large\bomb\,\bomb}\quad}
+
 
 %% TOC
 %% -----------------------------------------------------------------

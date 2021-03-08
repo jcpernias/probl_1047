@@ -7,7 +7,7 @@
 #+OPTIONS: toc:nil ':t *:t ^:{} num:1 H:2 title:nil
 
 #+LATEX_CLASS: probl
-#+LATEX_CLASS_OPTIONS: [notoc, es]
+#+LATEX_CLASS_OPTIONS: [notoc, es, a4paper, 11pt]
 
 #+LANGUAGE: es
 #+LATEX_HEADER: \newcommand*{\LANG}{es}

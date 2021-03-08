@@ -31,15 +31,13 @@
 \DeclareOption{answers}{\booltrue{answers}\boolfalse{shortanswers}}
 \DeclareOption{shortanswers}{\boolfalse{answers}\booltrue{shortanswers}}
 \DeclareOption{notoc}{\boolfalse{toc}}
-\DeclareOption*{%
-  \ClassError{probl}{Unknown option `\CurrentOption'}{%
-    Check the options passed to the `probl' class}}
-\ExecuteOptions{es}
-\ProcessOptions*\relax
+\ExecuteOptions{es, noanswers, notoc}
+\ProcessOptions\relax
 
 %% Class loading
 %% --------------------------------------------------------------------------------
-\LoadClass[a4paper, 12pt]{article}
+\LoadClassWithOptions{article}
+\RequirePackage{moresize}
 
 
 %% Load packages

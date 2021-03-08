@@ -13,6 +13,7 @@ provisión privada de autopistas?
 
 Por hacer.
 
+
 * Q.2
 
 Considere una economía con dos habitantes $A$ y $B$. Sólo se producen
@@ -25,6 +26,7 @@ eficiente la situación descrita?
 ** Answer
 
 Por hacer.
+
 
 * Q.3
 
@@ -44,6 +46,7 @@ b) Si Tarzán y Jane están dispuestos cada uno a sacrificar una hora de
 
 Por hacer.
 
+
 * Q.4
 
 El coste marginal de producir Q unidades de un bien público puro es:
@@ -54,6 +57,7 @@ provisión eficiente del bien público? Represente gráficamente.
 ** Answer
 
 Por hacer.
+
 
 * Q.5
 
@@ -75,13 +79,13 @@ temperatura durante una semana:
 |          22 |                  1 |                  3 |             32 |
 |-------------+--------------------+--------------------+----------------|
 #+end_center
-
 ¿Es la temperatura del piso un bien público? ¿Cuál sería la
 temperatura eficiente?
 
 ** Answer
 
 Por hacer.
+
 
 * Q.6
 
@@ -105,6 +109,7 @@ construir un número entero de parques, ¿cuántos deben de construirse?
 
 Por hacer.
 
+
 * Q.7
 
 La curva de demanda de un bien privado viene dada por $P = 50 - Q$. El
@@ -120,6 +125,7 @@ punto de vista social?
 ** Answer
 
 Por hacer.
+
 
 * Q.8
 
@@ -138,6 +144,7 @@ c) Calcule el precio que debería fijar el monopolio para obtener
 ** Answer
 
 Por hacer.
+
 
 * Q.9
 

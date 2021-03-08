@@ -9,13 +9,11 @@
 Andrea, Blas y Carla son los únicos habitantes de una pequeña
 ciudad. Cada uno de ellos valora la protección policial de forma
 diferente. Sus demandas son:
-
 - Andrea: $Q = 55 - 5 P_A$
 
 - Blas: $Q = 80 - 4 P_B$
 
 - Carla: $Q = 100 - 10 P_C$
-
 donde $Q$ son las horas de protección policial en la ciudad y $P_i$
 el precio que tendría que pagar el habitante $i$ por cada hora que
 se contrate.  Si el coste marginal de proporcionar una hora

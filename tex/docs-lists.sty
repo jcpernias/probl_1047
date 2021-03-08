@@ -7,11 +7,20 @@
 
 \RequirePackage{enumitem}
 
-% \setlist{noitemsep}
+%\setlist{noitemsep}
 % \setlist[1]{leftmargin=\parindent, noitemsep}
-
-\setlist{leftmargin=*}
+\setlist[enumerate]{nosep}
+\setlist[itemize]{nosep}
+\setlist[description]{nosep}
+%\setlist[1]{leftmargin=*}
 
 \setlist[itemize,1]{label=\textbullet}
 \setlist[itemize,2]{label=-}
 \setlist[description]{font=\sffamily\bfseries, labelindent=\parindent}
+
+\ifbool{langES}{%
+  \setlist[enumerate,1]{label = \emph{\alph*})}
+}{}
+\ifbool{langEN}{%
+  \setlist[enumerate,1]{label = (\alph*)}
+}{}

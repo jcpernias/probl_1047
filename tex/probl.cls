@@ -25,8 +25,8 @@
 \boolfalse{answers}
 \boolfalse{shortanswers}
 
-\DeclareOption{Spanish}{\booltrue{langES}\boolfalse{langEN}}
-\DeclareOption{English}{\booltrue{langEN}\boolfalse{langES}}
+\DeclareOption{es}{\booltrue{langES}\boolfalse{langEN}}
+\DeclareOption{en}{\booltrue{langEN}\boolfalse{langES}}
 \DeclareOption{noanswers}{\boolfalse{answers}\boolfalse{shortanswers}}
 \DeclareOption{answers}{\booltrue{answers}\boolfalse{shortanswers}}
 \DeclareOption{shortanswers}{\boolfalse{answers}\booltrue{shortanswers}}
@@ -34,7 +34,7 @@
 \DeclareOption*{%
   \ClassError{probl}{Unknown option `\CurrentOption'}{%
     Check the options passed to the `probl' class}}
-\ExecuteOptions{Spanish}
+\ExecuteOptions{es}
 \ProcessOptions*\relax
 
 %% Class loading

@@ -19,6 +19,7 @@ sentido de Pareto. ¿Cuáles de estas asignaciones son justas?
 
 Por hacer
 
+
 * Q.2
 
 Considere una economía con dos personas, Ana y Berto, que consumen
@@ -34,6 +35,7 @@ Pareto eficiente?
 ** Answer
 
 Por hacer
+
 
 * Q.3
 
@@ -54,6 +56,7 @@ c) ¿Es posible conseguir que algún individuo mejore si la economía
 
 Por hacer
 
+
 * Q.4
 
 En una economía de mercado que opera eficientemente se producen
@@ -66,6 +69,7 @@ una unidad del bien $X$?
 ** Answer
 
 Por hacer
+
 
 * Q.5
 
@@ -81,6 +85,7 @@ negativa, ¿habría que producir más tazas de café o más donuts?
 
 Por hacer
 
+
 * Q.6
 
 El gobierno de un país quiere fomentar la producción de aceite de
@@ -91,6 +96,7 @@ con una asignación de recursos eficiente en el sentido de Pareto?
 ** Answer
 
 Por hacer
+
 
 * Q.7
 
@@ -119,6 +125,7 @@ d) Suponga que la función de posibilidades de utilidad es:
 
 Por hacer
 
+
 * Q.8
 
 Un programa público elevaría ligeramente el bienestar de los
@@ -130,6 +137,7 @@ se adopta el criterio utilitarista? ¿Y si se utiliza el criterio
 ** Answer
 
 Por hacer
+
 
 * Q.9
 
@@ -162,6 +170,7 @@ c) Suponga ahora que Blanca y Teo tienen funciones de utilidad
 ** Answer
 
 Por hacer
+
 
 * Q.10
 
@@ -219,6 +228,7 @@ b) el criterio igualitarista.
 
 c) el criterio /rawlsiano/.
 
+
 * COMMENT Q.13
 
 6. Analice la veracidad o falsedad de las siguientes afirmaciones:
@@ -229,6 +239,7 @@ c) el criterio /rawlsiano/.
    b) Dada una curva de posibilidades de utilidad para dos individuos,
       la aplicación del criterio utilitarista llevará siempre a una
       distribución menos igualitaria que la del criterio /rawlsiano/.
+
 
 * COMMENT Q.14
 
@@ -253,6 +264,7 @@ a) utilitarista.
 b) /rawlsiano/.
 
 c) igualitarista.
+
 
 * COMMENT Q.15
 

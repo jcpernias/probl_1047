@@ -9,12 +9,6 @@
 
 \RequirePackage{siunitx}
 
-%% Adjust decimal separator to babel language
-\@ifpackageloaded{babel}{%
-  \addto\extrasspanish{\sisetup{locale = FR}}
-  \addto\extrasenglish{\sisetup{locale = UK}}
-}{}
-
 \DeclareSIUnit{\@EUR}{\text{\texteuro}}
 \DeclareSIUnit{\@UNIT}{\text{u}}
 

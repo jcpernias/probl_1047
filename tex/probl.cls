@@ -18,18 +18,15 @@
 \newbool{langES}
 \newbool{langEN}
 \newbool{answers}
-\newbool{shortanswers}
 \newbool{toc}
 
 \booltrue{toc}
 \boolfalse{answers}
-\boolfalse{shortanswers}
 
 \DeclareOption{es}{\booltrue{langES}\boolfalse{langEN}}
 \DeclareOption{en}{\booltrue{langEN}\boolfalse{langES}}
-\DeclareOption{noanswers}{\boolfalse{answers}\boolfalse{shortanswers}}
-\DeclareOption{answers}{\booltrue{answers}\boolfalse{shortanswers}}
-\DeclareOption{shortanswers}{\boolfalse{answers}\booltrue{shortanswers}}
+\DeclareOption{noanswers}{\boolfalse{answers}}
+\DeclareOption{answers}{\booltrue{answers}}
 \DeclareOption{notoc}{\boolfalse{toc}}
 \ExecuteOptions{es, noanswers, notoc}
 \ProcessOptions\relax

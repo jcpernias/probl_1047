@@ -114,19 +114,38 @@
 
 %% Section headings
 %% -----------------------------------------------------------------
-\RequirePackage[pagestyles, outermarks, nobottomtitles*, compact]{titlesec}
+\RequirePackage[%
+newparttoc,%
+clearempty,%
+pagestyles,%
+outermarks,%
+nobottomtitles*,%
+compact]{titlesec}
+
+% \RequirePackage[pagestyles, outermarks, nobottomtitles*, compact]{titlesec}
+
+\deftranslation[to=Spanish]{Exercise}{Ejercicio}
+\deftranslation[to=English]{Exercise}{Exercise}
+\newcommand*{\ExerciseName}{\translate{Exercise}}
+
+\newcommand*{\eat}[1]{}
+\titleformat{name=\section}[hang]
+{\normalfont\large\bfseries\sffamily}
+{\color{Section}\ExerciseName\ \thesection}{0em}{\eat}
+
+\titlespacing*{name=\section}{0pt}{*3.5}{*0.75}
 
 
-\titleformat{name=\section}[hang]{%
-  \color{Section}\Large\sffamily\bfseries}{%
-  \makebox[1.25cm][l]{\thesection.}}{0pt}{}
+% \titleformat{name=\section}[hang]{%
+%   \color{Section}\Large\sffamily\bfseries}{%
+%   \makebox[1.25cm][l]{\thesection.}}{0pt}{}
 
-\titlespacing*{name=\section}{-1.25cm}{*7}{*1.5}
-\titleformat{name=\section, numberless}
-{\color{Section}\Large\sffamily\bfseries}
-{}{0pt}{}
+% \titlespacing*{name=\section}{-1.25cm}{*7}{*1.5}
+% \titleformat{name=\section, numberless}
+% {\color{Section}\Large\sffamily\bfseries}
+% {}{0pt}{}
 
-\titlespacing*{name=\section, numberless}{0pc}{*7}{*1.5}
+% \titlespacing*{name=\section, numberless}{0pc}{*7}{*1.5}
 
 \titleformat{\subsection}
 {\color{Subsection}\large\sffamily\bfseries}

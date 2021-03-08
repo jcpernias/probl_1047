@@ -4,112 +4,151 @@
 
 #+TITLE: Externalidades: ejercicios
 
-1. El gobierno del Reino Unido anunció en 1997 que, por primera vez,
-   los estudiantes universitarios deberían pagar una parte del coste
-   de sus estudios superiores. Un portavoz de los estudiantes declaró:
-   "Consideramos la gratuidad de la matricula como un derecho
-   [...] Siempre se nos ha dicho que si eliges continuar con tus
-   estudios, el Estado debe pagar porque devolverás mucho al Estado
-   consiguiendo un mejor trabajo y pagando más impuestos". Comente.
+* Q.1
 
-2. En un pueblo pesquero las capturas mensuales totales de pescado,
-   $Q$ (medidas en kg), dependen del número de barcas que faenan, $N$:
-   \begin{equation*}
-     Q = \num{1000} N^{1/2}.
-   \end{equation*}
-   Todas las barcas son idénticas y capturan la misma cantidad de pescado:
-   \begin{equation*}
-     q_i = Q / N.
-   \end{equation*}
-   Los costes mensuales de operar cada barca son de $c_i =
-   \money{1000}$ al mes. El pescado se vende en un mercado competitivo
-   a un precio de $P = \price[kg]{6}$.  Inicialmente no hay ningún
-   tipo de limitación al número de barcas que operan en el pueblo.
+El gobierno del Reino Unido anunció en 1997 que, por primera vez, los
+estudiantes universitarios deberían pagar una parte del coste de sus
+estudios superiores. Un portavoz de los estudiantes declaró:
+"Consideramos la gratuidad de la matricula como un derecho [...]
+Siempre se nos ha dicho que si eliges continuar con tus estudios, el
+Estado debe pagar porque devolverás mucho al Estado consiguiendo un
+mejor trabajo y pagando más impuestos". Comente.
 
-   a) Suponga que operan $16$ barcas. ¿Qué beneficios obtiene cada
-      barca?
+** Answer
 
-   b) Si una barca más empieza a pescar, calcule el efecto externo
-      que tienen que soportar los pescadores que ya estaban operando.
+Por hacer.
 
-   c) Calcule el número de barcas de equilibrio.
+* Q.2
 
-   d) Calcule el número de barcas socialmente óptimo.
+En un pueblo pesquero las capturas mensuales totales de pescado, $Q$
+(medidas en kg), dependen del número de barcas que faenan, $N$:
+#+begin_export latex
+\begin{equation*}
+  Q = \num{1000} N^{1/2}.
+\end{equation*}
+#+end_export
+Todas las barcas son idénticas y capturan la misma cantidad de pescado:
+#+begin_export latex
+\begin{equation*}
+  q_i = Q / N.
+\end{equation*}
+#+end_export
+Los costes mensuales de operar cada barca son de $c_i = \money{1000}$
+al mes. El pescado se vende en un mercado competitivo a un precio de
+$P = \price[kg]{6}$.  Inicialmente no hay ningún tipo de limitación al
+número de barcas que operan en el pueblo.
 
-   e) El ayuntamiento está considerando la posibilidad de introducir
-      un sistema de licencias. ¿Qué precio debería fijar para cada
-      licencia si quiere conseguir que opere el número socialmente
-      óptimo de barcas?
+a) Suponga que operan $16$ barcas. ¿Qué beneficios obtiene cada
+   barca?
 
-3. La demanda de un producto es $Q = 1200 - 4 P$ y la oferta es $Q = 2
-   P$. Al producir el bien se vierten sustancias contaminantes que
-   generan un daño a la sociedad valorado en \money{30} por unidad de
-   producto.
+b) Si una barca más empieza a pescar, calcule el efecto externo que
+   tienen que soportar los pescadores que ya estaban operando.
 
-   a) Obtenga y represente el equilibrio en este mercado en ausencia
-      de cualquier tipo de intervención. Calcule la pérdida
-      irrecuperable de eficiencia.
+c) Calcule el número de barcas de equilibrio.
 
-   b) Para corregir la externalidad, el Gobierno quiere introducir un
-      impuesto de $t$ euros por unidad producida. ¿Qué valor debe
-      tomar $t$ para conseguir el nivel de producción socialmente
-      óptimo? ¿Cuanto recaudaría el Gobierno?
+d) Calcule el número de barcas socialmente óptimo.
 
-   c) El Gobierno también está barajando la posibilidad de utilizar
-      una subvención para corregir la externalidad. ¿Cómo debería
-      diseñarse? ¿Cuál sería el coste de esta medida?
+e) El ayuntamiento está considerando la posibilidad de introducir un
+   sistema de licencias. ¿Qué precio debería fijar para cada licencia
+   si quiere conseguir que opere el número socialmente óptimo de
+   barcas?
 
-   d) ¿Cuál de las dos medidas, impuesto o subvención, preferirían las
-      empresas? ¿Y los compradores del bien?
+** Answer
 
-3. El beneficio marginal privado asociado con el consumo de un bien es
-   $\BMP = 360 - 4 Q$ y el coste marginal privado asociado a la
-   producción del bien es $\CMP = 6 Q$. El daño marginal causado por
-   la producción del bien es $\DM = 2 Q$.
+Por hacer.
 
-   a) Calcule la pérdida irrecuperable de eficiencia. Represente
-      gráficamente.
+* Q.3
 
-   b) Para corregir la externalidad el gobierno quiere establecer un
-      impuesto de $T$ euros por unidad vendida. ¿Cuál debería ser la
-      cuantía del impuesto para alcanzar el óptimo social?
+La demanda de un producto es $Q = 1200 - 4 P$ y la oferta es $Q = 2
+P$. Al producir el bien se vierten sustancias contaminantes que
+generan un daño a la sociedad valorado en \money{30} por unidad de
+producto.
 
-   c) Si en vez del impuesto el gobierno utilizara una subvención para
-      corregir la ineficiencia, ¿cómo debería diseñarla?
+a) Obtenga y represente el equilibrio en este mercado en ausencia
+   de cualquier tipo de intervención. Calcule la pérdida
+   irrecuperable de eficiencia.
 
-   d) Compare los resultados de los dos apartados anteriores. ¿Cuál de
-      las dos medidas sería preferible?
+b) Para corregir la externalidad, el Gobierno quiere introducir un
+   impuesto de $t$ euros por unidad producida. ¿Qué valor debe tomar
+   $t$ para conseguir el nivel de producción socialmente óptimo?
+   ¿Cuanto recaudaría el Gobierno?
 
-4. El Gobierno quiere mejorar la calidad de las aguas de un río en el
-   que una empresa vierte 50 toneladas de residuos. El beneficio marginal
-   social de reducir los vertidos en $R$ toneladas es: $\BMS = 200 - 5
-   R$.  El coste marginal de reducir los vertidos es: $\CM = 20 +
-   R$. ¿Cuál es el nivel de reducción óptimo desde el punto de vista
-   social? ¿Qué multa por unidad de polución debería fijarse para
-   conseguir el nivel óptimo de polución?
+c) El Gobierno también está barajando la posibilidad de utilizar una
+   subvención para corregir la externalidad. ¿Cómo debería diseñarse?
+   ¿Cuál sería el coste de esta medida?
 
-5. \DANGER Tanto la empresa $A$ como la $B$ emiten al mes 150
-   toneladas de sustancias contaminantes. El Gobierno quiere
-   intervenir para reducir los niveles de contaminación. Los costes
-   marginales de reducción de una tonelada de emisiones son $\CM_A = 3
-   R_A$ para la empresa $A$ y $\CM_B = 6 R_B$ para la empresa $B$,
-   donde $R_A$ y $R_B$ son las cantidades en que reduce la
-   contaminación cada empresa. El beneficio marginal social debido a
-   la reducción de la polución es $\BMS = 600 - 3 R_T$ donde $R_T =
-   R_A + R_B$.
+d) ¿Cuál de las dos medidas, impuesto o subvención, preferirían las
+   empresas? ¿Y los compradores del bien?
 
-   a) ¿Cuál es el nivel eficiente de reducción de las emisiones? ¿Y el
-      nivel socialmente óptimo de emisiones?
+** Answer
 
-   b) Si se establece un sistema de permisos *no* transferibles y se
-      reparte la mitad a cada empresa, ¿cuantos deben repartirse a
-      cada empresa para obtener el nivel de emisiones eficiente? ¿Es
-      posible encontrar repartos de los permisos que permitan alcanzar
-      el óptimo social de una forma menos costosa?
+Por hacer.
 
-   c) Si se reparten a partes iguales los permisos correspondientes al
-      óptimo social y se permite la compra y la venta de estos
-      permisos, ¿en cuántas toneladas reduciría cada empresa sus
-      emisiones?
+* Q.4
 
-   d) ¿Puede alcanzarse el óptimo social mediante un impuesto a la polución?
+El beneficio marginal privado asociado con el consumo de un bien es
+$\BMP = 360 - 4 Q$ y el coste marginal privado asociado a la
+producción del bien es $\CMP = 6 Q$. El daño marginal causado por la
+producción del bien es $\DM = 2 Q$.
+
+a) Calcule la pérdida irrecuperable de eficiencia. Represente
+   gráficamente.
+
+b) Para corregir la externalidad el gobierno quiere establecer un
+   impuesto de $T$ euros por unidad vendida. ¿Cuál debería ser la
+   cuantía del impuesto para alcanzar el óptimo social?
+
+c) Si en vez del impuesto el gobierno utilizara una subvención para
+   corregir la ineficiencia, ¿cómo debería diseñarla?
+
+d) Compare los resultados de los dos apartados anteriores. ¿Cuál de
+   las dos medidas sería preferible?
+
+** Answer
+
+Por hacer.
+
+* Q.5
+
+El Gobierno quiere mejorar la calidad de las aguas de un río en el que
+una empresa vierte 50 toneladas de residuos. El beneficio marginal
+social de reducir los vertidos en $R$ toneladas es: $\BMS = 200 - 5
+R$.  El coste marginal de reducir los vertidos es: $\CM = 20 +
+R$. ¿Cuál es el nivel de reducción óptimo desde el punto de vista
+social? ¿Qué multa por unidad de polución debería fijarse para
+conseguir el nivel óptimo de polución?
+
+** Answer
+
+Por hacer.
+
+* Q.6
+
+\DANGER Tanto la empresa $A$ como la $B$ emiten al mes 150 toneladas
+de sustancias contaminantes. El Gobierno quiere intervenir para
+reducir los niveles de contaminación. Los costes marginales de
+reducción de una tonelada de emisiones son $\CM_A = 3 R_A$ para la
+empresa $A$ y $\CM_B = 6 R_B$ para la empresa $B$, donde $R_A$ y $R_B$
+son las cantidades en que reduce la contaminación cada empresa. El
+beneficio marginal social debido a la reducción de la polución es
+$\BMS = 600 - 3 R_T$ donde $R_T = R_A + R_B$.
+
+a) ¿Cuál es el nivel eficiente de reducción de las emisiones? ¿Y el
+   nivel socialmente óptimo de emisiones?
+
+b) Si se establece un sistema de permisos *no* transferibles y se
+   reparte la mitad a cada empresa, ¿cuantos deben repartirse a cada
+   empresa para obtener el nivel de emisiones eficiente? ¿Es posible
+   encontrar repartos de los permisos que permitan alcanzar el óptimo
+   social de una forma menos costosa?
+
+c) Si se reparten a partes iguales los permisos correspondientes al
+   óptimo social y se permite la compra y la venta de estos permisos,
+   ¿en cuántas toneladas reduciría cada empresa sus emisiones?
+
+d) ¿Puede alcanzarse el óptimo social mediante un impuesto a la
+   polución?
+
+** Answer
+
+Por hacer.

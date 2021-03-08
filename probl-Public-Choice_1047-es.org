@@ -4,81 +4,89 @@
 
 #+TITLE: Economía política: ejercicios
 
-1. Andrea, Blas y Carla son los únicos habitantes de una pequeña
-   ciudad. Cada uno de ellos valora la protección policial de forma
-   diferente. Sus demandas son:
+* Q.1
 
-   - Andrea: $Q = 55 - 5 P_A$
+Andrea, Blas y Carla son los únicos habitantes de una pequeña
+ciudad. Cada uno de ellos valora la protección policial de forma
+diferente. Sus demandas son:
 
-   - Blas: $Q = 80 - 4 P_B$
+- Andrea: $Q = 55 - 5 P_A$
 
-   - Carla: $Q = 100 - 10 P_C$
+- Blas: $Q = 80 - 4 P_B$
 
-   donde $Q$ son las horas de protección policial en la ciudad y $P_i$
-   el precio que tendría que pagar el habitante $i$ por cada hora que
-   se contrate.  Si el coste marginal de proporcionar una hora
-   adicional de protección policial es \wage{13.5}, ¿cuál es el nivel
-   socialmente óptimo de $Q$? Si se utiliza la propuesta de Lindahl,
-   ¿qué parte de la carga impositiva soportaría cada ciudadano?
+- Carla: $Q = 100 - 10 P_C$
 
-   #+begin_answer
-     La determinación de la cantidad óptima, $Q^*$, se hace igual que
-     en el tema de bienes públicos (ver las soluciones del problema 3
-     y del problema 4).
+donde $Q$ son las horas de protección policial en la ciudad y $P_i$
+el precio que tendría que pagar el habitante $i$ por cada hora que
+se contrate.  Si el coste marginal de proporcionar una hora
+adicional de protección policial es \wage{13.5}, ¿cuál es el nivel
+socialmente óptimo de $Q$? Si se utiliza la propuesta de Lindahl,
+¿qué parte de la carga impositiva soportaría cada ciudadano?
 
-     Una vez tenemos $Q^*$, los precios de Lindahl coinciden con las
-     disposiciones a pagar de cada individuo.
-   #+end_answer
+** Answer
 
-2. Algunos autores piensan que las preferencias con respecto a la
-   sanidad pública presentan con frecuencia un patron bimodal. ¿Qué
-   característica de la sanidad pública podría justificar esta opinión?
-   ¿Por qué?
+La determinación de la cantidad óptima, $Q^*$, se hace igual que
+en el tema de bienes públicos (ver las soluciones del problema 3
+y del problema 4).
 
-   #+begin_answer
-     Es un caso similar al de la educación pública que se menciona
-     varias veces en el vídeo.
-   #+end_answer
+Una vez tenemos $Q^*$, los precios de Lindahl coinciden con las
+disposiciones a pagar de cada individuo.
 
-3. Los cinco filántropos más acaudalados de una ciudad: Alicia, Bruno,
-   Celia, David y Elena, quieren donar parte de sus riquezas a una
-   causa benéfica. Para evitar odiosas comparaciones, han decidido que
-   todos aportarán la misma cantidad de dinero. Cada uno hace una
-   propuesta, las cuales se presentan en la siguiente tabla:
-   #+begin_export latex
-   \begin{center}
-     \begin{tabular}{@{}l*{4}{p{0.3cm}l@{}}}
-       \toprule
-       Alicia && Bruno && Celia && David && Elena \\
-       \midrule
-       \money{500000} && \money{100000} &&
-       \money{50000} && \money{250000} &&
-       \money{200000} \\
-       \bottomrule
-     \end{tabular}
-   \end{center}
-   #+end_export
-   Usando votaciones por mayoría entre los diferentes pares de
-   propuestas se elegirá una. Por otro lado, las preferencias de cada
-   uno de los potentados alcanzan un máximo en su propuesta y
-   disminuyen conforme se alejan de esa donación preferida. Represente
-   gráficamente las preferencias de cada uno de los filántropos. ¿Es
-   posible encontrar una ordenación colectiva consistente de las
-   propuestas a partir de las preferencias individuales? Si su
-   respuesta es afirmativa, ¿cuál es esa ordenación? ¿Es posible
-   determinar sin ambigüedad la propuesta elegida?
 
-   #+begin_answer
-     Primero ordena las 5 propuestas de acuerdo a las preferencias de
-     cada uno de los individuos. Utiliza diferentes colores para
-     representar las preferencias de cada uno de los filántropos o
-     represéntalas en gráficos separados. ¿Tienen alguna propiedad
-     interesante esas preferencias? ¿Garantiza esa propiedad la
-     existencia de un orden colectivo?
+* Q.2
 
-     Si es así, el orden y la propuesta elegida pueden hallarse de
-     varias formas. Se pueden comparar todos los pares de propuestas y
-     ver que opciones ganan en las diferentes votaciones. O quizá sea
-     posible identificar a un votante cuyas preferencias coincidan con
-     las colectivas.
-   #+end_answer
+Algunos autores piensan que las preferencias con respecto a la
+sanidad pública presentan con frecuencia un patron bimodal. ¿Qué
+característica de la sanidad pública podría justificar esta opinión?
+¿Por qué?
+
+** Answer
+
+Es un caso similar al de la educación pública que se menciona
+varias veces en el vídeo.
+
+
+* Q.1
+
+Los cinco filántropos más acaudalados de una ciudad: Alicia, Bruno,
+Celia, David y Elena, quieren donar parte de sus riquezas a una
+causa benéfica. Para evitar odiosas comparaciones, han decidido que
+todos aportarán la misma cantidad de dinero. Cada uno hace una
+propuesta, las cuales se presentan en la siguiente tabla:
+#+begin_export latex
+\begin{center}
+  \begin{tabular}{@{}l*{4}{p{0.3cm}l@{}}}
+    \toprule
+    Alicia && Bruno && Celia && David && Elena \\
+    \midrule
+    \money{500000} && \money{100000} &&
+    \money{50000} && \money{250000} &&
+    \money{200000} \\
+    \bottomrule
+  \end{tabular}
+\end{center}
+#+end_export
+Usando votaciones por mayoría entre los diferentes pares de
+propuestas se elegirá una. Por otro lado, las preferencias de cada
+uno de los potentados alcanzan un máximo en su propuesta y
+disminuyen conforme se alejan de esa donación preferida. Represente
+gráficamente las preferencias de cada uno de los filántropos. ¿Es
+posible encontrar una ordenación colectiva consistente de las
+propuestas a partir de las preferencias individuales? Si su
+respuesta es afirmativa, ¿cuál es esa ordenación? ¿Es posible
+determinar sin ambigüedad la propuesta elegida?
+
+** Answer
+
+Primero ordena las 5 propuestas de acuerdo a las preferencias de
+cada uno de los individuos. Utiliza diferentes colores para
+representar las preferencias de cada uno de los filántropos o
+represéntalas en gráficos separados. ¿Tienen alguna propiedad
+interesante esas preferencias? ¿Garantiza esa propiedad la
+existencia de un orden colectivo?
+
+Si es así, el orden y la propuesta elegida pueden hallarse de
+varias formas. Se pueden comparar todos los pares de propuestas y
+ver que opciones ganan en las diferentes votaciones. O quizá sea
+posible identificar a un votante cuyas preferencias coincidan con
+las colectivas.

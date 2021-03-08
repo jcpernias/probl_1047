@@ -4,105 +4,105 @@
 
 #+TITLE: Análisis coste-beneficio: ejercicios
 
-1. Un ayuntamiento debe de elegir entre dos proyectos cuya duración es
-   menor de un año. Un consultor financiero ha calculado a cuanto
-   ascenderían los costes y beneficios de ambos proyectos:
+* Q.1
 
-   #+begin_center
-   #+attr_latex: :booktabs :center :align lp{0.5cm}rp{0.5cm}r
-   |------------+---+--------------+---+--------------|
-   |            |   |   Beneficios |   |       Costes |
-   |            |   | (miles de €) |   | (miles de €) |
-   |------------+---+--------------+---+--------------|
-   | Proyecto 1 |   |          100 |   |           60 |
-   | Proyecto 2 |   |           21 |   |           10 |
-   |------------+---+--------------+---+--------------|
-   #+end_center
+Un ayuntamiento debe de elegir entre dos proyectos cuya duración es
+menor de un año. Un consultor financiero ha calculado a cuanto
+ascenderían los costes y beneficios de ambos proyectos:
 
-   El consultor recomienda que se seleccione el proyecto con un mayor
-   ratio beneficio-coste. De acuerdo con ese criterio, ¿qué proyecto
-   sería preferible? ¿Está de acuerdo con esa recomendación?
+#+begin_center
+#+attr_latex: :booktabs :center :align lp{0.5cm}rp{0.5cm}r
+|------------+---+--------------+---+--------------|
+|            |   |   Beneficios |   |       Costes |
+|            |   | (miles de €) |   | (miles de €) |
+|------------+---+--------------+---+--------------|
+| Proyecto 1 |   |          100 |   |           60 |
+| Proyecto 2 |   |           21 |   |           10 |
+|------------+---+--------------+---+--------------|
+#+end_center
 
-   #+begin_answer
+El consultor recomienda que se seleccione el proyecto con un mayor
+ratio beneficio-coste. De acuerdo con ese criterio, ¿qué proyecto
+sería preferible? ¿Está de acuerdo con esa recomendación?
 
-   #+end_answer
+** Answer
 
-2. Considere un proyecto que cueste \money{100000} este año y produzca
-   unos ingresos de \money{30000} durante los 5 años siguientes. Al
-   final del último año habría que soportar un coste de limpieza por
-   valor de \money{20000}.
+Esto es una respuesta
 
-   a) ¿Debería llevarse a cabo el proyecto si la tasa de descuento es
-      10%?
+* Q.2
 
-      #+begin_answer
+Considere un proyecto que cueste \money{100000} este año y produzca
+unos ingresos de \money{30000} durante los 5 años siguientes. Al
+final del último año habría que soportar un coste de limpieza por
+valor de \money{20000}.
 
-      #+end_answer
+a) ¿Debería llevarse a cabo el proyecto si la tasa de descuento es
+   10%?
 
-   b) Considere que existe incertidumbre con respecto al coste de
-      limpieza que puede ascender a \money{15000} o a \money{35000},
-      ambas cifras con un 50% de probabilidad. Suponiendo neutralidad
-      frente al riesgo, ¿debería llevarse a cabo el proyecto?
+b) Considere que existe incertidumbre con respecto al coste de
+   limpieza que puede ascender a \money{15000} o a \money{35000},
+   ambas cifras con un 50% de probabilidad. Suponiendo neutralidad
+   frente al riesgo, ¿debería llevarse a cabo el proyecto?
 
-      #+begin_answer
+** Answer
 
-      #+end_answer
+Esto es una respuesta
 
-3. Un artículo periodístico enumeraba los costes y los beneficios de
-   un nuevo programa de fomento del reciclaje en la ciudad de
-   Springfield. El reportero destacaba como principal beneficio la
-   creación de 100 puestos de trabajo relacionados directa o
-   indirectamente con el reciclaje. Discuta.
+* Q.3
 
-   #+begin_answer
+Un artículo periodístico enumeraba los costes y los beneficios de
+un nuevo programa de fomento del reciclaje en la ciudad de
+Springfield. El reportero destacaba como principal beneficio la
+creación de 100 puestos de trabajo relacionados directa o
+indirectamente con el reciclaje. Discuta.
 
-   #+end_answer
+** Answer
 
-4. Lara trata de decidir el destino de sus próximas
-   vacaciones. Estaría dispuesta a pagar hasta \money{6000} por viajar
-   al país $A$ donde el riesgo de morir es de 1 entre \num{10000}. Por
-   otro lado, estaría dispuesta a pagar como mucho \money{6500} por
-   viajar al país $B$, donde el riesgo de muerte es de 1 entre
-   \num{22500}. Si Lara se muestra indiferente entre los dos destinos
-   salvo por el diferencial de riesgo de muerte, ¿qué se puede inferir
-   de los datos anteriores con respecto a la valoración de Lara de su
-   propia vida?
 
-   #+begin_answer
+* Q.4
 
-   #+end_answer
+Lara trata de decidir el destino de sus próximas vacaciones. Estaría
+dispuesta a pagar hasta \money{6000} por viajar al país $A$ donde el
+riesgo de morir es de 1 entre \num{10000}. Por otro lado, estaría
+dispuesta a pagar como mucho \money{6500} por viajar al país $B$,
+donde el riesgo de muerte es de 1 entre \num{22500}. Si Lara se
+muestra indiferente entre los dos destinos salvo por el diferencial de
+riesgo de muerte, ¿qué se puede inferir de los datos anteriores con
+respecto a la valoración de Lara de su propia vida?
 
-5. Las autoridades de Tierra Media están considerando la posibilidad
-   de construir un puente que mejore la conexión por carretera de dos
-   ciudades separadas por un río.
+** Answer
 
-   Actualmente, solo se puede salvar el río con un ferry que
-   transporta \num{25000} vehículos por año. La empresa que opera el
-   ferry es un monopolio que cobra un peaje de \money{2} a cada
-   vehículo por trayecto y soporta unos costes de \money{1.5} por cada
-   vehículo y trayecto. El número de vehículos que cruzarían el río
-   cada año viene dado por la curva de demanda: $q = \num{125000} -
-   \num{50000} p$ donde $p$ es el peaje que se paga por cruzar el río.
+Esto es una respuesta
 
-   Se tardaría un año en construir el puente y los costes ascenderían
-   a 1 millón de euros. Una vez en funcionamiento, los costes de
-   mantenimiento del puente serían de \money{50000} por año. Se estima
-   que el tiempo de viaje entre las dos ciudades sería aproximadamente
-   el mismo que con el ferry. En caso de llevarse a término el
-   proyecto, no se cobraría ningún peaje por cruzar el puente. En
-   consecuencia, el ferry dejaría de operar.
+* Q.5
 
-   a) Determine si se debería construir el puente suponiendo una tasa
-      de descuento del 10% y que el puente tiene una duración
-      infinita.
+Las autoridades de Tierra Media están considerando la posibilidad
+de construir un puente que mejore la conexión por carretera de dos
+ciudades separadas por un río.
 
-      #+begin_answer
+Actualmente, solo se puede salvar el río con un ferry que
+transporta \num{25000} vehículos por año. La empresa que opera el
+ferry es un monopolio que cobra un peaje de \money{2} a cada
+vehículo por trayecto y soporta unos costes de \money{1.5} por cada
+vehículo y trayecto. El número de vehículos que cruzarían el río
+cada año viene dado por la curva de demanda: $q = \num{125000} -
+\num{50000} p$ donde $p$ es el peaje que se paga por cruzar el río.
 
-      #+end_answer
+Se tardaría un año en construir el puente y los costes ascenderían
+a 1 millón de euros. Una vez en funcionamiento, los costes de
+mantenimiento del puente serían de \money{50000} por año. Se estima
+que el tiempo de viaje entre las dos ciudades sería aproximadamente
+el mismo que con el ferry. En caso de llevarse a término el
+proyecto, no se cobraría ningún peaje por cruzar el puente. En
+consecuencia, el ferry dejaría de operar.
 
-   b) ¿Cambiaría su respuesta al apartado anterior si se cobrara un
-      peaje de \money{0.40} por trayecto?
+a) Determine si se debería construir el puente suponiendo una tasa
+   de descuento del 10% y que el puente tiene una duración
+   infinita.
 
-      #+begin_answer
+b) ¿Cambiaría su respuesta al apartado anterior si se cobrara un
+   peaje de \money{0.40} por trayecto?
 
-      #+end_answer
+** Answer
+
+Esto es una respuesta

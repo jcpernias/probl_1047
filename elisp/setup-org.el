@@ -99,7 +99,14 @@ available to use with Org"
    (secondary-closing :utf-8 "”" :html "&rdquo;" :latex "}" :texinfo "''")
    (apostrophe :utf-8 "’" :html "&rsquo;")))
 
+(setq org-latex-listings 'minted)
 
+
+;; Listings
+(setq org-latex-custom-lang-environments
+      '((R "\\begin{Rminted}
+%s
+\\end{Rminted}")))
 
 ;; Export functions
 ;; --------------------------------------------------------------------------------

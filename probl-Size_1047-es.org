@@ -4,6 +4,16 @@
 
 #+TITLE: La dimensión del Sector Público: ejercicios
 
+#+PROPERTY: header-args:R :session *R-ec1047-size*
+#+PROPERTY: header-args:R+ :tangle yes
+#+PROPERTY: header-args:R+ :exports both
+#+PROPERTY: header-args:R+ :results output
+
+#+BEGIN_SRC R :exports none :tangle no
+  ## Set output width
+  options(width=65)
+#+END_SRC
+
 
 Responda a las siguientes preguntas a partir de la información
 estadística contenida en las publicaciones:
@@ -21,6 +31,17 @@ muy diferente esta última cifra con la media para los países de la
 OECD?
 
 ** Answer
+
+Utilicemos unas cuantas órdenes de R para conseguir un efecto nada
+desdeñable, por si fuera poco:
+#+begin_src R
+  ## Cálculo de los cinco primeros cuadrados
+  x_1 <- (1:5)^2
+  x_1
+
+  ## Media
+  mean(rnorm(100), na.rm = TRUE)
+#+end_src
 
 Esto es una respuesta.
 

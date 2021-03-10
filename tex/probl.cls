@@ -58,6 +58,28 @@
 \newcommand*{\DANGER}{\raisebox{3pt}{\large\bomb}\quad}
 \newcommand*{\DDANGER}{\raisebox{2pt}{\large\bomb\,\bomb}\quad}
 
+%% Listings
+%% --------------------------------------------------------------------------------
+\RequirePackage{minted}
+\tcbuselibrary{minted}
+\renewcommand{\DeleteFile}[2][]{}
+\newtcblisting{Rminted}{%
+  colback = SourceCodeFill,
+  colframe = SourceCodeFrame,
+  boxrule = 0pt,
+  listing only,%
+  minted language=r}
+
+\RequirePackage{newfloat}
+\usemintedstyle{xcode}
+
+\tcolorboxenvironment{verbatim}{%
+  sharp corners = all,
+  boxrule = 0.25pt,
+  colframe = ROutputFrame,
+  colback = ROutputFill
+}
+
 
 %% TOC
 %% -----------------------------------------------------------------

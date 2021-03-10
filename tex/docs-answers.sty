@@ -16,7 +16,8 @@
 
 \ifbool{answers}{%
   \newtcolorbox{answer}{coltext=MainText, colframe=AnswerFrame,%
-    colback=AnswerFill, notitle, boxrule=0.5pt,%
+    colback=AnswerFill,%
+    notitle, boxrule=0.25pt,%
     fontupper=\small, breakable, skin=enhanced, parbox=false,%
     before upper=\csname @totalleftmargin\endcsname0pt}}{%
   \newenvironment{answer}{\expandafter\comment}{\expandafter\endcomment}}

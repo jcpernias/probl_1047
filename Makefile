@@ -55,7 +55,7 @@ tangle := --eval "(tangle-to (file-name-as-directory \"$(builddir)\"))"
 
 
 LATEX_MESSAGES := no
-TEXI2DVI_FLAGS := --batch -I $(texdir) --pdf \
+TEXI2DVI_FLAGS := --batch -I $(texdir) --shell-escape --pdf \
 	--build=tidy --build-dir=$(notdir $(builddir))
 
 ifneq ($(LATEX_MESSAGES), yes)

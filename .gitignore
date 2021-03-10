@@ -3,3 +3,4 @@ figures
 pdf
 build
 **/.Auto
+.Rhistory

@@ -50,6 +50,19 @@
 \RequirePackage{docs-cclic}
 \RequirePackage{docs-answers}
 
+%% Floats
+%% --------------------------------------------------------------------------------
+
+% \usepackage{float}
+\usepackage{caption}
+\usepackage{floatrow}
+\floatsetup[table]{style=plaintop}
+\floatsetup[figure]{style=plaintop}
+\captionsetup{labelsep=endash,labelfont=bf,font=sl,
+  position=above,singlelinecheck=no}
+\captionsetup[subfloat]{labelsep=space,labelfont={rm, up},
+  justification=centering}
+
 
 %% Bombs
 %% --------------------------------------------------------------------------------

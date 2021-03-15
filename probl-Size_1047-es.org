@@ -9,9 +9,26 @@
 #+PROPERTY: header-args:R+ :exports both
 #+PROPERTY: header-args:R+ :results output
 
-#+BEGIN_SRC R :exports none :tangle no
+#+BEGIN_SRC R :exports none :tangle no :results silent
   ## Set output width
-  options(width=65)
+  options(width = 70, cli.width = 70, crayon.enabled = FALSE,
+          xtable.type = "latex",
+          xtable.floating = TRUE,
+          xtable.table.placement = "H",
+          xtable.include.rownames = FALSE,
+          xtable.booktabs = TRUE)
+
+  my_colnames_sanitize <- function(str) {
+     paste("{", xtable::sanitize(str), "}", sep = "")
+  }
+
+  options(xtable.sanitize.colnames.function = my_colnames_sanitize)
+
+  ## load R libraries
+  library(tidyverse)
+  library(xtable)
+  library(zoo)
+  library(broom)
 #+END_SRC
 
 
@@ -34,16 +51,116 @@ OECD?
 
 Utilicemos unas cuantas órdenes de R para conseguir un efecto nada
 desdeñable, por si fuera poco:
-#+begin_src R
-  ## Cálculo de los cinco primeros cuadrados
-  x_1 <- (1:5)^2
-  x_1
 
-  ## Media
-  mean(rnorm(100), na.rm = TRUE)
+#+name: Q1a
+#+begin_src R :results output verbatim latex :exports results
+  Q1a <- read_csv("./data/PR1_Q1a_db.csv", col_types = "iddddd") %>%
+    mutate(G = G / 1000, PIB = PIB / 1000)
+
+  Q1a_tab <- Q1a %>%
+    select(year, G, PIB, Gpct) %>%
+    filter(year > 2014)
+
+  colnames(Q1a_tab) <-
+    c("Año", "Gasto (billones €)", "PIB (billones €)", "Gasto (% sobre PIB)")
+  xtable(Q1a_tab,
+         caption = "Gasto público y PIB en España, 1995--2019.",
+         align = c("c", "c", rep("T{5.}", 2), "T{2.1}"),
+         digits = c(0, 0, 0, 0, 1))
 #+end_src
 
-Esto es una respuesta.
+#+begin_center
+#+NAME: tbl:1
+#+RESULTS: Q1a
+#+end_center
+Esto es una respuesta. Esto es una respuesta. Esto es una
+respuesta. Esto es una respuesta. Esto es una respuesta. Esto es una
+respuesta. Esto es una respuesta. Esto es una respuesta. Esto es una
+respuesta. Esto es una respuesta. Esto es una respuesta.
+
+Esto es una respuesta. Esto es una respuesta. Esto es una
+respuesta. Esto es una respuesta. Esto es una respuesta. Esto es una
+respuesta. Esto es una respuesta. Esto es una respuesta. Esto es una
+respuesta. Esto es una respuesta. Esto es una respuesta.
+
+Esto es una respuesta. Esto es una respuesta. Esto es una
+respuesta. Esto es una respuesta. Esto es una respuesta. Esto es una
+respuesta. Esto es una respuesta. Esto es una respuesta. Esto es una
+respuesta. Esto es una respuesta. Esto es una respuesta.
+
+
+#+NAME: fig1
+#+header: :width 4.5 :height 2.78 :family "Times" :R-dev-args encoding = "ISOLatin9.enc"
+#+begin_src R :results output graphics file :exports results :file figures/GY.pdf
+  index <- Q1a %>% pull(year)
+  ts_db <- zoo(Q1a %>% select(G, PIB), index)
+  breaks <- c(200, 400, 600, 800, 1000)
+  minor <- c(300, 500, 700, 900)
+  ggplot(tidy(ts_db), aes(index, value, size = series)) +
+    geom_line() +
+    scale_y_log10(breaks = breaks, minor_breaks = minor) +
+    scale_x_continuous(breaks = c(1995, 2000, 2005, 2010, 2015, 2020),
+                       minor_breaks = c(1994, 1996, 1997, 1998, 1999,
+                                        2001, 2002, 2003, 2004,
+                                        2006, 2007, 2008, 2009,
+                                        2011, 2012, 2013, 2014,
+                                        2016, 2017, 2018, 2019,
+                                        2021),
+                       limits = c(1995, 2020)) +
+    labs(x = NULL, y = NULL, size = NULL) +
+    theme_bw() +
+    scale_size_manual(values = c(0.3, 0.6)) +
+    ggtitle("Miles de millones de €") +
+    theme(legend.position = c(0.85, 0.13), legend.direction = "horizontal",
+        panel.border = element_blank(), axis.line.x = element_line(size = 0.2),
+        axis.line.y = element_line(size=0.2),
+        text = element_text(size = 9),
+        axis.text = element_text(size = 9),
+        legend.text = element_text(size = 9),
+        plot.title = element_text(size=9, face="plain", hjust = -0.075),
+        plot.margin = rep(grid::unit(0.015,"npc"),4))
+#+end_src
+
+#+CAPTION: Gasto público y PIB de España, 1995--2019. Nada de esto habría sido posible sin la inestimable ayuda de todo lo que se te ocurra sin poder parar, Tampoco sabía muy bien qué era lo que iba a decir.
+#+LABEL: fig:1
+#+ATTR_LATEX: :placement [H]
+#+RESULTS: fig1
+
+
+
+#+NAME: fig2
+#+header: :width 4.5 :height 2.78 :pointsize 8 :family "NewCenturySchoolbook"
+#+begin_src R :results output graphics file :exports results :file figures/gGY.pdf
+  index <- Q1a %>% pull(year)
+  ts_db <- zoo(Q1a %>% select(gG, gY), index)
+  breaks <- c(200, 400, 600, 800, 1000)
+  minor <- c(300, 500, 700, 900)
+  ggplot(tidy(ts_db), aes(index, value, size = series)) +
+    geom_line() +
+    geom_hline(yintercept = 0, size = 0.2, color = "gray") +
+    scale_x_continuous(breaks = c(1995, 2000, 2005, 2010, 2015, 2020),
+                       minor_breaks = c(1994, 1996, 1997, 1998, 1999,
+                                        2001, 2002, 2003, 2004,
+                                        2006, 2007, 2008, 2009,
+                                        2011, 2012, 2013, 2014,
+                                        2016, 2017, 2018, 2019,
+                                        2021),
+                       limits = c(1995, 2020)) +
+    labs(x = NULL, y = NULL, size = NULL) +
+    theme_bw() +
+    scale_size_manual(values = c(0.3, 0.6)) +
+    theme(legend.position = c(0.85, 0.13), legend.direction = "horizontal",
+        panel.border = element_blank(), axis.line.x = element_line(size = 0.2),
+        axis.line.y = element_line(size=0.2),
+        text = element_text(size = 10))
+#+end_src
+
+#+CAPTION: Gasto público y PIB de España, 1995--2019. Nada de esto habría sido posible sin la inestimable ayuda de todo lo que se te ocurra sin poder parar, Tampoco sabía muy bien qué era lo que iba a decir.
+#+LABEL: fig:2
+#+ATTR_LATEX: :placement [H]
+#+RESULTS: fig2
+
+
 
 * Q.2
 
@@ -100,7 +217,6 @@ Esto es una respuesta.
 distribuye este déficit en las diferentes Administraciones Públicas
 que componen el Estado? ¿Es muy diferente el déficit de España del
 de otros países de su entorno?
-
 ** Answer
 
 Esto es una respuesta.

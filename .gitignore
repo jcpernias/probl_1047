@@ -4,3 +4,4 @@ pdf
 build
 **/.Auto
 .Rhistory
+/local.mk

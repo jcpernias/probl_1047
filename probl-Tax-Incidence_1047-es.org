@@ -4,127 +4,145 @@
 
 #+TITLE: Incidencia de los impuestos: ejercicios
 
-* Q.1
 
-El gobierno quiere introducir un nuevo impuesto sobre las ventas de
-determinados productos y está considerando varias alternativas: a)
-un impuesto sobre las ventas de leche semidesnatada; b) sobre los
-productos lácteos; o c) sobre todos los productos
-alimenticios. ¿Cuál de esas tres alternativas tendría un mayor
-impacto sobre los precios de los productos gravados?
+1. El gobierno quiere introducir un nuevo impuesto sobre las ventas de
+   determinados productos y está considerando varias alternativas: a)
+   un impuesto sobre las ventas de leche semidesnatada; b) sobre los
+   productos lácteos; o c) sobre todos los productos
+   alimenticios. ¿Cuál de esas tres alternativas tendría un mayor
+   impacto sobre los precios de los productos gravados?
 
-** Answer
+   #+begin_answer
 
-Por hacer.
+   #+end_answer
 
-* Q.2
+2. En 2003 se estableció en Hong Kong un impuesto de \money{51} al
+   mes a los empleadores de asistentes domésticos extranjeros. Muchos
+   de esos trabajadores provenían de Filipinas y el presidente de ese
+   país se refirió a este impuesto como "injusto y no
+   equitativo". Teniendo en cuenta que el impuesto era pagado por los
+   empleadores, ¿bajo qué condiciones estaría justificada la
+   preocupación del presidente filipino?
 
-En 2003 se estableció en Hong Kong un impuesto de \money{51} al
-mes a los empleadores de asistentes domésticos extranjeros. Muchos
-de esos trabajadores provenían de Filipinas y el presidente de ese
-país se refirió a este impuesto como "injusto y no
-equitativo". Teniendo en cuenta que el impuesto era pagado por los
-empleadores, ¿bajo qué condiciones estaría justificada la
-preocupación del presidente filipino?
+   #+begin_answer
 
-** Answer
+   #+end_answer
 
-Por hacer.
+3. Considere un mercado competitivo con curva de demanda: $Q = \num{54000} -
+   4000 P$; y curva de oferta: $Q = 1400 P$.
 
-* Q.3
+   a) Analice la incidencia de un impuesto de \money{1.35} por unidad
+      vendida.
 
-Considere un mercado competitivo con curva de demanda: $Q = \num{54000} -
-4000 P$; y curva de oferta: $Q = 1400 P$.
+      #+begin_answer
 
-a) Analice la incidencia de un impuesto sobre las ventas del 15%
-   sobre el precio.
+      #+end_answer
 
-b) Analice la incidencia de un impuesto de \money{1.35} por unidad
+   b) Analice la incidencia de un impuesto sobre las ventas del 15%
+      sobre el precio.
+
+      #+begin_answer
+
+      #+end_answer
+
+   c) Compare los resultados obtenidos en los dos apartados
+      anteriores.
+
+      #+begin_answer
+
+      #+end_answer
+
+4. Considere un monopolista con curva de demanda: $Q =
+   \num{10000}/P^2$; y costes marginales: $\CM = \price{0.5}$. Analice
+   la incidencia de un impuesto específico de \price{1} por unidad
    vendida.
 
-c) Compare los resultados obtenidos en los dos apartados
-   anteriores.
+   #+begin_answer
 
-** Answer
+   #+end_answer
 
-Por hacer.
+5. Un monopolista vende su producto en un mercado con demanda: $P =
+   50 - 0.05 Q$. La producción se caracteriza por costes marginales
+   constantes: $\CM = \price{10}$.
 
-* Q.4
+   a) Determine la incidencia de un impuesto específico de \price{2}.
 
-Un monopolista vende su producto en un mercado con demanda: $P =
-50 - 0.05 Q$. La producción se caracteriza por costes marginales
-constantes: $\CM = \price{10}$.
+      #+begin_answer
 
-a) Determine la incidencia de un impuesto específico de \price{2}.
+      #+end_answer
 
-b) Determine la incidencia de un impuesto del 20% sobre el precio
-   de venta.
+   b) Determine la incidencia de un impuesto del 20% sobre el precio
+      de venta.
 
-** Answer
+      #+begin_answer
 
-Por hacer.
+      #+end_answer
 
-* Q.5
+   c) ¿Es diferente la recaudación del impuesto si el impuesto es específico o es /ad valorem/?
 
-Considere un monopolista con curva de demanda: $Q =
-\num{10000}/P^2$; y costes marginales: $\CM = \price{0.5}$. Analice
-la incidencia de un impuesto específico de \price{1} por unidad
-vendida.
+      #+begin_answer
 
-** Answer
+      #+end_answer
 
-Por hacer.
+6. Las curvas de demanda y oferta de un mercado de trabajo competitivo
+   son:
+   \begin{gather*}
+     L^{d} = \num{60000} - 3000 w \\
+     L^{s} = \num{20000} + 1000 w
+   \end{gather*}
+   donde $L$ se mide en horas y $w$ es el salario por hora.
 
-* Q.6
+   a) ¿Cuál sería la incidencia de un impuesto de \wage{4} pagado por
+      los empleadores? ¿Cómo cambiaría su respuesta si el impuesto
+      fuese pagado a partes iguales por empleadores y empleados?
 
-Las curvas de demanda y oferta de un mercado de trabajo competitivo
-son:
-#+begin_export latex
-\begin{gather*}
-  L^{d} = \num{60000} - 3000 w \\
-  L^{s} = \num{20000} + 1000 w
-\end{gather*}
-#+end_export
-donde $L$ se mide en horas y $w$ es el salario por hora.
+      #+begin_answer
 
-a) ¿Cuál sería la incidencia de un impuesto de \wage{4} pagado por
-   los empleadores? ¿Cómo cambiaría su respuesta si el impuesto
-   fuese pagado a partes iguales por empleadores y empleados?
+      #+end_answer
 
-b) Suponga ahora que una nueva ley establece un salario mínimo de
-   \wage{8}. Repita el análisis del apartado anterior.
+   b) Suponga ahora que una nueva ley establece un salario mínimo de
+      \wage{8}. Repita el análisis del apartado anterior.
 
-** Answer
+      #+begin_answer
 
-Por hacer.
+      #+end_answer
 
-* Q.7
+#+begin_comment
+7. Una ciudad está considerando introducir un impuesto del 10% de los
+   ingresos de los hoteles situados en el término municipal. A pesar
+   de no ser muy diferentes a los de localidades vecinas, los hoteles
+   de la ciudad están mucho más próximos a un aeropuerto y a muchos
+   centros de convenciones. Por estas razones los viajeros están
+   dispuestos a pagar un precio más alto por alojarse en ellos.
 
-Una ciudad está considerando introducir un impuesto del 10% de los
-ingresos de los hoteles situados en el término municipal. A pesar
-de no ser muy diferentes a los de localidades vecinas, los hoteles
-de la ciudad están mucho más próximos a un aeropuerto y a muchos
-centros de convenciones. Por estas razones los viajeros están
-dispuestos a pagar un precio más alto por alojarse en ellos.
+   Por otro lado los terrenos de la ciudad que pueden destinarse a
+   usos comerciales están completamente utilizados por los hoteles y
+   los restantes negocios de la ciudad. Si un hotel dejase de operar
+   en la ciudad, el terreno sería utilizado rápidamente por alguna
+   otra empresa.
 
-Por otro lado los terrenos de la ciudad que pueden destinarse a
-usos comerciales están completamente utilizados por los hoteles y
-los restantes negocios de la ciudad. Si un hotel dejase de operar
-en la ciudad, el terreno sería utilizado rápidamente por alguna
-otra empresa.
+   El alcalde está preocupado por quién acabará soportando la
+   incidencia del impuesto a corto plazo (un mes) y a largo plazo
+   (cinco años).
 
-El alcalde está preocupado por quién acabará soportando la
-incidencia del impuesto a corto plazo (un mes) y a largo plazo
-(cinco años).
+   a) ¿Cómo se repartiría la incidencia del impuesto a corto plazo?
 
-a) ¿Cómo se repartiría la incidencia del impuesto a corto plazo?
+      #+begin_answer
 
-b) ¿Y a largo plazo?
+      #+end_answer
 
-c) ¿Cómo cambiarían sus respuestas si los hoteles de las
-   localidades cercanas fueran sustitutos perfectos de los situados
-   dentro de la ciudad?
+   b) ¿Y a largo plazo?
 
-** Answer
+      #+begin_answer
 
-Por hacer.
+      #+end_answer
+
+   c) ¿Cómo cambiarían sus respuestas si los hoteles de las
+      localidades cercanas fueran sustitutos perfectos de los situados
+      dentro de la ciudad?
+
+      #+begin_answer
+
+      #+end_answer
+
+#+end_comment

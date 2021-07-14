@@ -1,0 +1,81 @@
+# -*- ispell-dictionary: "castellano" -*-
+
+#+SETUPFILE: ./course-es.org
+
+#+TITLE: Conceptos básicos
+
+1. Responda concisamente las siguientes preguntas:
+
+   a) ¿Qué es un bien público puro?
+
+      #+begin_answer
+
+      #+end_answer
+
+   b) ¿Qué diferencia las funciones de bienestar social utilitarista y
+      /rawlsiana/?
+
+      #+begin_answer
+
+      #+end_answer
+
+   c) ¿Qué son los precios sombra?
+
+      #+begin_answer
+
+      #+end_answer
+
+   d) ¿En qué consiste el problema de los recursos comunes?
+
+      #+begin_answer
+
+      #+end_answer
+
+   e) ¿Qué es el problema del polizón (/free-rider/)?
+
+      #+begin_answer
+
+      #+end_answer
+
+   f) ¿En qué consiste la condición de eficiencia en la
+      combinación de productos (/product mix/)?
+
+      #+begin_answer
+
+      #+end_answer
+
+   g) ¿Qué establece el teorema de Coase?
+
+      #+begin_answer
+
+      #+end_answer
+
+   h) ¿Quién es el votante mediano?
+
+      #+begin_answer
+
+      #+end_answer
+
+   i) ¿En qué consiste la paradoja del voto?
+
+      #+begin_answer
+
+      #+end_answer
+
+   j) ¿Qué establece el teorema de imposibilidad de Arrow?
+
+      #+begin_answer
+
+      #+end_answer
+
+   k) ¿Para qué se utiliza el valor presente descontado?
+
+      #+begin_answer
+
+      #+end_answer
+
+   l) ¿Qué es un impuesto corrector (/pigouviano/)?
+
+      #+begin_answer
+
+      #+end_answer

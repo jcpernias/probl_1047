@@ -13,11 +13,8 @@ probl_units := \
 	Eval3 \
 	Eval4
 
-probl_figs :=
-
-
-TEXI2DVI_SILENT := -q
-# TEXI2DVI_SILENT :=
+probl_figs := \
+	Efficiency-Equity
 
 ## Directories
 ## ================================================================================
@@ -47,15 +44,21 @@ Rscriptbin := /usr/local/bin/Rscript
 
 EMACS := $(emacsbin) -Q -nw --batch
 emacs_loads := --load=$(elispdir)/setup-org.el \
-	--load=$(elispdir)/mats.el
+	--load=$(elispdir)/parser.el
 org_to_latex := --eval "(tolatex (file-name-as-directory \"$(builddir)\"))"
 org_to_beamer := --eval "(tobeamer (file-name-as-directory \"$(builddir)\"))"
 tangle := --eval "(tangle-to (file-name-as-directory \"$(builddir)\"))"
 
+LATEX_MESSAGES := no
+TEXI2DVI_FLAGS := --batch -I $(texdir) --pdf \
+	--build=tidy --build-dir=$(notdir $(builddir))
+
+ifneq ($(LATEX_MESSAGES), yes)
+TEXI2DVI_FLAGS += -q
+endif
+
 TEXI2DVI := $(envbin) TEXI2DVI_USE_RECORDER=yes \
-	$(texi2dvibin) --batch $(TEXI2DVI_SILENT) \
-	-I $(texdir) --pdf --build=tidy \
-	--build-dir=$(notdir $(builddir))
+	$(texi2dvibin) $(TEXI2DVI_FLAGS)
 
 MAKEORGDEPS := $(pythonbin) $(pythondir)/makeorgdeps.py
 MAKETEXDEPS := $(pythonbin) $(pythondir)/maketexdeps.py
@@ -63,33 +66,14 @@ MAKEFIGDEPS := $(pythonbin) $(pythondir)/makefigdeps.py
 
 RSCRIPT := $(Rscriptbin) -e
 
-# docs_es := $(addsuffix _$(subject_code)-es, \
-# 	$(addprefix hdout-, $(units)) \
-# 	$(addprefix pres-, $(units)))
-# docs_en := $(addsuffix _$(subject_code)-en, \
-# 	$(addprefix hdout-, $(units)) \
-# 	$(addprefix pres-, $(units)))
-
-# TODO: Add English documents based on an variable
-# docs_base := $(docs_es) $(docs_en)
-# docs_base := $(docs_es)
-# docs_pdf := $(addprefix $(outdir)/, $(addsuffix .pdf, $(docs_base)))
-
 with_ans_es := $(addsuffix _$(subject_code)-es, \
 	$(addprefix with-ans-probl-, $(probl_units)))
-# with_ans_en := $(addsuffix _$(subject_code)-en, \
-# 	$(addprefix with-ans-probl-, $(probl_units)))
 
 no_ans_es := $(addsuffix _$(subject_code)-es, \
 	$(addprefix no-ans-probl-, $(probl_units)))
-# no_ans_en := $(addsuffix _$(subject_code)-en, \
-# 	$(addprefix no-ans-probl-, $(probl_units)))
 
 docs_es := $(no_ans_es) $(with_ans_es)
-# docs_en := $(no_ans_en) $(with_ans_en)
-# docs_en := $(no_ans_en)
 
-# docs_base := $(docs_es) $(docs_en)
 docs_base := $(docs_es)
 docs_pdf := $(addprefix $(outdir)/, $(addsuffix .pdf, $(docs_base)))
 
@@ -100,20 +84,13 @@ tex_check_dirs := $(builddir) $(figdir) $(depsdir)
 docs_deps := $(addprefix $(depsdir)/, \
 	$(addsuffix .pdf.d, $(docs_base)))
 
-
-# TODO: Add English dependencies based on an variable
-# tex_deps := $(addprefix $(depsdir)/unit-, \
-# 	$(addsuffix _$(subject_code)-es.tex.d, $(units))) \
-# 	$(addprefix $(depsdir)/unit-, \
-# 	$(addsuffix _$(subject_code)-en.tex.d, $(units)))
-
 tex_deps := $(addprefix $(depsdir)/unit-, \
 	$(addsuffix _$(subject_code)-es.tex.d, $(units)))
 
-unit_figs_deps := $(addprefix $(depsdir)/unit-,\
-	$(addsuffix _$(subject_code)-figs.d, $(unit_figs)))
+probl_figs_deps := $(addprefix $(depsdir)/probl-,\
+	$(addsuffix _$(subject_code)-figs.d, $(probl_figs)))
 
-all_deps := $(docs_deps) $(tex_deps) $(unit_figs_deps)
+all_deps := $(docs_deps) $(tex_deps) $(probl_figs_deps)
 
 FIGURES :=
 
@@ -127,9 +104,9 @@ endif
 # $(call tex-wrapper,pres-or-hdout,tex-src,lang) -> write to a file
 define tex-wrapper
 \PassOptionsToClass{$1}{unit}
-\AtBeginDocument{\graphicspath{{$(realpath $(figdir))/}{$(realpath $(imgdir))/}}}
 \RequirePackage{etoolbox}
 \AtEndPreamble{%
+  \graphicspath{{$(realpath $(figdir))/}{$(realpath $(imgdir))/}}%
   \InputIfFileExists{$(subject_code)-macros.tex}{}{}%
   \InputIfFileExists{$2-macros.tex}{}{}}
 \input{$(realpath $(builddir))/$2-$3}
@@ -138,9 +115,9 @@ endef
 # $(call probl-wrapper,ans-option,tex-src,lang) -> write to a file
 define probl-wrapper
 \PassOptionsToClass{$1}{probl}
-\AtBeginDocument{\graphicspath{{$(realpath $(figdir))/}{$(realpath $(imgdir))/}}}
 \RequirePackage{etoolbox}
 \AtEndPreamble{%
+  \graphicspath{{$(realpath $(figdir))/}{$(realpath $(imgdir))/}}%
   \InputIfFileExists{$(subject_code)-macros.tex}{}{}%
   \InputIfFileExists{$2-macros.tex}{}{}}
 \input{$(realpath $(builddir))/$2-$3}
@@ -162,10 +139,6 @@ endef
 define knit
 "source(\"./R/common.R\"); library(knitr); options(knitr.package.root.dir=\"${rootdir}\"); knit(\"$1\", \"$2\")"
 endef
-
-vpath %.pdf $(figdir)
-vpath %.png $(imgdir)
-vpath %.jpg $(imgdir)
 
 ## Rules
 ## ================================================================================
@@ -233,17 +206,17 @@ $(depsdir)/%.pdf.d: $(builddir)/%.tex | $(outdir) $(depsdir)
 # figure wrappers
 .PRECIOUS: $(builddir)/fig-%-en.tex
 $(builddir)/fig-%-en.tex: $(builddir)/fig-%.tex
-	$(file > $@, $(call fig-wrapper,English,fig-$*,$(shell echo $* | sed 's/\([^-]*\)-.*/\1/')))
+	$(file > $@, $(call fig-wrapper,en,fig-$*,$(shell echo $* | sed 's/\([^-]*\)-.*/\1/')))
 
 .PRECIOUS: $(builddir)/fig-%-es.tex
 $(builddir)/fig-%-es.tex: $(builddir)/fig-%.tex
-	$(file > $@, $(call fig-wrapper,Spanish,fig-$*,$(shell echo $* | sed 's/\([^-]*\)-.*/\1/')))
+	$(file > $@, $(call fig-wrapper,es,fig-$*,$(shell echo $* | sed 's/\([^-]*\)-.*/\1/')))
 
 # figure latex to pdf
 $(figdir)/fig-%.pdf: $(builddir)/fig-%.tex | $(figdir)
 	$(TEXI2DVI) --output=$@ $<
 
-$(depsdir)/unit-%-figs.d: unit-%-figs.org | $(depsdir)
+$(depsdir)/probl-%-figs.d: probl-%-figs.org | $(depsdir)
 	$(MAKEFIGDEPS) -o $@ $<
 
 # from R to latex

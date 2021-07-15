@@ -84,7 +84,7 @@ tex_check_dirs := $(builddir) $(figdir) $(depsdir)
 docs_deps := $(addprefix $(depsdir)/, \
 	$(addsuffix .pdf.d, $(docs_base)))
 
-tex_deps := $(addprefix $(depsdir)/unit-, \
+tex_deps := $(addprefix $(depsdir)/probl-, \
 	$(addsuffix _$(subject_code)-es.tex.d, $(units)))
 
 probl_figs_deps := $(addprefix $(depsdir)/probl-,\

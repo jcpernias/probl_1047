@@ -16,7 +16,8 @@
           xtable.floating = TRUE,
           xtable.table.placement = "H",
           xtable.include.rownames = FALSE,
-          xtable.booktabs = TRUE)
+          xtable.booktabs = TRUE,
+          readr.show_progress = FALSE)
 
   my_colnames_sanitize <- function(str) {
      paste("{", xtable::sanitize(str), "}", sep = "")

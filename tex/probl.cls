@@ -44,11 +44,9 @@
 
 %% Load packages
 %% --------------------------------------------------------------------------------
-\RequirePackage{docs-base}
+\RequirePackage{docs-full}
 \RequirePackage{docs-pages}
 \RequirePackage{docs-lists}
-\RequirePackage{docs-tables}
-\RequirePackage{docs-hyper}
 \RequirePackage{docs-cclic}
 \RequirePackage{docs-answers}
 

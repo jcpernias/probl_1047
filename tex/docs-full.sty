@@ -1,0 +1,114 @@
+%% Identification
+%% ----------------------------------------------------------------------
+
+\NeedsTeXFormat{LaTeX2e}[2018/04/01]
+\ProvidesPackage{docs-full}[2021/22/07 v 0.1]
+
+%% Load packages required by all documents
+%% ----------------------------------------------------------------------
+
+\RequirePackage{docs-base}
+
+%% Boxes
+%% --------------------------------------------------------------------------------
+
+\RequirePackage{tcolorbox}
+
+
+\tcbset{problem/.style={colback=PapayaWhip,
+    colframe=Tan, coltitle=SaddleBrown, fontupper=\footnotesize,
+    toprule=1.1mm, bottomrule=1.1mm,
+    sharp corners}}
+
+\tcbset{bibliography/.style={colframe=Subparagraph!50,
+    %colback=LightSteelBlue!10!White,
+    colback=Subparagraph!2,
+    coltitle=Black,
+    %size=small,
+    fonttitle=\sffamily\bfseries, fontupper=\small,
+    boxrule=0.5pt,
+    leftrule=1.5pt,
+    sharp corners}}
+
+%\newtcolorbox{bibbox}{bibliography, title=\translate{Bibliography}}
+\newtcolorbox{bibbox}{bibliography}
+
+%% Tables
+%% --------------------------------------------------------------------------------
+
+% Load some packages
+\RequirePackage{array}
+\RequirePackage{tabularx}
+\RequirePackage{booktabs}
+
+\newcolumntype{R}[1]{>{\RaggedLeft\arraybackslash}p{#1}}
+\newcolumntype{T}[1]{S[table-format=#1]}
+
+%% Hyperlinks
+%% --------------------------------------------------------------------------------
+\RequirePackage{hyperref}%
+\RequirePackage{bookmark}%
+
+% Fix problem with bookmark
+\RequirePackage{auxhook}
+\AddLineBeginAux{%
+  \string\providecommand{\string\BKM@Entry}[1]{}%
+}
+
+% Web links
+\newcommand*{\link}[1]{\url{#1}}
+
+%% Environments
+%% --------------------------------------------------------------------------------
+
+%% Tightcenter: removes vertical space of center environment
+\newenvironment{tightcenter}{%
+  \setlength\topsep{0pt}%
+  % \setlength\parskip{0pt}%
+  \begin{center}}{%
+  \end{center}}
+
+\newenvironment{tightquotation}{%
+  \setlength\topsep{0pt}%
+  % \setlength\parskip{0pt}%
+  \footnotesize%
+  \begin{displayquote}}{\end{displayquote}}
+
+\newenvironment{tightquote}{%
+  \setlength\topsep{0pt}%
+  % \setlength\parskip{0pt}%
+  % \setlength\leftmargin{0pt}%
+  \footnotesize%
+  \begin{displayquote}}{\end{displayquote}}
+
+%% Lists
+%% --------------------------------------------------------------------------------
+
+%% Hack: avoid TeX hang when handling description environment (I)
+%% See: http://tex.stackexchange.com/questions/31505/trouble-combining-enumitem-and-beamer
+% \let\olddescription\description
+% \let\oldenddescription\enddescription
+
+% \RequirePackage{enumitem}
+
+% %\setlist{nosep}
+% \setlist{topsep=0.5\baselineskip, itemsep=0.5\baselineskip,
+%   parsep=0pt, partopsep=0pt}
+
+% %\setlist[1]{leftmargin=*}
+% \setlist[itemize]{leftmargin=*}
+% \setlist[itemize,1]{label=\textbullet}
+% \setlist[itemize,2]{label=-}
+
+% \setlist[enumerate]{labelsep=*, leftmargin=1.5pc}
+% \setlist[enumerate,1]{label=\arabic*., ref=\arabic*}
+% \setlist[enumerate,2]{label=\beameroriginal\emph{\alph*}),%
+%   ref=\theenumi.\beameroriginal\emph{\alph*}}
+
+
+% \setlist[description]{font=\sffamily\bfseries, labelindent=\parindent}
+
+
+% %% Hack: avoid TeX hang when handling description environment (and II)
+% \let\description\olddescription
+% \let\enddescription\oldenddescription

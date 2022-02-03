@@ -46,9 +46,50 @@
 %% --------------------------------------------------------------------------------
 \RequirePackage{docs-full}
 \RequirePackage{docs-pages}
-\RequirePackage{docs-lists}
-\RequirePackage{docs-cclic}
-\RequirePackage{docs-answers}
+
+
+%% Answers
+%% --------------------------------------------------------------------------------
+\RequirePackage{verbatim}   % for the comment environment
+
+\tcbuselibrary{breakable, skins}
+
+
+\colorlet{AnswerFrame}{CourseColor!65!Black}
+\colorlet{AnswerFill}{White}
+
+\ifbool{answers}{%
+  \newtcolorbox{answer}{coltext=MainText, colframe=AnswerFrame,%
+    colback=AnswerFill,%
+    notitle, boxrule=0.25pt,%
+    fontupper=\small, breakable, skin=enhanced, parbox=false,%
+    before upper=\csname @totalleftmargin\endcsname0pt}}{%
+  \newenvironment{answer}{\expandafter\comment}{\expandafter\endcomment}}
+
+\ifbool{answers}{%
+  \newcommand*{\ClearPage}{\clearpage}}{%
+  \newcommand*{\ClearPage}{\relax}}
+
+
+%% Lists
+%% --------------------------------------------------------------------------------
+\RequirePackage{enumitem}
+
+\setlist{nosep}
+\setlist[1]{leftmargin=*}
+\setlist[itemize,1]{label=\textbullet}
+\setlist[itemize,2]{label=-}
+
+%% Add space between exercises
+%\setlist[1]{itemsep=\baselineskip}
+
+\ifbool{langES}{%
+  \setlist[enumerate,1]{label = \emph{\alph*})}
+}{}
+\ifbool{langEN}{%
+  \setlist[enumerate,1]{label = (\alph*)}
+}{}
+
 
 %% Floats
 %% --------------------------------------------------------------------------------
@@ -114,19 +155,20 @@
 %% Title
 %% --------------------------------------------------------------------------------
 
-\RequirePackage{titling}
+% \RequirePackage{titling}
 
-\pretitle{\begin{flushleft}\LARGE\sffamily\bfseries\color{Title}}
-\posttitle{\par\end{flushleft}}
+% \pretitle{\begin{flushleft}\HUGE\sffamily\bfseries\color{Title}}
+% \posttitle{\par\end{flushleft}}
 
-\preauthor{\begin{flushleft}\LARGE\sffamily\bfseries\color{Title}}
-\postauthor{\par\end{flushleft}}
+% \preauthor{\begin{flushleft}\huge\sffamily\bfseries\color{Title}}
+% \postauthor{\par\end{flushleft}}
 
-\predate{\begin{flushleft}\Large\sffamily\bfseries\color{Title}}
-\postdate{\par\end{flushleft}}
+% \predate{\begin{flushleft}\LARGE\sffamily\bfseries\color{Title}}
+% \postdate{\par\end{flushleft}}
 
 
-
+%% Compose frontmatter
+%% --------------------------------------------------------------------------------
 \AtBeginDocument{%
   \color{MainText}
   \pagenumbering{roman}
@@ -135,10 +177,12 @@
     \oldmaketitle%
     \ifbool{toc}{\tableofcontents}{}%
     \thispagestyle{empty}%
-    \cleardoublepage{}%
+    \newpage{}%
     \ccpage%
+    \hypersetup{pageanchor=true}
     \pagenumbering{arabic}
     \oldmaketitle
+    \thispagestyle{first}
     \let\maketitle\oldmaketitle%
   }
   \maketitle
@@ -155,8 +199,6 @@ pagestyles,%
 outermarks,%
 nobottomtitles*,%
 compact]{titlesec}
-
-% \RequirePackage[pagestyles, outermarks, nobottomtitles*, compact]{titlesec}
 
 \deftranslation[to=Spanish]{Exercise}{Ejercicio}
 \deftranslation[to=English]{Exercise}{Exercise}
@@ -188,13 +230,24 @@ compact]{titlesec}
 
 \titlespacing*{\subsection}{0pt}{*3.5}{*1.5}
 
-%% Add space between exercises
-\setlist[1]{itemsep=\baselineskip}
+%% Page headers and footers
+%% -----------------------------------------------------------------
 
+\newpagestyle{problems}[\color{Section}\small\bfseries\sffamily]{%
+  \renewcommand{\makeheadrule}{%
+    \color{Section}\rule{\linewidth}{1.2pt}}
+  \renewcommand{\makefootrule}{%
+    \color{Section}\rule[0.8\baselineskip]{\linewidth}{1.2pt}}
+  \sethead{}{}{}
+  \setfoot*{}{}{\thepage}
+}
 
-\ifbool{langES}{%
-  \setlist[enumerate,2]{label = \emph{\alph*})}
-  }{}
-\ifbool{langEN}{%
-  \setlist[enumerate,2]{label = (\alph*)}
-  }{}
+\newpagestyle{first}[\color{Section}\small\bfseries\sffamily]{%
+  \renewcommand{\makefootrule}{%
+    \color{Section}\rule[0.8\baselineskip]{\linewidth}{1.2pt}}
+  \sethead{}{}{}
+  \setfoot*{}{}{\thepage}
+}
+
+\widenhead*{0.8cm}{4.5cm}
+\pagestyle{problems}

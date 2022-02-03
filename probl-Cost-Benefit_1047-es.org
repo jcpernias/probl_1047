@@ -1,6 +1,6 @@
 # -*- ispell-dictionary: "castellano" -*-
 
-#+SETUPFILE: ./course-es.org
+#+SETUPFILE: ./probl-es.org
 
 #+TITLE: Análisis coste-beneficio: ejercicios
 

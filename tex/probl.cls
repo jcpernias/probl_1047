@@ -31,9 +31,14 @@
 \ExecuteOptions{es, noanswers, notoc}
 \ProcessOptions\relax
 
+\InputIfFileExists{probl.cfg}{}{}
+
 %% Class loading
 %% --------------------------------------------------------------------------------
 \LoadClassWithOptions{article}
+
+%% More font sizes
+%% --------------------------------------------------------------------------------
 \RequirePackage{moresize}
 
 

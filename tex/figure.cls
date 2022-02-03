@@ -38,10 +38,10 @@
 %% Load packages
 %% --------------------------------------------------------------------------------
 \RequirePackage{docs-base}
-\RequirePackage{docs-math}
-\RequirePackage{docs-colors}
-\RequirePackage{docs-units}
-\RequirePackage{docs-hyper}
+% \RequirePackage{docs-math}
+% \RequirePackage{docs-colors}
+% \RequirePackage{docs-units}
+% \RequirePackage{docs-hyper}
 
 
 \colorlet{colorIMg}{DarkBlue!70!Black}

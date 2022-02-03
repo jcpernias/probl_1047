@@ -41,10 +41,7 @@
 %% --------------------------------------------------------------------------------
 \RequirePackage{docs-base}
 \RequirePackage{docs-pages}
-\RequirePackage{docs-math}
-\RequirePackage{docs-colors}
 \RequirePackage{docs-lists}
-\RequirePackage{docs-units}
 \RequirePackage{docs-tables}
 \RequirePackage{docs-hyper}
 \RequirePackage{docs-cclic}
@@ -73,6 +70,10 @@
 
 %% Listings
 %% --------------------------------------------------------------------------------
+% \colorlet{SourceCodeFill}{White}
+% \colorlet{SourceCodeFrame}{White}
+% \colorlet{ROutputFill}{Black!15}
+% \colorlet{ROutputFrame}{Black!15}
 % \RequirePackage{minted}
 % \tcbuselibrary{minted}
 % \renewcommand{\DeleteFile}[2][]{}

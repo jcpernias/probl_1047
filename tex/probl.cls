@@ -109,8 +109,10 @@
 %% --------------------------------------------------------------------------------
 \RequirePackage{fourier-orns}
 
-\newcommand*{\DANGER}{\raisebox{3pt}{\large\bomb}\quad}
-\newcommand*{\DDANGER}{\raisebox{2pt}{\large\bomb\,\bomb}\quad}
+\newcommand*{\DANGER}{\makebox[0in][r]{%
+    \color{Section}\raisebox{2pt}{\Large\bomb}\quad}}
+\newcommand*{\DDANGER}{\makebox[0in][r]{%
+    \color{Section}\raisebox{2pt}{\Large\bomb\,\bomb}\quad}}
 
 %% Listings
 %% --------------------------------------------------------------------------------

@@ -2,6 +2,7 @@ subject_code := 1047
 probl_units := \
 	02 \
 	03 \
+	04 \
 	06 \
 	07 \
 	08 \
@@ -12,7 +13,7 @@ probl_units := \
 	51
 
 probl_figs := \
-	03
+	04
 
 with_ans_es := $(addsuffix _$(subject_code)-es, \
 	$(addprefix prsol-, $(probl_units)))

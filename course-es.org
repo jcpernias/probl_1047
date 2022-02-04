@@ -14,7 +14,7 @@
 #+MACRO: unit01 El sector público en una economía mixta
 #+MACRO: unit02 Delimitación del sector público
 #+MACRO: unit03 Eficiencia
-#+MACRO: unit04 Fallos de mercado
+#+MACRO: unit04 Equidad
 #+MACRO: unit05 Eficiencia y equidad
 #+MACRO: unit06 Bienes públicos
 #+MACRO: unit07 Externalidades

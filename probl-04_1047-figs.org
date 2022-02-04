@@ -1,6 +1,6 @@
 #+SETUPFILE: ./course-es.org
 
-#+TITLE: {{unit03}}
+#+TITLE: {{unit04}}
 
 #+PROPERTY: header-args:latex :noweb yes :eval no
 
@@ -22,7 +22,7 @@
 
 * Elección social
 
-#+begin_src latex :tangle fig-Efficiency-Equity_1047-01.tex
+#+begin_src latex :tangle fig-04_1047-01.tex
   \begin{tikzpicture}[<<upf-scale>>]
     \coordinate (A) at ( 0, 19) ;
     \coordinate (B) at ( 4, 18) ;

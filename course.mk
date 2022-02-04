@@ -15,10 +15,10 @@ probl_figs := \
 	03
 
 with_ans_es := $(addsuffix _$(subject_code)-es, \
-	$(addprefix with-ans-probl-, $(probl_units)))
+	$(addprefix prsol-, $(probl_units)))
 
 no_ans_es := $(addsuffix _$(subject_code)-es, \
-	$(addprefix no-ans-probl-, $(probl_units)))
+	$(addprefix prhdout-, $(probl_units)))
 
 docs_es := $(no_ans_es) $(with_ans_es)
 

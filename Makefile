@@ -146,23 +146,23 @@ $(builddir)/probl-%.tex: $(rootdir)/probl-%.org $(elisp_files)| $(builddir)
 	$(EMACS) $(emacs_loads) --visit=$< $(org_to_latex)
 
 # probl wrappers
-.PRECIOUS: $(builddir)/no-ans-probl-%-es.tex
-$(builddir)/no-ans-probl-%-es.tex: $(builddir)/probl-%-es.tex \
+.PRECIOUS: $(builddir)/prhdout-%-es.tex
+$(builddir)/prhdout-%-es.tex: $(builddir)/probl-%-es.tex \
   $(probl_tex_deps) | $(figdir)
 	$(file > $@, $(call probl-wrapper,noanswers,probl-$*,es))
 
-.PRECIOUS: $(builddir)/with-ans-probl-%-es.tex
-$(builddir)/with-ans-probl-%-es.tex: $(builddir)/probl-%-es.tex \
+.PRECIOUS: $(builddir)/prsol-%-es.tex
+$(builddir)/prsol-%-es.tex: $(builddir)/probl-%-es.tex \
   $(probl_tex_deps) | $(figdir)
 	$(file > $@, $(call probl-wrapper,answers,probl-$*,es))
 
-.PRECIOUS: $(builddir)/no-ans-probl-%-en.tex
-$(builddir)/no-ans-probl-%-en.tex: $(builddir)/probl-%-en.tex \
+.PRECIOUS: $(builddir)/prhdout-%-en.tex
+$(builddir)/prhdout-%-en.tex: $(builddir)/probl-%-en.tex \
   $(probl_tex_deps) | $(figdir)
 	$(file > $@, $(call probl-wrapper,noanswers,probl-$*,en))
 
-.PRECIOUS: $(builddir)/with-ans-probl-%-en.tex
-$(builddir)/with-ans-probl-%-en.tex: $(builddir)/probl-%-en.tex \
+.PRECIOUS: $(builddir)/prsol-%-en.tex
+$(builddir)/prsol-%-en.tex: $(builddir)/probl-%-en.tex \
   $(probl_tex_deps) | $(figdir)
 	$(file > $@, $(call probl-wrapper,answers,probl-$*,en))
 

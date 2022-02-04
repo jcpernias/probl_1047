@@ -66,17 +66,6 @@ ifneq (,$(findstring clean,$(MAKECMDGOALS)))
 INCLUDEDEPS := no
 endif
 
-# $(call tex-wrapper,pres-or-hdout,tex-src,lang) -> write to a file
-define tex-wrapper
-\PassOptionsToClass{$1}{unit}
-\RequirePackage{etoolbox}
-\AtEndPreamble{%
-  \graphicspath{{$(realpath $(figdir))/}{$(realpath $(imgdir))/}}%
-  \InputIfFileExists{$(subject_code)-macros.tex}{}{}%
-  \InputIfFileExists{$2-macros.tex}{}{}}
-\input{$(realpath $(builddir))/$2-$3}
-endef
-
 # $(call probl-wrapper,ans-option,tex-src,lang) -> write to a file
 define probl-wrapper
 \PassOptionsToClass{$1}{probl}
@@ -89,13 +78,14 @@ define probl-wrapper
 endef
 
 
-# $(call tex-wrapper,spanish-or-english,fig-basename,unit-code) -> write to a file
+# $(call fig-wrapper,spanish-or-english,fig-basename,unit-code) -> write to a file
 define fig-wrapper
 \documentclass[$1]{figure}
+\graphicspath{{$(realpath $(figdir))/}{$(realpath $(imgdir))/}}
 \InputIfFileExists{$(subject_code)-macros.tex}{}{}
-\InputIfFileExists{unit-$3-macros.tex}{}{}
+\InputIfFileExists{unit-$3_$(subject_code)-macros.tex}{}{}
 \begin{document}
-\input{$(realpath $(builddir))/$2}
+\input{$(realpath $(builddir))/fig-$2}
 \end{document}
 endef
 
@@ -146,29 +136,28 @@ $(builddir)/probl-%.tex: $(rootdir)/probl-%.org $(elisp_files)| $(builddir)
 	$(EMACS) $(emacs_loads) --visit=$< $(org_to_latex)
 
 # probl wrappers
-.PRECIOUS: $(builddir)/prhdout-%-es.tex
-$(builddir)/prhdout-%-es.tex: $(builddir)/probl-%-es.tex \
-  $(probl_tex_deps) | $(figdir)
-	$(file > $@, $(call probl-wrapper,noanswers,probl-$*,es))
 
-.PRECIOUS: $(builddir)/prsol-%-es.tex
-$(builddir)/prsol-%-es.tex: $(builddir)/probl-%-es.tex \
-  $(probl_tex_deps) | $(figdir)
-	$(file > $@, $(call probl-wrapper,answers,probl-$*,es))
+define prhdout_wrapper_rule
+.PRECIOUS: $(builddir)/prhdout-%-$(1).tex
+$(builddir)/prhdout-%-$(1).tex: $(builddir)/probl-%-$(1).tex | $(figdir)
+	$$(file > $$@,$$(call probl-wrapper,noanswers,probl-$$*,$(1)))
+endef
+$(foreach lang,$(LANGUAGES),$(eval $(call prhdout_wrapper_rule,$(lang))))
 
-.PRECIOUS: $(builddir)/prhdout-%-en.tex
-$(builddir)/prhdout-%-en.tex: $(builddir)/probl-%-en.tex \
-  $(probl_tex_deps) | $(figdir)
-	$(file > $@, $(call probl-wrapper,noanswers,probl-$*,en))
-
-.PRECIOUS: $(builddir)/prsol-%-en.tex
-$(builddir)/prsol-%-en.tex: $(builddir)/probl-%-en.tex \
-  $(probl_tex_deps) | $(figdir)
-	$(file > $@, $(call probl-wrapper,answers,probl-$*,en))
+define prsol_wrapper_rule
+.PRECIOUS: $(builddir)/prsol-%-$(1).tex
+$(builddir)/prsol-%-$(1).tex: $(builddir)/probl-%-$(1).tex | $(figdir)
+	$$(file > $$@,$$(call probl-wrapper,answers,probl-$$*,$(1)))
+endef
+$(foreach lang,$(LANGUAGES),$(eval $(call prsol_wrapper_rule,$(lang))))
 
 
 ## latex to pdf
-$(outdir)/%.pdf: $(builddir)/%.tex | $(outdir)
+
+$(outdir)/prhdout-%.pdf: $(builddir)/prhdout-%.tex $(probl_tex_deps) | $(outdir)
+	$(TEXI2DVI) --output=$@ $<
+
+$(outdir)/prsol-%.pdf: $(builddir)/prsol-%.tex $(probl_tex_deps) | $(outdir)
 	$(TEXI2DVI) --output=$@ $<
 
 # pdf dependencies
@@ -176,17 +165,18 @@ $(depsdir)/%.pdf.d: $(builddir)/%.tex | $(outdir) $(depsdir)
 	$(MAKETEXDEPS) -o $@ -t $(outdir)/$*.pdf $<
 
 # figure wrappers
-.PRECIOUS: $(builddir)/fig-%-en.tex
-$(builddir)/fig-%-en.tex: $(builddir)/fig-%.tex
-	$(file > $@, $(call fig-wrapper,en,fig-$*,$(shell echo $* | sed 's/\([^-]*\)-.*/\1/')))
+get-unit = $(firstword $(subst _, ,$(1)))
 
-.PRECIOUS: $(builddir)/fig-%-es.tex
-$(builddir)/fig-%-es.tex: $(builddir)/fig-%.tex
-	$(file > $@, $(call fig-wrapper,es,fig-$*,$(shell echo $* | sed 's/\([^-]*\)-.*/\1/')))
+define fig_wrapper_rule =
+.PRECIOUS: $(builddir)/fig-%-$(1).tex
+$(builddir)/fig-%-$(1).tex: $(builddir)/fig-%.tex
+	$$(file > $$@,$$(call fig-wrapper,$(1),$$*,$$(call get-unit,$$*)))
+endef
+$(foreach lang,$(LANGUAGES),$(eval $(call fig_wrapper_rule,$(lang))))
+
 
 # figure latex to pdf
-$(figdir)/fig-%.pdf: $(builddir)/fig-%.tex  \
-  $(fig_tex_deps)| $(figdir)
+$(figdir)/fig-%.pdf: $(builddir)/fig-%.tex $(fig_tex_deps)| $(figdir)
 	$(TEXI2DVI) --output=$@ $<
 
 $(depsdir)/probl-%-figs.d: probl-%-figs.org | $(depsdir)

@@ -1,18 +1,18 @@
 subject_code := 1047
 probl_units := \
-	Size \
-	Efficiency-Equity \
-	Public-Goods \
-	Externalities \
-	Public-Choice \
-	Cost-Benefit \
-	Tax-Incidence \
-	Tax-Efficiency \
-	Eval3 \
-	Eval4
+	02 \
+	03 \
+	06 \
+	07 \
+	08 \
+	09 \
+	11 \
+	12 \
+	50 \
+	51
 
 probl_figs := \
-	Efficiency-Equity
+	03
 
 with_ans_es := $(addsuffix _$(subject_code)-es, \
 	$(addprefix with-ans-probl-, $(probl_units)))

@@ -1,21 +1,5 @@
 SHELL := /bin/sh
 
-subject_code := 1047
-probl_units := \
-	Size \
-	Efficiency-Equity \
-	Public-Goods \
-	Externalities \
-	Public-Choice \
-	Cost-Benefit \
-	Tax-Incidence \
-	Tax-Efficiency \
-	Eval3 \
-	Eval4
-
-probl_figs := \
-	Efficiency-Equity
-
 ## Directories
 ## ================================================================================
 
@@ -29,6 +13,7 @@ texdir := $(rootdir)/tex
 depsdir := $(rootdir)/.deps
 imgdir := $(rootdir)/img
 figdir := $(rootdir)/figures
+
 
 ## Programs
 ## ================================================================================
@@ -44,9 +29,10 @@ Rscriptbin := /usr/local/bin/Rscript
 ## Variables
 ## ================================================================================
 
+elisp_files := $(addprefix $(elispdir)/, setup-org.el parser.el)
+
 EMACS := $(emacsbin) -Q -nw --batch
-emacs_loads := --load=$(elispdir)/setup-org.el \
-	--load=$(elispdir)/parser.el
+emacs_loads := $(addprefix --load=, $(elisp_files))
 org_to_latex := --eval "(tolatex (file-name-as-directory \"$(builddir)\"))"
 org_to_beamer := --eval "(tobeamer (file-name-as-directory \"$(builddir)\"))"
 tangle := --eval "(tangle-to (file-name-as-directory \"$(builddir)\"))"
@@ -68,31 +54,8 @@ MAKEFIGDEPS := $(pythonbin) $(pythondir)/makefigdeps.py
 
 RSCRIPT := $(Rscriptbin) -e
 
-with_ans_es := $(addsuffix _$(subject_code)-es, \
-	$(addprefix with-ans-probl-, $(probl_units)))
-
-no_ans_es := $(addsuffix _$(subject_code)-es, \
-	$(addprefix no-ans-probl-, $(probl_units)))
-
-docs_es := $(no_ans_es) $(with_ans_es)
-
-docs_base := $(docs_es)
-docs_pdf := $(addprefix $(outdir)/, $(addsuffix .pdf, $(docs_base)))
-
 tex_check_dirs := $(builddir) $(figdir) $(depsdir)
 
-## Automatic dependencies
-## ================================================================================
-docs_deps := $(addprefix $(depsdir)/, \
-	$(addsuffix .pdf.d, $(docs_base)))
-
-tex_deps := $(addprefix $(depsdir)/probl-, \
-	$(addsuffix _$(subject_code)-es.tex.d, $(units)))
-
-probl_figs_deps := $(addprefix $(depsdir)/probl-,\
-	$(addsuffix _$(subject_code)-figs.d, $(probl_figs)))
-
-all_deps := $(docs_deps) $(tex_deps) $(probl_figs_deps)
 
 FIGURES :=
 
@@ -142,15 +105,36 @@ define knit
 "source(\"./R/common.R\"); library(knitr); options(knitr.package.root.dir=\"${rootdir}\"); knit(\"$1\", \"$2\")"
 endef
 
+
+include course.mk
+
+
+common_tex_deps := \
+	$(rootdir)/$(subject_code)-macros.tex \
+	$(texdir)/docs-base.sty \
+	$(rootdir)/course.cfg \
+	$(rootdir)/hyperref.cfg
+
+probl_tex_deps := \
+	$(texdir)/probl.cls \
+	$(texdir)/docs-full.sty \
+	$(texdir)/docs-pages.sty \
+	$(rootdir)/course-colors.cfg \
+	$(rootdir)/probl.cfg \
+	$(common_tex_deps)
+
+fig_tex_deps := \
+	$(texdir)/figure.cls \
+	$(rootdir)/standalone.cfg \
+	$(common_tex_deps)
+
+
 ## Rules
 ## ================================================================================
 
 all: $(docs_pdf)
 
 # org to latex
-.PRECIOUS: $(builddir)/%.tex
-$(builddir)/%.tex: $(rootdir)/%.org | $(builddir)
-	$(EMACS) $(emacs_loads) --visit=$< $(org_to_beamer)
 
 # dependencies for latex file
 $(depsdir)/%.tex.d: $(rootdir)/%.org | $(depsdir)
@@ -158,44 +142,30 @@ $(depsdir)/%.tex.d: $(rootdir)/%.org | $(depsdir)
 
 # probl to latex
 .PRECIOUS: $(builddir)/probl-%.tex
-$(builddir)/probl-%.tex: $(rootdir)/probl-%.org | $(builddir)
+$(builddir)/probl-%.tex: $(rootdir)/probl-%.org $(elisp_files)| $(builddir)
 	$(EMACS) $(emacs_loads) --visit=$< $(org_to_latex)
 
 # probl wrappers
 .PRECIOUS: $(builddir)/no-ans-probl-%-es.tex
-$(builddir)/no-ans-probl-%-es.tex: $(builddir)/probl-%-es.tex | $(figdir)
+$(builddir)/no-ans-probl-%-es.tex: $(builddir)/probl-%-es.tex \
+  $(probl_tex_deps) | $(figdir)
 	$(file > $@, $(call probl-wrapper,noanswers,probl-$*,es))
 
 .PRECIOUS: $(builddir)/with-ans-probl-%-es.tex
-$(builddir)/with-ans-probl-%-es.tex: $(builddir)/probl-%-es.tex | $(figdir)
+$(builddir)/with-ans-probl-%-es.tex: $(builddir)/probl-%-es.tex \
+  $(probl_tex_deps) | $(figdir)
 	$(file > $@, $(call probl-wrapper,answers,probl-$*,es))
 
 .PRECIOUS: $(builddir)/no-ans-probl-%-en.tex
-$(builddir)/no-ans-probl-%-en.tex: $(builddir)/probl-%-en.tex | $(figdir)
+$(builddir)/no-ans-probl-%-en.tex: $(builddir)/probl-%-en.tex \
+  $(probl_tex_deps) | $(figdir)
 	$(file > $@, $(call probl-wrapper,noanswers,probl-$*,en))
 
 .PRECIOUS: $(builddir)/with-ans-probl-%-en.tex
-$(builddir)/with-ans-probl-%-en.tex: $(builddir)/probl-%-en.tex | $(figdir)
+$(builddir)/with-ans-probl-%-en.tex: $(builddir)/probl-%-en.tex \
+  $(probl_tex_deps) | $(figdir)
 	$(file > $@, $(call probl-wrapper,answers,probl-$*,en))
 
-
-
-# latex wrappers
-.PRECIOUS: $(builddir)/pres-%-es.tex
-$(builddir)/pres-%-es.tex: $(builddir)/unit-%-es.tex | $(figdir)
-	$(file > $@, $(call tex-wrapper,Presentation,unit-$*,es))
-
-.PRECIOUS: $(builddir)/hdout-%-es.tex
-$(builddir)/hdout-%-es.tex: $(builddir)/unit-%-es.tex | $(figdir)
-	$(file > $@, $(call tex-wrapper,Handout,unit-$*,es))
-
-.PRECIOUS: $(builddir)/pres-%-en.tex
-$(builddir)/pres-%-en.tex: $(builddir)/unit-%-en.tex | $(figdir)
-	$(file > $@, $(call tex-wrapper,Presentation,unit-$*,en))
-
-.PRECIOUS: $(builddir)/hdout-%-en.tex
-$(builddir)/hdout-%-en.tex: $(builddir)/unit-%-en.tex | $(figdir)
-	$(file > $@, $(call tex-wrapper,Handout,unit-$*,en))
 
 ## latex to pdf
 $(outdir)/%.pdf: $(builddir)/%.tex | $(outdir)
@@ -215,15 +185,12 @@ $(builddir)/fig-%-es.tex: $(builddir)/fig-%.tex
 	$(file > $@, $(call fig-wrapper,es,fig-$*,$(shell echo $* | sed 's/\([^-]*\)-.*/\1/')))
 
 # figure latex to pdf
-$(figdir)/fig-%.pdf: $(builddir)/fig-%.tex | $(figdir)
+$(figdir)/fig-%.pdf: $(builddir)/fig-%.tex  \
+  $(fig_tex_deps)| $(figdir)
 	$(TEXI2DVI) --output=$@ $<
 
 $(depsdir)/probl-%-figs.d: probl-%-figs.org | $(depsdir)
 	$(MAKEFIGDEPS) -o $@ $<
-
-# from R to latex
-$(builddir)/%.tex: $(builddir)/%.Rnw | $(builddir)
-	$(RSCRIPT) $(call knit,$<,$@)
 
 ## automatic dependencies
 ifeq ($(INCLUDEDEPS),yes)

@@ -4,28 +4,6 @@
 
 #+TITLE: Ejercicios de los temas 2 a 5
 
-* Q.1
-
-Indique si cada una de las siguientes afirmaciones es cierta, falsa
-o imprecisa y justifique su respuesta:
-
-a) Si todo el mundo tiene la misma relación marginal de
-   sustitución, entonces la asignación de recursos es eficiente en
-   el sentido de Pareto.
-
-b) Si la asignación de recursos es Pareto eficiente todo el mundo
-   tiene la misma relación marginal de sustitución.
-
-c) Cuando alguien se vacuna de sarampión está generando una
-   externalidad positiva.
-
-d) El Segundo Teorema Fundamental de la Economía del Bienestar dice
-   que la asignación de recursos competitiva es socialmente deseable.
-
-** Answer
-
-Por hacer.
-
 * Q.2
 
 Considere un programa de formación dirigido a trabajadores

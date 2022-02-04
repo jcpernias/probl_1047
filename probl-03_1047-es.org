@@ -9,8 +9,8 @@
 
 Un avión se estrella en el Océano Pacífico. Los dos únicos
 supervivientes consiguen ponerse a salvo en una isla desierta donde
-no hay nada que comer. En la playa encuentran entre los restos del
-accidente una caja que contiene \num{1000} bolsitas de
+no hay nada que comer. En la playa encuentran, entre los restos del
+accidente, una caja que contiene \num{1000} bolsitas de
 cacahuetes. Encuentre las posibles asignaciones de las bolsas de
 cacahuetes entre los dos supervivientes que sean óptimas en el
 sentido de Pareto. ¿Cuáles de estas asignaciones son justas?
@@ -57,11 +57,34 @@ c) ¿Es posible conseguir que algún individuo mejore si la economía
 Por hacer
 
 
+* Q.16
+
+Indique si cada una de las siguientes afirmaciones es cierta, falsa
+o imprecisa y justifique su respuesta:
+
+a) Si todo el mundo tiene la misma relación marginal de
+   sustitución, entonces la asignación de recursos es eficiente en
+   el sentido de Pareto.
+
+b) Si la asignación de recursos es Pareto eficiente todo el mundo
+   tiene la misma relación marginal de sustitución.
+
+c) Una reasignación que lleve a la economía de un punto a otro de la
+   frontera de posibilidades de utilidad es una mejora de Pareto.
+
+d) El Segundo Teorema Fundamental de la Economía del Bienestar dice
+   que la asignación de recursos competitiva es socialmente deseable.
+
+** Answer
+
+Por hacer.
+
+
 * Q.4
 
 En una economía de mercado que opera eficientemente se producen
 \num{1000000} de unidades del bien $X$ y \num{500000} unidades del
-bien $X$. Los precios a los que se venden estos bienes son $P_X =
+bien $Y$. Los precios a los que se venden estos bienes son $P_X =
 \price{10}$ y $P_Y = \price{2}$. ¿Cuántas unidades adicionales del
 bien $Y$ podrían producirse en esta economía si se deja de producir
 una unidad del bien $X$?
@@ -98,7 +121,54 @@ con una asignación de recursos eficiente en el sentido de Pareto?
 Por hacer
 
 
-* Q.7
+* Q.10
+
+En un mercado con curva inversa de demanda $P = 14 - 0.04 Q$ opera
+un monopolista cuyos costes marginales son $\CM = 2 + 0.02 Q$. Las
+autoridades económicas están considerando regular las actividades
+del monopolio.
+
+a) Calcule la ineficiencia del monopolio.
+
+b) Si se obliga al monopolista a fijar el precio competitivo, ¿cuál
+   sería el aumento del bienestar de los consumidores?
+
+** Answer
+
+Por hacer
+
+
+* Q.15
+
+\DDANGER Considere una economía pura de intercambio con dos
+consumidores $A$ y $B$ y dos bienes $X$ e $Y$. Las preferencias vienen
+dadas por:
+#+begin_export latex
+\begin{gather*}
+  U_{A}(X_{A}, Y_{A}) = X_{A}^{1/4} Y_{A}^{1/4} \\
+  U_{B}(X_{B}, Y_{B}) = X_{B}^{1/4} Y_{B}^{1/4}
+\end{gather*}
+#+end_export
+Las dotaciones iniciales de los consumidores son:
+#+begin_export latex
+\begin{gather*}
+  \Xbar_{A} = 20; \quad \Ybar_{A} = 60. \\
+  \Xbar_{B} = 80; \quad \Ybar_{B} = 40.
+\end{gather*}
+#+end_export
+
+a) ¿Es la dotación inicial Pareto eficiente?
+
+b) Calcule la curva de contrato.
+
+c) Considere ahora que se instituyen mercados competitivos para
+   asignar los bienes de consumo. ¿Se alcanza el equilibrio
+   competitivo si los precios son $P_X = 2$ y $P_Y = 1$? Si su
+   respuesta es negativa, calcule los precios del equilibrio
+   competitivo. ¿Es eficiente la asignación de mercado?
+
+
+* COMMENT Q.7
 
 Imagine una economía donde sólo habitan dos consumidores, Aurora y Bernardo.
 
@@ -126,7 +196,7 @@ d) Suponga que la función de posibilidades de utilidad es:
 Por hacer
 
 
-* Q.8
+* COMMENT Q.8
 
 Un programa público elevaría ligeramente el bienestar de los
 ciudadanos más pobres pero disminuye considerablemente el bienestar
@@ -139,7 +209,7 @@ se adopta el criterio utilitarista? ¿Y si se utiliza el criterio
 Por hacer
 
 
-* Q.9
+* COMMENT Q.9
 
 En un país sólo viven dos ciudadanos: Blanca y Teo. Blanca es
 abogada y gana \money{50} por hora. Cuando la tasa impositiva sobre
@@ -166,23 +236,6 @@ c) Suponga ahora que Blanca y Teo tienen funciones de utilidad
    una discapacidad por lo que necesita más renta para alcanzar el
    mismo nivel de utilidad. ¿Cómo ordenarían ahora las diferentes
    alternativas los criterios utilitarista y /rawlsiano/?
-
-** Answer
-
-Por hacer
-
-
-* Q.10
-
-En un mercado con curva inversa de demanda $P = 14 - 0.04 Q$ opera
-un monopolista cuyos costes marginales son $\CM = 2 + 0.02 Q$. Las
-autoridades económicas están considerando regular las actividades
-del monopolio.
-
-a) Calcule la ineficiencia del monopolio.
-
-b) Si se obliga al monopolista a fijar el precio competitivo, ¿cuál
-   sería el aumento del bienestar de los consumidores?
 
 ** Answer
 
@@ -264,33 +317,3 @@ a) utilitarista.
 b) /rawlsiano/.
 
 c) igualitarista.
-
-
-* COMMENT Q.15
-
-\DDANGER Considere una economía pura de intercambio con dos
-consumidores $A$ y $B$ y dos bienes $X$ e $Y$. Las preferencias vienen
-dadas por:
-#+begin_export latex
-\begin{gather*}
-  U_{A}(X_{A}, Y_{A}) = X_{A}^{1/4} Y_{A}^{1/4} \\
-  U_{B}(X_{B}, Y_{B}) = X_{B}^{1/4} Y_{B}^{1/4}
-\end{gather*}
-#+end_export
-Las dotaciones iniciales de los consumidores son:
-#+begin_export latex
-\begin{gather*}
-  \Xbar_{A} = 20; \quad \Ybar_{A} = 60. \\
-  \Xbar_{B} = 80; \quad \Ybar_{B} = 40.
-\end{gather*}
-#+end_export
-
-a) ¿Es la dotación inicial Pareto eficiente?
-
-b) Calcule la curva de contrato.
-
-c) Considere ahora que se instituyen mercados competitivos para
-   asignar los bienes de consumo. ¿Se alcanza el equilibrio
-   competitivo si los precios son $P_X = 2$ y $P_Y = 1$? Si su
-   respuesta es negativa, calcule los precios del equilibrio
-   competitivo. ¿Es eficiente la asignación de mercado?

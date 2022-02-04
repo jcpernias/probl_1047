@@ -18,4 +18,7 @@
 #+MACRO: unit05 Eficiencia y equidad
 #+MACRO: unit06 Bienes públicos
 #+MACRO: unit07 Externalidades
-#+MACRO: unit08 Análisis coste beneficio
+#+MACRO: unit08 Análisis coste-beneficio
+#+MACRO: unit09 Economía política
+#+MACRO: unit11 Incidencia de los impuestos
+#+MACRO: unit12 Impuestos y eficiencia

@@ -2,7 +2,7 @@
 
 #+SETUPFILE: ./probl-es.org
 
-#+TITLE: Análisis coste-beneficio: ejercicios
+#+TITLE: {{{unit08}}}: ejercicios
 
 * Q.1
 
@@ -25,9 +25,12 @@ El consultor recomienda que se seleccione el proyecto con un mayor
 ratio beneficio-coste. De acuerdo con ese criterio, ¿qué proyecto
 sería preferible? ¿Está de acuerdo con esa recomendación?
 
+
 ** Answer
 
 Por hacer.
+
+
 
 * Q.2
 
@@ -44,9 +47,12 @@ b) Considere que existe incertidumbre con respecto al coste de
    ambas cifras con un 50% de probabilidad. Suponiendo neutralidad
    frente al riesgo, ¿debería llevarse a cabo el proyecto?
 
+
 ** Answer
 
 Por hacer.
+
+
 
 * Q.3
 
@@ -56,9 +62,12 @@ Springfield. El reportero destacaba como principal beneficio la
 creación de 100 puestos de trabajo relacionados directa o
 indirectamente con el reciclaje. Discuta.
 
+
 ** Answer
 
 Por hacer.
+
+
 
 * Q.4
 
@@ -71,9 +80,12 @@ muestra indiferente entre los dos destinos salvo por el diferencial de
 riesgo de muerte, ¿qué se puede inferir de los datos anteriores con
 respecto a la valoración de Lara de su propia vida?
 
+
 ** Answer
 
 Por hacer.
+
+
 
 * Q.5
 
@@ -103,6 +115,7 @@ a) Determine si se debería construir el puente suponiendo una tasa
 
 b) ¿Cambiaría su respuesta al apartado anterior si se cobrara un
    peaje de \money{0.40} por trayecto?
+
 
 ** Answer
 

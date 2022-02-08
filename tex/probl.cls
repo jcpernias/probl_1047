@@ -28,14 +28,17 @@
 \DeclareOption{noanswers}{\boolfalse{answers}}
 \DeclareOption{answers}{\booltrue{answers}}
 \DeclareOption{notoc}{\boolfalse{toc}}
+\DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
 \ExecuteOptions{es, noanswers, notoc}
-\ProcessOptions\relax
 
 \InputIfFileExists{probl.cfg}{}{}
 
+\ProcessOptions\relax
+
+
 %% Class loading
 %% --------------------------------------------------------------------------------
-\LoadClassWithOptions{article}
+\LoadClass{article}
 
 %% More font sizes
 %% --------------------------------------------------------------------------------

@@ -22,8 +22,7 @@
 \DeclareOption{en}{\booltrue{langEN}\boolfalse{langES}}
 
 \DeclareOption*{%
-  \ClassError{figure}{Unknown option `\CurrentOption'}{%
-    Check the options passed to the `figure' class}}
+  \PassOptionsToClass{\CurrentOption}{standalone}}
 \ExecuteOptions{es}
 \ProcessOptions*\relax
 

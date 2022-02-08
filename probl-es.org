@@ -1,7 +1,7 @@
 #+SETUPFILE: ./course-es.org
 
 #+LATEX_CLASS: probl
-#+LATEX_CLASS_OPTIONS: [notoc, es, a4paper, 11pt]
+#+LATEX_CLASS_OPTIONS: [notoc, es, a4paper]
 #+OPTIONS: toc:nil ':t *:t ^:{} num:1 H:2 title:nil
 
 #+LATEX_HEADER: \renewcommand{\maketitlehooka}{\begin{flushleft}\LARGE\sffamily\bfseries\color{Title}\coursename{} (\coursecode)\par\end{flushleft}}

@@ -5,7 +5,7 @@
 #+TITLE: {{{unit04}}}: ejercicios
 
 
-* Q.7
+* Q.1
 
 Imagine una economía donde sólo habitan dos consumidores, Aurora y Bernardo.
 
@@ -33,12 +33,13 @@ d) Suponga que la función de posibilidades de utilidad es:
 Por hacer
 
 
-* Q.8
+* Q.2
 
-Un programa público elevaría ligeramente el bienestar de los
-ciudadanos más pobres pero disminuye considerablemente el bienestar
-de los demás individuos. ¿Debería llevarse a cabo este programa si
-se adopta el criterio utilitarista? ¿Y si se utiliza el criterio
+Se está discutiendo la implantación de un programa público que
+elevaría ligeramente el bienestar de los ciudadanos más pobres pero
+disminuiría considerablemente el bienestar del resto de
+ciudadanos. ¿Sería aconsejable este programa desde el punto de vista
+del criterio utilitarista?  ¿Y si se utilizara el criterio
 /rawlsiano/?
 
 ** Answer
@@ -46,7 +47,15 @@ se adopta el criterio utilitarista? ¿Y si se utiliza el criterio
 Por hacer
 
 
-* Q.9
+* Q.3
+
+Considere un programa por el que se transfiera renta de ciudadanos
+pertenecientes a la clase media a ciudadanos tanto pobres como
+ricos. ¿Apoyaría un /rawlsiano/ esa redistribución? ¿Y un
+utilitarista?
+
+
+* Q.4
 
 En un país sólo viven dos ciudadanos: Blanca y Teo. Blanca es
 abogada y gana \money{50} por hora. Cuando la tasa impositiva sobre
@@ -58,20 +67,20 @@ siempre trabaja 20 horas por semana sea cual sea la tasa
 impositiva. El gobierno está pensando en gravar la renta de Blanca
 y transferir la recaudación a Teo.
 
-a) Blanca y Teo tienen la misma función de utilidad: $U(Y) =
-   Y^{1/2}$ donde $Y$ es la renta después de impuestos y
+a) Blanca y Teo tienen la misma función de utilidad: $U_B(Y) = U_T(Y)
+   = Y^{1/2}$ donde $Y$ es la renta semanal después de impuestos y
    transferencias. ¿Cuál de las tres tasas impositivas sería óptima
-   desde un punto de vista utilitarista? ¿Y si se utiliza una
-   función de bienestar social /rawlsiana/?
+   desde un punto de vista utilitarista? ¿Y si se utiliza una función
+   de bienestar social /rawlsiana/?
 
-b) ¿Cambiarían las conclusiones del apartado anterior si la función
-   de utilidad fuera $U(Y) = Y^{1/5}$?.
+b) ¿Cambiarían las conclusiones del apartado anterior si las funciones
+   de utilidad fueran $U_B(Y) = U_T(Y) = Y^{1/5}$?.
 
 c) Suponga ahora que Blanca y Teo tienen funciones de utilidad
-   diferentes. La utilidad de Blanca es $U_B(Y) = 0.25 Y^{1/2}$ y
-   la de Teo es $U_T(Y) = Y^{1/2}$. Esto se debe a que Blanca sufre
-   una discapacidad por lo que necesita más renta para alcanzar el
-   mismo nivel de utilidad. ¿Cómo ordenarían ahora las diferentes
+   diferentes. La utilidad de Blanca es $U_B(Y) = 0.25 Y^{1/2}$ y la
+   de Teo es $U_T(Y) = Y^{1/2}$. La diferencia es debida a que Blanca
+   sufre una discapacidad por lo que necesita más renta para alcanzar
+   el mismo nivel de utilidad. ¿Cómo ordenarían ahora las diferentes
    alternativas los criterios utilitarista y /rawlsiano/?
 
 ** Answer
@@ -79,7 +88,68 @@ c) Suponga ahora que Blanca y Teo tienen funciones de utilidad
 Por hacer
 
 
-* Q.11
+* Q.5
+
+Suponga que sólo hay dos consumidores, Aurelio y Beatriz, los cuales
+deben repartirse una renta fija de \money{100}. En el caso de
+Aurelio, la utilidad marginal de la renta es $\UMgY_A = 400 - 2 Y_A$, y
+en el caso de Beatriz es $\UMgY_B = 400 - 6 Y_B$, siendo $Y_A$ e $Y_B$
+la renta que obtiene Aurelio y Beatriz respectivamente.
+
+a) ¿Cuál es la distribución óptima de la renta si la función de
+   bienestar social es la utilitarista?
+
+b) ¿Cuál es la distribución óptima si la sociedad sólo valora la
+   utilidad de Beatriz? ¿Y si sólo valorase la utilidad de Aurelio?
+
+c) Responda a los apartados anteriores suponiendo ahora que la
+   utilidad marginal de la renta de ambos consumidores es igual a una
+   constante: $\UMgY_A = \UMgY_B = 400$.
+
+
+* Q.6
+
+En una economía hay dos consumidores y la función de utilidad de cada
+uno de ellos es $U_i = \log(Y_i)$, $i = 1, 2$, donde $Y_i$ es la renta
+del consumidor $i$. Se quiere distribuir entre los dos consumidores la
+renta total de la economía $\overline{Y} = \money{1000}$. Si se usa una
+función de bienestar social utilitarista, $W = U_1 + U_2$:
+
+a) ¿Sería óptima la distribución $Y_1 = \money{200}$ e $Y_2 =
+   \money{800}$? ¿Por qué?
+
+b) Obtenga la distribución óptima de la renta.
+
+
+* Q.7
+
+Discuta la veracidad de las siguientes afirmaciones sobre una economía
+con dos consumidores:
+
+a) Si la función de bienestar social es utilitarista, $W = U_1 + U_2$,
+   la sociedad se muestra indiferente entre dar \money{1} a un
+   consumidor o al otro.
+
+b) Una función de bienestar social como $W = U_1 + 8 U_2$ valora más
+   la felicidad del consumidor 2 que la del consumidor 1.
+
+c) Si la función de bienestar social es $W = \min\{U_1, U_2\}$, la
+   distribución de la renta óptima es completamente igualitaria.
+
+
+* Q.13
+
+Analice la veracidad o falsedad de las siguientes afirmaciones:
+
+a) La aplicación del criterio /rawlsiano/ conduce necesariamente a una
+   distribución igualitaria de la renta.
+
+b) Dada una curva de posibilidades de utilidad para dos individuos, la
+   aplicación del criterio utilitarista llevará siempre a una
+   distribución menos igualitaria que la del criterio /rawlsiano/.
+
+
+* COMMENT Q.11
 
 ¿Es posible encontrar una situación en la que que el óptimo social de
 acuerdo a una función de bienestar /rawlsiana/ coincida con el que se
@@ -87,7 +157,7 @@ obtendría con una función de bienestar utilitarista?  Represente
 gráficamente.
 
 
-* Q.12
+* COMMENT Q.12
 
 Considere una economía con dos individuos $A$ y $B$. La tabla
 siguiente muestra algunas combinaciones de utilidad que se
@@ -117,18 +187,6 @@ a) el criterio utilitarista.
 b) el criterio igualitarista.
 
 c) el criterio /rawlsiano/.
-
-
-* Q.13
-
-6. Analice la veracidad o falsedad de las siguientes afirmaciones:
-
-   a) La aplicación del criterio /rawlsiano/ conduce necesariamente a
-      una distribución igualitaria de la renta.
-
-   b) Dada una curva de posibilidades de utilidad para dos individuos,
-      la aplicación del criterio utilitarista llevará siempre a una
-      distribución menos igualitaria que la del criterio /rawlsiano/.
 
 
 * COMMENT Q.14

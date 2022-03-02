@@ -6,15 +6,24 @@
 
 * Q.1
 
-¿Son las autopistas un bien público? ¿Es una idea razonable la
-provisión privada de autopistas?
+Indique cuál de las siguientes afirmaciones es verdadera, falsa o
+incierta y justifique sus respuestas:
 
-** Answer
+a) La provisión eficiente de un bien público consigue que todos los
+   miembros de la sociedad valoren por igual la última unidad del bien
+   público.
 
-Por hacer.
+b) Un bien que no es rival ni excluible en el consumo nunca será
+   producido por empresas privadas.
+
+c) Una carretera es no rival porque su uso por parte de una persona no
+   impide que otros usen la misma carretera.
+
+d) Las sociedades más grandes tienden a consumir mayores cantidades de
+   un bien no rival que las sociedades con menos habitantes.
 
 
-* Q.2
+* Q.3
 
 Considere una economía con dos habitantes $A$ y $B$. Sólo se producen
 dos bienes: el bien público puro $X$ y el bien privado $Y$. Las
@@ -28,7 +37,24 @@ eficiente la situación descrita?
 Por hacer.
 
 
-* Q.3
+* Q.2
+
+Suponga que sólo dos pescadores, Acab e Ismael, pescan en una
+determinada zona. Cada uno de ellos se beneficiaría de la instalación
+de faros en la zona donde pescan. El coste de construir cada faro es
+de \money{100}. Para Acab el beneficio marginal de un faro adicional
+es $\BMg_{A} = 90 - 5 Q$ mientras que para Ismael es $\BMg_{I} = 40 - 5
+Q$, donde $Q$ es el número de faros construidos.
+
+a) ¿Cuál es el número eficiente de faros? ¿Cuáles serían los
+   beneficios marginales de Acab y de Ismael si se construyera el
+   número eficiente de faros?
+
+b) ¿Cuantos faros se construirían si fueran construidos de forma
+   independiente por Acab e Ismael? ¿Se construiría el número
+   socialmente óptimo de faros?
+
+* Q.4
 
 Tarzán y Jane viven en la jungla y han adiestrado a Chita para que
 patrulle los límites de su asentamiento y para que recolecte
@@ -47,7 +73,7 @@ b) Si Tarzán y Jane están dispuestos cada uno a sacrificar una hora de
 Por hacer.
 
 
-* Q.4
+* Q.5
 
 El coste marginal de producir Q unidades de un bien público puro es:
 $\CM = 5 Q$. Existen 100 demandantes: 75 cuya demanda viene dada por
@@ -59,7 +85,7 @@ provisión eficiente del bien público? Represente gráficamente.
 Por hacer.
 
 
-* Q.5
+* Q.6
 
 Rocío y Pablo comparten un piso. La siguiente tabla muestra, para un
 conjunto de temperaturas, el beneficio marginal de Rocío, el beneficio
@@ -81,29 +107,6 @@ temperatura durante una semana:
 #+end_center
 ¿Es la temperatura del piso un bien público? ¿Cuál sería la
 temperatura eficiente?
-
-** Answer
-
-Por hacer.
-
-
-* Q.6
-
-En una ciudad hay tres tipos de personas que se distinguen únicamente
-por sus preferencias con respecto a los parques municipales. Cada una
-de las personas del primer tipo están dispuestas a pagar $D_{I} =
-\money{100}$ por la mera existencia de algún parque y esta disposición
-es independiente del número de parques que haya. Por otro lado, la
-disposición a pagar de los individuos de los otros dos tipos es:
-#+begin_export latex
-\begin{gather*}
-  D_{II} = 200 + 30 N - 1.5 N^{2} \\
-  D_{III} = 150 + 90 N - 4.5 N^{2}
-\end{gather*}
-#+end_export
-donde $N$ es el número de parques de la ciudad. Si hay 500 individuos
-de cada tipo, cada parque cuesta \money{40000} y sólo se puede
-construir un número entero de parques, ¿cuántos deben de construirse?
 
 ** Answer
 
@@ -145,8 +148,27 @@ c) Calcule el precio que debería fijar el monopolio para obtener
 
 Por hacer.
 
-
 * Q.9
+
+En la segunda década del siglo XXI, el Presidente de México intentó
+privatizar Pemex, la empresa estatal productora, refinadora y
+comercializadora de petróleo. Muchos de los opositores al proyecto
+argumentaron que la privatización de la compañía de teléfonos mejicana
+Telmex sólo consiguió crear un monopolio que fijaba precios
+exorbitantes. ¿Cree que hubiera ocurrido lo mismo si Pemex se hubiese
+privatizado? Relacione su respuesta con el papel que juegan las
+condiciones del mercado sobre las consecuencias de las
+privatizaciones.
+
+* Q.10
+
+Se ha estimado que el coste por interno en las prisiones privadas es
+entre un 5% y un 15% menor que en los establecimientos penitenciarios
+públicos. De acuerdo con esto, ¿recomendaría que se privaticen las
+prisiones? ¿Qué otra información necesitaría para evaluar la
+conveniencia de la privatización de las cárceles?
+
+* Q.11
 
 \DANGER En una pequeña ciudad sólo viven dos personas: Alba y
 Blanca. El servicio de bomberos de la ciudad se financia
@@ -180,6 +202,48 @@ d) Suponga ahora que en vez de tener que financiar con impuestos los
    40 bomberos que contrata el ayuntamiento, un misterioso benefactor
    se hace cargo de los gastos adicionales. ¿Se obtienen en este caso
    los mismos resultados que en el apartado anterior?
+
+** Answer
+
+Por hacer.
+
+* COMMENT Q.10
+
+Empresas privadas de seguridad proporcionaron parte del apoyo
+logístico de las fuerzas armadas de Estados Unidos en Afganistán e
+Irak. Las críticas a las fuerzas mercenarias se han centrado en que
+cargan precios excesivos, actúan de forma irresponsable y no
+proporcionan soluciones de largo plazo. Como expresó un [[https://www.nytimes.com/2006/12/11/opinion/11krugman.html][comentarista]]:
+"No hay ninguna razón para suponer que una empresa privada contratada
+para realizar un servicio público lo lleve a cabo mejor que personas
+contratadas directamente por el Estado." Relacione esta discusión con el papel
+
+* COMMENT Q.1
+
+¿Son las autopistas un bien público? ¿Es una idea razonable la
+provisión privada de autopistas?
+
+** Answer
+
+Por hacer.
+
+* COMMENT Q.6
+
+En una ciudad hay tres tipos de personas que se distinguen únicamente
+por sus preferencias con respecto a los parques municipales. Cada una
+de las personas del primer tipo están dispuestas a pagar $D_{I} =
+\money{100}$ por la mera existencia de algún parque y esta disposición
+es independiente del número de parques que haya. Por otro lado, la
+disposición a pagar de los individuos de los otros dos tipos es:
+#+begin_export latex
+\begin{gather*}
+  D_{II} = 200 + 30 N - 1.5 N^{2} \\
+  D_{III} = 150 + 90 N - 4.5 N^{2}
+\end{gather*}
+#+end_export
+donde $N$ es el número de parques de la ciudad. Si hay 500 individuos
+de cada tipo, cada parque cuesta \money{40000} y sólo se puede
+construir un número entero de parques, ¿cuántos deben de construirse?
 
 ** Answer
 

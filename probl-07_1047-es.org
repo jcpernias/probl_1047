@@ -88,7 +88,7 @@ fumar sus puros durante la travesía. Harpo detesta los puros de
 Groucho. La utilidad de los dos viajeros viene dada por las funciones:
 #+begin_export latex
 \begin{gather*}
-U_G = 100 - 4 c - 0.1 c^2,
+U_G = 100 + 4 c - 0.1 c^2,
 \intertext{y}
 U_H = 100 - 10 c,
 \end{gather*}

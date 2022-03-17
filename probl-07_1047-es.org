@@ -81,7 +81,7 @@ e) El ayuntamiento está considerando la posibilidad de introducir un
 Por hacer.
 
 
-* Q.10
+* Q.4
 
 Groucho y Harpo comparten camarote en un crucero. A Groucho le encanta
 fumar sus puros durante la travesía. Harpo detesta los puros de
@@ -120,7 +120,7 @@ c) Describa cómo cambiaría su respuesta al apartado anterior si Chico
 Por hacer.
 
 
-* Q.4
+* Q.5
 
 La demanda de un producto es $Q = \num{1200} - 4 P$ y la oferta es $Q
 = 2 P$. Al producir el bien se vierten sustancias contaminantes que
@@ -149,7 +149,7 @@ d) ¿Cuál de las dos medidas, impuesto o subvención, preferirían las
 Por hacer.
 
 
-* Q.5
+* Q.6
 
 El beneficio marginal privado asociado al consumo de un bien es
 $\BMP = 360 - 4 Q$ y el coste marginal privado asociado a la
@@ -175,7 +175,7 @@ d) Compare los resultados de los dos apartados anteriores. ¿Cuál de
 Por hacer.
 
 
-* Q.9
+* Q.7
 
 En una pequeña aldea habitan 100 personas que trabajan en una ciudad
 situada a 30 km de distancia. Disponen de dos opciones de transporte:
@@ -259,7 +259,7 @@ d) Compare los resultados obtenidos en los dos apartados
 Por hacer.
 
 
-* Q.6
+* Q.9
 
 El Gobierno quiere mejorar la calidad de las aguas de un río en el que
 una empresa vierte 50 toneladas de residuos. El beneficio marginal
@@ -275,7 +275,7 @@ conseguir el nivel óptimo de polución?
 Por hacer.
 
 
-* Q.7
+* Q.10
 
 \DANGER Tanto la empresa $A$ como la $B$ emiten al mes 150 toneladas
 de sustancias contaminantes. El Gobierno quiere intervenir para

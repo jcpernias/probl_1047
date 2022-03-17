@@ -180,16 +180,16 @@ Por hacer.
 En una pequeña aldea habitan 100 personas que trabajan en una ciudad
 situada a 30 km de distancia. Disponen de dos opciones de transporte:
 
-- Tren: el tiempo de viaje total (ida y vuelta) es de $t = 40$ minutos
+- Tren: el tiempo de viaje total (ida y vuelta) es de $t_T = 40$ minutos
   al día, independientemente de cuantos viajeros opten por este medio
   de transporte.
 
 - Coche privado: sólo hay una carretera antigua de un carril por
-  sentido. El tiempo de viaje total con este modo de transporte
-  depende del número de conductores que lo usen, $C$:
+  sentido. El tiempo de viaje total (en minutos) con este modo de
+  transporte depende del número de conductores que lo usen, $C$:
   #+begin_export latex
   \[
-     t = 20 + C / 2.
+     t_C = 20 + C / 2.
   \]
   #+end_export
 
@@ -197,7 +197,8 @@ El coste monetario del viaje es el mismo en los dos modos de
 transporte y los viajeros no perciben diferencias relevantes entre las
 dos alternativas, salvo por la duración del viaje. Todos los
 trabajadores consideran el tiempo de viaje como una inconveniencia y
-tratan de minimizarlo.
+cada uno de ellos estaría dispuesto a pagar hasta \money{0.10} por
+cada minuto que ahorrasen.
 
 a) ¿Cuál sería el número socialmente óptimo de conductores (para el
    que se minimizaría el tiempo que el conjunto de la sociedad dedica

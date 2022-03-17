@@ -107,7 +107,7 @@ b) ¿Es eficiente la solución anterior? Calcule el valor de $c$ que
 
 c) Chico, el capitán del barco, es un gran admirador de los trabajos
    de Coase y decide asignar a Groucho la capacidad de prohibir o no
-   que se fume en el camarote. Si se establece un negociación entre
+   que se fume en el camarote. Si se establece una negociación entre
    Groucho y Harpo, ¿cuál sería el acuerdo que se alcanzaría?
 
 c) Describa cómo cambiaría su respuesta al apartado anterior si Chico

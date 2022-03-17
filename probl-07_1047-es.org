@@ -237,15 +237,21 @@ Como resultado del proceso productivo se vierten residuos
 contaminantes a un río cercano. El daño marginal que origina la
 polución se ha valorado en $\money{20}$ por unidad producida.
 
-a) Calcule la ineficiencia /total/ en este mercado.
+a) ¿Cuál sería el nivel eficiente de producción en este mercado? ¿Qué
+   precio debería fijarse?
 
-b) Si se interviene para que el mercado funcione como uno competitivo,
+b) ¿Cuántas unidades produciría el monopolista? ¿Cuánto cobraría por
+   cada una de ellas? Calcule la pérdida irrecuperable de eficiencia
+   que se produciría en este mercado.
+
+c) Si se interviene para que el mercado funcione como uno competitivo,
    ¿se obtendría una situación eficiente? En caso de que su respuesta
    sea negativa, calcule la ineficiencia en este caso.
 
-c) Compare los resultados obtenidos en los dos apartados
-   anteriores. ¿Qué tipo de mercado sería preferible en este caso? ¿El
-   monopolio o el competitivo?
+d) Compare los resultados obtenidos en los dos apartados
+   anteriores. Desde el punto de vista de la eficiencia económica,
+   ¿qué tipo de mercado sería preferible en este caso? ¿El monopolista
+   o el competitivo?
 
 
 ** Answer

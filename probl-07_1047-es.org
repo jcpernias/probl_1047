@@ -122,8 +122,8 @@ Por hacer.
 
 * Q.4
 
-La demanda de un producto es $Q = 1200 - 4 P$ y la oferta es $Q = 2
-P$. Al producir el bien se vierten sustancias contaminantes que
+La demanda de un producto es $Q = \num{1200} - 4 P$ y la oferta es $Q
+= 2 P$. Al producir el bien se vierten sustancias contaminantes que
 generan un daño a la sociedad valorado en \money{30} por unidad de
 producto.
 

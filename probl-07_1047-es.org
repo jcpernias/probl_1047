@@ -4,21 +4,43 @@
 
 #+TITLE: {{{unit07}}}: ejercicios
 
+
 * Q.1
 
-El gobierno del Reino Unido anunció en 1997 que, por primera vez, los
-estudiantes universitarios deberían pagar una parte del coste de sus
-estudios superiores. Un portavoz de los estudiantes declaró:
-"Consideramos la gratuidad de la matricula como un derecho [...]
-Siempre se nos ha dicho que si eliges continuar con tus estudios, el
-Estado debe pagar porque devolverás mucho al Estado consiguiendo un
-mejor trabajo y pagando más impuestos". Comente.
+Identifique la naturaleza de las externalidades en la frase: "El humo
+de la fábrica ensuciaba las casas vecinas y era veneno para los
+cultivos de la zona".
+
 
 ** Answer
 
 Por hacer.
 
+
 * Q.2
+
+Identifique cuáles de las siguientes afirmaciones son verdaderas,
+falsas o inciertas, y explique por qué.
+
+a) Si tu consumo de tabaco produce externalidades negativas a tus
+   compañeros de piso (las cuáles ignoras por completo), entonces
+   estás fumando más de los que sería eficiente.
+
+b) Un impuesto sobre el tabaco hace que el mercado de cigarrillos funcione más eficientemente.
+
+c) La prohibición del tabaco puede justificarse por razones de eficiencia.
+
+d) La producción en un mercado competitivo con una externalidad
+   negativa (sea del tipo que sea) es mayor que la producción
+   socialmente óptima.
+
+
+** Answer
+
+Por hacer.
+
+
+* Q.3
 
 En un pueblo pesquero las capturas mensuales totales de pescado, $Q$
 (medidas en kg), dependen del número de barcas que faenan, $N$:
@@ -53,11 +75,52 @@ e) El ayuntamiento está considerando la posibilidad de introducir un
    si quiere conseguir que opere el número socialmente óptimo de
    barcas?
 
+
 ** Answer
 
 Por hacer.
 
-* Q.3
+
+* Q.10
+
+Groucho y Harpo comparten camarote en un crucero. A Groucho le encanta
+fumar sus puros durante la travesía. Harpo detesta los puros de
+Groucho. La utilidad de los dos viajeros viene dada por las funciones:
+#+begin_export latex
+\begin{gather*}
+U_G = 100 - 4 c - 0.1 c^2,
+\intertext{y}
+U_H = 100 - 10 c,
+\end{gather*}
+#+end_export
+donde $c$ es el número de puros que fuma Groucho durante la travesía,
+y $U_G$ y $U_H$ son las utilidades (medidas en euros) de Groucho y de
+Harpo, respectivamente.
+
+a) Si Groucho ignora las enérgicas protestas de su compañero de
+   camarote y fuma todo lo que le apetece, ¿cuál será el valor de $c$?
+   ¿Qué valores toman $U_G$ y $U_H$ en este caso?
+
+b) ¿Es eficiente la solución anterior? Calcule el valor de $c$ que
+   maximiza la función de bienestar $W = U_G + U_H$? ¿Qué valores
+   toman $U_G$ y $U_H$ en este caso?
+
+c) Chico, el capitán del barco, es un gran admirador de los trabajos
+   de Coase y decide asignar a Groucho la capacidad de prohibir o no
+   que se fume en el camarote. Si se establece un negociación entre
+   Groucho y Harpo, ¿cuál sería el acuerdo que se alcanzaría?
+
+c) Describa cómo cambiaría su respuesta al apartado anterior si Chico
+   hubiese asignado a Harpo la capacidad de prohibir fumar en el
+   camarote.
+
+
+** Answer
+
+Por hacer.
+
+
+* Q.4
 
 La demanda de un producto es $Q = 1200 - 4 P$ y la oferta es $Q = 2
 P$. Al producir el bien se vierten sustancias contaminantes que
@@ -80,13 +143,15 @@ c) El Gobierno también está barajando la posibilidad de utilizar una
 d) ¿Cuál de las dos medidas, impuesto o subvención, preferirían las
    empresas? ¿Y los compradores del bien?
 
+
 ** Answer
 
 Por hacer.
 
-* Q.4
 
-El beneficio marginal privado asociado con el consumo de un bien es
+* Q.5
+
+El beneficio marginal privado asociado al consumo de un bien es
 $\BMP = 360 - 4 Q$ y el coste marginal privado asociado a la
 producción del bien es $\CMP = 6 Q$. El daño marginal causado por la
 producción del bien es $\DM = 2 Q$.
@@ -104,11 +169,90 @@ c) Si en vez del impuesto el gobierno utilizara una subvención para
 d) Compare los resultados de los dos apartados anteriores. ¿Cuál de
    las dos medidas sería preferible?
 
+
 ** Answer
 
 Por hacer.
 
-* Q.5
+
+* Q.9
+
+En una pequeña aldea habitan 100 personas que trabajan en una ciudad
+situada a 30 km de distancia. Disponen de dos opciones de transporte:
+
+- Tren: el tiempo de viaje total (ida y vuelta) es de $t = 40$ minutos
+  al día, independientemente de cuantos viajeros opten por este medio
+  de transporte.
+
+- Coche privado: sólo hay una carretera antigua de un carril por
+  sentido. El tiempo de viaje total con este modo de transporte
+  depende del número de conductores que lo usen, $C$:
+  #+begin_export latex
+  \[
+     t = 20 + C / 2.
+  \]
+  #+end_export
+
+El coste monetario del viaje es el mismo en los dos modos de
+transporte y los viajeros no perciben diferencias relevantes entre las
+dos alternativas, salvo por la duración del viaje. Todos los
+trabajadores consideran el tiempo de viaje como una inconveniencia y
+tratan de minimizarlo.
+
+a) ¿Cuál sería el número socialmente óptimo de conductores (para el
+   que se minimizaría el tiempo que el conjunto de la sociedad dedica
+   a viajar)?
+
+b) Si cada trabajador elige el medio de transporte atendiendo
+   únicamente al tiempo que dura su viaje, ¿cuántos utilizarían el
+   coche? ¿Coincide su respuesta con la del apartado anterior? ¿por
+   qué?
+
+c) Si se establece un peaje para utilizar la carretera, ¿podría
+   obtenerse la solución eficiente? ¿Cuál sería el peaje óptimo?
+
+
+** Answer
+
+Por hacer.
+
+
+* Q.8
+
+La curva de demanda inversa de un mercado donde opera un monopolista es:
+#+begin_export latex
+\[
+  P = 100 - Q / 30.
+\]
+#+end_export
+
+El coste marginal del monopolista viene dado por:
+#+begin_export latex
+\[
+  \CMg = 20 + Q / 45.
+\]
+#+end_export
+Como resultado del proceso productivo se vierten residuos
+contaminantes a un río cercano. El daño marginal que origina la
+polución se ha valorado en $\money{20}$ por unidad producida.
+
+a) Calcule la ineficiencia /total/ en este mercado.
+
+b) Si se interviene para que el mercado funcione como uno competitivo,
+   ¿se obtendría una situación eficiente? En caso de que su respuesta
+   sea negativa, calcule la ineficiencia en este caso.
+
+c) Compare los resultados obtenidos en los dos apartados
+   anteriores. ¿Qué tipo de mercado sería preferible en este caso? ¿El
+   monopolio o el competitivo?
+
+
+** Answer
+
+Por hacer.
+
+
+* Q.6
 
 El Gobierno quiere mejorar la calidad de las aguas de un río en el que
 una empresa vierte 50 toneladas de residuos. El beneficio marginal
@@ -118,11 +262,13 @@ R$. ¿Cuál es el nivel de reducción óptimo desde el punto de vista
 social? ¿Qué multa por unidad de polución debería fijarse para
 conseguir el nivel óptimo de polución?
 
+
 ** Answer
 
 Por hacer.
 
-* Q.6
+
+* Q.7
 
 \DANGER Tanto la empresa $A$ como la $B$ emiten al mes 150 toneladas
 de sustancias contaminantes. El Gobierno quiere intervenir para
@@ -148,6 +294,23 @@ c) Si se reparten a partes iguales los permisos correspondientes al
 
 d) ¿Puede alcanzarse el óptimo social mediante un impuesto a la
    polución?
+
+
+** Answer
+
+Por hacer.
+
+
+* COMMENT Q.1
+
+El gobierno del Reino Unido anunció en 1997 que, por primera vez, los
+estudiantes universitarios deberían pagar una parte del coste de sus
+estudios superiores. Un portavoz de los estudiantes declaró:
+"Consideramos la gratuidad de la matricula como un derecho [...]
+Siempre se nos ha dicho que si eliges continuar con tus estudios, el
+Estado debe pagar porque devolverás mucho al Estado consiguiendo un
+mejor trabajo y pagando más impuestos". Comente.
+
 
 ** Answer
 

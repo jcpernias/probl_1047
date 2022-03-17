@@ -20,12 +20,21 @@
 \providebool{langES}
 \providebool{langEN}
 
-\ifbool{langES}{%
-  \RequirePackage[english, spanish, es-noindentfirst, es-noquoting]{babel}%
-}{% English is the default language
-  \RequirePackage[spanish,  es-noindentfirst, es-noquoting, english]{babel}}
-
+\RequirePackage[spanish, es-noindentfirst, english]{babel}
+\AtBeginDocument{%
+  \ifbool{langES}{%
+    \selectlanguage{spanish}}{%
+    \selectlanguage{english}}}
+\AddBabelHook{french}{afterextras}{\frenchspacing}
+\addto\shorthandsspanish{\spanishdeactivate{"<>}}%
 \RequirePackage[english, spanish]{translator}
+
+% \ifbool{langES}{%
+%   \RequirePackage[english, spanish, es-noindentfirst, es-noquoting]{babel}%
+% }{% English is the default language
+%   \RequirePackage[spanish,  es-noindentfirst, es-noquoting, english]{babel}}
+
+% \RequirePackage[english, spanish]{translator}
 
 % Fonts
 \RequirePackage[T1]{fontenc}
@@ -74,7 +83,7 @@
     output-decimal-marker={,},%
     group-digits=integer,%
     group-minimum-digits=4,%
-    group-separator=.,%
+    group-separator={{.}},%
     per-mode=symbol,%
     inter-unit-product=\,%
   }%

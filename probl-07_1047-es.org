@@ -282,7 +282,7 @@ $\BMS = 600 - 3 R_T$ donde $R_T = R_A + R_B$.
 a) ¿Cuál es el nivel eficiente de reducción de las emisiones? ¿Y el
    nivel socialmente óptimo de emisiones?
 
-b) Si se establece un sistema de permisos *no* transferibles y se
+b) Si se establece un sistema de permisos /no/ transferibles y se
    reparte la mitad a cada empresa, ¿cuantos deben repartirse a cada
    empresa para obtener el nivel de emisiones eficiente? ¿Es posible
    encontrar repartos de los permisos que permitan alcanzar el óptimo

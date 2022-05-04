@@ -34,9 +34,9 @@ disposiciones a pagar de cada individuo.
 * Q.2
 
 Algunos autores piensan que las preferencias con respecto a la
-sanidad pública presentan con frecuencia un patron bimodal. ¿Qué
-característica de la sanidad pública podría justificar esta opinión?
-¿Por qué?
+financiación de la sanidad pública presentan con frecuencia un patrón
+bimodal. ¿En qué situaciones podría esperarse que se diera esta
+situación? ¿Por qué?
 
 ** Answer
 
@@ -44,13 +44,13 @@ Es un caso similar al de la educación pública que se menciona
 varias veces en el vídeo.
 
 
-* Q.1
+* Q.3
 
-Los cinco filántropos más acaudalados de una ciudad: Alicia, Bruno,
-Celia, David y Elena, quieren donar parte de sus riquezas a una
+Alicia, Bruno, Celia, David y Elena son los cinco filántropos más
+acaudalados de una ciudad y quieren donar parte de sus riquezas a una
 causa benéfica. Para evitar odiosas comparaciones, han decidido que
-todos aportarán la misma cantidad de dinero. Cada uno hace una
-propuesta, las cuales se presentan en la siguiente tabla:
+todos aportarán la misma cantidad de dinero. Las propuestas de cada
+uno de los filántropos se presentan en la siguiente tabla:
 #+begin_export latex
 \begin{center}
   \begin{tabular}{@{}l*{4}{p{0.3cm}l@{}}}
@@ -64,15 +64,19 @@ propuesta, las cuales se presentan en la siguiente tabla:
   \end{tabular}
 \end{center}
 #+end_export
-Usando votaciones por mayoría entre los diferentes pares de
-propuestas se elegirá una. Por otro lado, las preferencias de cada
-uno de los potentados alcanzan un máximo en su propuesta y
-disminuyen conforme se alejan de esa donación preferida. Represente
-gráficamente las preferencias de cada uno de los filántropos. ¿Es
-posible encontrar una ordenación colectiva consistente de las
-propuestas a partir de las preferencias individuales? Si su
-respuesta es afirmativa, ¿cuál es esa ordenación? ¿Es posible
-determinar sin ambigüedad la propuesta elegida?
+La cantidad que donará cada uno de ellos se seleccionará usando
+votaciones por mayoría entre los diferentes pares de propuestas.
+
+Sabiendo que las preferencias de cada uno de los potentados alcanzan
+un máximo en su propuesta y disminuyen conforme se alejan de esa
+donación preferida, responda a las siguientes preguntas:
+
+a) ¿Es posible determinar sin ambigüedad cuál será la propuesta
+   elegida?
+
+b) ¿Es posible encontrar una ordenación colectiva consistente con las
+   preferencias individuales? Si su respuesta es afirmativa, ¿cuál es
+   esa ordenación?
 
 ** Answer
 

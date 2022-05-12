@@ -47,7 +47,7 @@ Por hacer.
 
 * Q.3
 
-En el mercado de un bien la curva de demanda es: $P = 10 - 0.01 Q$. El
+T7En el mercado de un bien la curva de demanda es: $P = 10 - 0.01 Q$. El
 bien es producido por un monopolista y los costes marginales son
 constantes: $\CM = \price{2}$.
 
@@ -64,7 +64,7 @@ b) ¿Cómo cambiaría su respuesta al apartado anterior si el productor
 Por hacer.
 
 
-* COMMENT Q.4
+* Q.4
 
 Después de introducir un impuesto sobre el precio de un bien no se
 observan cambios en el consumo del bien. ¿Quiere esto decir que el

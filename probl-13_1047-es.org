@@ -2,8 +2,7 @@
 
 #+SETUPFILE: ./probl-es.org
 
-#+TITLE: {{{unit11}}}: ejercicios
-
+#+TITLE: {{{unit13}}}: ejercicios
 
 * Q.1
 
@@ -35,8 +34,9 @@ preocupación del presidente filipino?
 
 
 * Q.3
+
 Considere un mercado competitivo con curva de demanda: $Q = \num{54000} -
-4000 P$; y curva de oferta: $Q = 1400 P$.
+\num{4000} P$; y curva de oferta: $Q = \num{1400} P$.
 
 a) Analice la incidencia de un impuesto de \money{1.35} por unidad
    vendida.
@@ -62,8 +62,8 @@ c) Compare los resultados obtenidos en los dos apartados
 
 * Q.4
 
-Considere un monopolista con curva de demanda: $Q =
-\num{10000}/P^2$; y costes marginales: $\CM = \price{0.5}$. Analice
+Considere un monopolista con curva de demanda $Q =
+\num{10000}/P^2$ y costes marginales: $\CM = \price{0.5}$. Analice
 la incidencia de un impuesto específico de \price{1} por unidad
 vendida.
 
@@ -105,8 +105,8 @@ Las curvas de demanda y oferta de un mercado de trabajo competitivo
 son:
 #+begin_export latex
 \begin{gather*}
-  L^{d} = \num{60000} - 3000 w \\
-  L^{s} = \num{20000} + 1000 w
+  L^{d} = \num{60000} - \num{3000} w \\
+  L^{s} = \num{20000} + \num{1000} w
 \end{gather*}
 #+end_export
 donde $L$ se mide en horas y $w$ es el salario por hora.
@@ -166,3 +166,79 @@ c) ¿Cómo cambiarían sus respuestas si los hoteles de las
    #+begin_answer
 
    #+end_answer
+
+
+* COMMENT Q.2
+
+Un producto se vende en un mercado competitivo cuyas curvas de
+demanda y oferta son:
+#+begin_export latex
+\begin{gather*}
+  P = 90 - 0.03 Q \\
+  P = 30 + 0.02 Q
+\end{gather*}
+#+end_export
+Determine el exceso de gravamen de un impuesto de \money{2.5} por
+unidad vendida.
+
+
+** Answer
+
+Por hacer.
+
+
+* Q.8
+
+La demanda de mercado de un producto viene dada por $P = 20 - 0.001
+Q$. La curva de oferta de mercado es perfectamente elástica: $P =
+\price{10}$. Suponiendo que los efectos renta son despreciables:
+
+a) Calcule el exceso de gravamen si se establece un impuesto de
+   \money{2} por unidad producida.
+
+b) Calcule el exceso de gravamen si el impuesto fuera de \money{3}
+   por unidad producida.
+
+c) Compare los resultados obtenidos en los apartados anterior. ¿Cómo
+   cambia la ineficiciencia generada por el impuesto cuando cambia la
+   tasa impositiva?
+
+d) ¿Cómo cree que variará el exceso de gravamen en el largo plazo?
+   ¿Será mayor o menor que a corto plazo?
+
+
+** Answer
+
+Por hacer.
+
+
+* Q.9
+
+En el mercado de un bien la curva de demanda es: $P = 10 - 0.01 Q$. El
+bien es producido por un monopolista y los costes marginales son
+constantes: $\CM = \price{2}$.
+
+a) ¿Cuál sería el exceso de gravamen de un impuesto de \money{2}
+   por unidad producida?
+
+b) ¿Cómo cambiaría su respuesta al apartado anterior si el productor
+   actuara como una empresa competitiva? Compare la ineficiencia
+   provocada por el impuesto en un mercado competitivo y en un
+   monopolio.
+
+
+** Answer
+
+Por hacer.
+
+
+* Q.10
+
+Después de introducir un impuesto sobre el precio de un bien no se
+observan cambios en el consumo del bien. ¿Quiere esto decir que el
+impuesto es eficiente en este caso?
+
+
+** Answer
+
+Por hacer.

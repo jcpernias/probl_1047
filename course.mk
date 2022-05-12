@@ -1,6 +1,5 @@
 subject_code := 1047
 probl_units := \
-	02 \
 	03 \
 	04 \
 	06 \
@@ -9,8 +8,10 @@ probl_units := \
 	09 \
 	11 \
 	12 \
+	13 \
 	50 \
 	51
+#	02 \
 
 probl_figs := \
 	04

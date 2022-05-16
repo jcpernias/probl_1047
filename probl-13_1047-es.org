@@ -35,8 +35,8 @@ preocupación del presidente filipino?
 
 * Q.3
 
-Considere un mercado competitivo con curva de demanda: $Q = \num{54000} -
-\num{4000} P$; y curva de oferta: $Q = \num{1400} P$.
+Considere un mercado competitivo con curva de demanda $Q^d = \num{54000} -
+\num{4000} P$ y curva de oferta $Q^o = \num{1400} P$.
 
 a) Analice la incidencia de un impuesto de \money{1.35} por unidad
    vendida.
@@ -63,7 +63,7 @@ c) Compare los resultados obtenidos en los dos apartados
 * Q.4
 
 Considere un monopolista con curva de demanda $Q =
-\num{10000}/P^2$ y costes marginales: $\CM = \price{0.5}$. Analice
+\num{10000}/P^2$ y costes marginales $\CM = \price{0.5}$. Analice
 la incidencia de un impuesto específico de \price{1} por unidad
 vendida.
 

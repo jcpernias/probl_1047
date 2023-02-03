@@ -1,0 +1,55 @@
+# -*- ispell-dictionary: "castellano" -*-
+
+#+SETUPFILE: ./probl-es.org
+
+#+TITLE: {{{unit02}}}: ejercicios (I)
+
+
+* Q.1
+
+En este ejercicio se analiza el comportamiento de los gastos e
+ingresos del Sector Público en España utilizando datos elaborados por
+la [[https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Paginas/inicio.aspx][Intervención General de la Administración del Estado, IGAE]]. En el
+Aula Virtual puede encontrar los archivos:
+
+- ~A_AAPP.xlsx~: Operaciones no financieras del conjunto de las
+  Administraciones Públicas.
+
+- ~A_AAPP_Imp.xlsx~: Impuestos y cotizaciones sociales del conjunto de
+  las Administraciones Públicas.
+
+- ~COFOG.xlsx~: Clasificación funcional de los gastos de las diferentes administraciones que componen el Sector Público.
+
+A partir de la información estadística contenida en esos archivos,
+responda a las siguientes preguntas:
+
+
+a) Examine la evolución del gasto público en España. ¿A cuánto
+   asciende en los últimos años?  ¿Qué porcentaje con respecto al PIB
+   representa el gasto público?
+
+b) ¿Cómo se distribuye el gasto público entre las diferentes
+   Administraciones Públicas?
+
+c) Atendiendo a la /clasificación funcional de los gastos/, ¿qué
+   grupos de gasto tienen un mayor peso en España? ¿Cuáles son los
+   grupos más importantes para las diferentes Administraciones
+   Públicas?
+
+d) Examine la evolución de los ingresos del Sector Público en España
+   ¿A cuánto ascienden durante los últimos años? ¿Qué porcentaje
+   representan /los impuestos y las cotizaciones sociales/ con respecto
+   a los ingresos totales de las Administraciones Públicas? ¿Cómo ha
+   evolucionado la /presión fiscal/ en España?
+
+e) ¿Cuál es el peso que tienen en España los /impuestos directos/, los
+   /impuestos indirectos/ y las /cotizaciones sociales/? ¿Cómo ha
+   evolucionado la importancia de cada una de esas categorías?
+
+f) ¿Cuál es el tamaño del déficit público en España? Compare la
+   evolución del /saldo fiscal/ (/capacidad/necesidad de
+   financiación/) y del /saldo primario/. ¿Por qué son diferentes?
+
+** Answer
+
+Esto es una respuesta.

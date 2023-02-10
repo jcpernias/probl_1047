@@ -7,42 +7,18 @@
 
 * Q.1
 
-Responda a las siguientes preguntas a partir de la información
-estadística contenida en las publicaciones:
+Utilizando los datos que publica la OECD en
+[[https://data.oecd.org/government.htm][https://data.oecd.org/government.htm]] describa y compare la magnitud y
+la evolución reciente en España y en los países de su entorno de las
+siguientes variables del Sector Público (en todos los casos se miden
+como porcentaje con respecto al PIB):
 
-- [[https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/Paginas/iaavanceactuacioneconomica.aspx][Avance de la actuación económica y financiera de las
-  Administraciones Públicas (2018)]], IGAE.
-- [[https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/Paginas/iacogof.aspx][Informe sobre la clasificación funcional del gasto público (COFOG). Período 2015-2019]], IGAE.
-- [[https://www.oecd-ilibrary.org/governance/government-at-a-glance_22214399][Government at a glance 2019]], OECD.
-
-
-a) ¿A cuánto asciende el gasto público en España en los últimos años?
-   ¿Qué porcentaje con respecto al PIB representa el gasto público?
-   ¿Es muy diferente esta última cifra con la media para los países de
-   la OECD?
-
-b) ¿Cómo se distribuye el gasto público entre las diferentes
-   Administraciones Públicas?
-
-c) Atendiendo a la clasificación funcional de los gastos, ¿qué grupos
-   de gasto tienen un mayor peso en España? ¿Cuáles son los grupos más
-   importantes para las diferentes Administraciones Públicas?
-
-d) ¿A cuanto ascienden los ingresos de las Administraciones Públicas
-   en España? ¿Qué porcentaje representan con respecto al PIB? ¿Es muy
-   diferente esta última cifra con la media para los países de la
-   OECD?
-
-e) ¿Cuál es el peso que tienen en España los impuestos directos, los
-   indirectos y las cotizaciones sociales?
-
-f) ¿Qué valor toma la presión fiscal en España? ¿Es muy diferente de
-   los países de nuestro entorno?
-
-g) ¿Cuál es el tamaño del déficit público en España? ¿Cómo se
-   distribuye este déficit en las diferentes Administraciones Públicas
-   que componen el Estado? ¿Es muy diferente el déficit de España del
-   de otros países de su entorno?
+a) Gastos.
+b) Ingresos.
+c) Saldo fiscal (déficit o superávit).
+d) Deuda pública.
+e) Presión fiscal (impuestos y cotizaciones sociales como porcentaje
+   del PIB).
 
 ** Answer
 

@@ -2,8 +2,7 @@ subject_code := 1047
 probl_units := \
 	02a \
 	02b \
-	03 \
-	04 \
+	05 \
 	06 \
 	07 \
 	08 \

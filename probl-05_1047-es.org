@@ -1,0 +1,539 @@
+# -*- ispell-dictionary: "castellano" -*-
+
+#+SETUPFILE: ./probl-es.org
+
+#+TITLE: {{{unit03}}}: ejercicios
+
+
+* Q.1
+
+Un avión se estrella en el Océano Pacífico. Los dos únicos
+supervivientes consiguen ponerse a salvo en una isla desierta donde
+no hay nada que comer. En la playa encuentran, entre los restos del
+accidente, una caja que contiene \num{1000} bolsitas de
+cacahuetes.
+
+a) Encuentre las posibles asignaciones de las bolsas de cacahuetes
+   entre los dos supervivientes que sean óptimas en el sentido de
+   Pareto. ¿Cuáles de estas asignaciones son justas?
+
+b) Suponga ue la función de utilidad de cada superviviente es $U(N_i)
+   = N_i$, donde $N_i$ es el número de bolsitas de cacahuetes que
+   obtiene el superviviente $i$, $i = 1, 2$.  ¿Cuál sería el reparto
+   óptimo si se usa una función de bienestar utilitarista? ¿Y si se
+   usa una función de bienestar rawlsiana?
+
+c) ¿Cómo cambiarían sus respuestas al apartado anterior si la función
+   de utilidad de cada superviviente fuera $U(N_i) = \log N_i$?
+
+** Answer
+
+Por hacer
+
+
+* Q.2
+
+Considere una economía con dos personas, Ana y Berto, que consumen
+dos bienes, pan y agua. Debido a la pertinaz sequía, las
+autoridades deciden reasignar las dotaciones de agua de forma que
+cada persona disponga exactamente de la mitad del agua
+disponible. Se estipula, además, la prohibición de intercambiar pan
+por agua con el objetivo de que nadie pueda "explotar" a
+nadie. ¿Puede ser una redistribución de ese tipo una mejora en
+sentido de Pareto? ¿Es posible que la asignación resultante sea
+Pareto eficiente?
+
+** Answer
+
+Por hacer
+
+
+* Q.3
+
+En una economía de intercambio puro:
+
+a) ¿Es posible que exista un asignación Pareto-eficiente donde
+   alguien esté peor que en otra asignación que no es
+   Pareto-eficiente?
+
+b) ¿Es posible que exista un asignación Pareto-eficiente donde
+   todos los individuos estén peor que en otra asignación que no es
+   Pareto-eficiente?
+
+c) ¿Es posible conseguir que algún individuo mejore si la economía
+   se encuentra en un óptimo de Pareto?
+
+** Answer
+
+Por hacer
+
+
+* Q.4
+
+Indique si cada una de las siguientes afirmaciones es cierta, falsa
+o imprecisa y justifique su respuesta:
+
+a) Si todo el mundo tiene la misma relación marginal de
+   sustitución, entonces la asignación de recursos es eficiente en
+   el sentido de Pareto.
+
+b) Si la asignación de recursos es Pareto eficiente todo el mundo
+   tiene la misma relación marginal de sustitución.
+
+c) Una reasignación que lleve a la economía de un punto a otro de la
+   frontera de posibilidades de utilidad es una mejora de Pareto.
+
+d) El Segundo Teorema Fundamental de la Economía del Bienestar dice
+   que la asignación de recursos competitiva es socialmente deseable.
+
+** Answer
+
+Por hacer.
+
+
+* Q.5
+
+En una economía de mercado que opera eficientemente se producen
+\num{1000000} de unidades del bien $X$ y \num{500000} unidades del
+bien $Y$. Los precios a los que se venden estos bienes son $P_X =
+\price{10}$ y $P_Y = \price{2}$. ¿Cuántas unidades adicionales del
+bien $Y$ podrían producirse en esta economía si se deja de producir
+una unidad del bien $X$?
+
+** Answer
+
+Por hacer
+
+
+* Q.6
+
+Una economía está compuesta por dos consumidores, Alicia y Bruno, y
+dos bienes de consumo, café y donuts. Tanto Alicia como Bruno están
+dispuestos a intercambiar dos tazas de café por un donut. Por otro
+lado, si se produjera una taza de café menos se liberarían
+suficientes factores para producir tres donuts. ¿Se cumplen las
+condiciones de eficiencia en esta economía? Si la respuesta es
+negativa, ¿habría que producir más tazas de café o más donuts?
+
+** Answer
+
+Por hacer
+
+
+* Q.7
+
+El gobierno de un país quiere fomentar la producción de aceite de
+oliva. Para ello establece un impuesto adicional a los consumidores
+sobre la compra de aceites de semillas. ¿Es esta medida compatible
+con una asignación de recursos eficiente en el sentido de Pareto?
+
+** Answer
+
+Por hacer
+
+
+* Q.8
+
+En un mercado con curva inversa de demanda $P = 14 - 0.04 Q$ opera
+un monopolista cuyos costes marginales son $\CM = 2 + 0.02 Q$. Las
+autoridades económicas están considerando regular las actividades
+del monopolio.
+
+a) Calcule la ineficiencia del monopolio.
+
+b) Si se obliga al monopolista a fijar el precio competitivo, ¿cuál
+   sería el aumento del bienestar de los consumidores?
+
+** Answer
+
+Por hacer
+
+
+* COMMENT Q.15
+
+\DDANGER Considere una economía pura de intercambio con dos
+consumidores $A$ y $B$ y dos bienes $X$ e $Y$. Las preferencias vienen
+dadas por:
+#+begin_export latex
+\begin{gather*}
+  U_{A}(X_{A}, Y_{A}) = X_{A}^{1/4} Y_{A}^{1/4} \\
+  U_{B}(X_{B}, Y_{B}) = X_{B}^{1/4} Y_{B}^{1/4}
+\end{gather*}
+#+end_export
+Las dotaciones iniciales de los consumidores son:
+#+begin_export latex
+\begin{gather*}
+  \Xbar_{A} = 20; \quad \Ybar_{A} = 60. \\
+  \Xbar_{B} = 80; \quad \Ybar_{B} = 40.
+\end{gather*}
+#+end_export
+
+a) ¿Es la dotación inicial Pareto eficiente?
+
+b) Calcule la curva de contrato.
+
+c) Considere ahora que se instituyen mercados competitivos para
+   asignar los bienes de consumo. ¿Se alcanza el equilibrio
+   competitivo si los precios son $P_X = 2$ y $P_Y = 1$? Si su
+   respuesta es negativa, calcule los precios del equilibrio
+   competitivo. ¿Es eficiente la asignación de mercado?
+
+
+* COMMENT Q.7
+
+Imagine una economía donde sólo habitan dos consumidores, Aurora y Bernardo.
+
+a) Si la función de bienestar social es:
+   #+begin_export latex
+   \[ W_1 = U_A + U_B \]
+   #+end_export
+   donde $U_A$ y $U_B$ son las utilidades de Aurora y Bernardo,
+   respectivamente. Dibuje las curvas de indiferencia social. ¿Cómo
+   describiría la importancia relativa que se asigna a cada
+   utilidad?
+
+b) ¿Cómo cambiaría su respuesta al apartado anterior si la función
+   de bienestar social fuera $W_2 = U_A + 2 U_B$?
+
+c) ¿Y si fuera $W_3 = \min\{U_A, U_B\}$?
+
+d) Suponga que la función de posibilidades de utilidad es:
+   #+xxx: fig fig-Efficiency-Equity_1047-01-*.pdf
+   Muestre gráficamente como difieren las soluciones óptimas para
+   las funciones de bienestar social de los apartados anteriores.
+
+** Answer
+
+Por hacer
+
+
+* COMMENT Q.8
+
+Un programa público elevaría ligeramente el bienestar de los
+ciudadanos más pobres pero disminuye considerablemente el bienestar
+de los demás individuos. ¿Debería llevarse a cabo este programa si
+se adopta el criterio utilitarista? ¿Y si se utiliza el criterio
+/rawlsiano/?
+
+** Answer
+
+Por hacer
+
+
+* COMMENT Q.9
+
+En un país sólo viven dos ciudadanos: Blanca y Teo. Blanca es
+abogada y gana \money{50} por hora. Cuando la tasa impositiva sobre
+la renta es $t = \SI{0}{\percent}$, Blanca trabaja 20 horas a la
+semana; si $t = \SI{25}{\percent}$, trabajaría 16 horas; y si $t =
+\SI{40}{\percent}$ sólo trabajaría 8 horas. Teo trabaja en un
+pequeño taller de reparaciones y gana \money{6} por hora. Teo
+siempre trabaja 20 horas por semana sea cual sea la tasa
+impositiva. El gobierno está pensando en gravar la renta de Blanca
+y transferir la recaudación a Teo.
+
+a) Blanca y Teo tienen la misma función de utilidad: $U(Y) =
+   Y^{1/2}$ donde $Y$ es la renta después de impuestos y
+   transferencias. ¿Cuál de las tres tasas impositivas sería óptima
+   desde un punto de vista utilitarista? ¿Y si se utiliza una
+   función de bienestar social /rawlsiana/?
+
+b) ¿Cambiarían las conclusiones del apartado anterior si la función
+   de utilidad fuera $U(Y) = Y^{1/5}$?.
+
+c) Suponga ahora que Blanca y Teo tienen funciones de utilidad
+   diferentes. La utilidad de Blanca es $U_B(Y) = 0.25 Y^{1/2}$ y
+   la de Teo es $U_T(Y) = Y^{1/2}$. Esto se debe a que Blanca sufre
+   una discapacidad por lo que necesita más renta para alcanzar el
+   mismo nivel de utilidad. ¿Cómo ordenarían ahora las diferentes
+   alternativas los criterios utilitarista y /rawlsiano/?
+
+** Answer
+
+Por hacer
+
+
+* COMMENT Q.11
+
+¿Es posible encontrar una situación en la que que el óptimo social de
+acuerdo a una función de bienestar /rawlsiana/ coincida con el que se
+obtendría con una función de bienestar utilitarista?  Represente
+gráficamente.
+
+
+* COMMENT Q.12
+
+Considere una economía con dos individuos $A$ y $B$. La tabla
+siguiente muestra algunas combinaciones de utilidad que se
+encuentran sobre la frontera de posibilidades de utilidad:
+
+#+begin_export latex
+\begin{center}
+  \begin{tabular}{>{$}l<{$}*{2}{>{$}r<{$}}}
+    \toprule
+    \text{Opción} & U_A & U_B \\
+    \midrule
+    M & 100 &  0 \\
+    N &  90 & 20 \\
+    O &  60 & 30 \\
+    P &  30 & 30 \\
+    Q &  40 & 60 \\
+    R &  10 & 70 \\
+  \bottomrule
+\end{tabular}
+\end{center}
+#+end_export
+
+Indique cuál será la opción elegida de acuerdo con:
+
+a) el criterio utilitarista.
+
+b) el criterio igualitarista.
+
+c) el criterio /rawlsiano/.
+
+
+* COMMENT Q.13
+
+6. Analice la veracidad o falsedad de las siguientes afirmaciones:
+
+   a) La aplicación del criterio /rawlsiano/ conduce necesariamente a
+      una distribución igualitaria de la renta.
+
+   b) Dada una curva de posibilidades de utilidad para dos individuos,
+      la aplicación del criterio utilitarista llevará siempre a una
+      distribución menos igualitaria que la del criterio /rawlsiano/.
+
+
+* COMMENT Q.14
+
+\DANGER Una economía está compuesta por dos individuos: $A$ y
+$B$. $A$ dispone de un factor de producción que puede usar para
+producir un bien de consumo $X$. $B$ no posee ninguna unidad del
+factor de producción y, por tanto, no puede producir nada. Para
+paliar esta situación el gobierno puede transferir a $B$ una
+fracción $t$ de la producción de $A$. La producción de $A$ depende
+de $t$ mediante la siguiente función:
+#+begin_export latex
+\[
+  X(t) = 167 (1 - t) (t + 0.6)
+\]
+#+end_export
+Suponiendo que la utilidad de ambos individuos es igual a la
+cantidad que consumen del bien $X$, determinar qué fracción debería
+$t$ debería establecerse de acuerdo a un criterio:
+
+a) utilitarista.
+
+b) /rawlsiano/.
+
+c) igualitarista.
+
+
+* COMMENT Q.1
+
+Imagine una economía donde sólo habitan dos consumidores, Aurora y Bernardo.
+
+a) Si la función de bienestar social es:
+   #+begin_export latex
+   \[ W_1 = U_A + U_B \]
+   #+end_export
+   donde $U_A$ y $U_B$ son las utilidades de Aurora y Bernardo,
+   respectivamente. Dibuje las curvas de indiferencia social. ¿Cómo
+   describiría la importancia relativa que se asigna a cada
+   utilidad?
+
+b) ¿Cómo cambiaría su respuesta al apartado anterior si la función
+   de bienestar social fuera $W_2 = U_A + 2 U_B$?
+
+c) ¿Y si fuera $W_3 = \min\{U_A, U_B\}$?
+
+d) Suponga que la función de posibilidades de utilidad es:
+   #+xxx: fig fig-04_1047-01-*.pdf
+   Muestre gráficamente como difieren las soluciones óptimas para
+   las funciones de bienestar social de los apartados anteriores.
+
+** Answer
+
+Por hacer
+
+
+* Q.9
+
+Se está discutiendo la implantación de un programa público que
+elevaría ligeramente el bienestar de los ciudadanos más pobres pero
+disminuiría considerablemente el bienestar del resto de
+ciudadanos. ¿Sería aconsejable este programa desde el punto de vista
+del criterio utilitarista?  ¿Y si se utilizara el criterio
+/rawlsiano/?
+
+** Answer
+
+Por hacer
+
+
+* Q.10
+
+Considere un programa por el que se transfiera renta de ciudadanos
+pertenecientes a la clase media a ciudadanos tanto pobres como
+ricos. ¿Apoyaría un /rawlsiano/ esa redistribución? ¿Y un
+utilitarista?
+
+
+* Q.11
+
+En un país sólo viven dos ciudadanos: Blanca y Teo. Blanca es
+abogada y gana \money{50} por hora. Cuando la tasa impositiva sobre
+la renta es $t = \SI{0}{\percent}$, Blanca trabaja 20 horas a la
+semana; si $t = \SI{25}{\percent}$, trabajaría 16 horas; y si $t =
+\SI{40}{\percent}$ sólo trabajaría 8 horas. Teo trabaja en un
+pequeño taller de reparaciones y gana \money{6} por hora. Teo
+siempre trabaja 20 horas por semana sea cual sea la tasa
+impositiva. El gobierno está pensando en gravar la renta de Blanca
+y transferir la recaudación a Teo.
+
+a) Blanca y Teo tienen la misma función de utilidad: $U_B(Y) = U_T(Y)
+   = Y^{1/2}$ donde $Y$ es la renta semanal después de impuestos y
+   transferencias. ¿Cuál de las tres tasas impositivas sería óptima
+   desde un punto de vista utilitarista? ¿Y si se utiliza una función
+   de bienestar social /rawlsiana/?
+
+b) ¿Cambiarían las conclusiones del apartado anterior si las funciones
+   de utilidad fueran $U_B(Y) = U_T(Y) = Y^{1/5}$?.
+
+c) Suponga ahora que Blanca y Teo tienen funciones de utilidad
+   diferentes. La utilidad de Blanca es $U_B(Y) = 0.25 Y^{1/2}$ y la
+   de Teo es $U_T(Y) = Y^{1/2}$. La diferencia es debida a que Blanca
+   sufre una discapacidad por lo que necesita más renta para alcanzar
+   el mismo nivel de utilidad. ¿Cómo ordenarían ahora las diferentes
+   alternativas los criterios utilitarista y /rawlsiano/?
+
+** Answer
+
+Por hacer
+
+
+* Q.12
+
+Suponga que sólo hay dos consumidores, Aurelio y Beatriz, los cuales
+deben repartirse una renta fija de \money{100}. En el caso de
+Aurelio, la utilidad marginal de la renta es $\UMgY_A = 400 - 2 Y_A$, y
+en el caso de Beatriz es $\UMgY_B = 400 - 6 Y_B$, siendo $Y_A$ e $Y_B$
+la renta que obtiene Aurelio y Beatriz respectivamente.
+
+a) ¿Cuál es la distribución óptima de la renta si la función de
+   bienestar social es la utilitarista?
+
+b) ¿Cuál es la distribución óptima si la sociedad sólo valora la
+   utilidad de Beatriz? ¿Y si sólo valorase la utilidad de Aurelio?
+
+c) Responda a los apartados anteriores suponiendo ahora que la
+   utilidad marginal de la renta de ambos consumidores es igual a una
+   constante: $\UMgY_A = \UMgY_B = 400$.
+
+
+* COMMENT Q.13
+
+En una economía hay dos consumidores y la función de utilidad de cada
+uno de ellos es $U_i = \log(Y_i)$, $i = 1, 2$, donde $Y_i$ es la renta
+del consumidor $i$. Se quiere distribuir entre los dos consumidores la
+renta total de la economía $\overline{Y} = \money{1000}$. Si se usa una
+función de bienestar social utilitarista, $W = U_1 + U_2$:
+
+a) ¿Sería óptima la distribución $Y_1 = \money{200}$ e $Y_2 =
+   \money{800}$? ¿Por qué?
+
+b) Obtenga la distribución óptima de la renta.
+
+
+* Q.13
+
+Discuta la veracidad de las siguientes afirmaciones sobre una economía
+con dos consumidores:
+
+a) Si la función de bienestar social es utilitarista, $W = U_1 + U_2$,
+   la sociedad se muestra indiferente entre dar \money{1} a un
+   consumidor o al otro.
+
+b) Una función de bienestar social como $W = U_1 + 8 U_2$ valora más
+   la felicidad del consumidor 2 que la del consumidor 1.
+
+c) Si la función de bienestar social es $W = \min\{U_1, U_2\}$, la
+   distribución de la renta óptima es completamente igualitaria.
+
+
+* Q.14
+
+Analice la veracidad o falsedad de las siguientes afirmaciones:
+
+a) La aplicación del criterio /rawlsiano/ conduce necesariamente a una
+   distribución igualitaria de la renta.
+
+b) Dada una curva de posibilidades de utilidad para dos individuos, la
+   aplicación del criterio utilitarista llevará siempre a una
+   distribución menos igualitaria que la del criterio /rawlsiano/.
+
+
+* COMMENT Q.11
+
+¿Es posible encontrar una situación en la que que el óptimo social de
+acuerdo a una función de bienestar /rawlsiana/ coincida con el que se
+obtendría con una función de bienestar utilitarista?  Represente
+gráficamente.
+
+
+* COMMENT Q.12
+
+Considere una economía con dos individuos $A$ y $B$. La tabla
+siguiente muestra algunas combinaciones de utilidad que se
+encuentran sobre la frontera de posibilidades de utilidad:
+
+#+begin_export latex
+\begin{center}
+  \begin{tabular}{>{$}l<{$}*{2}{>{$}r<{$}}}
+    \toprule
+    \text{Opción} & U_A & U_B \\
+    \midrule
+    M & 100 &  0 \\
+    N &  90 & 20 \\
+    O &  60 & 30 \\
+    P &  30 & 30 \\
+    Q &  40 & 60 \\
+    R &  10 & 70 \\
+  \bottomrule
+\end{tabular}
+\end{center}
+#+end_export
+
+Indique cuál será la opción elegida de acuerdo con:
+
+a) el criterio utilitarista.
+
+b) el criterio igualitarista.
+
+c) el criterio /rawlsiano/.
+
+
+* COMMENT Q.14
+
+\DANGER Una economía está compuesta por dos individuos: $A$ y
+$B$. $A$ dispone de un factor de producción que puede usar para
+producir un bien de consumo $X$. $B$ no posee ninguna unidad del
+factor de producción y, por tanto, no puede producir nada. Para
+paliar esta situación el gobierno puede transferir a $B$ una
+fracción $t$ de la producción de $A$. La producción de $A$ depende
+de $t$ mediante la siguiente función:
+#+begin_export latex
+\[
+  X(t) = 167 (1 - t) (t + 0.6)
+\]
+#+end_export
+Suponiendo que la utilidad de ambos individuos es igual a la
+cantidad que consumen del bien $X$, determinar qué fracción debería
+$t$ debería establecerse de acuerdo a un criterio:
+
+a) utilitarista.
+
+b) /rawlsiano/.
+
+c) igualitarista.

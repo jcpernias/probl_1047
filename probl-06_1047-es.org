@@ -23,7 +23,7 @@ d) Las sociedades más grandes tienden a consumir mayores cantidades de
    un bien no rival que las sociedades con menos habitantes.
 
 
-* Q.3
+* COMMENT Q.2
 
 Considere una economía con dos habitantes $A$ y $B$. Sólo se producen
 dos bienes: el bien público puro $X$ y el bien privado $Y$. Las
@@ -54,7 +54,8 @@ b) ¿Cuantos faros se construirían si fueran construidos de forma
    independiente por Acab e Ismael? ¿Se construiría el número
    socialmente óptimo de faros?
 
-* Q.4
+
+* Q.3
 
 Tarzán y Jane viven en la jungla y han adiestrado a Chita para que
 patrulle los límites de su asentamiento y para que recolecte
@@ -73,19 +74,20 @@ b) Si Tarzán y Jane están dispuestos cada uno a sacrificar una hora de
 Por hacer.
 
 
-* Q.5
+* Q.4
 
 El coste marginal de producir Q unidades de un bien público puro es:
-$\CM = 5 Q$. Existen 100 demandantes: 75 cuya demanda viene dada por
-$Q = 50 - 5 P$; y 25 con demanda es $Q = 100 - 5 P$. ¿Cuál sería la
-provisión eficiente del bien público? Represente gráficamente.
+$\CM = 5 Q$. Existen 75 demandantes cuya demanda viene dada por $Q =
+50 - 5 P$ y otros 25 demandantes con demanda es $Q = 100 - 5 P$. ¿Cuál
+sería la provisión eficiente del bien público? Represente
+gráficamente.
 
 ** Answer
 
 Por hacer.
 
 
-* Q.6
+* COMMENT Q.6
 
 Rocío y Pablo comparten un piso. La siguiente tabla muestra, para un
 conjunto de temperaturas, el beneficio marginal de Rocío, el beneficio
@@ -113,7 +115,7 @@ temperatura eficiente?
 Por hacer.
 
 
-* Q.7
+* Q.5
 
 La curva de demanda de un bien privado viene dada por $P = 50 - Q$. El
 coste de producir una unidad adicional del bien es de \price{15} y no
@@ -130,7 +132,7 @@ punto de vista social?
 Por hacer.
 
 
-* Q.8
+* Q.6
 
 La curva de costes de un monopolio natural es: $\CT(Q) = \num{10000} +
 Q$. La curva de demanda de mercado es $Q = \num{5150} - 50 P$.
@@ -148,7 +150,8 @@ c) Calcule el precio que debería fijar el monopolio para obtener
 
 Por hacer.
 
-* Q.9
+
+* Q.7
 
 En la segunda década del siglo XXI, el Presidente de México intentó
 privatizar Pemex, la empresa estatal productora, refinadora y
@@ -160,7 +163,8 @@ privatizado? Relacione su respuesta con el papel que juegan las
 condiciones del mercado sobre las consecuencias de las
 privatizaciones.
 
-* Q.10
+
+* Q.8
 
 Se ha estimado que el coste por interno en las prisiones privadas es
 entre un 5% y un 15% menor que en los establecimientos penitenciarios
@@ -168,7 +172,8 @@ públicos. De acuerdo con esto, ¿recomendaría que se privaticen las
 prisiones? ¿Qué otra información necesitaría para evaluar la
 conveniencia de la privatización de las cárceles?
 
-* Q.11
+
+* COMMENT Q.11
 
 \DANGER En una pequeña ciudad sólo viven dos personas: Alba y
 Blanca. El servicio de bomberos de la ciudad se financia
@@ -207,6 +212,7 @@ d) Suponga ahora que en vez de tener que financiar con impuestos los
 
 Por hacer.
 
+
 * COMMENT Q.10
 
 Empresas privadas de seguridad proporcionaron parte del apoyo
@@ -218,6 +224,7 @@ proporcionan soluciones de largo plazo. Como expresó un [[https://www.nytimes.c
 para realizar un servicio público lo lleve a cabo mejor que personas
 contratadas directamente por el Estado." Relacione esta discusión con el papel
 
+
 * COMMENT Q.1
 
 ¿Son las autopistas un bien público? ¿Es una idea razonable la
@@ -226,6 +233,7 @@ provisión privada de autopistas?
 ** Answer
 
 Por hacer.
+
 
 * COMMENT Q.6
 

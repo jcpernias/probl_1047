@@ -177,6 +177,63 @@ Por hacer.
 
 * Q.7
 
+La curva de demanda inversa de un mercado donde opera un monopolista es:
+#+begin_export latex
+\[
+  P = 100 - Q / 30.
+\]
+#+end_export
+
+El coste marginal del monopolista viene dado por:
+#+begin_export latex
+\[
+  \CMg = 20 + Q / 45.
+\]
+#+end_export
+Como resultado del proceso productivo se vierten residuos
+contaminantes a un río cercano. El daño marginal que origina la
+polución se ha valorado en $\money{20}$ por unidad producida.
+
+a) ¿Cuál sería el nivel eficiente de producción en este mercado? ¿Qué
+   precio debería fijarse?
+
+b) ¿Cuántas unidades produciría el monopolista? ¿Cuánto cobraría por
+   cada una de ellas? Calcule la pérdida irrecuperable de eficiencia
+   que se produciría en este mercado.
+
+c) Si se interviene para que el mercado funcione como uno competitivo,
+   ¿se obtendría una situación eficiente? En caso de que su respuesta
+   sea negativa, calcule la ineficiencia en este caso.
+
+d) Compare los resultados obtenidos en los dos apartados
+   anteriores. Desde el punto de vista de la eficiencia económica,
+   ¿qué tipo de mercado sería preferible en este caso? ¿El monopolista
+   o el competitivo?
+
+
+** Answer
+
+Por hacer.
+
+
+* Q.8
+
+El Gobierno quiere mejorar la calidad de las aguas de un río en el que
+una empresa vierte 50 toneladas de residuos. El beneficio marginal
+social de reducir los vertidos en $R$ toneladas es: $\BMS = 200 - 5
+R$.  El coste marginal de reducir los vertidos es: $\CM = 20 +
+R$. ¿Cuál es el nivel de reducción óptimo desde el punto de vista
+social? ¿Qué multa por unidad de polución debería fijarse para
+conseguir el nivel óptimo de polución?
+
+
+** Answer
+
+Por hacer.
+
+
+* COMMENT Q.7
+
 En una pequeña aldea habitan 100 personas que trabajan en una ciudad
 situada a 30 km de distancia. Disponen de dos opciones de transporte:
 
@@ -218,64 +275,7 @@ c) Si se establece un peaje para utilizar la carretera, ¿podría
 Por hacer.
 
 
-* Q.8
-
-La curva de demanda inversa de un mercado donde opera un monopolista es:
-#+begin_export latex
-\[
-  P = 100 - Q / 30.
-\]
-#+end_export
-
-El coste marginal del monopolista viene dado por:
-#+begin_export latex
-\[
-  \CMg = 20 + Q / 45.
-\]
-#+end_export
-Como resultado del proceso productivo se vierten residuos
-contaminantes a un río cercano. El daño marginal que origina la
-polución se ha valorado en $\money{20}$ por unidad producida.
-
-a) ¿Cuál sería el nivel eficiente de producción en este mercado? ¿Qué
-   precio debería fijarse?
-
-b) ¿Cuántas unidades produciría el monopolista? ¿Cuánto cobraría por
-   cada una de ellas? Calcule la pérdida irrecuperable de eficiencia
-   que se produciría en este mercado.
-
-c) Si se interviene para que el mercado funcione como uno competitivo,
-   ¿se obtendría una situación eficiente? En caso de que su respuesta
-   sea negativa, calcule la ineficiencia en este caso.
-
-d) Compare los resultados obtenidos en los dos apartados
-   anteriores. Desde el punto de vista de la eficiencia económica,
-   ¿qué tipo de mercado sería preferible en este caso? ¿El monopolista
-   o el competitivo?
-
-
-** Answer
-
-Por hacer.
-
-
-* Q.9
-
-El Gobierno quiere mejorar la calidad de las aguas de un río en el que
-una empresa vierte 50 toneladas de residuos. El beneficio marginal
-social de reducir los vertidos en $R$ toneladas es: $\BMS = 200 - 5
-R$.  El coste marginal de reducir los vertidos es: $\CM = 20 +
-R$. ¿Cuál es el nivel de reducción óptimo desde el punto de vista
-social? ¿Qué multa por unidad de polución debería fijarse para
-conseguir el nivel óptimo de polución?
-
-
-** Answer
-
-Por hacer.
-
-
-* Q.10
+* COMMENT Q.10
 
 \DANGER Tanto la empresa $A$ como la $B$ emiten al mes 150 toneladas
 de sustancias contaminantes. El Gobierno quiere intervenir para

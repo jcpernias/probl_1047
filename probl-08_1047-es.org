@@ -71,14 +71,14 @@ Por hacer.
 
 * Q.4
 
-Lara trata de decidir el destino de sus próximas vacaciones. Estaría
+Diana trata de decidir el destino de sus próximas vacaciones. Estaría
 dispuesta a pagar hasta \money{6000} por viajar al país $A$ donde el
 riesgo de morir es de 1 entre \num{10000}. Por otro lado, estaría
 dispuesta a pagar como mucho \money{6500} por viajar al país $B$,
-donde el riesgo de muerte es de 1 entre \num{22500}. Si Lara se
-muestra indiferente entre los dos destinos salvo por el diferencial de
-riesgo de muerte, ¿qué se puede inferir de los datos anteriores con
-respecto a la valoración de Lara de su propia vida?
+donde el riesgo de muerte es de 1 entre \num{22500}. Diana se muestra
+indiferente entre los dos destinos salvo por el diferencial de riesgo
+de muerte. Partiendo de la información dada, ¿qué se puede inferir
+acerca de la valoración por parte de Diana de su propia vida?
 
 
 ** Answer

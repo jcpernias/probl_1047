@@ -19,7 +19,7 @@
 #+MACRO: unit06 Bienes públicos
 #+MACRO: unit07 Externalidades
 #+MACRO: unit08 Análisis coste-beneficio
-#+MACRO: unit09 Economía política
+#+MACRO: unit09 La elección pública
 #+MACRO: unit11 Incidencia de los impuestos
 #+MACRO: unit12 Impuestos y eficiencia
 #+MACRO: unit13 Impuestos

@@ -4,17 +4,46 @@
 
 #+TITLE: {{{unit12}}}: ejercicios
 
-* Q.2
+* Q.1
+Adam solo consume los bienes $X$ e $Y$. Elige la cesta $E_0$ cuando
+los precios son $P_X = \price{5}$ y $P_Y = \price{6}$. Sin embargo, la
+elección óptima de Adam es $E_1$ después de que se establezca un
+impuesto sobre las compras del bien $X$ de \money{5} por unidad que se
+traslada por completo a los compradores. El gráfico siguiente muestra
+las elecciones de Adam, las rectas presupuestarias antes y después del
+impuesto y las curvas de indiferencia de $E_0$ y $E_1$.
+
+#+xxx: fig fig-12_1047-01-*.pdf
+
+a) ¿Cuánto paga Adam por el impuesto sobre las compras de $X$?
+b) Determine a cuánto ascendería un impuesto de cuantía fija
+   equivalente al impuesto sobre las compras de $X$, en el sentido de
+   que ambos dejarían a Adam con la misma utilidad.
+c) ¿Cuál es el exceso de gravamen que soporta Adam?
+
+* Q.6
+
+El gobierno trata de reducir el consumo de sal y para ello establece
+un impuesto específico de $t$ euros por cada kg de sal. El impuesto se
+traslada por completo a los compradores. Dulce no ha modificado en
+absoluto su consumo de sal después de la introducción del
+impuesto. ¿Quiere esto decir que no hay un exceso de gravamen en el
+caso de Dulce? ¿Por qué? Represente gráficamente.
+
+** Answer
+
+Por hacer.
+* Q.1
 
 Un producto se vende en un mercado competitivo cuyas curvas de
 demanda y oferta son:
 #+begin_export latex
 \begin{gather*}
-  P = 90 - 0.03 Q \\
-  P = 30 + 0.02 Q
+  Q^d = 150 - 100 P / 3, \\
+  Q^o = 25 + 50 P.
 \end{gather*}
 #+end_export
-Determine el exceso de gravamen de un impuesto de \money{2.5} por
+Determine el exceso de gravamen de un impuesto de \money{0.50} por
 unidad vendida.
 
 ** Answer
@@ -22,11 +51,11 @@ unidad vendida.
 Por hacer.
 
 
-* Q.1
+* Q.2
 
 La demanda de mercado de un producto viene dada por $P = 20 - 0.001
 Q$. La curva de oferta de mercado es perfectamente elástica: $P =
-10$. Suponiendo que los efectos renta son despreciables:
+\price{10}$. Suponiendo que los efectos renta son despreciables:
 
 a) Calcule el exceso de gravamen si se establece un impuesto de
    \money{2} por unidad producida.
@@ -35,15 +64,13 @@ b) Calcule el exceso de gravamen si el impuesto fuera de \money{3}
    por unidad producida.
 
 c) Compare los resultados obtenidos en los apartados anterior. ¿Cómo
-   cambia la ineficiciencia generada por el impuesto cuando cambia la
+   cambia la ineficiencia generada por el impuesto cuando cambia la
    tasa impositiva?
-
-d) ¿Cómo cree que variará el exceso de gravamen en el largo plazo?
-   ¿Será mayor o menor que a corto plazo?
 
 ** Answer
 
 Por hacer.
+
 
 * Q.3
 
@@ -63,12 +90,46 @@ b) ¿Cómo cambiaría su respuesta al apartado anterior si el productor
 
 Por hacer.
 
-
 * Q.4
 
-Después de introducir un impuesto sobre el precio de un bien no se
-observan cambios en el consumo del bien. ¿Quiere esto decir que el
-impuesto es eficiente en este caso?
+El mercado de gasoil de un pequeño país es competitivo. Las curvas de
+demanda y oferta son:
+#+begin_export latex
+\begin{gather*}
+  Q^{d} = \num{5000} - \num{3000} P, \\
+  Q^{o} = \num{-1300} + \num{1500} P.
+\end{gather*}
+#+end_export
+El gobierno piensa que los precios del gasoil son muy elevados y
+establece una subvención a los compradores de \price[litre]{0.20}.
+
+a) Calcule la ineficiencia asociada a la subvención.
+
+b) ¿Cómo cambiaría su respuesta al apartado anterior si el consumo de
+   gasoil produjera una externalidad negativa igual a
+   \price[litre]{0.40}? Represente gráficamente.
+
+* Q.5
+
+Las autoridades locales de una comarca están estudiando introducir un
+impuesto a los arrendatarios de tierra para usos agrícolas de
+\price[hectare]{4} al año.  La oferta de tierra en la comarca es fija:
+$Q^o = \SI{400000}{\hectare}$. La demanda de tierra viene dada por la
+ecuación:
+#+begin_export latex
+\[
+  Q^{d} = \num{314000} - \num{1000} P.
+\]
+#+end_export
+donde $P$ es el alquiler anual de una hectárea.
+
+a) ¿Cuál es el alquiler de equilibrio si no se introduce el impuesto?
+
+b) Si se introduce el impuesto, ¿cuál será el pago total por hectárea
+   de los arrendatarios? ¿Cuál será el alquiler que cobran los
+   arrendadores? ¿Cuál será la recaudación total del impuesto?
+
+c) ¿Cuál es el exceso de gravamen?
 
 ** Answer
 

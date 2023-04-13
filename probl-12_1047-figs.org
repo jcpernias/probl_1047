@@ -1,0 +1,81 @@
+#+SETUPFILE: ./course-es.org
+
+#+TITLE: {{unit12}} figures
+
+#+PROPERTY: header-args:latex :noweb yes :eval no
+
+* Chunks
+
+
+** Frontera de posibilidades de utilidad
+
+#+begin_src latex :noweb-ref xy-scale
+  xscale = 0.15, yscale = 0.15, samples = 128
+#+end_src
+
+#+begin_src latex :noweb-ref xy-axes
+  \draw[axis] (0,40) node[left] {$Y$} |-
+    (45,0) node[below] {$X$};
+#+end_src
+
+
+
+* Elección social
+
+#+begin_src latex :tangle fig-12_1047-01.tex
+  \begin{tikzpicture}[<<xy-scale>>]
+    \coordinate (Y1) at ( 0, 35) ;
+    \coordinate (Y2) at ( 0, 25) ;
+    \coordinate (X1) at (21, 0) ;
+    \coordinate (X2) at (30, 0) ;
+    \coordinate (X3) at (42, 0) ;
+
+
+    \coordinate (E0) at (24, 15) ;
+    \coordinate (E1) at (9,  20) ;
+    \coordinate (E2) at (18,  10) ;
+
+    \coordinate (x-axis) at (1,  0) ;
+    \coordinate (y-axis) at (0,  1) ;
+
+    \draw[help lines]
+    (E0 -| y-axis) node[left] {15} -|
+    (E0 |- x-axis) node[below] {24}
+    (E1 -| y-axis) node[left] {20} -|
+    (E1 |- x-axis) node[below] {9}
+    (E2 -| y-axis) node[left] {10} -|
+    (E2 |- x-axis) node[below] {18}
+    ;
+
+    \draw[curve A]
+    (Y1) -- (X3)
+    (Y1) -- (X1)
+    ;
+
+    \draw[curve C, thick]
+    (Y2) -- (X2)
+    ;
+
+    \coordinate (I0-1) at (13, 27) ;
+    \coordinate (I0-2) at (32, 10) ;
+    \coordinate (I1-1) at ( 6, 27) ;
+    \coordinate (I1-2) at (28,  4) ;
+
+    \draw[curve B, use Hobby shortcut]
+    (I1-1) .. (E1) .. (E2) .. (I1-2)
+    (I1-2) node[right] {$I_{1}$}
+    ;
+
+    \draw[curve B, use Hobby shortcut]
+    (I0-1) .. (E0) .. (I0-2)
+    (I0-2) node[right] {$I_{0}$}
+    ;
+
+
+    \node[dot, label = {[font=\footnotesize, yshift = 2pt]right:$E_{0}$}] at (E0) {} ;
+    \node[dot, label = {[font=\footnotesize, yshift = 1pt]right:$E_{1}$}] at (E1) {} ;
+    \node[dot, label = {[font=\footnotesize, yshift = 2pt]right:$E_{2}$}] at (E2) {} ;
+
+    <<xy-axes>>
+  \end{tikzpicture}
+#+end_src

@@ -14,7 +14,8 @@ probl_units := \
 	51
 
 probl_figs := \
-	04
+	04 \
+	12
 
 
 LANGUAGES := es

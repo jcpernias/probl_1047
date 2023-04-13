@@ -8,11 +8,11 @@
 * Q.1
 
 El gobierno quiere introducir un nuevo impuesto sobre las ventas de
-determinados productos y está considerando varias alternativas: a)
-un impuesto sobre las ventas de leche semidesnatada; b) sobre los
-productos lácteos; o c) sobre todos los productos
-alimenticios. ¿Cuál de esas tres alternativas tendría un mayor
-impacto sobre los precios de los productos gravados?
+determinados productos y está considerando varias alternativas: a) un
+impuesto sobre las ventas de leche semidesnatada; b) sobre los
+productos lácteos; o c) sobre todos los productos alimenticios. ¿Cuál
+de esas tres alternativas tendría un mayor impacto sobre los precios
+de los productos gravados? ¿Por qué?
 
 #+begin_answer
 
@@ -131,13 +131,13 @@ b) Suponga ahora que una nueva ley establece un salario mínimo de
 * Q.7
 
 Una ciudad está considerando introducir un impuesto del 10% de los
-ingresos de los hoteles situados en el término municipal. A pesar
-de no ser muy diferentes a los de localidades vecinas, los hoteles
-de la ciudad están mucho más próximos a un aeropuerto y a muchos
-centros de convenciones. Por estas razones los viajeros están
+ingresos de los hoteles situados en el término municipal. A pesar de
+no ser muy diferentes a los de localidades vecinas, los hoteles de la
+ciudad están mucho más próximos a un aeropuerto y a muchos centros de
+convenciones. Por estas razones, la mayor parte de los viajeros están
 dispuestos a pagar un precio más alto por alojarse en ellos.
 
-Por otro lado los terrenos de la ciudad que pueden destinarse a
+Por otro lado, los terrenos de la ciudad que pueden destinarse a
 usos comerciales están completamente utilizados por los hoteles y
 los restantes negocios de la ciudad. Si un hotel dejase de operar
 en la ciudad, el terreno sería utilizado rápidamente por alguna
@@ -159,9 +159,9 @@ b) ¿Y a largo plazo?
 
    #+end_answer
 
-c) ¿Cómo cambiarían sus respuestas si los hoteles de las
-   localidades cercanas fueran sustitutos perfectos de los situados
-   dentro de la ciudad?
+c) ¿Cómo cambiarían sus respuestas si los hoteles de las localidades
+   cercanas fueran sustitutos perfectos de los situados dentro de la
+   ciudad?
 
    #+begin_answer
 

@@ -22,4 +22,3 @@
 #+MACRO: unit09 La elección pública
 #+MACRO: unit11 La incidencia de los impuestos
 #+MACRO: unit12 Los impuestos y la eficiencia económica
-#+MACRO: unit13 Impuestos

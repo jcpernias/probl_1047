@@ -9,8 +9,6 @@ probl_units := \
 	09 \
 	11 \
 	12 \
-	13 \
-	50 \
 	51
 
 probl_figs := \

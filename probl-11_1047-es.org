@@ -78,7 +78,7 @@ Un monopolista vende su producto en un mercado con demanda: $P =
 50 - 0.05 Q$. La producción se caracteriza por costes marginales
 constantes: $\CM = \price{10}$.
 
-a) Determine la incidencia de un impuesto específico de \price{2}.
+a) Determine la incidencia de un impuesto específico de \price{2.50}.
 
    #+begin_answer
 

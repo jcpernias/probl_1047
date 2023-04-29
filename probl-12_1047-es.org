@@ -5,6 +5,7 @@
 #+TITLE: {{{unit12}}}: ejercicios
 
 * Q.1
+
 Adam solo consume los bienes $X$ e $Y$. Elige la cesta $E_0$ cuando
 los precios son $P_X = \price{5}$ y $P_Y = \price{6}$. Sin embargo, la
 elección óptima de Adam es $E_1$ después de que se establezca un
@@ -21,7 +22,11 @@ b) Determine a cuánto ascendería un impuesto de cuantía fija
    que ambos dejarían a Adam con la misma utilidad.
 c) ¿Cuál es el exceso de gravamen que soporta Adam?
 
-* Q.6
+
+** Answer
+
+
+* Q.2
 
 El gobierno trata de reducir el consumo de sal y para ello establece
 un impuesto específico de $t$ euros por cada kg de sal. El impuesto se
@@ -30,10 +35,13 @@ absoluto su consumo de sal después de la introducción del
 impuesto. ¿Quiere esto decir que no hay un exceso de gravamen en el
 caso de Dulce? ¿Por qué? Represente gráficamente.
 
+
 ** Answer
 
 Por hacer.
-* Q.1
+
+
+* Q.3
 
 Un producto se vende en un mercado competitivo cuyas curvas de
 demanda y oferta son:
@@ -46,12 +54,13 @@ demanda y oferta son:
 Determine el exceso de gravamen de un impuesto de \money{0.50} por
 unidad vendida.
 
+
 ** Answer
 
 Por hacer.
 
 
-* Q.2
+* Q.4
 
 La demanda de mercado de un producto viene dada por $P = 20 - 0.001
 Q$. La curva de oferta de mercado es perfectamente elástica: $P =
@@ -67,12 +76,13 @@ c) Compare los resultados obtenidos en los apartados anterior. ¿Cómo
    cambia la ineficiencia generada por el impuesto cuando cambia la
    tasa impositiva?
 
+
 ** Answer
 
 Por hacer.
 
 
-* Q.3
+* Q.5
 
 En el mercado de un bien la curva de demanda es: $P = 10 - 0.01 Q$. El
 bien es producido por un monopolista y los costes marginales son
@@ -86,11 +96,13 @@ b) ¿Cómo cambiaría su respuesta al apartado anterior si el productor
    provocada por el impuesto en un mercado competitivo y en un
    monopolio.
 
+
 ** Answer
 
 Por hacer.
 
-* Q.4
+
+* Q.6
 
 El mercado de gasoil de un pequeño país es competitivo. Las curvas de
 demanda y oferta son:
@@ -109,7 +121,11 @@ b) ¿Cómo cambiaría su respuesta al apartado anterior si el consumo de
    gasoil produjera una externalidad negativa igual a
    \price[litre]{0.40}? Represente gráficamente.
 
-* Q.5
+
+** Answer
+
+
+* Q.7
 
 Las autoridades locales de una comarca están estudiando introducir un
 impuesto a los arrendatarios de tierra para usos agrícolas de
@@ -130,6 +146,7 @@ b) Si se introduce el impuesto, ¿cuál será el pago total por hectárea
    arrendadores? ¿Cuál será la recaudación total del impuesto?
 
 c) ¿Cuál es el exceso de gravamen?
+
 
 ** Answer
 

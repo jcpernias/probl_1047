@@ -130,11 +130,11 @@ b) ¿Cómo cambiaría su respuesta al apartado anterior si el consumo de
 Las autoridades locales de una comarca están estudiando introducir un
 impuesto a los arrendatarios de tierra para usos agrícolas de
 \price[hectare]{4} al año.  La oferta de tierra en la comarca es fija:
-$Q^o = \SI{400000}{\hectare}$. La demanda de tierra viene dada por la
+$Q^o = \SI{314000}{\hectare}$. La demanda de tierra viene dada por la
 ecuación:
 #+begin_export latex
 \[
-  Q^{d} = \num{314000} - \num{1000} P.
+  Q^{d} = \num{400000} - \num{1000} P.
 \]
 #+end_export
 donde $P$ es el alquiler anual de una hectárea.

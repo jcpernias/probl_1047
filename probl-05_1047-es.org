@@ -17,7 +17,7 @@ a) Encuentre las posibles asignaciones de las bolsas de cacahuetes
    entre los dos supervivientes que sean óptimas en el sentido de
    Pareto. ¿Cuáles de estas asignaciones son justas?
 
-b) Suponga ue la función de utilidad de cada superviviente es $U(N_i)
+b) Suponga que la función de utilidad de cada superviviente es $U(N_i)
    = N_i$, donde $N_i$ es el número de bolsitas de cacahuetes que
    obtiene el superviviente $i$, $i = 1, 2$.  ¿Cuál sería el reparto
    óptimo si se usa una función de bienestar utilitarista? ¿Y si se

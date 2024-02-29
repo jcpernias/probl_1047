@@ -126,9 +126,31 @@ gráficamente.
 Por hacer.
 
 
-
-
 * Q.8
+
+En una ciudad hay tres tipos de personas que se distinguen únicamente
+por sus preferencias con respecto a los parques municipales. Cada una
+de las personas del primer tipo está dispuesta a pagar $D_I =
+\money{100}$ por la mera existencia de algún parque y esta disposición
+es independiente del número de parques que haya. Por otro lado, la
+disposición a pagar de los individuos de los otros dos tipos es:
+#+begin_export latex
+\begin{gather*}
+D_{II} = 200 + 30 N - 1.5N^2 \\
+D_{III} = 150 + 90 N - 4.5N^2
+\end{gather*}
+#+end_export
+donde $N$ es el número de parques de la ciudad. Si hay 500 individuos
+de cada tipo, cada parque cuesta $\money{40000}$ y solo se puede
+construir un número entero de parques, ¿cuántos deben de construirse?
+
+** Answer
+
+Por hacer.
+
+
+
+* Q.9
 
 La curva de demanda de un bien privado viene dada por $P = 50 - Q$. El
 coste de producir una unidad adicional del bien es de \price{15} y no
@@ -145,7 +167,7 @@ punto de vista social?
 Por hacer.
 
 
-* Q.9
+* Q.10
 
 La curva de costes de un monopolio natural es: $\CT(Q) = \num{10000} +
 Q$. La curva de demanda de mercado es $Q = \num{5150} - 50 P$.
@@ -164,7 +186,7 @@ c) Calcule el precio que debería fijar el monopolio para obtener
 Por hacer.
 
 
-* Q.10
+* Q.11
 
 En la segunda década del siglo XXI, el Presidente de México intentó
 privatizar Pemex, la empresa estatal productora, refinadora y
@@ -177,7 +199,7 @@ condiciones del mercado sobre las consecuencias de las
 privatizaciones.
 
 
-* Q.11
+* Q.12
 
 Se ha estimado que el coste por interno en las prisiones privadas es
 entre un 5% y un 15% menor que en los establecimientos penitenciarios
@@ -186,7 +208,7 @@ prisiones? ¿Qué otra información necesitaría para evaluar la
 conveniencia de la privatización de las cárceles?
 
 
-* Q.12
+* Q.13
 
 \DANGER En una pequeña ciudad sólo viven dos personas: Alba y
 Blanca. El servicio de bomberos de la ciudad se financia
@@ -226,7 +248,7 @@ d) Suponga ahora que en vez de tener que financiar con impuestos los
 Por hacer.
 
 
-* COMMENT Q.10
+* COMMENT Q.14
 
 Empresas privadas de seguridad proporcionaron parte del apoyo
 logístico de las fuerzas armadas de Estados Unidos en Afganistán e

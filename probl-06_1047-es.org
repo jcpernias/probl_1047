@@ -50,24 +50,6 @@ Por hacer.
 
 * Q.4
 
-Suponga que sólo dos pescadores, Acab e Ismael, pescan en una
-determinada zona. Cada uno de ellos se beneficiaría de la instalación
-de faros en la zona donde pescan. El coste de construir cada faro es
-de \money{100}. Para Acab el beneficio marginal de un faro adicional
-es $\BMg_{A} = 90 - 5 Q$ mientras que para Ismael es $\BMg_{I} = 40 - 5
-Q$, donde $Q$ es el número de faros construidos.
-
-a) ¿Cuál es el número eficiente de faros? ¿Cuáles serían los
-   beneficios marginales de Acab y de Ismael si se construyera el
-   número eficiente de faros?
-
-b) ¿Cuantos faros se construirían si fueran construidos de forma
-   independiente por Acab e Ismael? ¿Se construiría el número
-   socialmente óptimo de faros?
-
-
-* Q.5
-
 Tarzán y Jane viven en la jungla y han adiestrado a Chita para que
 patrulle los límites de su asentamiento y para que recolecte
 fruta. Chita puede recoger 3 kg de fruta por hora y dedica 6 horas al
@@ -85,22 +67,7 @@ b) Si Tarzán y Jane están dispuestos cada uno a sacrificar una hora de
 Por hacer.
 
 
-* Q.6
-
-El coste marginal de producir Q unidades de un bien público puro es:
-$\CM = 5 Q$. Existen 75 demandantes cuya demanda viene dada por $Q =
-50 - 5 P$ y otros 25 demandantes con demanda es $Q = 100 - 5 P$. ¿Cuál
-sería la provisión eficiente del bien público? Represente
-gráficamente.
-
-** Answer
-
-Por hacer.
-
-
-
-
-* Q.7
+* Q.5
 
 Rocío y Pablo comparten un piso. La siguiente tabla muestra, para un
 conjunto de temperaturas, el beneficio marginal de Rocío, el beneficio
@@ -126,6 +93,39 @@ temperatura eficiente?
 ** Answer
 
 Por hacer.
+
+
+* Q.6
+
+Suponga que sólo dos pescadores, Acab e Ismael, pescan en una
+determinada zona. Cada uno de ellos se beneficiaría de la instalación
+de faros en la zona donde pescan. El coste de construir cada faro es
+de \money{100}. Para Acab el beneficio marginal de un faro adicional
+es $\BMg_{A} = 90 - 5 Q$ mientras que para Ismael es $\BMg_{I} = 40 - 5
+Q$, donde $Q$ es el número de faros construidos.
+
+a) ¿Cuál es el número eficiente de faros? ¿Cuáles serían los
+   beneficios marginales de Acab y de Ismael si se construyera el
+   número eficiente de faros?
+
+b) ¿Cuantos faros se construirían si fueran construidos de forma
+   independiente por Acab e Ismael? ¿Se construiría el número
+   socialmente óptimo de faros?
+
+
+* Q.7
+
+El coste marginal de producir Q unidades de un bien público puro es:
+$\CM = 5 Q$. Existen 75 demandantes cuya demanda viene dada por $Q =
+50 - 5 P$ y otros 25 demandantes con demanda es $Q = 100 - 5 P$. ¿Cuál
+sería la provisión eficiente del bien público? Represente
+gráficamente.
+
+** Answer
+
+Por hacer.
+
+
 
 
 * Q.8

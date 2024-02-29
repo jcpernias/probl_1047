@@ -4,7 +4,18 @@
 
 #+TITLE: {{{unit06}}}: ejercicios
 
+
 * Q.1
+
+¿Son las autopistas un bien público? ¿Es una idea razonable la
+provisión privada de autopistas?
+
+** Answer
+
+Por hacer.
+
+
+* Q.2
 
 Indique cuál de las siguientes afirmaciones es verdadera, falsa o
 incierta y justifique sus respuestas:
@@ -23,7 +34,7 @@ d) Las sociedades más grandes tienden a consumir mayores cantidades de
    un bien no rival que las sociedades con menos habitantes.
 
 
-* COMMENT Q.2
+* Q.3
 
 Considere una economía con dos habitantes $A$ y $B$. Sólo se producen
 dos bienes: el bien público puro $X$ y el bien privado $Y$. Las
@@ -37,7 +48,7 @@ eficiente la situación descrita?
 Por hacer.
 
 
-* Q.2
+* Q.4
 
 Suponga que sólo dos pescadores, Acab e Ismael, pescan en una
 determinada zona. Cada uno de ellos se beneficiaría de la instalación
@@ -55,7 +66,7 @@ b) ¿Cuantos faros se construirían si fueran construidos de forma
    socialmente óptimo de faros?
 
 
-* Q.3
+* Q.5
 
 Tarzán y Jane viven en la jungla y han adiestrado a Chita para que
 patrulle los límites de su asentamiento y para que recolecte
@@ -74,7 +85,7 @@ b) Si Tarzán y Jane están dispuestos cada uno a sacrificar una hora de
 Por hacer.
 
 
-* Q.4
+* Q.6
 
 El coste marginal de producir Q unidades de un bien público puro es:
 $\CM = 5 Q$. Existen 75 demandantes cuya demanda viene dada por $Q =
@@ -87,7 +98,9 @@ gráficamente.
 Por hacer.
 
 
-* COMMENT Q.6
+
+
+* Q.7
 
 Rocío y Pablo comparten un piso. La siguiente tabla muestra, para un
 conjunto de temperaturas, el beneficio marginal de Rocío, el beneficio
@@ -115,7 +128,7 @@ temperatura eficiente?
 Por hacer.
 
 
-* Q.5
+* Q.8
 
 La curva de demanda de un bien privado viene dada por $P = 50 - Q$. El
 coste de producir una unidad adicional del bien es de \price{15} y no
@@ -132,7 +145,7 @@ punto de vista social?
 Por hacer.
 
 
-* Q.6
+* Q.9
 
 La curva de costes de un monopolio natural es: $\CT(Q) = \num{10000} +
 Q$. La curva de demanda de mercado es $Q = \num{5150} - 50 P$.
@@ -151,7 +164,7 @@ c) Calcule el precio que debería fijar el monopolio para obtener
 Por hacer.
 
 
-* Q.7
+* Q.10
 
 En la segunda década del siglo XXI, el Presidente de México intentó
 privatizar Pemex, la empresa estatal productora, refinadora y
@@ -164,7 +177,7 @@ condiciones del mercado sobre las consecuencias de las
 privatizaciones.
 
 
-* Q.8
+* Q.11
 
 Se ha estimado que el coste por interno en las prisiones privadas es
 entre un 5% y un 15% menor que en los establecimientos penitenciarios
@@ -173,7 +186,7 @@ prisiones? ¿Qué otra información necesitaría para evaluar la
 conveniencia de la privatización de las cárceles?
 
 
-* COMMENT Q.11
+* Q.12
 
 \DANGER En una pequeña ciudad sólo viven dos personas: Alba y
 Blanca. El servicio de bomberos de la ciudad se financia
@@ -223,36 +236,3 @@ proporcionan soluciones de largo plazo. Como expresó un [[https://www.nytimes.c
 "No hay ninguna razón para suponer que una empresa privada contratada
 para realizar un servicio público lo lleve a cabo mejor que personas
 contratadas directamente por el Estado." Relacione esta discusión con el papel
-
-
-* COMMENT Q.1
-
-¿Son las autopistas un bien público? ¿Es una idea razonable la
-provisión privada de autopistas?
-
-** Answer
-
-Por hacer.
-
-
-* COMMENT Q.6
-
-En una ciudad hay tres tipos de personas que se distinguen únicamente
-por sus preferencias con respecto a los parques municipales. Cada una
-de las personas del primer tipo están dispuestas a pagar $D_{I} =
-\money{100}$ por la mera existencia de algún parque y esta disposición
-es independiente del número de parques que haya. Por otro lado, la
-disposición a pagar de los individuos de los otros dos tipos es:
-#+begin_export latex
-\begin{gather*}
-  D_{II} = 200 + 30 N - 1.5 N^{2} \\
-  D_{III} = 150 + 90 N - 4.5 N^{2}
-\end{gather*}
-#+end_export
-donde $N$ es el número de parques de la ciudad. Si hay 500 individuos
-de cada tipo, cada parque cuesta \money{40000} y sólo se puede
-construir un número entero de parques, ¿cuántos deben de construirse?
-
-** Answer
-
-Por hacer.

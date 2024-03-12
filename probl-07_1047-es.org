@@ -5,7 +5,7 @@
 #+TITLE: {{{unit07}}}: ejercicios
 
 
-* Q.1
+* COMMENT Q.1
 
 Identifique la naturaleza de las externalidades en la frase: "El humo
 de la fábrica ensuciaba las casas vecinas y era veneno para los
@@ -15,6 +15,14 @@ cultivos de la zona".
 ** Answer
 
 Por hacer.
+
+
+* Q.1
+
+¿Qué externalidades genera un conductor adicional en una carretera congestionada? ¿Cómo contribuyen los peajes a paliar esta externalidad? ¿Qué peaje debería fijarse?
+
+
+** Answer
 
 
 * Q.2
@@ -275,7 +283,7 @@ c) Si se establece un peaje para utilizar la carretera, ¿podría
 Por hacer.
 
 
-* COMMENT Q.10
+* Q.10
 
 \DANGER Tanto la empresa $A$ como la $B$ emiten al mes 150 toneladas
 de sustancias contaminantes. El Gobierno quiere intervenir para

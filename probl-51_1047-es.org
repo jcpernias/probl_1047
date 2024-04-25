@@ -4,7 +4,7 @@
 
 #+TITLE: Conceptos básicos
 
-1. Responda concisamente las siguientes preguntas:
+Responda concisamente las siguientes preguntas:
 
    a) ¿Qué es un bien público puro?
 
@@ -25,7 +25,8 @@
 
       #+end_answer
 
-   d) ¿En qué consiste el problema de los recursos comunes?
+   d) ¿En qué consiste el problema de los recursos comunes (tragedia
+      de los bienes comunes)?
 
       #+begin_answer
 
@@ -50,31 +51,19 @@
 
       #+end_answer
 
-   h) ¿Quién es el votante mediano?
+   h) ¿En qué consiste la paradoja del voto?
 
       #+begin_answer
 
       #+end_answer
 
-   i) ¿En qué consiste la paradoja del voto?
+   i) ¿Qué establece el teorema de imposibilidad de Arrow?
 
       #+begin_answer
 
       #+end_answer
 
-   j) ¿Qué establece el teorema de imposibilidad de Arrow?
-
-      #+begin_answer
-
-      #+end_answer
-
-   k) ¿Para qué se utiliza el valor presente descontado?
-
-      #+begin_answer
-
-      #+end_answer
-
-   l) ¿Qué es un impuesto corrector (/pigouviano/)?
+   j) ¿Qué es un impuesto corrector (pigouviano)?
 
       #+begin_answer
 

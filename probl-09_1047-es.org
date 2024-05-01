@@ -6,32 +6,64 @@
 
 * Q.1
 
-Andrea, Blas y Carla son los únicos habitantes de una pequeña
-ciudad. Cada uno de ellos valora la protección policial de forma
-diferente. Sus demandas son:
-- Andrea: $Q = 55 - 5 P_A$
+Suponga que 5 votantes (1, 2, 3, 4 y 5) ordenan de más a menos
+preferido los proyectos A, B, C y D como muestra la siguiente tabla:
 
-- Blas: $Q = 80 - 4 P_B$
+#+ATTR_LATEX: :booktabs t :center t
+| 1 | 2 | 3 | 4 | 5 |
+|---+---+---+---+---|
+| A | A | D | C | B |
+| D | C | B | B | C |
+| C | B | C | D | D |
+| B | D | A | A | A |
 
-- Carla: $Q = 100 - 10 P_C$
-donde $Q$ son las horas de protección policial en la ciudad y $P_i$
-el precio que tendría que pagar el habitante $i$ por cada hora que
-se contrate.  Si el coste marginal de proporcionar una hora
-adicional de protección policial es \wage{13.5}, ¿cuál es el nivel
-socialmente óptimo de $Q$? Si se utiliza la propuesta de Lindahl,
-¿qué parte de la carga impositiva soportaría cada ciudadano?
+a) Represente gráficamente las preferencias de los 5 votantes.
+
+b) ¿Es posible agregar de forma consistente las preferencias
+   individuales con la regla de la mayoría? Si su respuesta es
+   afirmativa, ¿qué proyecto sería preferido por la sociedad? Si su
+   respuesta es negativa, explique por qué.
 
 ** Answer
 
-La determinación de la cantidad óptima, $Q^*$, se hace igual que
-en el tema de bienes públicos (ver las soluciones del problema 3
-y del problema 4).
-
-Una vez tenemos $Q^*$, los precios de Lindahl coinciden con las
-disposiciones a pagar de cada individuo.
-
+Por hacer.
 
 * Q.2
+
+En una liga deportiva se usa un sistema de votación para elegir el
+jugador más valioso de cada temporada. Cada votante asigna 5 puntos al
+que considera mejor jugador, 3 puntos al segundo mejor y 1 punto al
+tercero. Los puntos que otorgan los votantes se suman y gana el premio
+el jugador que consigue más puntos. Suponga que hay tres votantes (1,
+2 y 3) y 5 jugadores (A, B, C, D y E) y que las valoraciones de los
+votantes son:
+
+#+ATTR_LATEX: :booktabs t :center t
+| Valoración    | 1 | 2 | 3 |
+|---------------+---+---+---|
+| Mejor         | A | A | B |
+| Segundo mejor | C | C | C |
+| Tercero mejor | B | B | D |
+| Cuarto mejor  | D | D | E |
+| Quinto mejor  | E | E | A |
+
+El jugador B está envuelto en un escándalo de uso de sustancias
+prohibidas. El veredicto acerca de la inocencia y culpabilidad de B
+llegará el día antes de las votaciones y si B es declarado culpable
+sus votos se anularían automáticamente.
+
+a) ¿Quién ganaría el premio si B es declarado inocente?
+
+b) ¿Y si es declarado culpable?
+
+c) ¿Qué problema de la agregación consistente de las preferencias
+   individuales se manifiesta en este ejemplo?
+
+** Answer
+
+Por hacer.
+
+* Q.3
 
 Algunos autores piensan que las preferencias con respecto a la
 financiación de la sanidad pública presentan con frecuencia un patrón
@@ -44,7 +76,7 @@ Es un caso similar al de la educación pública que se menciona
 varias veces en el vídeo.
 
 
-* Q.3
+* Q.4
 
 Alicia, Bruno, Celia, David y Elena son los cinco filántropos más
 acaudalados de una ciudad y quieren donar parte de sus riquezas a una
@@ -92,3 +124,30 @@ varias formas. Se pueden comparar todos los pares de propuestas y
 ver que opciones ganan en las diferentes votaciones. O quizá sea
 posible identificar a un votante cuyas preferencias coincidan con
 las colectivas.
+
+
+* Q.5
+
+Andrea, Blas y Carla son los únicos habitantes de una pequeña
+ciudad. Cada uno de ellos valora la protección policial de forma
+diferente. Sus demandas son:
+- Andrea: $Q = 55 - 5 P_A$
+
+- Blas: $Q = 80 - 4 P_B$
+
+- Carla: $Q = 100 - 10 P_C$
+donde $Q$ son las horas de protección policial en la ciudad y $P_i$
+el precio que tendría que pagar el habitante $i$ por cada hora que
+se contrate.  Si el coste marginal de proporcionar una hora
+adicional de protección policial es \wage{13.5}, ¿cuál es el nivel
+socialmente óptimo de $Q$? Si se utiliza la propuesta de Lindahl,
+¿qué parte de la carga impositiva soportaría cada ciudadano?
+
+** Answer
+
+La determinación de la cantidad óptima, $Q^*$, se hace igual que
+en el tema de bienes públicos (ver las soluciones del problema 3
+y del problema 4).
+
+Una vez tenemos $Q^*$, los precios de Lindahl coinciden con las
+disposiciones a pagar de cada individuo.

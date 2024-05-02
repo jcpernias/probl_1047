@@ -28,6 +28,7 @@ b) ¿Es posible agregar de forma consistente las preferencias
 
 Por hacer.
 
+
 * Q.2
 
 En una liga deportiva se usa un sistema de votación para elegir el
@@ -44,13 +45,13 @@ votantes son:
 | Mejor         | A | A | B |
 | Segundo mejor | C | C | C |
 | Tercero mejor | B | B | D |
-| Cuarto mejor  | D | D | E |
-| Quinto mejor  | E | E | A |
+| Cuarto mejor  | D | E | E |
+| Quinto mejor  | E | D | A |
 
 El jugador B está envuelto en un escándalo de uso de sustancias
-prohibidas. El veredicto acerca de la inocencia y culpabilidad de B
+prohibidas. El veredicto acerca de la inocencia o culpabilidad de B
 llegará el día antes de las votaciones y si B es declarado culpable
-sus votos se anularían automáticamente.
+se anularía su candidatura al premio.
 
 a) ¿Quién ganaría el premio si B es declarado inocente?
 
@@ -63,6 +64,7 @@ c) ¿Qué problema de la agregación consistente de las preferencias
 
 Por hacer.
 
+
 * Q.3
 
 Algunos autores piensan que las preferencias con respecto a la
@@ -74,6 +76,7 @@ situación? ¿Por qué?
 
 Es un caso similar al de la educación pública que se menciona
 varias veces en el vídeo.
+
 
 
 * Q.4

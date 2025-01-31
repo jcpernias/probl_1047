@@ -2,11 +2,55 @@
 
 #+SETUPFILE: ./probl-es.org
 
-#+TITLE: {{{unit02}}}: ejercicios
+#+TITLE: {{{unit02}}} (I)
+
+
+
+* Q.1
+
+Responda a las siguientes preguntas utilizando los datos del /Resumen
+del Informe COFOG 2018-2022/, el cual se encuentra disponible en [[https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/Paginas/iacogof.aspx][la
+web del IGAE]]:
+
+a) ¿Qué porcentaje sobre el PIB representa el total del gasto público?
+b) ¿Cuáles son los principales grupos de gasto público en España?
+c) ¿Cómo se reparte el gasto entre los diferentes administraciones
+   públicas?
+d) ¿Qué grupos de gastos conforman el gasto social de las
+   administraciones públicas? ¿Qué porcentaje representan con respecto
+   al gasto público total? ¿Y con respecto al PIB?
+
+
+** Answer
+
+Esto es una respuesta.
 
 
 
 * Q.2
+
+Acceda a la sección /Public finance/ del [[https://data-explorer.oecd.org][OECD Data Explorer]], y utilice
+las herramientas que proporciona para que, con la información
+contenida en /Public finance main indicators - Government at a Glance,
+2023 edition/, comparar la evolución de las siguientes variables en
+España con la OCDE y con los países de la Unión Europea miembros de la
+OCDE:
+
+a) Gasto público (/Government expenditure/).
+b) Saldo fiscal (/Government fiscal balance/).
+c) Déficit primario (/Government primary balance/).
+d) Deuda pública (/Government gross debt/).
+
+Obtenga gráficos de esas variables expresadas como porcentaje del PIB
+y comente brevemente su evolución a lo largo del tiempo y la posición
+de España con respecto a los países de su entorno.
+
+** Answer
+
+Esto es una respuesta.
+
+
+* COMMENT Q.2
 
 En este ejercicio se analiza el comportamiento de los gastos e
 ingresos del Sector Público en España utilizando datos elaborados por
@@ -57,7 +101,7 @@ Esto es una respuesta.
 
 
 
-* Q.2
+* COMMENT Q.2
 
 Utilizando los datos que publica la OECD en
 [[https://data.oecd.org/government.htm][https://data.oecd.org/government.htm]] describa y compare la magnitud y

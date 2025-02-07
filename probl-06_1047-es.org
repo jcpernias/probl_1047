@@ -37,18 +37,21 @@ d) Las sociedades más grandes tienden a consumir mayores cantidades de
 * Q.3
 
 Considere una economía con dos habitantes $A$ y $B$. Sólo se producen
-dos bienes: el bien público puro $X$ y el bien privado $Y$. Las
-relaciones marginales de sustitución son: $\RMS_A = 5$ y $\RMS_B = 10$
-unidades de $Y$ por unidad de $X$. La relación marginal de
-transformación es $\RMT = 20$ unidades de $Y$ por unidad de $X$. ¿Es
-eficiente la situación descrita?
+dos bienes: el bien público puro $X$ y el bien privado
+$Y$. Actualmente se producen 50 unidades del bien $X$ y 200 unidades
+del bien $Y$ que se reparten a partes iguales entre los dos
+consumidores. Las relaciones marginales de sustitución son: $\RMS_A =
+5$ y $\RMS_B = 10$ unidades de $Y$ por unidad de $X$. La relación
+marginal de transformación es $\RMT = 20$ unidades de $Y$ por unidad
+de $X$. ¿Es eficiente la situación descrita? ¿Debería aumentar la
+producción del bien público?
 
 ** Answer
 
 Por hacer.
 
 
-* Q.4
+* COMMENT Q.4
 
 Tarzán y Jane viven en la jungla y han adiestrado a Chita para que
 patrulle los límites de su asentamiento y para que recolecte
@@ -126,7 +129,7 @@ gráficamente.
 Por hacer.
 
 
-* Q.8
+* COMMENT Q.8
 
 En una ciudad hay tres tipos de personas que se distinguen únicamente
 por sus preferencias con respecto a los parques municipales. Cada una
@@ -186,7 +189,7 @@ c) Calcule el precio que debería fijar el monopolio para obtener
 Por hacer.
 
 
-* Q.11
+* COMMENT Q.11
 
 En la segunda década del siglo XXI, el Presidente de México intentó
 privatizar Pemex, la empresa estatal productora, refinadora y
@@ -199,7 +202,7 @@ condiciones del mercado sobre las consecuencias de las
 privatizaciones.
 
 
-* Q.12
+* COMMENT Q.12
 
 Se ha estimado que el coste por interno en las prisiones privadas es
 entre un 5% y un 15% menor que en los establecimientos penitenciarios
@@ -208,7 +211,7 @@ prisiones? ¿Qué otra información necesitaría para evaluar la
 conveniencia de la privatización de las cárceles?
 
 
-* Q.13
+* COMMENT Q.13
 
 \DANGER En una pequeña ciudad sólo viven dos personas: Alba y
 Blanca. El servicio de bomberos de la ciudad se financia

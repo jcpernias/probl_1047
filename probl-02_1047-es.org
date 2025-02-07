@@ -29,12 +29,11 @@ Esto es una respuesta.
 
 * Q.2
 
-Acceda a la sección /Public finance/ del [[https://data-explorer.oecd.org][OECD Data Explorer]], y utilice
-las herramientas que proporciona para que, con la información
-contenida en /Public finance main indicators - Government at a Glance,
-2023 edition/, comparar la evolución de las siguientes variables en
-España con la OCDE y con los países de la Unión Europea miembros de la
-OCDE:
+Acceda a la sección /Public Governance - Public finance and budgets/
+del [[https://data-explorer.oecd.org][OECD Data Explorer]], y utilice la información contenida en /Public
+finance main indicators - Government at a Glance, 2023 edition/ para
+comparar la evolución de las siguientes variables en España y en la
+OCDE y los países de la Unión Europea miembros de la OCDE:
 
 a) Gasto público (/Government expenditure/).
 b) Saldo fiscal (/Government fiscal balance/).

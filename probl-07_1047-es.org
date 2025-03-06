@@ -283,7 +283,7 @@ c) Si se establece un peaje para utilizar la carretera, ¿podría
 Por hacer.
 
 
-* Q.10
+* COMMENT Q.10
 
 \DANGER Tanto la empresa $A$ como la $B$ emiten al mes 150 toneladas
 de sustancias contaminantes. El Gobierno quiere intervenir para

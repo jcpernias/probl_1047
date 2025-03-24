@@ -1,5 +1,3 @@
-# -*- ispell-dictionary: "castellano" -*-
-
 #+SETUPFILE: ./probl-es.org
 
 #+TITLE: {{{unit12}}}: ejercicios
@@ -14,7 +12,7 @@ traslada por completo a los compradores. El gráfico siguiente muestra
 las elecciones de Adam, las rectas presupuestarias antes y después del
 impuesto y las curvas de indiferencia de $E_0$ y $E_1$.
 
-#+xxx: fig fig-12_1047-01-*.pdf
+#+xxx: fig file:fig-12_1047-01-*.pdf
 
 a) ¿Cuánto paga Adam por el impuesto sobre las compras de $X$?
 b) Determine a cuánto ascendería un impuesto de cuantía fija
@@ -151,3 +149,9 @@ c) ¿Cuál es el exceso de gravamen?
 ** Answer
 
 Por hacer.
+
+
+
+# Local Variables:
+# ispell-local-dictionary: "spanish"
+# End:

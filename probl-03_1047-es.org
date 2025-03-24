@@ -187,7 +187,7 @@ b) ¿Cómo cambiaría su respuesta al apartado anterior si la función
 c) ¿Y si fuera $W_3 = \min\{U_A, U_B\}$?
 
 d) Suponga que la función de posibilidades de utilidad es:
-   #+xxx: fig fig-Efficiency-Equity_1047-01-*.pdf
+   #+xxx: fig file:fig-Efficiency-Equity_1047-01-*.pdf
    Muestre gráficamente como difieren las soluciones óptimas para
    las funciones de bienestar social de los apartados anteriores.
 
@@ -317,3 +317,8 @@ a) utilitarista.
 b) /rawlsiano/.
 
 c) igualitarista.
+
+
+# Local Variables:
+# ispell-local-dictionary: "spanish"
+# End:

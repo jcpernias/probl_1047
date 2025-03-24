@@ -1,5 +1,3 @@
-# -*- ispell-dictionary: "castellano" -*-
-
 #+SETUPFILE: ./probl-es.org
 
 #+TITLE: {{{unit02}}}: ejercicios
@@ -221,3 +219,9 @@ de otros países de su entorno?
 ** Answer
 
 Esto es una respuesta.
+
+
+
+# Local Variables:
+# ispell-local-dictionary: "spanish"
+# End:

@@ -1,0 +1,63 @@
+#+SETUPFILE: ./probl-es.org
+
+#+TITLE: {{{unit02}}} (y II)
+
+
+
+* Q.1
+
+El archivo ~Revenues.xlsx~ contiene información sobre los ingresos
+totales del sector público de España y otros 6 países de la OCDE para
+el periodo 2000-2023. También se presentan datos sobre los impuestos y
+las cotizaciones a la Seguridad Social. Todos las datos se expresan
+como porcentajes del PIB.
+
+a) Determine la *presión fiscal* (porcentaje sobre el PIB que
+   representan los impuestos más las cotizaciones sociales) de cada
+   uno de los países para el año 2023. Compare las cifras de España
+   con las del resto de países. Calcule la presión fiscal en España
+   para cada uno de los años del periodo 2000-2023 y comente cómo ha
+   evolucionado.
+
+b) Calcule qué porcentaje representan los impuestos /sobre el total de
+   los ingresos del sector público/ de cada uno de los países en el
+   año 2023. ¿Cómo ha evolucionado este porcentaje en España durante
+   el periodo 2000-2023?
+
+c) ¿Qué porcentaje representan las cotizaciones sociales /sobre
+   el total de los ingresos del sector público/ de cada uno de los
+   países en el año 2023? ¿Cómo ha evolucionado este porcentaje en
+   España durante el periodo 2000-2023?
+
+
+** Answer
+
+Esto es una respuesta.
+
+
+
+* Q.2
+
+El fichero ~Taxes.xlsx~ reúne información sobre la estructura del
+sistema impositivo de España y otros 6 países de la OCDE durante el
+periodo 2000-2023. Las unidades de los datos son porcentajes sobre el
+PIB.
+
+a) Exprese los diferentes impuestos como porcentaje del total de
+   impuestos de cada país.
+
+b) Compare la estructura del sistema impositivo español con la de los
+   otros países en el año 2023.
+
+c) ¿Cómo ha evolucionado cada tipo de impuesto en España a lo largo de
+   todo el periodo?
+
+** Answer
+
+Esto es una respuesta.
+
+
+
+# Local Variables:
+# ispell-local-dictionary: "spanish"
+# End:

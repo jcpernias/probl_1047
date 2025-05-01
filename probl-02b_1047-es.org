@@ -1,5 +1,3 @@
-# -*- ispell-dictionary: "castellano" -*-
-
 #+SETUPFILE: ./probl-es.org
 
 #+TITLE: {{{unit02}}}: ejercicios (y II)
@@ -23,3 +21,8 @@ e) Presión fiscal (impuestos y cotizaciones sociales como porcentaje
 ** Answer
 
 Esto es una respuesta.
+
+
+# Local Variables:
+# ispell-local-dictionary: "spanish"
+# End:

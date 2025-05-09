@@ -35,10 +35,10 @@ preocupación del presidente filipino?
 
 
 * Q.3
-Considere un mercado competitivo con curva de demanda: $P = 17 - Q /
-\num{2000}$; y curva de oferta: $P = (\num{8000} + 3 Q) / \num{5000}$.
+Considere un mercado competitivo con curva de demanda: $P = 20 - Q /
+\num{4000}$; y curva de oferta: $P = 2  +  Q / \num{2000}$.
 
-a) Analice la incidencia de un impuesto de \money{2.20} por unidad
+a) Analice la incidencia de un impuesto de \money{3} por unidad
    vendida.
 
    #+begin_answer
@@ -46,7 +46,7 @@ a) Analice la incidencia de un impuesto de \money{2.20} por unidad
    #+end_answer
 
 b) Analice la incidencia de un impuesto sobre las ventas del
-   \SI{20}{\percent} sobre el precio.
+   \SI{25}{\percent} sobre el precio.
 
    #+begin_answer
 
@@ -84,7 +84,7 @@ a) Determine la incidencia de un impuesto específico de \price{2.50}.
 
    #+end_answer
 
-b) Determine la incidencia de un impuesto del 20% sobre el precio
+b) Determine la incidencia de un impuesto del 25% sobre el precio
    de venta.
 
    #+begin_answer

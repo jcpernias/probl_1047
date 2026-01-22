@@ -12,7 +12,7 @@
 ## Títulos de los temas
 ## ================================================================================
 #+MACRO: unit01 El sector público en una economía mixta
-#+MACRO: unit02 Delimitación del sector público
+#+MACRO: unit02 Indicadores del sector público
 #+MACRO: unit03 Eficiencia
 #+MACRO: unit04 Equidad
 #+MACRO: unit05 Eficiencia y equidad

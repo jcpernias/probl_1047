@@ -2,20 +2,21 @@
 
 #+SETUPFILE: ./probl-es.org
 
-#+TITLE: {{{unit02}}} (I)
-
-
+#+TITLE: {{{unit02}}}
 
 * Q.1
 
-Responda a las siguientes preguntas utilizando los datos del /Resumen
-del Informe COFOG 2018-2022/, el cual se encuentra disponible en [[https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/Paginas/iacogof.aspx][la
-web del IGAE]]:
+Utilizando el [[https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/Documents/AAPP_A/Resumen.pdf][/Resumen del Informe COFOG 2019-2023/]], disponible en [[https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Contabilidad/ContabilidadNacional/Publicaciones/Paginas/iacogof.aspx][la
+web del IGAE]], responda a las siguientes preguntas con los datos del
+año 2023:
 
 a) ¿Qué porcentaje sobre el PIB representa el total del gasto público?
+
 b) ¿Cuáles son los principales grupos de gasto público en España?
+
 c) ¿Cómo se reparte el gasto entre los diferentes administraciones
    públicas?
+
 d) ¿Qué grupos de gastos conforman el gasto social de las
    administraciones públicas? ¿Qué porcentaje representan con respecto
    al gasto público total? ¿Y con respecto al PIB?
@@ -25,74 +26,53 @@ d) ¿Qué grupos de gastos conforman el gasto social de las
 
 Esto es una respuesta.
 
-
-
 * Q.2
 
-Acceda a la sección /Public Governance - Public finance and budgets/
-del [[https://data-explorer.oecd.org][OECD Data Explorer]], y utilice la información contenida en /Public
-finance main indicators - Government at a Glance, 2023 edition/ para
-comparar la evolución de las siguientes variables en España y en la
-OCDE y los países de la Unión Europea miembros de la OCDE:
+El archivo ~Indicators.xlsx~ contiene indicadores de las actividades
+del sector público en España y en otros 6 países de la OECD para el
+periodo 2007--20024. Todos los indicadores se expresan como porcentaje
+con respecto al PIB:
 
-a) Gasto público (/Government expenditure/).
-b) Saldo fiscal (/Government fiscal balance/).
-c) Déficit primario (/Government primary balance/).
-d) Deuda pública (/Government gross debt/).
+a) Gasto público (/Government expenditures/).
+b) Ingreso público (/Government revenues/).
+c) Saldo fiscal (/Government fiscal balance/).
+d) Déficit primario (/Government primary balance/).
+e) Deuda pública (/Government gross debt/).
 
-Obtenga gráficos de esas variables expresadas como porcentaje del PIB
-y comente brevemente su evolución a lo largo del tiempo y la posición
-de España con respecto a los países de su entorno.
+Represente gráficamente la evolución a lo largo del tiempo de esas
+variables. Comente brevemente la posición de España con respecto a los
+países de su entorno.
 
 ** Answer
 
 Esto es una respuesta.
 
 
-* COMMENT Q.2
+* Q.3
 
-En este ejercicio se analiza el comportamiento de los gastos e
-ingresos del Sector Público en España utilizando datos elaborados por
-la [[https://www.igae.pap.hacienda.gob.es/sitios/igae/es-ES/Paginas/inicio.aspx][Intervención General de la Administración del Estado, IGAE]]. En el
-Aula Virtual puede encontrar los archivos:
+El archivo ~Revenues.xlsx~ contiene información sobre los ingresos
+totales del sector público de España y otros 6 países de la OCDE para
+el periodo 2007--2024. También se presentan datos sobre los impuestos y
+las cotizaciones a la Seguridad Social. Todos las datos se expresan
+como porcentajes del PIB.
 
-- ~A_AAPP.xlsx~: Operaciones no financieras del conjunto de las
-  Administraciones Públicas.
+a) Determine la *presión fiscal* (porcentaje sobre el PIB que
+   representan los impuestos más las cotizaciones sociales) de cada
+   uno de los países para el año 2024. Compare las cifras de España
+   con las del resto de países. Calcule la presión fiscal en España
+   para cada uno de los años del periodo 2007--2024 y comente cómo ha
+   evolucionado.
 
-- ~A_AAPP_Imp.xlsx~: Impuestos y cotizaciones sociales del conjunto de
-  las Administraciones Públicas.
+b) Calcule qué porcentaje representan los impuestos /sobre el total de
+   los ingresos del sector público/ de cada uno de los países en el
+   año 2024. ¿Cómo ha evolucionado este porcentaje en España durante
+   el periodo 2007--2024?
 
-- ~COFOG.xlsx~: Clasificación funcional de los gastos de las diferentes administraciones que componen el Sector Público.
+c) ¿Qué porcentaje representan las cotizaciones sociales /sobre
+   el total de los ingresos del sector público/ de cada uno de los
+   países en el año 2024? ¿Cómo ha evolucionado este porcentaje en
+   España durante el periodo 2007--2024?
 
-A partir de la información estadística contenida en esos archivos,
-responda a las siguientes preguntas:
-
-
-a) Examine la evolución del gasto público en España. ¿A cuánto
-   asciende en los últimos años?  ¿Qué porcentaje con respecto al PIB
-   representa el gasto público?
-
-b) ¿Cómo se distribuye el gasto público entre las diferentes
-   Administraciones Públicas?
-
-c) Atendiendo a la /clasificación funcional de los gastos/, ¿qué
-   grupos de gasto tienen un mayor peso en España? ¿Cuáles son los
-   grupos más importantes para las diferentes Administraciones
-   Públicas?
-
-d) Examine la evolución de los ingresos del Sector Público en España
-   ¿A cuánto ascienden durante los últimos años? ¿Qué porcentaje
-   representan /los impuestos y las cotizaciones sociales/ con respecto
-   a los ingresos totales de las Administraciones Públicas? ¿Cómo ha
-   evolucionado la /presión fiscal/ en España?
-
-e) ¿Cuál es el peso que tienen en España los /impuestos directos/, los
-   /impuestos indirectos/ y las /cotizaciones sociales/? ¿Cómo ha
-   evolucionado la importancia de cada una de esas categorías?
-
-f) ¿Cuál es el tamaño del déficit público en España? Compare la
-   evolución del /saldo fiscal/ (/capacidad/necesidad de
-   financiación/) y del /saldo primario/. ¿Por qué son diferentes?
 
 ** Answer
 
@@ -100,19 +80,20 @@ Esto es una respuesta.
 
 
 
-* COMMENT Q.2
+* Q.4
 
-Utilizando los datos que publica la OECD en
-[[https://data.oecd.org/government.htm][https://data.oecd.org/government.htm]] describa y compare la magnitud y
-la evolución reciente en España y en los países de su entorno de las
-siguientes variables del Sector Público (en todos los casos se miden
-como porcentaje con respecto al PIB):
+El fichero ~Taxes.xlsx~ reúne información sobre la estructura del
+sistema impositivo de España y otros 6 países de la OCDE durante el
+periodo 2007--2024. Las unidades de los datos son porcentajes sobre el
+PIB.
 
-a) Gastos (/General government spending/).
-b) Ingresos (/General government revenues/).
-c) Saldo fiscal (/General government deficit/).
-d) Deuda pública (/General government debt/).
-e) Presión fiscal (/Tax revenue/).
+a) Utilizando los datos del año 2024, exprese los diferentes impuestos
+   como porcentaje del total de impuestos de cada país y compare la
+   estructura del sistema impositivo español con la de los otros
+   países.
+
+b) ¿Cómo ha evolucionado cada tipo de impuesto en España a lo largo de
+   todo el periodo?
 
 ** Answer
 

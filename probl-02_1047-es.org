@@ -14,7 +14,7 @@ a) ¿Qué porcentaje sobre el PIB representa el total del gasto público?
 
 b) ¿Cuáles son los principales grupos de gasto público en España?
 
-c) ¿Cómo se reparte el gasto entre los diferentes administraciones
+c) ¿Cómo se reparte el gasto entre las diferentes administraciones
    públicas?
 
 d) ¿Qué grupos de gastos conforman el gasto social de las
@@ -29,8 +29,8 @@ Esto es una respuesta.
 * Q.2
 
 El archivo ~Indicators.xlsx~ contiene indicadores de las actividades
-del sector público en España y en otros 6 países de la OECD para el
-periodo 2007--20024. Todos los indicadores se expresan como porcentaje
+del sector público en España y en otros 6 países de la OCDE para el
+periodo 2007--2024. Todos los indicadores se expresan como porcentaje
 con respecto al PIB:
 
 a) Gasto público (/Government expenditures/).
@@ -39,7 +39,7 @@ c) Saldo fiscal (/Government fiscal balance/).
 d) Déficit primario (/Government primary balance/).
 e) Deuda pública (/Government gross debt/).
 
-Represente gráficamente la evolución a lo largo del tiempo de esas
+Represente gráficamente la evolución temporal de esas
 variables. Comente brevemente la posición de España con respecto a los
 países de su entorno.
 
@@ -53,11 +53,11 @@ Esto es una respuesta.
 El archivo ~Revenues.xlsx~ contiene información sobre los ingresos
 totales del sector público de España y otros 6 países de la OCDE para
 el periodo 2007--2024. También se presentan datos sobre los impuestos y
-las cotizaciones a la Seguridad Social. Todos las datos se expresan
+las cotizaciones a la Seguridad Social. Todos los datos se expresan
 como porcentajes del PIB.
 
 a) Determine la *presión fiscal* (porcentaje sobre el PIB que
-   representan los impuestos más las cotizaciones sociales) de cada
+   representan los impuestos y las cotizaciones sociales) de cada
    uno de los países para el año 2024. Compare las cifras de España
    con las del resto de países. Calcule la presión fiscal en España
    para cada uno de los años del periodo 2007--2024 y comente cómo ha
@@ -82,10 +82,9 @@ Esto es una respuesta.
 
 * Q.4
 
-El fichero ~Taxes.xlsx~ reúne información sobre la estructura del
+El archivo ~Taxes.xlsx~ reúne información sobre la estructura del
 sistema impositivo de España y otros 6 países de la OCDE durante el
-periodo 2007--2024. Las unidades de los datos son porcentajes sobre el
-PIB.
+periodo 2007--2024. Los datos se expresan como porcentajes del PIB.
 
 a) Utilizando los datos del año 2024, exprese los diferentes impuestos
    como porcentaje del total de impuestos de cada país y compare la

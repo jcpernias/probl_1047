@@ -1,0 +1,55 @@
+#+SETUPFILE: ./course-es.org
+
+#+TITLE: {{unit04}}
+
+#+PROPERTY: header-args:latex :noweb yes :eval no
+
+* Chunks
+
+
+** Ejes
+
+#+begin_src latex :noweb-ref scale
+  xscale=0.333333, yscale=0.333333
+#+end_src
+
+#+begin_src latex :noweb-ref axes
+  \draw[axis] (0, 15) node[left] {€/u} |-
+    (15, 0) node[below] {$Q$} ;
+#+end_src
+
+
+
+* Ineficiencia del monopolio
+
+#+begin_src latex :tangle fig-01_1047-01.tex
+  \begin{tikzpicture}[<<scale>>]
+
+     \fill[Gray!40!White] (3, 7) -- (4, 9) -- (3, 10) -- cycle ;
+
+     \draw[help lines] (0, 10) node[left] { $1000$ } -|
+        (3, 0) node[below left=0pt and -6pt] { $300$ }
+        (0, 7) node[left] { $700$ } -- (3, 7);
+     \draw[help lines] (0, 9) node[left] { $900$ } -|
+        (4, 0)  node[below right=0pt and -8pt] {$400$};
+
+
+     \draw[curve, very thick] (0, 1) node[left] {$100$} -- (6, 13)
+        node[right] { $\CMg$ }
+        ;
+
+     \draw[curve, very thick] (0, 13)  -- (13, 0) node[below left=0pt and -6pt] {$1300$}
+        node[right, pos=0.9] { $P(Q)$ };
+
+
+     \draw[curve, very thick] (0, 13) node[left] {$1300$} --
+        (6.5, 0) node[below right=0pt and -8pt] {$650$}
+        node[pos=0.9, right] { $\IMg$ };
+
+     <<axes>>
+   \end{tikzpicture}
+#+end_src
+
+# Local Variables:
+# ispell-dictionary: "spanish"
+# End:

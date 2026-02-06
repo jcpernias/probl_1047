@@ -31,7 +31,7 @@ c) ¿Cómo cambiarían sus respuestas al apartado anterior si la función
 Por hacer
 
 
-* Q.2
+* COMMENT Q.2
 
 Considere una economía con dos personas, Ana y Berto, que consumen
 dos bienes, pan y agua. Debido a la pertinaz sequía, las
@@ -48,7 +48,7 @@ Pareto eficiente?
 Por hacer
 
 
-* Q.3
+* COMMENT Q.3
 
 En una economía de intercambio puro:
 
@@ -68,7 +68,7 @@ c) ¿Es posible conseguir que algún individuo mejore si la economía
 Por hacer
 
 
-* Q.4
+* COMMENT Q.4
 
 Indique si cada una de las siguientes afirmaciones es cierta, falsa
 o imprecisa y justifique su respuesta:
@@ -91,7 +91,7 @@ d) El Segundo Teorema Fundamental de la Economía del Bienestar dice
 Por hacer.
 
 
-* Q.5
+* COMMENT Q.5
 
 En una economía de mercado que opera eficientemente se producen
 \num{1000000} de unidades del bien $X$ y \num{500000} unidades del
@@ -105,7 +105,7 @@ una unidad del bien $X$?
 Por hacer
 
 
-* Q.6
+* COMMENT Q.6
 
 Una economía está compuesta por dos consumidores, Alicia y Bruno, y
 dos bienes de consumo, café y donuts. Tanto Alicia como Bruno están
@@ -120,7 +120,7 @@ negativa, ¿habría que producir más tazas de café o más donuts?
 Por hacer
 
 
-* Q.7
+* COMMENT Q.7
 
 El gobierno de un país quiere fomentar la producción de aceite de
 oliva. Para ello establece un impuesto adicional a los consumidores
@@ -132,7 +132,7 @@ con una asignación de recursos eficiente en el sentido de Pareto?
 Por hacer
 
 
-* Q.8
+* COMMENT Q.8
 
 En un mercado con curva inversa de demanda $P = 14 - 0.04 Q$ opera
 un monopolista cuyos costes marginales son $\CM = 2 + 0.02 Q$. Las

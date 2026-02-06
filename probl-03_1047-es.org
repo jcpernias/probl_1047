@@ -1,63 +1,10 @@
-# -*- ispell-dictionary: "castellano" -*-
-
 #+SETUPFILE: ./probl-es.org
 
 #+TITLE: {{{unit03}}}: ejercicios
 
 
+
 * Q.1
-
-Un avión se estrella en el Océano Pacífico. Los dos únicos
-supervivientes consiguen ponerse a salvo en una isla desierta donde
-no hay nada que comer. En la playa encuentran, entre los restos del
-accidente, una caja que contiene \num{1000} bolsitas de
-cacahuetes. Encuentre las posibles asignaciones de las bolsas de
-cacahuetes entre los dos supervivientes que sean óptimas en el
-sentido de Pareto. ¿Cuáles de estas asignaciones son justas?
-
-** Answer
-
-Por hacer
-
-
-* Q.2
-
-Considere una economía con dos personas, Ana y Berto, que consumen
-dos bienes, pan y agua. Debido a la pertinaz sequía, las
-autoridades deciden reasignar las dotaciones de agua de forma que
-cada persona disponga exactamente de la mitad del agua
-disponible. Se estipula, además, la prohibición de intercambiar pan
-por agua con el objetivo de que nadie pueda "explotar" a
-nadie. ¿Puede ser una redistribución de ese tipo una mejora en
-sentido de Pareto? ¿Es posible que la asignación resultante sea
-Pareto eficiente?
-
-** Answer
-
-Por hacer
-
-
-* Q.3
-
-En una economía de intercambio puro:
-
-a) ¿Es posible que exista un asignación Pareto-eficiente donde
-   alguien esté peor que en otra asignación que no es
-   Pareto-eficiente?
-
-b) ¿Es posible que exista un asignación Pareto-eficiente donde
-   todos los individuos estén peor que en otra asignación que no es
-   Pareto-eficiente?
-
-c) ¿Es posible conseguir que algún individuo mejore si la economía
-   se encuentra en un óptimo de Pareto?
-
-** Answer
-
-Por hacer
-
-
-* Q.16
 
 Indique si cada una de las siguientes afirmaciones es cierta, falsa
 o imprecisa y justifique su respuesta:
@@ -77,7 +24,78 @@ d) El Segundo Teorema Fundamental de la Economía del Bienestar dice
 
 ** Answer
 
-Por hacer.
+
+a) *Falsa*. Que todos tengan la misma relación marginal de sustitución
+   es condición necesaria, pero no suficiente para la eficiencia de
+   Pareto.
+
+b) *Verdadera*. Una asignación Pareto eficiente implica la eficiencia
+   en el intercambio, por lo que se observaría la igualdad de las RMS
+   de todos los individuos.
+
+c) *Falsa*. Todos los puntos de la frontera son eficientes en el
+   sentido de Pareto. Por lo tanto cualquier reasignación implicaría
+   que, al menos, un individuo empeoraría.
+
+d) *Falsa*. Dice que toda asignación eficiente de Pareto, deseable o
+   no, puede obtenerse como equilibrio competitivo tras una
+   redistribución adecuada de dotaciones iniciales.
+
+
+* Q.2
+
+En una economía de intercambio puro:
+
+a) ¿Es posible que exista una asignación Pareto eficiente donde
+   alguien esté peor que en otra asignación que no es
+   Pareto eficiente?
+
+b) ¿Es posible que exista una asignación Pareto eficiente donde
+   todos los individuos estén peor que en otra asignación que no es
+   Pareto eficiente?
+
+c) ¿Es posible conseguir que algún individuo mejore si la economía
+   se encuentra en un óptimo de Pareto?
+
+** Answer
+
+a) *Sí*. Que una asignación sea Pareto eficiente no significa que el
+   bienestar de todos los individuos sea mayor que en cualquier otra
+   asignación, sea eficiente o no.
+
+b) *Sí*. Es posible encontrar asignaciones no eficientes donde todos
+   los individuos empeoren con respecto a una asignación eficiente.
+
+c) *Sí*. Lo que no es posible es conseguir que el resto de individuos
+   mejore o, al menos, que no empeore. Si la economía está en un
+   óptimo de Pareto, cualquier reasignación que mejore el bienestar de
+   algún individuo, hará que otro individuo empeore.
+
+
+* Q.3
+
+Considere una economía de intercambio puro compuesta por dos personas,
+Arturo y Belén, que consumen dos bienes, pan y agua. Debido a la
+pertinaz sequía, las autoridades deciden reasignar las dotaciones de
+agua de manera que cada persona disponga exactamente de la mitad del
+agua total disponible. Además, se prohíbe intercambiar pan por agua
+con el objetivo de evitar posibles situaciones de
+"explotación". ¿Puede una redistribución de ese tipo constituir una
+mejora en sentido de Pareto?  ¿Es posible que la asignación resultante
+sea Pareto eficiente?
+
+** Answer
+
+
+- /¿Puede ser una mejora de Pareto?/ En general, no. Una
+  redistribución puede mejorar el bienestar de uno de los
+  consumidores, pero si no sé permite el intercambio, puede empeorar
+  el del otro.
+
+- /¿Puede ser Pareto eficiente?/ No necesariamente. Sólo habrá una
+  asignación donde el agua se reparta al 50% entre los dos individuos
+  y esté en la curva de contrato. Dado que se prohíbe el intercambio,
+  alcanzar esa situación solo podría ocurrir por casualidad.
 
 
 * Q.4
@@ -85,31 +103,71 @@ Por hacer.
 En una economía de mercado que opera eficientemente se producen
 \num{1000000} de unidades del bien $X$ y \num{500000} unidades del
 bien $Y$. Los precios a los que se venden estos bienes son $P_X =
-\price{10}$ y $P_Y = \price{2}$. ¿Cuántas unidades adicionales del
-bien $Y$ podrían producirse en esta economía si se deja de producir
-una unidad del bien $X$?
+\price{10}$ y $P_Y = \price{2}$. Determine cuántas unidades
+adicionales del bien $Y$ podrían producirse si se dejara de producir
+una unidad del bien $X$.
 
 ** Answer
 
-Por hacer
+
+En un equilibrio eficiente, la relación marginal de transformación,
+\RMT, es igual a los precios relativos:
+#+begin_export latex
+\[
+  \RMT = \frac{P_X}{P_Y} = \frac{10}{2} =
+  5\text{\, unidades de $Y$ por unidad de $X$.}
+\]
+#+end_export
+Si se produce $1$ unidad menos del bien $X$ se podrían producir $5$
+unidades adicionales del bien $Y$.
+
+
 
 
 * Q.5
 
 Una economía está compuesta por dos consumidores, Alicia y Bruno, y
-dos bienes de consumo, café y donuts. Tanto Alicia como Bruno están
+dos bienes de consumo: café y donuts. Tanto Alicia como Bruno están
 dispuestos a intercambiar dos tazas de café por un donut. Por otro
-lado, si se produjera una taza de café menos se liberarían
-suficientes factores para producir tres donuts. ¿Se cumplen las
-condiciones de eficiencia en esta economía? Si la respuesta es
-negativa, ¿habría que producir más tazas de café o más donuts?
+lado, si se produjera una taza de café menos se liberarían suficientes
+factores como para producir tres donuts. ¿Se cumplen las condiciones
+de eficiencia en esta economía? Si la respuesta es negativa, ¿habría
+que producir más café o más donuts?
 
 ** Answer
 
-Por hacer
+Las relaciones marginales de Alicia y Bruno coinciden:
+#+begin_export latex
+\[
+  \RMS_A = \RMS_B = 2\text{\,tazas de café por donut.}
+\]
+#+end_export
+La relación marginal de transformación es:
+#+begin_export latex
+\[
+  \RMT = 1/3\text{\,tazas de café por donut.}
+\]
+#+end_export
+Aunque se cumple la condición de eficiencia en el intercambio, no se
+cumple la condición de eficiencia en la combinación de productos:
+#+begin_export latex
+\[
+  \RMS_{A} = \RMS_{B} \neq \RMT.
+\]
+#+end_export
+Para determinar cómo habría que alterar la producción, consideremos
+que se produce 1 taza de café menos. De esta forma sería posible
+producir 3 donuts más. Si repartimos esas variaciones de producción a
+partes iguales entre los dos consumidores, cada uno de ellos
+consumiría 1.5 donuts más y 1/2 taza de café menos. De acuerdo con las
+\RMS, están dispuestos a renunciar a 3 tazas de café por el
+incremento en el consumo de donuts, pero sólo les cuesta 1/2 taza de
+café. Por tanto, el bienestar de los dos consumidores aumenta. En
+conclusión, debería producirse menos café y más donuts.
 
 
-* Q.6
+
+* COMMENT Q.6
 
 El gobierno de un país quiere fomentar la producción de aceite de
 oliva. Para ello establece un impuesto adicional a los consumidores
@@ -121,7 +179,7 @@ con una asignación de recursos eficiente en el sentido de Pareto?
 Por hacer
 
 
-* Q.10
+* COMMENT Q.10
 
 En un mercado con curva inversa de demanda $P = 14 - 0.04 Q$ opera
 un monopolista cuyos costes marginales son $\CM = 2 + 0.02 Q$. Las
@@ -138,7 +196,7 @@ b) Si se obliga al monopolista a fijar el precio competitivo, ¿cuál
 Por hacer
 
 
-* Q.15
+* COMMENT Q.15
 
 \DDANGER Considere una economía pura de intercambio con dos
 consumidores $A$ y $B$ y dos bienes $X$ e $Y$. Las preferencias vienen
@@ -322,3 +380,5 @@ c) igualitarista.
 # Local Variables:
 # ispell-local-dictionary: "spanish"
 # End:
+
+#  LocalWords:  donuts donut

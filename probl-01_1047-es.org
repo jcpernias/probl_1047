@@ -31,8 +31,8 @@ b) Falso. También transferencias.
 c) Falso. Es el porcentaje del PIB que representan los impuestos más
    cotizaciones
 d) Falso. La definición dada corresponde a la deuda pública.
-e) Falso. La función de protección social (pensiones) la lleva a cabo
-   casi en exclusiva la Seguridad Social.
+e) Falso. La mayor parte de la función de protección social
+   (pensiones) corresponde a la Seguridad Social.
 
 
 * Q.2
@@ -55,32 +55,40 @@ Q$.
 
 ** Answer
 
-1. Condición de primer orden:
+1. Condición de primer orden para la maximización del beneficio del
+   monopolio:
    #+begin_export latex
    \[
+      \IMg  = \CMg \quad\Rightarrow\quad
       \num{1300} - 2Q^M = 100 + 2 Q^M.
    \]
    #+end_export
    Por tanto $Q^M = 300$ unidades. Sustituyendo en la función
    inversa de demanda, $P^M = P(300) = \price{1000}$.
 
-2. Igualando precio y coste marginal:
+2. El equilibrio competitivo se obtiene igualando precio y coste
+   marginal:
    #+begin_export latex
    \[
+     \IMg  = \CMg \quad\Rightarrow\quad
      \num{1300} -  Q^C = 100 + 2 Q^C.
    \]
    #+end_export
    Por tanto $Q^C = 400$ unidades y $P^C = 900$ €/u.
 
-3. Geométricamente, la pérdida irrecuperable de
-   eficiencia es un triángulo cuya altura (vista desde el eje de
-   ordenadas) es:
+3. La pérdida irrecuperable de eficiencia se corresponde con el área
+   del triángulo sombreado en el siguiente gráfico:
+   #+xxx: fig file:fig-01_1047-01-*.pdf
+
+   Se calcula a partir de la diferencia de las cantidades producidas
+   en competencia perfecta y monopolio:
    #+begin_export latex
    \[
-     Q^C - Q^M = \units{100}.
+     Q^C - Q^M = \units{100},
    \]
    #+end_export
-   y su base es:
+   y de la diferencia en los precios en las dos estructuras de
+   mercado:
    #+begin_export latex
    \[
      P(Q^M) - \CMg(Q^M) = \price{300}.
@@ -88,8 +96,6 @@ Q$.
    #+end_export
    La pérdida irrecuperable de eficiencia es igual a $100 \cdot 300 /
    2 = \money{15000}$.
-
-   #+xxx: fig file:fig-01_1047-01-*.pdf
 
    El cambio en el bienestar de los consumidores vendría dado por la
    variación del excedente de los consumidores:
@@ -129,7 +135,7 @@ su producto con costes marginales constantes: $\CMg = \price{2}$.
    discriminar.
 
 
-** Answer
+** COMMENT Answer
 
 1.  Ingreso marginal mercado A:
    #+begin_export latex
@@ -231,7 +237,7 @@ d. ¿Cuál de las tres situaciones analizadas sería preferible? ¿Por
    qué?
 
 
-** Answer
+** COMMENT Answer
 
 a. La solución competitiva implica que el monopolista fija el mismo
    precio a los dos consumidores y el precio es igual al coste marginal:

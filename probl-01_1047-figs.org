@@ -10,12 +10,12 @@
 ** Ejes
 
 #+begin_src latex :noweb-ref scale
-  xscale=0.333333, yscale=0.333333
+  xscale=0.833333, yscale=0.333333
 #+end_src
 
 #+begin_src latex :noweb-ref axes
   \draw[axis] (0, 15) node[left] {€/u} |-
-    (15, 0) node[below] {$Q$} ;
+    (6, 0) node[below] {$Q$} ;
 #+end_src
 
 
@@ -33,18 +33,19 @@
      \draw[help lines] (0, 9) node[left] { $900$ } -|
         (4, 0)  node[below right=0pt and -8pt] {$400$};
 
-
-     \draw[curve, very thick] (0, 1) node[left] {$100$} -- (6, 13)
+     % Marginal cost curve
+     \draw[curve, very thick] (0, 1) node[left] {$100$} -- (5, 11)
         node[right] { $\CMg$ }
         ;
 
-     \draw[curve, very thick] (0, 13)  -- (13, 0) node[below left=0pt and -6pt] {$1300$}
-        node[right, pos=0.9] { $P(Q)$ };
+     % Demand curve
+     \draw[curve, very thick] (0, 13)  -- (5, 8)
+        node[right] { $P(Q)$ };
 
-
+     % Marginal revenues curve
      \draw[curve, very thick] (0, 13) node[left] {$1300$} --
-        (6.5, 0) node[below right=0pt and -8pt] {$650$}
-        node[pos=0.9, right] { $\IMg$ };
+        (5, 3) node[right] { $\IMg$ };
+
 
      <<axes>>
    \end{tikzpicture}

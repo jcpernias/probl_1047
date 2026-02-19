@@ -87,10 +87,9 @@ sea Pareto eficiente?
 ** Answer
 
 
-- /¿Puede ser una mejora de Pareto?/ En general, no. Una
-  redistribución puede mejorar el bienestar de uno de los
-  consumidores, pero si no sé permite el intercambio, puede empeorar
-  el del otro.
+- /¿Puede ser una mejora de Pareto?/ No: un individuo tendrá la misma
+  cantidad de pan pero menos cantidad de agua, por lo que su utilidad
+  se reducirá.
 
 - /¿Puede ser Pareto eficiente?/ No necesariamente. Sólo habrá una
   asignación donde el agua se reparta al 50% entre los dos individuos
@@ -110,8 +109,8 @@ una unidad del bien $X$.
 ** Answer
 
 
-En un equilibrio eficiente, la relación marginal de transformación,
-\RMT, es igual a los precios relativos:
+Si se cumplen las condiciones de eficiencia, la relación marginal de
+transformación, \RMT, será igual a los precios relativos:
 #+begin_export latex
 \[
   \RMT = \frac{P_X}{P_Y} = \frac{10}{2} =
@@ -156,14 +155,14 @@ cumple la condición de eficiencia en la combinación de productos:
 \]
 #+end_export
 Para determinar cómo habría que alterar la producción, consideremos
-que se produce 1 taza de café menos. De esta forma sería posible
-producir 3 donuts más. Si repartimos esas variaciones de producción a
+que se producen 2 tazas de café menos. De esta forma sería posible
+producir 6 donuts más. Si repartimos esas variaciones de producción a
 partes iguales entre los dos consumidores, cada uno de ellos
-consumiría 1.5 donuts más y 1/2 taza de café menos. De acuerdo con las
-\RMS, están dispuestos a renunciar a 3 tazas de café por el
-incremento en el consumo de donuts, pero sólo les cuesta 1/2 taza de
-café. Por tanto, el bienestar de los dos consumidores aumenta. En
-conclusión, debería producirse menos café y más donuts.
+consumiría 3 donuts más y 1 taza de café menos. De acuerdo con las
+\RMS, los consumidores estarían dispuestos a renunciar a 6 tazas de
+café a cambio dr 3 donuts adicionales, pero sólo dejan de consumir 1
+taza de café. Por tanto, el bienestar de los dos consumidores
+aumenta. En conclusión, debería producirse menos café y más donuts.
 
 
 

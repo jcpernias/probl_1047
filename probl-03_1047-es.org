@@ -25,21 +25,25 @@ d) El Segundo Teorema Fundamental de la Economía del Bienestar dice
 ** Answer
 
 
-a) *Falsa*. Que todos tengan la misma relación marginal de sustitución
-   es condición necesaria, pero no suficiente para la eficiencia de
-   Pareto.
+a) *Falsa* (salvo en una economía de intercambio puro). La igualdad de
+   las relaciones marginales de sustitución es condición necesaria,
+   pero no suficiente para la eficiencia de Pareto. Se cumpliría la
+   condición de eficiencia en el intercambio, pero no necesariamente
+   se cumplirían las otras condiciones de eficiencia (en la producción
+   y en la combinación de productos).
 
-b) *Verdadera*. Una asignación Pareto eficiente implica la eficiencia
-   en el intercambio, por lo que se observaría la igualdad de las RMS
-   de todos los individuos.
+b) *Verdadera* (en ausencia de bienes públicos). Una asignación Pareto
+   eficiente implica la eficiencia en el intercambio, por lo que se
+   observaría la igualdad de las RMS de todos los individuos.
 
 c) *Falsa*. Todos los puntos de la frontera son eficientes en el
-   sentido de Pareto. Por lo tanto cualquier reasignación implicaría
-   que, al menos, un individuo empeoraría.
+   sentido de Pareto. Cualquier reasignación partiendo de un punto
+   eficiente implicaría que, al menos, un individuo empeoraría.
 
-d) *Falsa*. Dice que toda asignación eficiente de Pareto, deseable o
-   no, puede obtenerse como equilibrio competitivo tras una
-   redistribución adecuada de dotaciones iniciales.
+d) *Falsa*. El teorema establece que toda asignación eficiente puede
+   obtenerse como equilibrio competitivo tras una determinada
+   redistribución, pero no afirma que esas asignaciones sean o no
+   deseables.
 
 
 * Q.2
@@ -59,18 +63,39 @@ c) ¿Es posible conseguir que algún individuo mejore si la economía
 
 ** Answer
 
+#+xxx: fig file:fig-03_1047-02b-*.pdf
+
 a) *Sí*. Que una asignación sea Pareto eficiente no significa que el
    bienestar de todos los individuos sea mayor que en cualquier otra
    asignación, sea eficiente o no.
 
-b) *Sí*. Es posible encontrar asignaciones no eficientes donde todos
-   los individuos empeoren con respecto a una asignación eficiente.
+   Por ejemplo, la asignación $U$ del gráfico es eficiente ya que está
+   sobre la curva de contrato. En ese punto el consumidor $A$ obtiene
+   una menor utilidad que en la asignación no eficiente $Q$. En
+   cambio, en la asignación eficiente $V$ es el consumidor $B$ el que
+   empeora con respecto de la asignación $Q$.
 
-c) *Sí*. Lo que no es posible es conseguir que el resto de individuos
-   mejore o, al menos, que no empeore. Si la economía está en un
-   óptimo de Pareto, cualquier reasignación que mejore el bienestar de
-   algún individuo, hará que otro individuo empeore.
+b) *No*. Si fuera verdad, tendríamos una asignación eficiente desde la
+   cual se podría obtener una mejora de Pareto en la que todos los
+   individuos mejorasen simultáneamente. Pero eso entra en
+   contradicción con que la asignación inicial sea eficiente.
 
+   En el gráfico, se puede comparar la utilidad que obtienen los
+   consumidores en la asignación $Q$ (no eficiente) y en los puntos de
+   la curva de contrato (asignaciones eficientes). En el tramo $S T$
+   ningún consumidor está peor que en $Q$. En las asignaciones en el
+   tramo $O_A S$ el consumidor $A$ está peor que en $Q$, pero $B$ está
+   mejor. Por último, en el tramo $T O_B$ solo empeora el consumidor
+   $B$. En ninguna asignación eficiente los dos consumidores están
+   peor que en $Q$.
+
+c) *Sí*. Lo que no es posible es conseguir que todos los individuos
+   mejoren. Si la economía está en un óptimo de Pareto, cualquier
+   reasignación que mejore el bienestar de un individuo, hará que, al
+   menos, otro individuo empeore.
+
+   En el gráfico, el consumidor $A$ mejora si pasamos de la asignación
+   eficiente $U$ a la asignación $S$ o a la asignación $Q$.
 
 * Q.3
 
@@ -87,14 +112,22 @@ sea Pareto eficiente?
 ** Answer
 
 
+#+xxx: fig file:fig-03_1047-03a-*.pdf
+
 - /¿Puede ser una mejora de Pareto?/ No: un individuo tendrá la misma
   cantidad de pan pero menos cantidad de agua, por lo que su utilidad
   se reducirá.
 
-- /¿Puede ser Pareto eficiente?/ No necesariamente. Sólo habrá una
-  asignación donde el agua se reparta al 50% entre los dos individuos
-  y esté en la curva de contrato. Dado que se prohíbe el intercambio,
-  alcanzar esa situación solo podría ocurrir por casualidad.
+  Por ejemplo, si la asignación inicial es $Q$, después de reasignar
+  el agua la economía se movería al punto $S$. Dado que el consumidor
+  $B$ tendría menos agua en la nueva situación, su utilidad
+  disminuiría.
+
+- /¿Puede ser Pareto eficiente?/ No necesariamente. Sólo hay una
+  asignación donde el agua se reparte al 50% y está sobre la curva de
+  contrato (la asignación $T$ del gráfico). Dado que se prohíbe el
+  intercambio, alcanzar esa situación solo podría ocurrir por
+  casualidad.
 
 
 * Q.4
@@ -154,15 +187,34 @@ cumple la condición de eficiencia en la combinación de productos:
   \RMS_{A} = \RMS_{B} \neq \RMT.
 \]
 #+end_export
+
+
+La \RMT es la pendiente con el signo cambiado de la frontera de
+posibilidades de producción:
+#+begin_export latex
+\[
+  \RMT \approx - \iratio{C}{D} = \frac{1}{3}.
+\]
+#+end_export
+donde $C$ es la producción de café y $D$ la producción de donuts. Por
+tanto, si nos movemos a lo largo de la frontera, se cumplirá
+aproximadamente que:
+#+begin_export latex
+\[
+  \Delta D \approx - 3 \Delta C.
+\]
+#+end_export
+
 Para determinar cómo habría que alterar la producción, consideremos
-que se producen 2 tazas de café menos. De esta forma sería posible
-producir 6 donuts más. Si repartimos esas variaciones de producción a
-partes iguales entre los dos consumidores, cada uno de ellos
-consumiría 3 donuts más y 1 taza de café menos. De acuerdo con las
-\RMS, los consumidores estarían dispuestos a renunciar a 6 tazas de
-café a cambio dr 3 donuts adicionales, pero sólo dejan de consumir 1
-taza de café. Por tanto, el bienestar de los dos consumidores
-aumenta. En conclusión, debería producirse menos café y más donuts.
+que se producen 2 tazas de café menos. De acuerdo con la expresión
+anterior, sería posible producir 6 donuts más. Si repartimos esas
+variaciones de producción a partes iguales entre los dos consumidores,
+cada uno de ellos consumiría 3 donuts más y 1 taza de café menos. De
+acuerdo con las \RMS, a cambio de 3 donuts adicionales los
+consumidores estarían dispuestos a renunciar hasta a 6 tazas de
+café. Dado que sólo han perdido 1 taza de café, el bienestar de los
+dos consumidores aumentaría. En conclusión, debería producirse menos
+café y más donuts.
 
 
 

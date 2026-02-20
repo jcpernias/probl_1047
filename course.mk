@@ -14,6 +14,7 @@ probl_units := \
 
 probl_figs := \
 	01 \
+	03 \
 	12
 
 

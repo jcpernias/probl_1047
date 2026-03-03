@@ -65,7 +65,7 @@
   \newtcolorbox{answer}{coltext=MainText, colframe=AnswerFrame,%
     colback=AnswerFill,%
     notitle, boxrule=0.25pt,%
-    fontupper=\small, breakable, skin=enhanced, parbox=false,%
+    fontupper=\small, breakable, skin=enhanced, parbox=true,%
     before upper=\csname @totalleftmargin\endcsname0pt}}{%
   \newenvironment{answer}{\expandafter\comment}{\expandafter\endcomment}}
 

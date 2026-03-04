@@ -1,0 +1,147 @@
+#+SETUPFILE: ./course-es.org
+
+#+TITLE: {{unit06}}: ejercicios
+
+#+PROPERTY: header-args:latex :noweb yes :eval no
+
+
+* Ejercicio 5
+
+#+begin_src latex :tangle fig-06_1047-ex5-1.tex
+  \begin{tikzpicture}[xscale=0.08, yscale=0.08]
+
+    \draw[help lines]
+      (40, 20) --
+      (40, 0) node[below] { $40$ }
+      ;
+
+    % Marginal cost curve
+    \draw[curve, very thick]
+      (0, 0) -- (50, 25)
+      node[right] { $\CMg$ }
+      ;
+
+     % Demand curve
+     \draw[curve, very thick] (30, 40)  -- (50, 0) node[below] { $50$ }
+       node[pos = 0.1, above right=-1pt and -3pt] { $\BMS$ }
+       ;
+
+     % Axes
+     \draw[axis] (0, 45) node[left] {€/u} |-
+      (60, 0) node[below] {$Q$} ;
+
+  \end{tikzpicture}
+#+end_src
+
+
+* Ejercicio 6
+
+#+begin_src latex :tangle fig-06_1047-ex6-1.tex
+  \begin{tikzpicture}[xscale=0.072, yscale=0.108]
+
+    \fill[Gray!37!White] (0, 25) -- (25, 25) -- (35, 15) -- (0, 15) -- cycle ;
+    \fill[Gray!22!White] (35, 15) -- (50, 0) -- (50, 15) -- cycle ;
+
+    \draw[help lines]
+      (25, 25) --
+      (25, 0) node[below] { $Q^{C}$ }
+      (35, 15) --
+      (35, 0)  node[below] {$Q^{E}$};
+
+    % Marginal cost curve
+    \draw[curve, very thick] (0, 15) node[left] {$P^{E}$} -- (55, 15)
+      node[right] { $\CMg$ }
+      ;
+
+    \draw[curve, very thick] (0, 25) node[left] {$P^{C}$} -- (55, 25)
+      node[right] { $\CMg + c_{T}$ }
+      ;
+
+     % Demand curve
+     \draw[curve, very thick] (15, 35)  -- (50, 0)
+       node[pos = 0.1, above right=-1pt and -3pt] { $P(Q)$ }
+       node[below] { $Q^{P}$ }
+       ;
+
+     % Axes
+     \draw[axis] (0, 40) node[left] {€/u} |-
+      (70, 0) node[below] {$Q$} ;
+
+  \end{tikzpicture}
+#+end_src
+
+
+* Ejercicio 7
+
+#+begin_src latex :tangle fig-06_1047-ex7-1.tex
+  \begin{tikzpicture}[xscale=0.45, yscale=0.45]
+
+    \fill[Gray!40!White] (6.4167, 6.5) -- (6.4167, 1) -- (12.8333, 1) -- cycle ;
+
+    \draw[help lines]
+      (0, 6.5) node[left] { $52$ } -|
+      (6.4167, 0) node[below] { $2550$ }
+      (12.8333, 1) -- (12.8333, 0) node[below] {$5100$}
+      ;
+
+    % Marginal cost curve
+    \draw[curve, very thick] (0, 1) node[left] {$1$} -- (14, 1)
+      node[right] { $\CMg$ }
+      ;
+
+    % Marginal return curve
+    \draw[curve, very thick] (0, 12) node[left] {$103$} -- (7, 0)
+      node[pos = 0.88, above left=0pt and 5pt] { $\IMg$ }
+      ;
+
+     % Demand curve
+     \draw[curve, very thick] (0, 12)  -- (14, 0)
+       node[pos = 0.88, above right=0pt and -3pt] { $D$ }
+       ;
+
+     % Axes
+     \draw[axis] (0, 14) node[left] {€/u} |-
+      (16, 0) node[below] {$Q$} ;
+
+  \end{tikzpicture}
+#+end_src
+
+
+#+begin_src latex :tangle fig-06_1047-ex7-2.tex
+  \begin{tikzpicture}[xscale=0.45, yscale=0.45]
+
+    \draw[help lines]
+      (2.4788, 9.8753) --
+      (2.4788, 0) node[below] { $100$ }
+      (0, 3.1246) node[left] { $3$ } -|
+      (10.3546, 0)  node[below] {$5000$}
+      ;
+
+
+    % Marginal cost curve
+    \draw[curve, very thick] (0, 1) node[left] {$1$} -- (14, 1)
+      node[right] { $\CMg$ }
+      ;
+
+    \draw[curve, very thick] plot[domain=2:14]
+      (\x, {1 + 22/\x})
+      node[right] { $\CMe$ }
+      ;
+
+
+     % Demand curve
+     \draw[curve, very thick] (0, 12)  -- (14, 0)
+       node[pos = 0.88, above right=0pt and -3pt] { $D$ }
+       ;
+
+     % Axes
+     \draw[axis] (0, 14) node[left] {€/u} |-
+      (16, 0) node[below] {$Q$} ;
+
+  \end{tikzpicture}
+#+end_src
+
+
+# Local Variables:
+# ispell-dictionary: "spanish"
+# End:

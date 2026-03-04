@@ -11,13 +11,15 @@ privada de autopistas?
 ** Answer
 
 Características de un bien público:
+
 - No rivalidad en el consumo: se cumple, salvo que la autopista esté
   congestionada.
 
 - No exclusión: no se cumple: es posible establecer peajes.
 #+latex: \vspace*{1ex}
 
-La provisión privada no es eficiente:
+Sin congestión, la provisión privada no es eficiente:
+
 - No es socialmente óptimo excluir a nadie del consumo de bienes rivales.
 
 - Para poder obtener beneficios, la empresa privada ha de incurrir en
@@ -45,7 +47,22 @@ d) Las sociedades con mayor población tienden a consumir cantidades
 
 ** Answer
 
-Por hacer.
+a) *Falso.* La condición de Samuelson indica que la *suma* de las
+   valoraciones marginales debe igualar el coste marginal, no que
+   todos valoren igual el bien.
+
+b) *Falso.* Las empresas privadas podrían ofrecer el bien si cuentan
+   con mecanismos de exclusión artificial o financiación alternativa
+   (donaciones, publicidad, cuotas, etc.).
+
+c) *Verdadero.* El uso por parte de una persona no reduce la cantidad
+   disponible para otros; por tanto, es no rival (aunque puede dejar
+   de serlo con congestión).
+
+d) *Verdadero.* En bienes no rivales, la demanda agregada se obtiene
+   sumando verticalmente las valoraciones individuales. Más población
+   → mayor demanda agregada → mayor cantidad eficiente.
+
 
 
 * Q.3
@@ -61,8 +78,23 @@ situación descrita? ¿Debería aumentar la producción del bien público?
 
 ** Answer
 
-Por hacer.
-
+Obtenemos la valoración social de 1 unidad adicional del bien público
+sumando las valoraciones que realiza cada uno de los dos habitantes:
+#+begin_export latex
+\[
+  \RMS_A + \RMS_B = 15\;\text{unidades de $Y$ por unidad de $X$}.
+\]
+#+end_export
+La condición de eficiencia requiere que se igualen la valoración
+social y la relación marginal de transformación. Esta condición no se
+cumple en el caso que estamos considerando:
+#+begin_export latex
+\[
+  \RMS_A + \RMS_B = 15 < \RMT = 20.
+\]
+#+end_export
+Dado que la valoración social del bien público es inferior a su coste
+marginal se debería reducir su producción.
 
 * Q.4
 
@@ -89,8 +121,30 @@ temperatura eficiente?
 
 ** Answer
 
-Por hacer.
 
+La temperatura del piso es no rival y no excluible por lo que es
+un bien público.
+
+Para determinar el óptimo social, calculamos el beneficio marginal
+social, \BMS, sumando los beneficios marginales de Rocío y Pablo, y
+comparamos con el coste marginal:
+
+#+begin_center
+#+latex: \small\normalfont%
+#+attr_latex: :booktabs :center :align crr
+|----+--------------------------+--------|
+| ºC | $\BMS = \BMg_R + \BMg_P$ | $\CMg$ |
+|----+--------------------------+--------|
+| 18 |                       20 |     14 |
+| 19 |                       17 |     17 |
+| 20 |                       13 |     21 |
+| 21 |                        8 |     26 |
+| 22 |                        4 |     32 |
+|----+--------------------------+--------|
+#+end_center
+
+La temperatura eficiente es de 19ºC, ya que entonces se igualan el
+beneficio marginal social del bien público y su coste marginal.
 
 * Q.5
 
@@ -131,12 +185,10 @@ a) Dado que los faros son un bien público puro, la condición de
    de faros son:
    #+begin_export latex
    \begin{gather*}
-   \BMg_A(3) = 90 - 5\cdot 3 = 75\;\text{\texteuro/faro}, \\
-  \BMg_I(3) = 40 - 5\cdot 3 = 25\;\text{\texteuro/faro}.
+     \BMg_A(3) = 90 - 5\cdot 3 = 75\;\text{\texteuro/faro}, \\
+     \BMg_I(3) = 40 - 5\cdot 3 = 25\;\text{\texteuro/faro}.
    \end{gather*}
    #+end_export
-
-
 
 b) Si cada pescador decide de forma privada, construirá faros mientras
    que: $\BMg_i(Q) > \CMg$. Sin embargo, el primer faro construido por
@@ -144,8 +196,8 @@ b) Si cada pescador decide de forma privada, construirá faros mientras
    coste de producción:
    #+begin_export latex
    \begin{gather*}
-   \BMg_A(1) = 85 < \CMg = 100, \\
-   \BMg_I(1) = 35 < \CMg = 100.
+     \BMg_A(1) = 85 < \CMg = 100, \\
+     \BMg_I(1) = 35 < \CMg = 100.
    \end{gather*}
    #+end_export
    En estas condiciones, no se construiría ningún faro. La producción
@@ -157,13 +209,43 @@ b) Si cada pescador decide de forma privada, construirá faros mientras
 * Q.6
 
 El coste marginal de producir Q unidades de un bien público puro es:
-$\CM = 5 Q$. Existen 75 demandantes cuya demanda es $Q = 50 - 5 P$ y
-otros 25 con demanda igual a $Q = 100 - 5 P$. ¿Cuál sería la provisión
-eficiente del bien público? Represente gráficamente.
+$\CM = 5 Q$. Existen dos grupos de consumidores. El primero está
+compuesto por 75 demandantes, cada uno de ellos con demanda igual a $Q
+= 50 - 5 P$. El segundo grupo lo forma 5 consumidores cuyas demandas
+individuales son $Q = 50 - P$. ¿Cuál sería la provisión eficiente del
+bien público? Represente gráficamente.
 
 ** Answer
 
-Por hacer.
+Para obtener la demanda colectiva del bien público sumamos las curvas
+de demanda inversa de todos los consumidores. La curva de demanda
+inversa representa la disposición a pagar de un consumidor por cada
+unidad adicional del bien público. Al sumar las demandas inversas
+individuales obtenemos el beneficio marginal social, que coincide con
+la valoración social de cada unidad del bien público.
+#+latex: \vspace*{1ex}
+
+Curvas inversas de demanda individuales:
+
+- Primer grupo: $P = 10 - 0.2Q$.
+
+- Segundo grupo: $P = 50 - Q$.
+
+Demanda colectiva:
+#+begin_export latex
+\[
+  \BMS = 75 \cdot (10 - 0.2 Q) + 5 \cdot (50 - Q) = 1000 - 20 Q.
+\]
+#+end_export
+
+La provisión eficiente requiere que se igualen el beneficio marginal
+social y el coste marginal:
+#+begin_export latex
+\[
+  1000 - 20 Q = 5 Q,
+\]
+#+end_export
+por lo que deberían producirse $Q = 40$ unidades del bien público.
 
 
 * Q.7
@@ -180,7 +262,51 @@ de las dos opciones es más conveniente desde el punto de vista social?
 
 ** Answer
 
-Por hacer.
+En la solución eficiente se igualaría el precio al coste marginal $P^E
+= \CMg = \price{15}$ y se producirían las unidades que se demandan a
+ese precio: $Q^E = 35$ unidades.
+#+latex: \vspace*{1ex}
+
+Cuando el bien es provisto por empresas privadas, éstas tienen en
+cuenta tanto los costes de producción, $\CMg = \price{15}$, como los
+costes de transacción, $c_T = \price{10}$. En este caso, la condición
+de equilibrio competitivo es:
+#+begin_export latex
+\[
+  P^C = \CMg + c_T = \price{25}
+\]
+#+end_export
+y se producirían $Q^C = 25$ unidades. La provisión privada conduciría
+a una situación de subproducción ya que el número de unidades
+producidas sería inferior al óptimo.
+#+latex: \vspace*{1ex}
+
+Si el gobierno provee gratuitamente el bien, se llegaría a una
+situación de sobreproducción, ya que se producirían $Q^P = 50$
+unidades.
+#+latex: \vspace*{1ex}
+
+Ni la provisión privada ni la pública serían eficientes en este
+caso. Para determinar que opción sería preferible, se calcula el
+cambio en el bienestar social cuando la provisión pasa a ser pública:
+
+- Al ser gratuita la provisión pública, la sociedad se ahorra los
+  costes de transacción y el bienestar social aumenta en $25 \cdot 10
+  = \money{250}$.
+
+- La producción privada es $10$ unidades inferior a la óptima. Cuando
+  la provisión es pública, estas $10$ unidades se producen y generan
+  un aumento de bienestar de $10 \cdot 10 / 2 = \money{50}$.
+
+- La provisión pública es superior a la eficiente en $15$ unidades. La
+  valoración de estas unidades es inferior a su coste de producción y,
+  al producirlas, el bienestar social disminuye en $15 \cdot 15 / 2 =
+  \money{112.5}$.
+
+En conclusión, si la provisión del bien pasara a ser pública, el
+bienestar social se incrementaría en $250 + 50 - 112.5 =
+\money{187.5}$. Por tanto, sería más conveniente la provisión pública
+gratuita.
 
 
 * Q.8
@@ -197,9 +323,64 @@ b) Si el Gobierno obliga al monopolista a fijar el precio competitivo,
 c) Calcule el precio que debería fijar el monopolio para obtener
    beneficios nulos.
 
-** Answer
+** COMMENT Answer
 
-Por hacer.
+
+Coste total: C(Q) = 10 000 + Q
+CM = 1
+Demanda: Q = 5150 − 50P ⇒ P = 103 − Q/50.
+
+a) Monopolio
+
+IM: P + (dP/dQ)Q = 103 − Q/50 − (1/50)Q = 103 − Q/25
+
+Condición IM = CM:
+103 − Q/25 = 1 ⇒ Q = 2550
+P = 103 − 51 = 52
+
+Pérdida de eficiencia: comparar con cantidad competitiva.
+
+**Competitivo:**
+P = CM = 1 ⇒ Q = 5150 − 50 = 5100
+
+Pérdida de eficiencia = triángulo entre 2550 y 5100:
+½ (5100 − 2550)(52 − 1)
+= ½ (2550)(51)
+= ½ (130 050) = 65 025
+
+→ Pérdida de eficiencia ≈ **65.025 €**
+
+b) Precio competitivo P = 1
+
+Ingreso = Q = 5100
+Coste = 10 000 + 5100 = 15 100
+Beneficio = 5100 − 15 100 = −10 000
+→ Beneficio = **−10.000 €**
+
+c) Precio para beneficio cero
+
+Beneficio = PQ − (10 000 + Q) = 0
+Q = 5150 − 50P
+Sustituimos:
+P(5150 − 50P) = 10 000 + (5150 − 50P)
+
+5150P − 50P² = 15 150 − 50P
+50P² − 5200P + 15 150 = 0
+Dividiendo entre 50:
+P² − 104P + 303 = 0
+
+Solución:
+P = (104 ± √(104² − 4·303)) / 2
+P = (104 ± √(10816 − 1212)) / 2
+P = (104 ± √9604) / 2
+P = (104 ± 98)/2
+
+Soluciones:
+P = 1.5 o P = 101
+
+Solo tiene sentido P = 101 (si P = 1.5, la demanda sería negativa).
+→ **Precio de beneficio cero: 101 €.**
+
 
 
 * COMMENT Q.4

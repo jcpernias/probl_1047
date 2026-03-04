@@ -27,8 +27,103 @@ c) ¿Cómo cambiarían sus respuestas al apartado anterior si la función
 
 ** Answer
 
-Por hacer
+a) Si la utilidad de cada superviviente es creciente en el número de
+   bolsitas que recibe, sería un óptimo de Pareto cualquier reparto
+   que asigne las $1000$ bolsitas sin que se pierda ninguna. Si, por
+   ejemplo, un superviviente obtiene $100$ bolsitas y el otro recibe
+   $900$, no es posible mejorar la situación de uno sin empeorar la
+   del otro.
 
+   En cuanto a la justicia del reparto, el criterio de Pareto no
+   permite evaluar qué asignaciones son justas o no, pues ello
+   requiere introducir juicios de valor adicionales.
+
+b) La función de bienestar social utilitarista es:
+   #+begin_export latex
+   \[
+     W_U = U_A(N_A) + U_B(N_B) = N_A + N_B.
+   \]
+   #+end_export
+   Sólo consideramos asignaciones eficientes, por lo que:
+   #+begin_export latex
+   \[
+     N_A + N_B = 1000.
+   \]
+   #+end_export
+   Las dos expresiones anteriores implican que, sea cual sea la
+   asignación eficiente que se escoja, el valor de la función de
+   bienestar social va a ser el mismo: $W_U = N_A + N_B = 1000$. En
+   este caso, el criterio utilitarista implica que todas las
+   asignaciones eficientes son igualmente preferibles.
+   #+latex: \vspace*{1ex}
+
+   La función de bienestar rawlsiana es:
+   #+begin_export latex
+   \[
+     W_R = \min\{N_A, N_B\}.
+   \]
+   #+end_export
+   Con esta función no puede ser óptima ninguna asignación donde los
+   individuos reciban un número diferente de bolsitas, ya que se
+   podría incrementar el bienestar social transfiriendo bolsitas del
+   superviviente que tiene más al que tiene menos. Por tanto, la
+   asignación socialmente óptima se caracteriza por $N_A = N_B$. Esta
+   condición junto con la condición de eficiencia, $N_A + N_B = 1000$,
+   permite obtener el reparto óptimo: $N_A = N_B = 500$.
+
+c) En este caso, la función de bienestar utilitarista es:
+   #+begin_export latex
+   \[
+     W_U = \log N_A + \log N_B.
+   \]
+   #+end_export
+   El óptimo social se obtiene maximizando esta función sujeta a la
+   restricción que define la condición de eficiencia:
+   #+begin_export latex
+   \[
+     N_A + N_B = 1000.
+   \]
+   #+end_export
+   Sustituyendo la condición de eficiencia en la función de bienestar
+   social, se obtiene:
+   #+begin_export latex
+   \[
+     W_U = \log N_A + \log (1000 - N_A).
+   \]
+   #+end_export
+   La condición de primer orden requiere que la derivada de la
+   expresión anterior sea igual a $0$:
+   #+begin_export latex
+   \[
+     \frac{\diff W_u}{\diff N_A} =
+     \frac{1}{N_A} - \frac{1}{1000 - N_A} = 0.
+   \]
+   #+end_export
+   Resolviendo la ecuación anterior, se obtiene $N_A = 500$. Por
+   tanto, la asignación óptima es $N_A = N_B = 500$.
+   #+latex: \vspace*{1ex}
+
+   La función de bienestar rawlsiana es:
+   #+begin_export latex
+   \[
+     W_R = \min\{\log N_A, \log N_B\}.
+   \]
+   #+end_export
+   En el óptimo social se debe cumplir $\log N_A = \log N_B$, por lo
+   que $N_A = N_B$. Esta condición y la de eficiencia implican que el
+   reparto óptimo es $N_A = N_B = 500$.
+   #+latex: \vspace*{1ex}
+
+   En el caso de la función de bienestar utilitarista, el reparto
+   óptimo es diferente al del apartado anterior porque la utilidad
+   marginal es decreciente. Esto hace que se otorgue más peso relativo
+   a los individuos con menos recursos y se favorezca un reparto más
+   igualitario.
+   #+latex: \vspace*{1ex}
+
+   Por otro lado, los resultados no cambian con el criterio rawlsiano:
+   cualquier función de utilidad que sea creciente en el número de
+   bolsitas producirá el mismo reparto óptimo.
 
 
 * Q.2
@@ -42,7 +137,15 @@ del criterio utilitarista?  ¿Y si se utilizara el criterio
 
 ** Answer
 
-Por hacer
+Desde el punto de vista utilitarista, el programa sólo se debería
+llevar a cabo si la mejora agregada del bienestar de los más pobres
+supera la pérdida total del resto de la población.
+#+latex: \vspace*{1ex}
+
+El criterio rawlsiano favorecería la implantación del programa siempre
+que aumente el bienestar del individuo en peor situación,
+independientemente de las pérdidas o ganancias de bienestar del resto
+de ciudadanos.
 
 
 * Q.3
@@ -65,9 +168,57 @@ c) Responda a los apartados anteriores suponiendo ahora que la
 
 ** Answer
 
-Por hacer
+a) La maximización de la suma de las utilidades de los consumidores,
+   implica que se igualan sus utilidades marginales:
+   #+begin_export latex
+   \[
+     400 - 2Y_A = 400 - 6Y_B.
+   \]
+   #+end_export
+   De esta expresión se obtiene:
+   #+begin_export latex
+   \[
+     Y_A = 3Y_B
+   \]
+   #+end_export
+   Dado que $Y_A + Y_B = 100$, el reparto óptimo es:
+   #+begin_export latex
+   \[
+   Y_A = \money{75},\quad Y_B = \money{25}.
+   \]
+   #+end_export
 
+b) Si solo se valora la utilidad de Beatriz y se le asignan los
+   \money{100} su utilidad marginal sería negativa:
+   #+begin_export latex
+   \[
+     \UMgY_B(100) = 400 - 6 \cdot 100 = -200.
+   \]
+   #+end_export
+   La utilidad de Beatriz aumentaría si recibiera menos dinero. En
+   concreto, su utilidad se maximizaría cuando $\UMgY_B = 0$:
+   #+begin_export latex
+   \[
+      400 - 6 Y_B = 0,
+   \]
+   #+end_export
+   por lo que la asignación óptima sería $Y_A = \money{33.33}$ e $Y_B
+   = \money{66.67}$.
+   #+latex: \vspace*{1ex}
 
+   En cambio, si solo se valora la utilidad de Aurelio, éste debería
+   recibir los \money{100}. En este caso: $\UMgY_A(100) > 0$, por lo
+   que el reparto óptimo sería $Y_A = \money{100}$ e $Y_B =
+   \money{0}$.
+
+c) Cuando las utilidades marginales de la renta son constantes, todas
+   las asignaciones son igualmente preferibles desde el punto de vista
+   utilitarista.
+   #+latex: \vspace*{1ex}
+
+   Si la sociedad solo valorase la utilidad de uno de los
+   consumidores, ese consumidor debería recibir la totalidad de los
+   \money{100}.
 
 * Q.4
 
@@ -78,7 +229,15 @@ utilitarista?
 
 ** Answer
 
-Por hacer
+Si la función de utilidad es la misma para todos los individuos y es
+creciente en la renta, un rawlsiano apoyaría la medida siempre que
+mejore el individuo más pobre, sin tener en consideración las pérdidas
+o ganancias de utilidad del resto de ciudadanos.
+#+latex: \vspace*{1ex}
+
+Un utilitarista solo apoyaría el programa si la suma de las ganancias
+totales de pobres y ricos superase la pérdida agregada de los
+ciudadanos de clase media.
 
 
 * Q.5
@@ -98,8 +257,17 @@ c) Si la función de bienestar social es $W = \min\{U_1, U_2\}$, la
 
 ** Answer
 
-Por hacer
+a) La afirmación sólo sería cierta si la utilidad marginal de la renta
+   fuera igual para ambos consumidores. En general, el criterio
+   utilitarista favorecería asignar \money{1} al individuo con mayor
+   utilidad marginal.
 
+b) La afirmación es cierta ya que la utilidad del consumidor 2 tiene
+   un peso mayor en la función de bienestar social.
+
+c) Falso en general. El criterio rawlsiano iguala utilidades, no
+   rentas. Solo si las funciones de utilidad son idénticas se obtiene
+   una distribución igualitaria de la renta.
 
 
 * Q.6
@@ -115,7 +283,17 @@ b) Dada una curva de posibilidades de utilidad para dos individuos, la
 
 ** Answer
 
-Por hacer
+a) /Falso/. La aplicación del criterio rawlsiano lleva a la igualación
+   de las utilidades, no de las rentas. Si las funciones de utilidad
+   difieren, la distribución óptima de la renta no será igualitaria.
+
+b) /Falso/. Bajo ciertas condiciones el utilitarismo genera
+   distribuciones tan igualitarias como las obtenidas bajo el punto de
+   vista rawlsiano. Si los consumidores tienen funciones de utilidad
+   idénticas y la utilidad marginal de la renta es decreciente, el
+   criterio utilitarista y el rawlsiano producen los mismos
+   resultados.
+
 
 
 

@@ -13,10 +13,9 @@ privada de autopistas?
 
 Características de un bien público:
 
-- No rivalidad en el consumo: se cumple, salvo que la autopista esté
-  congestionada.
+- /No rivalidad/. Se cumple, salvo que la autopista esté congestionada.
 
-- No exclusión: no se cumple: es posible establecer peajes.
+- /No exclusión/. No se cumple: es posible establecer peajes.
 #+latex: \vspace*{1ex}
 
 Sin congestión, la provisión privada no es eficiente:
@@ -32,21 +31,22 @@ Sin congestión, la provisión privada no es eficiente:
 
 Considere una economía con dos habitantes $A$ y $B$ que consumen dos
 bienes: el bien público puro $X$ y el bien privado $Y$. Actualmente se
-producen 50 unidades del bien $X$ y 200 unidades del bien $Y$ que se
-reparten a partes iguales entre los dos consumidores. Las relaciones
-marginales de sustitución son: $\RMS_A = 5$ y $\RMS_B = 10$ unidades
-de $Y$ por unidad de $X$. La relación marginal de transformación es
-$\RMT = 20$ unidades de $Y$ por unidad de $X$. ¿Es eficiente la
-situación descrita? ¿Debería aumentar la producción del bien público?
+producen 50 unidades del bien $X$ y 200 unidades del bien $Y$. Toda la
+producción del bien $Y$ se reparte a partes iguales entre los dos
+consumidores. Las relaciones marginales de sustitución son: $\RMS_A =
+\RMS_B = 8$ unidades de $Y$ por unidad de $X$. La relación marginal de
+transformación es $\RMT = 20$ unidades de $Y$ por unidad de $X$. ¿Es
+eficiente la situación descrita? ¿Debería aumentar la producción del
+bien público?
 
 
 ** Answer
 
 Obtenemos la valoración social de 1 unidad adicional del bien público
-sumando las valoraciones que realiza cada uno de los dos habitantes:
+sumando las valoraciones de cada uno de los dos habitantes:
 #+begin_export latex
 \[
-  \RMS_A + \RMS_B = 15\;\text{unidades de $Y$ por unidad de $X$}.
+  \RMS_A + \RMS_B = 16\;\text{unidades de $Y$ por unidad de $X$}.
 \]
 #+end_export
 La condición de eficiencia requiere que se igualen la valoración
@@ -54,11 +54,12 @@ social y la relación marginal de transformación. Esta condición no se
 cumple en el caso que estamos considerando:
 #+begin_export latex
 \[
-  \RMS_A + \RMS_B = 15 < \RMT = 20.
+  \RMS_A + \RMS_B = 16 < \RMT = 20.
 \]
 #+end_export
-Dado que la valoración social del bien público es inferior a su coste
-marginal se debería reducir su producción.
+Se debería reducir su producción del bien público ya que que la
+valoración social de la última unidad de $X$ es inferior a su coste de
+oportunidad.
 
 
 * Q.3
@@ -88,10 +89,11 @@ temperatura eficiente?
 ** Answer
 
 
-La temperatura del piso es no rival y no excluible por lo que es un
-bien público. Para determinar el óptimo social, calculamos el
-beneficio marginal social, \BMS, sumando los beneficios marginales de
-Rocío y Pablo, y comparamos con el coste marginal:
+La temperatura del piso puede considerarse un bien público ya que su
+consumo es no rival y no excluible. Para determinar la temperatura
+óptima, calculamos el beneficio marginal social, \BMS, sumando los
+beneficios marginales de Rocío y Pablo, y comparamos con el coste
+marginal:
 
 #+begin_center
 #+latex: \newcommand*{\thin}[1]{\textcolor{gray!70}{#1}}
@@ -158,8 +160,8 @@ a) Dado que los faros son un bien público puro, la condición de
    #+end_export
 
 b) Si cada pescador decide de forma privada, construirá faros mientras
-   que: $\BMg_i(Q) > \CMg$. Sin embargo, el primer faro construido por
-   cada pescador proporcionaría un beneficio marginal inferior al
+   que: $\BMg_i(Q) > \CMg$. Sin embargo, el beneficio que obtendría
+   cada pescador por la construcción del primer faro sería inferior al
    coste de producción:
    #+begin_export latex
    \begin{gather*}
@@ -178,7 +180,7 @@ b) Si cada pescador decide de forma privada, construirá faros mientras
 El coste marginal de producir Q unidades de un bien público puro es:
 $\CM = 5 Q$. Existen dos grupos de consumidores. El primero está
 compuesto por 75 demandantes, cada uno de ellos con demanda igual a $Q
-= 50 - 5 P$. El segundo grupo lo forma 5 consumidores cuyas demandas
+= 50 - 5 P$. El segundo grupo lo forman 5 consumidores cuyas demandas
 individuales son $Q = 50 - P$. ¿Cuál sería la provisión eficiente del
 bien público? Represente gráficamente.
 
@@ -263,17 +265,18 @@ caso. Para determinar que opción sería preferible, se calcula el
 cambio en el bienestar social cuando la provisión pasa a ser pública:
 
 - Al ser gratuita la provisión pública, la sociedad se ahorra los
-  costes de transacción y el bienestar social aumenta en $25 \cdot 10
-  = \money{250}$.
+  costes de transacción y el bienestar social aumenta en $Q^C c_T = 25
+  \cdot 10 = \money{250}$.
 
 - La producción privada es $10$ unidades inferior a la óptima. Cuando
   la provisión es pública, estas $10$ unidades se producen y generan
-  un aumento de bienestar de $10 \cdot 10 / 2 = \money{50}$.
+  un aumento de bienestar de $(Q^E - Q^C) (P^C - P^E) / 2 = 10 \cdot
+  10 / 2 = \money{50}$.
 
 - La provisión pública es superior a la eficiente en $15$ unidades. La
   valoración de estas unidades es inferior a su coste de producción y,
-  al producirlas, el bienestar social disminuye en $15 \cdot 15 / 2 =
-  \money{112.5}$.
+  al producirlas, el bienestar social disminuye en $(Q^P - Q^E) P^E /
+  2 = 15 \cdot 15 / 2 = \money{112.5}$.
 
 En conclusión, si la provisión del bien pasara a ser pública, el
 bienestar social se incrementaría en $250 + 50 - 112.5 =

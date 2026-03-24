@@ -1,0 +1,183 @@
+#+SETUPFILE: ./course-es.org
+
+#+TITLE: {{unit06}}: ejercicios
+
+#+PROPERTY: header-args:latex :noweb yes :eval no
+
+
+* Ejercicio 4
+
+** Chunks
+
+#+begin_src latex :noweb-ref macros
+  \newcommand*{\tax}{4}
+  \newcommand*{\Qm}{8.55}
+  \newcommand*{\Pm}{5.6}
+  \newcommand*{\Qe}{5.8}
+  \newcommand*{\Pe}{7.8}
+
+  \tikzset{area label/.style={
+      font=\scriptsize, inner sep = 1pt, circle
+    }}
+#+end_src
+
+#+begin_src latex :noweb-ref coordinates
+  \coordinate (x) at (1, 0) ;
+  \coordinate (y) at (0, 1) ;
+  \coordinate (d) at (\Qe, \Pm) ;
+  \coordinate (e) at (\Qm, \Pm) ;
+  \coordinate (g) at (\Qe, \Pe) ;
+  \coordinate (h) at (\Qm, 11.5) ;
+  \coordinate (f) at (y |- g) ;
+  \coordinate (c) at (y |- e) ;
+  \coordinate (b) at ($(g)-(0,\tax)$) ;
+  \coordinate (a) at ($(f)-(0,\tax)$) ;
+  \coordinate (i) at (g -| e) ;
+#+end_src
+
+#+begin_src latex :noweb-ref scale
+  xscale=0.3, yscale=0.3
+#+end_src
+
+#+begin_src latex :noweb-ref axes
+  \draw[axis] (0, 15) node[left] {€/u} |-
+    (18, 0) node[below] {$Q$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref bms
+  \draw[curve, very thick]
+    (0, 12.5)  -- (15.5, 0)
+    node[pos = 0.9, above right=-1pt and -3pt] { $\BMS$ }
+    ;
+#+end_src
+
+#+begin_src latex :noweb-ref help-lines
+  \draw[help lines]
+    (y |- e) node[left] { $P_{m}$ } -|
+    (e |- x) node[below] { $Q_{m}$ }
+    (y |- g) node[left] { $P_{e}$ } -|
+    (g |- x) node[below] { $Q_{e}$ }
+    ;
+#+end_src
+
+#+begin_src latex :noweb-ref cmp
+  \draw[curve, very thick]
+    (0, 0) -- (13, 8.5)
+    node[right] { $\CMP$ }
+    ;
+#+end_src
+
+#+begin_src latex :noweb-ref cms
+
+  \draw[curve, very thick]
+    (0, 0) -- (10, 13.5)
+    node[right] { $\CMS$ }
+    ;
+#+end_src
+
+#+begin_src latex :noweb-ref cmpt
+  \draw[curve, very thick]
+    ($(0, 0)+(0,\tax)$) -- ($(13, 8.5)+(0,\tax)$)
+    node[right] { $\CMP + t$ }
+    ;
+#+end_src
+
+#+begin_src latex :noweb-ref pie
+  \draw[fill, solarizedGreen!50]
+    (e) -- (h) -- (g) -- cycle
+    ;
+
+  \draw[help lines]
+    (h) -- (e)
+    ;
+#+end_src
+
+
+** Item a)
+
+#+begin_src latex :tangle fig-07_1047-ex4-a.tex
+  <<macros>>
+  \begin{tikzpicture}[<<scale>>]
+    <<coordinates>>
+    <<pie>>
+
+    <<help-lines>>
+
+    % Curves
+    <<cmp>>
+    <<cms>>
+    <<bms>>
+
+     % Axes
+     <<axes>>
+  \end{tikzpicture}
+#+end_src
+
+
+#+begin_src latex :tangle fig-07_1047-ex4-b.tex
+  <<macros>>
+  \begin{tikzpicture}[<<scale>>]
+    <<coordinates>>
+
+    \draw[fill, solarizedYellow!50]
+      (a) rectangle (g)
+      ;
+
+    <<help-lines>>
+
+    \draw[help lines]
+       (a) -- (b)
+      ;
+
+    % Curves
+    <<cmp>>
+    <<cms>>
+    <<bms>>
+    <<cmpt>>
+
+     % Axes
+     <<axes>>
+  \end{tikzpicture}
+#+end_src
+
+
+#+begin_src latex :tangle fig-07_1047-ex4-c.tex
+  <<macros>>
+  \begin{tikzpicture}[<<scale>>]
+    <<coordinates>>
+
+    \draw[fill, solarizedBlue!50]
+      (c) rectangle (g)
+      ;
+
+    \draw[fill, solarizedMagenta!50]
+      (b) rectangle (i)
+      ;
+
+    <<help-lines>>
+    \draw[help lines]
+       (g) -| (e)
+       (b) -- (b -| i)
+      ;
+
+    % Curves
+    <<cmp>>
+    <<cms>>
+    <<bms>>
+
+     % Axes
+     <<axes>>
+  \end{tikzpicture}
+#+end_src
+
+
+** Item b)
+
+** Item c)
+
+
+
+# Local Variables:
+# ispell-dictionary: "spanish"
+# eval: (flyspell-mode -1)
+# End:

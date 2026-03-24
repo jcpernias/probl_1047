@@ -3,27 +3,7 @@
 #+TITLE: {{{unit07}}}: ejercicios
 
 
-* COMMENT Q.1
-
-Identifique la naturaleza de las externalidades en la frase: "El humo
-de la fábrica ensuciaba las casas vecinas y era veneno para los
-cultivos de la zona".
-
-
-** Answer
-
-Por hacer.
-
-
 * Q.1
-
-¿Qué externalidades genera un conductor adicional en una carretera congestionada? ¿Cómo contribuyen los peajes a paliar esta externalidad? ¿Qué peaje debería fijarse?
-
-
-** Answer
-
-
-* Q.2
 
 Indique cuáles de las siguientes afirmaciones son verdaderas,
 falsas o inciertas, y explique por qué.
@@ -32,7 +12,8 @@ a) Si tu consumo de tabaco produce externalidades negativas a tus
    compañeros de piso (las cuáles ignoras por completo), entonces
    estás fumando más de los que sería eficiente.
 
-b) Un impuesto sobre el tabaco hace que el mercado de cigarrillos funcione más eficientemente.
+b) Un impuesto sobre el tabaco hace que el mercado de cigarrillos
+   funcione más eficientemente.
 
 c) La prohibición del tabaco puede justificarse por razones de eficiencia.
 
@@ -43,10 +24,29 @@ d) La producción en un mercado competitivo con una externalidad
 
 ** Answer
 
-Por hacer.
+a) /Verdadera/: una externalidad negativa de consumo implica que se
+   consume más de lo socialmente óptimo.
+
+b) /Incierta/: un impuesto reduce las ventas de cigarrillos, por lo
+   que la ineficiencia asociada a los efectos externos disminuye o
+   desaparece por completo. Pero un impuesto muy elevado podría
+   reducir las ventas por debajo del nivel óptimo y generar una
+   ineficiencia mayor.
+
+c) /Falsa/: la presencia de externalidades negativas no implica que la
+   cantidad socialmente óptima sea $0$. La prohibición reduciría la
+   utilidad de los fumadores y eliminaría los beneficios de los
+   productores de tabaco. Por otro lado, aumentaría la utilidad de los
+   fumadores pasivos y los beneficios de los productores de
+   sustitutivos del tabaco. A priori, no es posible saber si los
+   beneficios de la prohibición serán mayores que sus costes.
+
+d) /Verdadera/: los agentes que generan las externalidades negativas
+   no las tienen en cuenta y producen o consumen una cantidad superior
+   a la socialmente óptima.
 
 
-* Q.3
+* Q.2
 
 En un pueblo pesquero las capturas mensuales totales de pescado, $Q$
 (medidas en kg), dependen del número de barcas que faenan, $N$:
@@ -84,10 +84,81 @@ e) El ayuntamiento está considerando la posibilidad de introducir un
 
 ** Answer
 
-Por hacer.
+a) Cuando $N = 16$, cada barca produce:
+   #+begin_export latex
+   \[
+     q_i = 1000 / 16^{1/2} = \units[kg]{250}.
+   \]
+   #+end_export
+   Los beneficios de cada pescador son:
+   #+begin_export latex
+   \[
+     \pi_i = P q_i - c_i = 6 \cdot 250 - 1000 = \money{500}.
+   \]
+   #+end_export
 
+b) Si entra una nueva barca, la producción de cada barca es:
+   #+begin_export latex
+   \[
+     q_i = 1000 / 17^{1/2} \approx \units[kg]{242.54}.
+   \]
+   #+end_export
+   La producción de las 16 barcas que operaban antes se reduce:
+   #+begin_export latex
+   \[
+     \Delta q_i = 242.54 - 250 = \units[kg]{-7.46}.
+   \]
+   #+end_export
+   En consecuencia, disminuye el beneficio de cada uno de los
+   pescadores que faenaban antes de la entrada:
+   #+begin_export latex
+   \[
+     \Delta \pi_i = P \Delta q_i = \money{-44.76}.
+   \]
+   #+end_export
+   El efecto externo total sería la suma de la pérdida de beneficios:
+   $16 \cdot (-44.76) = \money{-716,16}$.
 
-* Q.4
+c) Si no hay restricciones a la entrada, entrarán nuevos pescadores
+   mientras consigan beneficios positivos. En el equilibrio a largo
+   plazo $\pi_i = 0$ y el número de barcas sería:
+   #+begin_export latex
+   \[
+     6 \cdot 1000 / N^{1/2} - 1000 = 0
+   \]
+   #+end_export
+   La ecuación anterior se satisface cuando $N = 36\,\text{barcas}$.
+
+d) El número socialmente óptimo de barcas es el que maximiza el
+   beneficio total de los pescadores:
+   #+begin_export latex
+   \[
+     \max_{\{N\}} N \pi_i =
+     N \big(6 \cdot 1000 / N^{1/2} - 1000\big) =
+     6000 N^{1/2} - 1000 N.
+   \]
+   #+end_export
+   Condición de primer orden:
+   #+begin_export latex
+   \[
+      \frac{\diff N \pi_i}{\diff N} = 3000 N^{-1/2} - 1000 = 0.
+   \]
+   #+end_export
+   Resolviendo la ecuación anterior, se obtiene que el número
+   eficiente de barcas es $N = 9\,\text{barcas}$.
+
+e) La licencia debería desincentivar la entrada de más de 9
+   barcas. Cuando $N = 9$ los beneficios individuales son:
+   #+begin_export latex
+   \[
+     6 \cdot 1000 / 9^{1/2} - 1000 = \money{1000}
+   \]
+   #+end_export
+   El ayuntamiento debería cobrar \money{1000} por cada licencia
+   (teniendo en cuenta que $N$ es un entero, bastaría con que cobrase
+   \money{898} por licencia).
+
+* Q.3
 
 Groucho y Harpo comparten camarote en un crucero. A Groucho le encanta
 fumar sus puros durante la travesía. Harpo detesta los puros de
@@ -123,15 +194,50 @@ c) Describa cómo cambiaría su respuesta al apartado anterior si Chico
 
 ** Answer
 
-Por hacer.
+a) La maximización de la utilidad de Groucho implica:
+   #+begin_export latex
+   \[
+      \frac{\partial U_G}{\partial c} = 4 - 0.2 c = 0.
+   \]
+   #+end_export
+   Groucho maximizaría su utilidad si fumara $20\,\text{puros}$.
+
+b) La función de bienestar social es:
+   #+begin_export latex
+   \[
+     W = U_G + U_H = 200 - 6 c -0.1 c^2.
+   \]
+   #+end_export
+   Dado que $W$ es decreciente en $c$, el valor eficiente de $c$ es
+   $0$. Las utilidades individuales serían: $U_G(0) = \money{100}$ y
+   $U_H(0) = \money{100}$.
+
+c) Cuando fuma, Groucho obtiene una utilidad equivalente a $U_G(20) =
+   \money{140}$. Si no fuma su utilidad sería igual a $U_G(0) =
+   \money{100}$. Estaría dispuesto a no fumar si se le compensara con
+   al menos \money{40}.
+   #+latex: \vspace*{1ex}
+
+   Por otro lado, la utilidad de Harpo cuando Groucho fuma es $U_H(20)
+   = \money{-100}$. Dado que $U_H(0) = 100$, Harpo estaría dispuesto a
+   pagar hasta \money{200} para evitar que Groucho fume.
+   #+latex: \vspace*{1ex}
+
+   Como resultado de la negociación, Groucho no fumaría y Harpo le
+   compensaría con un pago de entre \money{40} y \money{200}.
+
+d) En este caso, Groucho pagaría como mucho $U_G(20) - U_G(0) =
+   \money{40}$ para poder fumar. Sin embargo, Harpo exigiría una
+   compensación de al menos $U_H(20) - U_H(0) = \money{200}$. Por
+   tanto, Harpo no aceptaría la oferta de Groucho y éste no fumaría,
+   $c = 0$.
 
 
-* Q.5
+* Q.4
 
-La demanda de un producto es $Q = \num{1200} - 4 P$ y la oferta es $Q
-= 2 P$. Al producir el bien se vierten sustancias contaminantes que
-generan un daño a la sociedad valorado en \money{30} por unidad de
-producto.
+La demanda de un producto es $Q = 90 - P / 4$ y la oferta es $Q
+= P / 6$. Al producir el bien se vierten sustancias contaminantes que
+generan un daño a la sociedad igual a $\DM = 2 Q$.
 
 a) Obtenga y represente el equilibrio en este mercado en ausencia
    de cualquier tipo de intervención. Calcule la pérdida
@@ -152,36 +258,20 @@ d) ¿Cuál de las dos medidas, impuesto o subvención, preferirían las
 
 ** Answer
 
-Por hacer.
+a) Equilibrio.
+
+   #+xxx: fig file:fig-07_1047-ex4-a-*.pdf
+
+b) Impuesto.
+
+   #+xxx: fig file:fig-07_1047-ex4-b-*.pdf
 
 
-* Q.6
+b) Subvención.
 
-El beneficio marginal privado asociado al consumo de un bien es
-$\BMP = 360 - 4 Q$ y el coste marginal privado asociado a la
-producción del bien es $\CMP = 6 Q$. El daño marginal causado por la
-producción del bien es $\DM = 2 Q$.
+   #+xxx: fig file:fig-07_1047-ex4-c-*.pdf
 
-a) Calcule la pérdida irrecuperable de eficiencia. Represente
-   gráficamente.
-
-b) Para corregir la externalidad el gobierno quiere establecer un
-   impuesto de $T$ euros por unidad vendida. ¿Cuál debería ser la
-   cuantía del impuesto para alcanzar el óptimo social?
-
-c) Si en vez del impuesto el gobierno utilizara una subvención para
-   corregir la ineficiencia, ¿cómo debería diseñarla?
-
-d) Compare los resultados de los dos apartados anteriores. ¿Cuál de
-   las dos medidas sería preferible?
-
-
-** Answer
-
-Por hacer.
-
-
-* Q.7
+* Q.5
 
 La curva de demanda inversa de un mercado donde opera un monopolista es:
 #+begin_export latex
@@ -222,7 +312,7 @@ d) Compare los resultados obtenidos en los dos apartados
 Por hacer.
 
 
-* Q.8
+* Q.6
 
 El Gobierno quiere mejorar la calidad de las aguas de un río en el que
 una empresa vierte 50 toneladas de residuos. El beneficio marginal
@@ -231,6 +321,28 @@ R$.  El coste marginal de reducir los vertidos es: $\CM = 20 +
 R$. ¿Cuál es el nivel de reducción óptimo desde el punto de vista
 social? ¿Qué multa por unidad de polución debería fijarse para
 conseguir el nivel óptimo de polución?
+
+
+** Answer
+
+Por hacer.
+
+
+* COMMENT Q.1
+
+¿Qué externalidades genera un conductor adicional en una carretera
+congestionada? ¿Cómo contribuyen los peajes a paliar esta
+externalidad? ¿Qué peaje debería fijarse?
+
+
+** Answer
+
+
+* COMMENT Q.1
+
+Identifique la naturaleza de las externalidades en la frase: "El humo
+de la fábrica ensuciaba las casas vecinas y era veneno para los
+cultivos de la zona".
 
 
 ** Answer
@@ -274,6 +386,32 @@ b) Si cada trabajador elige el medio de transporte atendiendo
 
 c) Si se establece un peaje para utilizar la carretera, ¿podría
    obtenerse la solución eficiente? ¿Cuál sería el peaje óptimo?
+
+
+** Answer
+
+Por hacer.
+
+
+* COMMENT Q.6
+
+El beneficio marginal privado asociado al consumo de un bien es $\BMP
+= 30 - Q / 4$ y el coste marginal privado asociado a la producción del
+bien es $\CMP = Q / 2$. El daño marginal causado por la producción del
+bien es igual a \money{30} por unidad de producto.
+
+a) Calcule la pérdida irrecuperable de eficiencia. Represente
+   gráficamente.
+
+b) Para corregir la externalidad el gobierno quiere establecer un
+   impuesto de $t$ euros por unidad vendida. ¿Cuál debería ser la
+   cuantía del impuesto para alcanzar el óptimo social?
+
+c) Si en vez del impuesto el gobierno utilizara una subvención para
+   corregir la ineficiencia, ¿cómo debería diseñarla?
+
+d) Compare los resultados de los dos apartados anteriores. ¿Cuál de
+   las dos medidas sería preferible?
 
 
 ** Answer
@@ -332,3 +470,5 @@ Por hacer.
 # Local Variables:
 # ispell-dictionary: "spanish"
 # End:
+
+#  LocalWords:  COMMENT Answer Groucho Harpo Coase

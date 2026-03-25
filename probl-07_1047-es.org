@@ -293,7 +293,7 @@ a) Se obtiene la curva de beneficio marginal social, \BMS, a partir de
      360 - 4 Q_e = 6 Q_e + 2 Q_e,
    \]
    #+end_export
-   de donde se obtiene $Q_e = \units{30}. La producción eficiente se
+   de donde se obtiene $Q_e = \units{30}$. La producción eficiente se
    vendería al precio $P_e = \price{240}$.
 
    #+ATTR_LATEX: :options {0.60\linewidth}
@@ -570,36 +570,90 @@ El Gobierno quiere mejorar la calidad de las aguas de un río en el que
 una empresa vierte 50 toneladas de residuos. El beneficio marginal
 social de reducir los vertidos en $R$ toneladas es: $\BMS = 200 - 5
 R$.  El coste marginal de reducir los vertidos es: $\CM = 20 +
-R$. ¿Cuál es el nivel de reducción óptimo desde el punto de vista
-social? ¿Qué multa por unidad de polución debería fijarse para
-conseguir el nivel óptimo de polución?
+R$.
+
+a) ¿Cuál es el nivel de reducción óptimo desde el punto de vista
+   social?
+
+b) ¿Cuántas toneladas se verterán si se establece una multa de
+   $35$ euros por tonelada de residuos? ¿A cuánto asciende la multa
+   que pagará la empresa?
+
+c) ¿Qué multa por unidad de polución debería fijarse para
+   conseguir el nivel óptimo de polución?
 
 
 ** Answer
-La multa que consigue el nivel de vertidos óptimos es la que determina
-la intersección de las curvas $\CM$ y $\BMS$. El nivel de reducción de
-vertidos óptimo es el que satisface:
-#+begin_export latex
-\[
-  200 - 5 R^* = 20 + R^*,
-\]
-#+end_export
-de donde se obtiene $R^* = 30\,\text{Tm}$. La multa que incentiva a
-las empresas a llevar a cabo la reducción óptima de vertidos es: $f =
-\CMP(R^*) = 50\,\text{\texteuro/Tm}$.
+a) La reducción de vertidos debería llevarse a cabo siempre que el
+   beneficio marginal que la sociedad obtiene por reducir una tonelada
+   adicional de residuos sea mayor que el coste de conseguir esa
+   reducción. El nivel de reducción de vertidos óptimo es el que
+   satisface $\BMS = \CM$:
+   #+begin_export latex
+   \[
+     200 - 5 R^* = 20 + R^*,
+   \]
+   #+end_export
+   de donde se obtiene $R^* = 30\,\text{Tm}$.
 
+   #+ATTR_LATEX: :options {0.60\linewidth}
+   #+xxx: col
+   #+latex: \vspace*{1ex}
+   #+xxx: fig file:fig-07_1047-ex6-a-*.pdf
+   #+ATTR_LATEX: :options {0.38\linewidth}
+   #+xxx: col
+   La empresa vertía inicialmente $50$ toneladas de residuos. La
+   reducción óptima es de $30$ toneladas, por lo que los vertidos
+   óptimos serían de $20$ toneladas de residuos.
+   #+xxx: endcol
 
-#+ATTR_LATEX: :options {0.60\linewidth}
-#+xxx: col
-#+latex: \vspace*{1ex}
-#+xxx: fig file:fig-07_1047-ex6-*.pdf
-#+ATTR_LATEX: :options {0.38\linewidth}
-#+xxx: col
-La empresa vertía inicialmente $50$ toneladas de residuos. Cuando se
-introduce la multa de $50$ euros por tonelada, la empresa reduce sus
-vertidos en $30$. Por tanto, pagará en total una multa de $50 \cdot 20
-= \money{1000}$ (área del rectángulo sombreado en la figura).
-#+xxx: endcol
+b) La empresa comparará el coste de reducir sus vertidos en una
+   tonelada adicional con la multa que tendría que pagar si no lleva a
+   cabo la reducción. Mientras $\CM \leq f$ le resulta más barato
+   reducir que pagar la multa. La reducción que llevará a cabo
+   satisface: $f = \CM(R_f)$:
+   #+begin_export latex
+   \[
+     35 = 20 + R_{f},
+   \]
+   #+end_export
+   Por lo que la empresa reducirá sus vertidos en $R_f =
+   15\,\text{Tm}$.
+
+   #+ATTR_LATEX: :options {0.60\linewidth}
+   #+xxx: col
+   #+latex: \vspace*{1ex}
+   #+xxx: fig file:fig-07_1047-ex6-b-*.pdf
+   #+ATTR_LATEX: :options {0.38\linewidth}
+   #+xxx: col
+   Después de reducir sus emisiones en $15$ toneladas, la empresa
+   vierte $35$ toneladas de residuos y pagará en total una multa de
+   #+begin_export latex
+   \[
+     (50 - R_f) f  = \money{1225}.
+   \]
+   #+end_export
+   #+xxx: endcol
+
+c) La multa que incentiva a las empresas a llevar a cabo la reducción
+   óptima de vertidos es: $f^* = \CM(R^*)$. Antes se obtuvo $R^* =
+   30\,\text{Tm}$, por lo que:
+   #+begin_export latex
+   \[
+     f^* = 20 + 30 = 50\,\text{\texteuro$/$Tm}.
+   \]
+   #+end_export
+
+   #+ATTR_LATEX: :options {0.60\linewidth}
+   #+xxx: col
+   #+latex: \vspace*{1ex}
+   #+xxx: fig file:fig-07_1047-ex6-c-*.pdf
+   #+ATTR_LATEX: :options {0.38\linewidth}
+   #+xxx: col
+   La empresa reduciría sus emisiones en $30$ toneladas de residuos y
+   pagaría una multa total de \money{1000} por las 20 toneladas que
+   vertería al río.
+   #+xxx: endcol
 
 
 

@@ -367,47 +367,72 @@
 #+end_src
 
 * Ejercicio 6
+** Chunks
+#+begin_src latex :noweb-ref ex6-scale
+  xscale=0.25, yscale=0.3
+#+end_src
 
-#+begin_src latex :tangle fig-07_1047-ex6.tex
-  \begin{tikzpicture}[xscale=0.25, yscale=0.3]
-    \coordinate (y) at (0, 1) ;
-    \coordinate (x) at (1, 0) ;
+#+begin_src latex :noweb-ref ex6-axes
+  \draw[axis] (0, 12) node[left] {€/Tm} |-
+    (19, 0) node[below] {$R$} ;
+#+end_src
 
-    \coordinate (R0) at (15, 0) ;
+#+begin_src latex :noweb-ref ex6-bms
+  \coordinate (BMS1) at (0, 10) ;
+  \coordinate (BMS2) at (12, 0) ;
+  \path[save path=\pathBMS, name path=BMS]
+    (BMS1)  -- (BMS2)
+    ;
+#+end_src
 
-    \coordinate (BMS1) at (0, 10) ;
-    \coordinate (BMS2) at (12, 0) ;
-    \path[save path=\pathBMS, name path=BMS]
-      (BMS1)  -- (BMS2)
-      ;
+#+begin_src latex :noweb-ref ex6-draw-bms
+  \draw[curve, very thick, use path=\pathBMS]
+    ($(BMS1)!0.15!(BMS2)$) node[right=3pt] { $\BMS$ }
+    ;
+#+end_src
 
-    \coordinate (CMP1) at (0, 1) ;
-    \coordinate (CMP2) at (16.5, 4.5) ;
-    \path[save path=\pathCMP, name path=CMP]
-      (CMP1)  -- (CMP2)
-      ;
+#+begin_src latex :noweb-ref ex6-cm
+  \coordinate (CM1) at (0, 1) ;
+  \coordinate (CM2) at (16.5, 4.5) ;
+  \path[save path=\pathCM, name path=CM]
+    (CM1)  -- (CM2)
+    ;
+#+end_src
 
-    \path[name intersections={of=BMS and CMP, name=E}] ;
+#+begin_src latex :noweb-ref ex6-draw-cm
+  \draw[curve, very thick, use path=\pathCM]
+    (CM2) node[right] { $\CM$ }
+    ;
+#+end_src
 
+#+begin_src latex :noweb-ref ex6-coordinates
+  \coordinate (y) at (0, 1) ;
+  \coordinate (x) at (1, 0) ;
 
-    \draw[fill, solarizedYellow!50]
-      (E-1) rectangle (R0)
-      ;
+  \coordinate (R0) at (15, 0) ;
+
+  <<ex6-bms>>
+  <<ex6-cm>>
+  \path[name intersections={of=BMS and CM, name=E}] ;
+
+  \path[name path=fb]
+    (0, 1.75) -- (15, 1.75) ;
+
+  \path[name intersections={of=fb and CM, name=F}] ;
+#+end_src
+
+#+begin_src latex :tangle fig-07_1047-ex6-a.tex
+  \begin{tikzpicture}[<<ex6-scale>>]
+    <<ex6-coordinates>>
 
     \draw[help lines]
-      (y |- E-1) node[left] {$50$} -|
+      (E-1)  --
       (E-1 |- x) node[below] {$30$}
-      (E-1) -| (R0) node[below] {$50$}
+      (R0) node[below] {$50$}
       ;
 
-    \draw[curve, very thick, use path=\pathBMS]
-      ($(BMS1)!0.15!(BMS2)$) node[right=3pt] { $\BMS$ }
-      ;
-
-
-    \draw[curve, very thick, use path=\pathCMP]
-      (CMP2) node[right] { $\CMP$ }
-      ;
+    <<ex6-draw-bms>>
+    <<ex6-draw-cm>>
 
 
     \draw[shift arrow, <->|, shorten <= 0pt, shorten >= 0pt]
@@ -422,8 +447,76 @@
       ;
 
     % Axes
-    \draw[axis] (0, 12) node[left] {€/Tm} |-
-      (19, 0) node[below] {$R$} ;
+    <<ex6-axes>>
+  \end{tikzpicture}
+#+end_src
+
+#+begin_src latex :tangle fig-07_1047-ex6-b.tex
+  \begin{tikzpicture}[<<ex6-scale>>]
+    <<ex6-coordinates>>
+
+    \draw[fill, solarizedYellow!50]
+      (F-1) rectangle (R0)
+      ;
+
+    \draw[help lines]
+      (y |- F-1) node[left] {$35$} -|
+      (F-1 |- x) node[below] {$15$}
+      (F-1) -| (R0) node[below] {$50$}
+      ;
+
+    <<ex6-draw-bms>>
+    <<ex6-draw-cm>>
+
+
+    \draw[shift arrow, <->|, shorten <= 0pt, shorten >= 0pt]
+      ($(F-1 |- x) - (0, 48pt)$) --
+      node[below, font=\scriptsize, align=center] {Vertidos}
+      ($(R0) - (0, 48pt)$)
+      ;
+    \draw[shift arrow, |<->|, shorten <= 0pt, shorten >= 0pt]
+      (0, -48pt) --
+      node[below, font=\scriptsize, align=center] {Reducción}
+      ($(F-1 |- x) - (0, 48pt)$)
+      ;
+
+    % Axes
+    <<ex6-axes>>
+  \end{tikzpicture}
+#+end_src
+
+
+#+begin_src latex :tangle fig-07_1047-ex6-c.tex
+  \begin{tikzpicture}[<<ex6-scale>>]
+    <<ex6-coordinates>>
+
+    \draw[fill, solarizedYellow!50]
+      (E-1) rectangle (R0)
+      ;
+
+    \draw[help lines]
+      (y |- E-1) node[left] {$50$} -|
+      (E-1 |- x) node[below] {$30$}
+      (E-1) -| (R0) node[below] {$50$}
+      ;
+
+    <<ex6-draw-bms>>
+    <<ex6-draw-cm>>
+
+
+    \draw[shift arrow, <->|, shorten <= 0pt, shorten >= 0pt]
+      ($(E-1 |- x) - (0, 48pt)$) --
+      node[below, font=\scriptsize, align=center] {Vertidos\\óptimos}
+      ($(R0) - (0, 48pt)$)
+      ;
+    \draw[shift arrow, |<->|, shorten <= 0pt, shorten >= 0pt]
+      (0, -48pt) --
+      node[below, font=\scriptsize, align=center] {Reducción\\óptima}
+      ($(E-1 |- x) - (0, 48pt)$)
+      ;
+
+    % Axes
+    <<ex6-axes>>
   \end{tikzpicture}
 #+end_src
 

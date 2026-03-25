@@ -147,10 +147,6 @@
     <<coordinates>>
 
     \draw[fill, solarizedBlue!50]
-      (c) rectangle (g)
-      ;
-
-    \draw[fill, solarizedMagenta!50]
       (b) rectangle (i)
       ;
 

@@ -235,9 +235,10 @@ d) En este caso, Groucho pagaría como mucho $U_G(20) - U_G(0) =
 
 * Q.4
 
-La demanda de un producto es $Q = 90 - P / 4$ y la oferta es $Q
-= P / 6$. Al producir el bien se vierten sustancias contaminantes que
-generan un daño a la sociedad igual a $\DM = 2 Q$.
+Un producto se vende en un mercado competitivo. La curva de demanda es
+$Q = 90 - P / 4$ y la de oferta es $Q = P / 6$. Al producir el bien se
+vierten sustancias contaminantes que generan un daño a la sociedad
+igual a $\DM = 2 Q$.
 
 a) Obtenga y represente el equilibrio en este mercado en ausencia
    de cualquier tipo de intervención. Calcule la pérdida
@@ -258,18 +259,176 @@ d) ¿Cuál de las dos medidas, impuesto o subvención, preferirían las
 
 ** Answer
 
-a) Equilibrio.
+a) Se obtiene la curva de beneficio marginal social, \BMS, a partir de
+   la curva de demanda:
+   #+begin_export latex
+   \[
+     \BMS = 360 - 4 Q.
+   \]
+   #+end_export
+   El coste marginal privado, \CMP, coincide con la curva inversa de
+   oferta:
+   #+begin_export latex
+   \[
+     \CMP = 6 Q
+   \]
+   #+end_export
+   En el equilibrio de mercado. $\BMS = \CMP$:
+   #+begin_export latex
+   \[
+     360 - 4 Q_m = 6 Q_m.
+   \]
+   #+end_export
+   De la expresión anterior se obtiene $Q_m = \units{36}$. El precio
+   sería $P_m = \price{216}$.
+   #+latex: \vspace*{1ex}
 
+   El nivel de producción eficiente se obtiene igualando el beneficio
+   marginal social y el coste marginal social: $\BMS = \CMS$. En el
+   coste marginal social se incluye el daño marginal que soporta la
+   sociedad como consecuencia de la producción del bien: $\CMS =
+   \CMP + \DM$. Por tanto:
+   #+begin_export latex
+   \[
+     360 - 4 Q_e = 6 Q_e + 2 Q_e,
+   \]
+   #+end_export
+   de donde se obtiene $Q_e = \units{30}. La producción eficiente se
+   vendería al precio $P_e = \price{240}$.
+
+   #+ATTR_LATEX: :options {0.60\linewidth}
+   #+xxx: col
+   #+latex: \vspace*{1ex}
    #+xxx: fig file:fig-07_1047-ex4-a-*.pdf
+   #+ATTR_LATEX: :options {0.38\linewidth}
+   #+xxx: col
+   La producción de mercado sería superior a la eficiente. Se produce
+   una pérdida irrecuperable de eficiencia en la producción que excede
+   el nivel eficiente porque su valoración social es inferior a su
+   coste social.
+   #+xxx: endcol
+   La ineficiencia generada por la externalidad es:
+   #+begin_export latex
+   \[
+     (Q_m - Q_e) \DM(Q_m) / 2 =
+     (36 - 30) \cdot 2 \cdot 36 / 2 =
+     \money{216}.
+   \]
+   #+end_export
 
-b) Impuesto.
-
+b) Para corregir los efectos de la externalidad, se debería introducir
+   un impuesto igual al daño marginal correspondiente a la cantidad
+   eficiente:
+   #+begin_export latex
+   \[
+     t = \DM(Q_e) = 2 \cdot 30 = \price{60}.
+   \]
+   #+end_export
+   #+ATTR_LATEX: :options {0.60\linewidth}
+   #+xxx: col
+   #+latex: \vspace*{1ex}
    #+xxx: fig file:fig-07_1047-ex4-b-*.pdf
+   #+ATTR_LATEX: :options {0.38\linewidth}
+   #+xxx: col
+   La introducción del impuesto reduce la producción hasta su nivel
+   eficiente. Además de corregir los efectos de la externalidad, la
+   recaudación del impuesto genera ingresos adicionales al sector
+   público, que pueden servir financiar bienes públicos o para reducir
+   otros impuestos.
+   #+xxx: endcol
+   La recaudación es igual al número de unidades vendidas multiplicado
+   por la tasa impositiva:
+   #+begin_export latex
+   \[
+     Q_e t = 30 \cdot 60 = \money{1800}.
+   \]
+   #+end_export
+   El impuesto reduciría el bienestar tanto de los compradores del
+   bien como de las empresas. La variación del excedente de los
+   consumidores, \VEC, es negativa, yq que se consume una cantidad
+   menor y se paga un mayor precio:
+   #+begin_export latex
+   \[
+     \VEC = (P_m - P_e) (Q_e + Q_m) / 2 = \money{-792}
+   \]
+   #+end_export
+   Después de la introducción del impuesto, las empresas venden menos
+   e ingresan menos por unidad vendida. La variación del excedente de los productores es negativa:
+   #+begin_export latex
+   \[
+     \VEP = (P_e - t - P_m) (Q_e + Q_m) / 2 = \money{-1188}.
+   \]
+   #+end_export
 
+c) Para contrarrestar los efectos de la externalidad, el gobierno
+   puede introducir una subvención a la reducción de la producción:
+   por cada unidad que se produzca por debajo de $Q_m$ se pagaría una
+   cantidad fija de $s$ euros por unidad. Para conseguir que la producción se reduzca hasta el nivel eficiente, la subvención debe ser igual al daño marginal evaluado en $Q_e$:
+   #+begin_export latex
+   \[
+     s = \DM(Q_e) = \price{60}.
+   \]
+   #+end_export
 
-b) Subvención.
-
+   #+ATTR_LATEX: :options {0.60\linewidth}
+   #+xxx: col
+   #+latex: \vspace*{1ex}
    #+xxx: fig file:fig-07_1047-ex4-c-*.pdf
+   #+ATTR_LATEX: :options {0.38\linewidth}
+   #+xxx: col
+   La subvención crea un incentivo a reducir la producción hasta el
+   nivel eficiente, $Q_e$. El coste total de la subvención es igual al
+   área del rectángulo resaltado en el gráfico.
+   #+xxx: endcol
+   El coste total de la subvención es:
+   #+begin_export latex
+   \[
+     (Q_m - Q_e) s = \money{360}.
+   \]
+   #+end_export
+   Además de recibir la subvención, las empresas obtienen más
+   beneficios. La menor producción es compensada por un mayor precio
+   de venta:
+   #+begin_export latex
+   \[
+     \VEP = (P_e - t - P_m)(Q_m - Q_e)/2 + (P_e - P_m) Q_e =
+     -108 + 720 = \money{612}.
+   \]
+   #+end_export
+   Por su parte, los consumidores ven reducido su excedente, ya que
+   pagan un precio mayor por una cantidad menor:
+   #+begin_export latex
+   \[
+     \VEC = (P_m - P_e) (Q_e + Q_m) / 2 = \money{-792}.
+   \]
+   #+end_export
+
+d) Tanto el impuesto como la subvención consiguen eliminar la
+   ineficiencia de la externalidad y consiguen reducir los costes
+   externos a las empresas:
+   #+begin_export latex
+   \[
+      (Q_e - Q_m) (\DM(Q_e) + \DM(Q_m)) / 2 = \money{-396}.
+   \]
+   #+end_export
+   Sin embargo, las dos medidas tienen efectos muy distintos sobre los
+   agentes económicos.
+
+   #+ATTR_LATEX: :booktabs t :align lrr
+   |                | Impuesto | Subvención |
+   |----------------+----------+------------|
+   | Consumidores   | $-792$   | $-792$     |
+   | Empresas       | $-1188$  | $972$      |
+   | Contribuyentes | $1800$   | $-360$     |
+
+   Los consumidores se mostrarían indiferentes entre el impuesto y la
+   subvención ya que ambas medidas les suponen una pérdida de
+   bienestar idéntica. La introducción del impuesto reduciría los
+   beneficios empresariales y las empresas prefieren la subvención:
+   sus beneficios aumentarían tanto por la propia subvención como por
+   el aumento del excedente de los productores. Los contribuyentes
+   preferirían el impuesto que aumentaría los ingresos del sector
+   público frente a la subvención que los reduciría.
 
 * Q.5
 

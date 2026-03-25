@@ -366,6 +366,49 @@
   \end{tikzpicture}
 #+end_src
 
+* Ejercicio 6
+
+#+begin_src latex :tangle fig-07_1047-ex6.tex
+  \begin{tikzpicture}[xscale=0.25, yscale=0.3]
+    \coordinate (y) at (0, 1) ;
+    \coordinate (x) at (1, 0) ;
+
+    \coordinate (R0) at (15, 0) ;
+
+    \coordinate (BMS1) at (0, 10) ;
+    \coordinate (BMS2) at (12, 0) ;
+    \path[save path=\pathBMS, name path=BMS]
+      (BMS1)  -- (BMS2)
+      ;
+
+    \coordinate (CMP1) at (0, 1) ;
+    \coordinate (CMP2) at (16.5, 4.5) ;
+    \path[save path=\pathCMP, name path=CMP]
+      (CMP1)  -- (CMP2)
+      ;
+
+    \path[name intersections={of=BMS and CMP, name=E}] ;
+
+    \draw[help lines]
+      (y |- E-1) node[left] {$50$} -|
+      (E-1 |- x) node[below] {$30$}
+      (R0) node[below] {$50$}
+      ;
+
+    \draw[curve, very thick, use path=\pathBMS]
+      ($(BMS1)!0.15!(BMS2)$) node[right=3pt] { $\BMS$ }
+      ;
+
+
+    \draw[curve, very thick, use path=\pathCMP]
+      (CMP2) node[right] { $\CMP$ }
+      ;
+
+    % Axes
+    \draw[axis] (0, 12) node[left] {€/Tm} |-
+      (19, 0) node[below] {$R$} ;
+  \end{tikzpicture}
+#+end_src
 
 
 # Local Variables:

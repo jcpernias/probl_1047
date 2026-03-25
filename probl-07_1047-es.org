@@ -517,7 +517,15 @@ conseguir el nivel óptimo de polución?
 
 ** Answer
 
-Por hacer.
+#+ATTR_LATEX: :options {0.60\linewidth}
+#+xxx: col
+#+latex: \vspace*{1ex}
+#+xxx: fig file:fig-07_1047-ex6-*.pdf
+#+ATTR_LATEX: :options {0.38\linewidth}
+#+xxx: col
+Hola.
+#+xxx: endcol
+
 
 
 * COMMENT Q.1

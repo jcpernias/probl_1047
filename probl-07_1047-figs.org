@@ -404,6 +404,16 @@
       (CMP2) node[right] { $\CMP$ }
       ;
 
+
+    \draw[shift arrow, <->|, shorten <= 0pt, shorten >= 0pt]
+      ($(E-1 |- x) - (0, 48pt)$) -- node[below] {Vertidos}
+      ($(R0) - (0, 48pt)$)
+      ;
+    \draw[shift arrow, |<->|, shorten <= 0pt, shorten >= 0pt]
+      (0, -48pt) -- node[below] {Reducción}
+      ($(E-1 |- x) - (0, 48pt)$)
+      ;
+
     % Axes
     \draw[axis] (0, 12) node[left] {€/Tm} |-
       (19, 0) node[below] {$R$} ;

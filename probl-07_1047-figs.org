@@ -9,19 +9,15 @@
 
 ** Chunks
 
-#+begin_src latex :noweb-ref macros
+#+begin_src latex :noweb-ref ex4-macros
   \newcommand*{\tax}{4}
   \newcommand*{\Qm}{8.55}
   \newcommand*{\Pm}{5.6}
   \newcommand*{\Qe}{5.8}
   \newcommand*{\Pe}{7.8}
-
-  \tikzset{area label/.style={
-      font=\scriptsize, inner sep = 1pt, circle
-    }}
 #+end_src
 
-#+begin_src latex :noweb-ref coordinates
+#+begin_src latex :noweb-ref ex4-coordinates
   \coordinate (x) at (1, 0) ;
   \coordinate (y) at (0, 1) ;
   \coordinate (d) at (\Qe, \Pm) ;
@@ -35,23 +31,23 @@
   \coordinate (i) at (g -| e) ;
 #+end_src
 
-#+begin_src latex :noweb-ref scale
+#+begin_src latex :noweb-ref ex4-scale
   xscale=0.3, yscale=0.3
 #+end_src
 
-#+begin_src latex :noweb-ref axes
+#+begin_src latex :noweb-ref ex4-axes
   \draw[axis] (0, 15) node[left] {€/u} |-
     (18, 0) node[below] {$Q$} ;
 #+end_src
 
-#+begin_src latex :noweb-ref bms
+#+begin_src latex :noweb-ref ex4-bms
   \draw[curve, very thick]
     (0, 12.5)  -- (15.5, 0)
     node[pos = 0.9, above right=-1pt and -3pt] { $\BMS$ }
     ;
 #+end_src
 
-#+begin_src latex :noweb-ref help-lines
+#+begin_src latex :noweb-ref ex4-help-lines
   \draw[help lines]
     (y |- e) node[left] { $P_{m}$ } -|
     (e |- x) node[below] { $Q_{m}$ }
@@ -60,14 +56,14 @@
     ;
 #+end_src
 
-#+begin_src latex :noweb-ref cmp
+#+begin_src latex :noweb-ref ex4-cmp
   \draw[curve, very thick]
     (0, 0) -- (13, 8.5)
     node[right] { $\CMP$ }
     ;
 #+end_src
 
-#+begin_src latex :noweb-ref cms
+#+begin_src latex :noweb-ref ex4-cms
 
   \draw[curve, very thick]
     (0, 0) -- (10, 13.5)
@@ -75,14 +71,14 @@
     ;
 #+end_src
 
-#+begin_src latex :noweb-ref cmpt
+#+begin_src latex :noweb-ref ex4-cmpt
   \draw[curve, very thick]
     ($(0, 0)+(0,\tax)$) -- ($(13, 8.5)+(0,\tax)$)
     node[right] { $\CMP + t$ }
     ;
 #+end_src
 
-#+begin_src latex :noweb-ref pie
+#+begin_src latex :noweb-ref ex4-pie
   \draw[fill, solarizedGreen!50]
     (e) -- (h) -- (g) -- cycle
     ;
@@ -96,80 +92,279 @@
 ** Item a)
 
 #+begin_src latex :tangle fig-07_1047-ex4-a.tex
-  <<macros>>
-  \begin{tikzpicture}[<<scale>>]
-    <<coordinates>>
-    <<pie>>
+  <<ex4-macros>>
+  \begin{tikzpicture}[<<ex4-scale>>]
+    <<ex4-coordinates>>
+    <<ex4-pie>>
 
-    <<help-lines>>
-
-    % Curves
-    <<cmp>>
-    <<cms>>
-    <<bms>>
-
-     % Axes
-     <<axes>>
-  \end{tikzpicture}
-#+end_src
-
-
-#+begin_src latex :tangle fig-07_1047-ex4-b.tex
-  <<macros>>
-  \begin{tikzpicture}[<<scale>>]
-    <<coordinates>>
-
-    \draw[fill, solarizedYellow!50]
-      (a) rectangle (g)
-      ;
-
-    <<help-lines>>
-
-    \draw[help lines]
-       (a) -- (b)
-      ;
+    <<ex4-help-lines>>
 
     % Curves
-    <<cmp>>
-    <<cms>>
-    <<bms>>
-    <<cmpt>>
+    <<ex4-cmp>>
+    <<ex4-cms>>
+    <<ex4-bms>>
 
-     % Axes
-     <<axes>>
-  \end{tikzpicture}
-#+end_src
-
-
-#+begin_src latex :tangle fig-07_1047-ex4-c.tex
-  <<macros>>
-  \begin{tikzpicture}[<<scale>>]
-    <<coordinates>>
-
-    \draw[fill, solarizedBlue!50]
-      (b) rectangle (i)
-      ;
-
-    <<help-lines>>
-    \draw[help lines]
-       (g) -| (e)
-       (b) -- (b -| i)
-      ;
-
-    % Curves
-    <<cmp>>
-    <<cms>>
-    <<bms>>
-
-     % Axes
-     <<axes>>
+    % Axes
+    <<ex4-axes>>
   \end{tikzpicture}
 #+end_src
 
 
 ** Item b)
 
+#+begin_src latex :tangle fig-07_1047-ex4-b.tex
+  <<ex4-macros>>
+  \begin{tikzpicture}[<<ex4-scale>>]
+    <<ex4-coordinates>>
+
+    \draw[fill, solarizedYellow!50]
+      (a) rectangle (g)
+      ;
+
+    <<ex4-help-lines>>
+
+    \draw[help lines]
+       (a) -- (b)
+      ;
+
+    % Curves
+    <<ex4-cmp>>
+    <<ex4-cms>>
+    <<ex4-bms>>
+    <<ex4-cmpt>>
+
+    % Axes
+    <<ex4-axes>>
+  \end{tikzpicture}
+#+end_src
+
+
 ** Item c)
+
+#+begin_src latex :tangle fig-07_1047-ex4-c.tex
+  <<ex4-macros>>
+  \begin{tikzpicture}[<<ex4-scale>>]
+    <<ex4-coordinates>>
+
+    \draw[fill, solarizedBlue!50]
+      (b) rectangle (i)
+      ;
+
+    <<ex4-help-lines>>
+    \draw[help lines]
+       (g) -| (e)
+       (b) -- (b -| i)
+      ;
+
+    % Curves
+    <<ex4-cmp>>
+    <<ex4-cms>>
+    <<ex4-bms>>
+
+    % Axes
+    <<ex4-axes>>
+  \end{tikzpicture}
+#+end_src
+
+
+* Ejercicio 5
+
+** Chunks
+#+begin_src latex :noweb-ref ex5-macros
+  \newcommand*{\DMg}{3}
+#+end_src
+
+#+begin_src latex :noweb-ref ex5-scale
+  xscale=0.3, yscale=0.3
+#+end_src
+
+#+begin_src latex :noweb-ref ex5-axes
+  \draw[axis] (0, 15) node[left] {€/u} |-
+    (18, 0) node[below] {$Q$} ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex5-bms
+  \coordinate (BMS1) at (3, 13) ;
+  \coordinate (BMS2) at (13.5, 2.5) ;
+  \path[save path=\pathBMS, name path=BMS]
+    (BMS1)  -- (BMS2)
+    ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex5-draw-bms
+  \draw[curve, very thick, use path=\pathBMS]
+    (BMS2) node[right] { $\BMS$ }
+    ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex5-im
+  \coordinate (IM1) at (2, 12) ;
+  \coordinate (IM2) at (7, 2) ;
+  \path[save path=\pathIM, name path=IM]
+      (IM1)  -- (IM2)
+      ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex5-draw-im
+  \draw[curve, very thick, use path=\pathIM]
+    (IM2) node[below, fill=white, inner sep = 1.5pt] { $\IMg$ }
+    ;
+#+end_src
+
+
+#+begin_src latex :noweb-ref ex5-cmp
+  \coordinate (CMP1) at (0, 3) ;
+  \coordinate (CMP2) at (13.5, 7.5) ;
+
+  \path[save path=\pathCMP, name path=CMP]
+    (CMP1) -- (CMP2)
+    ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex5-draw-cmp
+  \draw[curve, very thick, use path=\pathCMP]
+    (CMP2) node[right] { $\CMP$ }
+    ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex5-cms
+  \coordinate (CMS1) at ($(CMP1)+(0,\DMg)$) ;
+  \coordinate (CMS2) at ($(CMP2)+(0,\DMg)$) ;
+
+  \path[save path=\pathCMS, name path=CMS]
+    (CMS1) -- (CMS2)
+    ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex5-draw-cms
+  \draw[curve, very thick, use path=\pathCMS]
+    (CMS2) node[right] { $\CMS$ }
+    ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex5-coordinates
+  \coordinate (x) at (1, 0) ;
+  \coordinate (y) at (0, 1) ;
+  <<ex5-bms>>
+  <<ex5-im>>
+  <<ex5-cmp>>
+  <<ex5-cms>>
+
+  \path[name intersections={of=BMS and CMP, name=C}] ;
+  \path[name intersections={of=BMS and CMS, name=E}] ;
+  \path[name intersections={of=IM and CMP, name=M}] ;
+
+  \coordinate (Qm) at (M-1 |- x) ;
+  \coordinate (Qc) at (C-1 |- x) ;
+
+  \path[name path=vertQm] (Qm) -- ($(Qm)!3!(M-1)$) ;
+  \path[name intersections={of=BMS and vertQm, name=P}] ;
+  \coordinate (Pm) at (P-1 -| y) ;
+  \path[name intersections={of=CMS and vertQm, name=N}] ;
+  \path[name path=vertQc] (Qc) -- ($(Qc)!1.5!(C-1)$) ;
+  \path[name intersections={of=CMS and vertQc, name=O}] ;
+#+end_src
+
+
+#+begin_src latex :noweb-ref ex5-help-lines-e
+  \draw[help lines]
+    (y |- E-1) node[left] { $P_{e}$ } -|
+    (E-1 |- x) node[below] { $Q_{e}$ }
+    ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex5-help-lines-c
+  \draw[help lines]
+    (y |- C-1) node[left] { $P_{c}$ } -|
+    (C-1 |- x) node[below] { $Q_{c}$ }
+    ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex5-help-lines-m
+  \draw[help lines]
+    (Pm) node[left] { $P_{m}$ } -|
+    (Qm) node[below] { $Q_{m}$ }
+    ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex5-pie-m
+  \draw[fill, solarizedYellow!50]
+    (P-1) -- (E-1) -- (N-1) -- cycle
+    ;
+#+end_src
+
+#+begin_src latex :noweb-ref ex5-pie-c
+  \draw[fill, solarizedGreen!50]
+    (C-1) -- (E-1) -- (O-1) -- cycle
+    ;
+  \draw[help lines]
+    (C-1) -- (O-1)
+    ;
+#+end_src
+
+** Item a)
+
+#+begin_src latex :tangle fig-07_1047-ex5-a.tex
+  <<ex5-macros>>
+  \begin{tikzpicture}[<<ex5-scale>>]
+    <<ex5-coordinates>>
+
+    <<ex5-help-lines-e>>
+
+    % Curves
+    <<ex5-draw-cmp>>
+    <<ex5-draw-cms>>
+    <<ex5-draw-bms>>
+
+    % Axes
+    <<ex5-axes>>
+  \end{tikzpicture}
+#+end_src
+
+
+** Item b)
+
+#+begin_src latex :tangle fig-07_1047-ex5-b.tex
+  <<ex5-macros>>
+  \begin{tikzpicture}[<<ex5-scale>>]
+    <<ex5-coordinates>>
+    <<ex5-pie-m>>
+
+    <<ex5-help-lines-e>>
+    <<ex5-help-lines-m>>
+
+    % Curves
+    <<ex5-draw-cmp>>
+    <<ex5-draw-cms>>
+    <<ex5-draw-bms>>
+    <<ex5-draw-im>>
+
+    % Axes
+    <<ex5-axes>>
+  \end{tikzpicture}
+#+end_src
+
+
+** Item c)
+
+#+begin_src latex :tangle fig-07_1047-ex5-c.tex
+  <<ex5-macros>>
+  \begin{tikzpicture}[<<ex5-scale>>]
+    <<ex5-coordinates>>
+    <<ex5-pie-c>>
+
+    <<ex5-help-lines-e>>
+    <<ex5-help-lines-c>>
+
+    % Curves
+    <<ex5-draw-cmp>>
+    <<ex5-draw-cms>>
+    <<ex5-draw-bms>>
+
+    % Axes
+    <<ex5-axes>>
+  \end{tikzpicture}
+#+end_src
 
 
 

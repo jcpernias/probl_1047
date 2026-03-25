@@ -175,7 +175,7 @@
 #+end_src
 
 #+begin_src latex :noweb-ref ex5-scale
-  xscale=0.3, yscale=0.3
+  xscale=0.25, yscale=0.25
 #+end_src
 
 #+begin_src latex :noweb-ref ex5-axes
@@ -389,10 +389,15 @@
 
     \path[name intersections={of=BMS and CMP, name=E}] ;
 
+
+    \draw[fill, solarizedYellow!50]
+      (E-1) rectangle (R0)
+      ;
+
     \draw[help lines]
       (y |- E-1) node[left] {$50$} -|
       (E-1 |- x) node[below] {$30$}
-      (R0) node[below] {$50$}
+      (E-1) -| (R0) node[below] {$50$}
       ;
 
     \draw[curve, very thick, use path=\pathBMS]
@@ -406,11 +411,13 @@
 
 
     \draw[shift arrow, <->|, shorten <= 0pt, shorten >= 0pt]
-      ($(E-1 |- x) - (0, 48pt)$) -- node[below] {Vertidos}
+      ($(E-1 |- x) - (0, 48pt)$) --
+      node[below, font=\scriptsize, align=center] {Vertidos\\óptimos}
       ($(R0) - (0, 48pt)$)
       ;
     \draw[shift arrow, |<->|, shorten <= 0pt, shorten >= 0pt]
-      (0, -48pt) -- node[below] {Reducción}
+      (0, -48pt) --
+      node[below, font=\scriptsize, align=center] {Reducción\\óptima}
       ($(E-1 |- x) - (0, 48pt)$)
       ;
 

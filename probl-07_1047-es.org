@@ -468,40 +468,100 @@ d) Compare los resultados obtenidos en los dos apartados
 
 ** Answer
 
-a) Solución eficiente.
+a) La curva inversa de demanda de mercado representa el beneficio
+   marginal social:
+   #+begin_export latex
+   \[
+     \BMS = 100 - Q / 30.
+   \]
+   #+end_export
+   El coste marginal social se obtiene sumando el coste marginal
+   privado u el daño marginal:
+   #+begin_export latex
+   \[
+     \CMS = 40 + Q / 45.
+   \]
+   #+end_export
 
-   #+ATTR_LATEX: :options {0.60\linewidth}
+   #+ATTR_LATEX: :options {0.5\linewidth}
    #+xxx: col
    #+latex: \vspace*{1ex}
    #+xxx: fig file:fig-07_1047-ex5-a-*.pdf
-   #+ATTR_LATEX: :options {0.38\linewidth}
+   #+ATTR_LATEX: :options {0.49\linewidth}
    #+xxx: col
-   Hola.
+   La solución eficiente se obtiene igualando \BMS y \CMS:
+   #+begin_export latex
+   \[
+     100 - Q_e / 30 = 40 + Q_e / 45.
+   \]
+   #+end_export
+   Resolviendo la ecuación anterior se obtiene $Q_e =
+   \units{1080}$. El precio se obtiene sustituyendo $Q_e$ en la curva
+   de beneficio marginal social: $P_e = \price{64}$.
    #+xxx: endcol
 
-b) Monopolio.
+b) El monopolista ignora la externalidad y produce la cantidad que
+   iguala el ingreso marginal y el coste marginal privado. El ingreso
+   marginal es:
+   #+begin_export latex
+   \[
+     \IMg = 100 - Q / 15.
+   \]
+   #+end_export
 
-   #+ATTR_LATEX: :options {0.60\linewidth}
+   #+ATTR_LATEX: :options {0.50\linewidth}
    #+xxx: col
    #+latex: \vspace*{1ex}
    #+xxx: fig file:fig-07_1047-ex5-b-*.pdf
-   #+ATTR_LATEX: :options {0.38\linewidth}
+   #+ATTR_LATEX: :options {0.49\linewidth}
    #+xxx: col
-   Hola.
+   La cantidad óptima del monopolio se determina resolviendo:
+   #+begin_export latex
+   \[
+     100 - Q_m / 15 = 20 + Q_m / 45.
+   \]
+   #+end_export
+   Por lo tanto, $Q_m = \units{900}$. Sustituyendo esta cantidad en la
+   curva inversa de demanda, se obtiene el precio del monopolio: $P_m
+   = \price{70}$.
    #+xxx: endcol
+   #+latex: \vspace*{1ex}
 
-c) Competencia perfecta.
+   La producción del monopolio es inferior a la socialmente óptima,
+   por lo que se produce una ineficiencia igual al área del triángulo
+   sombreado en la figura anterior:
+   #+begin_export latex
+   \[
+      (Q_e - Q_m) \big(P_m - \CMS(Q_m)\big) / 2 = \money{900}.
+   \]
+   #+end_export
+c) Si la empresa fijara el precio competitivo, produciría la cantidad que iguala el precio al coste marginal privado:
+   #+begin_export latex
+   \[
+     100 - Q_c / 30 = 20 + Q_c / 45.
+   \]
+   #+end_export
+   Por tanto, la cantidad y el precio competitivos son $Q_c =
+   \units{1440}$ y $P_c = \price{52}$.
 
-   #+ATTR_LATEX: :options {0.60\linewidth}
+   #+ATTR_LATEX: :options {0.50\linewidth}
    #+xxx: col
    #+latex: \vspace*{1ex}
    #+xxx: fig file:fig-07_1047-ex5-c-*.pdf
-   #+ATTR_LATEX: :options {0.38\linewidth}
+   #+ATTR_LATEX: :options {0.49\linewidth}
    #+xxx: col
-   Hola.
+   En este caso, la ineficiencia se traduce en una producción superior
+   a la óptima. La pérdida irrecuperable de eficiencia es:
+   #+begin_export latex
+   \[
+     (Q_c - Q_e) \DM(Q_c) / 2 = \money{3600}.
+   \]
+   #+end_export
    #+xxx: endcol
 
-d) Comparación.
+d) Las dos situaciones analizadas en este ejercicio son
+   ineficientes. La ineficiencia asociada al monopolio es menor, por
+   lo que sería preferible al comportamiento competitivo.
 
 
 * Q.6
@@ -516,6 +576,18 @@ conseguir el nivel óptimo de polución?
 
 
 ** Answer
+La multa que consigue el nivel de vertidos óptimos es la que determina
+la intersección de las curvas $\CM$ y $\BMS$. El nivel de reducción de
+vertidos óptimo es el que satisface:
+#+begin_export latex
+\[
+  200 - 5 R^* = 20 + R^*,
+\]
+#+end_export
+de donde se obtiene $R^* = 30\,\text{Tm}$. La multa que incentiva a
+las empresas a llevar a cabo la reducción óptima de vertidos es: $f =
+\CMP(R^*) = 50\,\text{\texteuro/Tm}$.
+
 
 #+ATTR_LATEX: :options {0.60\linewidth}
 #+xxx: col
@@ -523,7 +595,10 @@ conseguir el nivel óptimo de polución?
 #+xxx: fig file:fig-07_1047-ex6-*.pdf
 #+ATTR_LATEX: :options {0.38\linewidth}
 #+xxx: col
-Hola.
+La empresa vertía inicialmente $50$ toneladas de residuos. Cuando se
+introduce la multa de $50$ euros por tonelada, la empresa reduce sus
+vertidos en $30$. Por tanto, pagará en total una multa de $50 \cdot 20
+= \money{1000}$ (área del rectángulo sombreado en la figura).
 #+xxx: endcol
 
 

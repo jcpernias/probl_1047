@@ -10,7 +10,7 @@ falsas o inciertas, y explique por qué.
 
 a) Si tu consumo de tabaco produce externalidades negativas a tus
    compañeros de piso (las cuáles ignoras por completo), entonces
-   estás fumando más de los que sería eficiente.
+   estás fumando más de lo que sería eficiente.
 
 b) Un impuesto sobre el tabaco hace que el mercado de cigarrillos
    funcione más eficientemente.
@@ -25,7 +25,7 @@ d) La producción en un mercado competitivo con una externalidad
 ** Answer
 
 a) /Verdadera/: una externalidad negativa de consumo implica que se
-   consume más de lo socialmente óptimo.
+   consume más de lo que sería eficiente.
 
 b) /Incierta/: un impuesto reduce las ventas de cigarrillos, por lo
    que la ineficiencia asociada a los efectos externos disminuye o
@@ -110,7 +110,7 @@ b) Si entra una nueva barca, la producción de cada barca es:
    \]
    #+end_export
    En consecuencia, disminuye el beneficio de cada uno de los
-   pescadores que faenaban antes de la entrada:
+   pescadores que faenaban antes de la entrada de la nueva barca:
    #+begin_export latex
    \[
      \Delta \pi_i = P \Delta q_i = \money{-44.76}.
@@ -247,7 +247,7 @@ a) Obtenga y represente el equilibrio en este mercado en ausencia
 b) Para corregir la externalidad, el Gobierno quiere introducir un
    impuesto de $t$ euros por unidad producida. ¿Qué valor debe tomar
    $t$ para conseguir el nivel de producción socialmente óptimo?
-   ¿Cuanto recaudaría el Gobierno?
+   ¿Cuánto recaudaría el Gobierno?
 
 c) El Gobierno también está barajando la posibilidad de utilizar una
    subvención para corregir la externalidad. ¿Cómo debería diseñarse?
@@ -273,7 +273,7 @@ a) Se obtiene la curva de beneficio marginal social, \BMS, a partir de
      \CMP = 6 Q
    \]
    #+end_export
-   En el equilibrio de mercado. $\BMS = \CMP$:
+   En el equilibrio de mercado $\BMS = \CMP$:
    #+begin_export latex
    \[
      360 - 4 Q_m = 6 Q_m.
@@ -345,7 +345,7 @@ b) Para corregir los efectos de la externalidad, se debería introducir
    #+end_export
    El impuesto reduciría el bienestar tanto de los compradores del
    bien como de las empresas. La variación del excedente de los
-   consumidores, \VEC, es negativa, yq que se consume una cantidad
+   consumidores, \VEC, es negativa, ya que se consume una cantidad
    menor y se paga un mayor precio:
    #+begin_export latex
    \[
@@ -363,7 +363,9 @@ b) Para corregir los efectos de la externalidad, se debería introducir
 c) Para contrarrestar los efectos de la externalidad, el gobierno
    puede introducir una subvención a la reducción de la producción:
    por cada unidad que se produzca por debajo de $Q_m$ se pagaría una
-   cantidad fija de $s$ euros por unidad. Para conseguir que la producción se reduzca hasta el nivel eficiente, la subvención debe ser igual al daño marginal evaluado en $Q_e$:
+   cantidad fija de $s$ euros por unidad. Para conseguir que la
+   producción se reduzca hasta el nivel eficiente, la subvención debe
+   ser igual al daño marginal evaluado en $Q_e$:
    #+begin_export latex
    \[
      s = \DM(Q_e) = \price{60}.
@@ -391,7 +393,7 @@ c) Para contrarrestar los efectos de la externalidad, el gobierno
    de venta:
    #+begin_export latex
    \[
-     \VEP = (P_e - t - P_m)(Q_m - Q_e)/2 + (P_e - P_m) Q_e =
+     \VEP = (P_e - s - P_m)(Q_m - Q_e)/2 + (P_e - P_m) Q_e =
      -108 + 720 = \money{612}.
    \]
    #+end_export
@@ -476,7 +478,7 @@ a) La curva inversa de demanda de mercado representa el beneficio
    \]
    #+end_export
    El coste marginal social se obtiene sumando el coste marginal
-   privado u el daño marginal:
+   privado y el daño marginal:
    #+begin_export latex
    \[
      \CMS = 40 + Q / 45.

@@ -24,8 +24,9 @@ d) La producción en un mercado competitivo con una externalidad
 
 ** Answer
 
-a) /Verdadera/: una externalidad negativa de consumo implica que se
-   consume más de lo que sería eficiente.
+a) /Verdadera/: si los fumadores no tienen en cuenta que cuando fuman
+   reducen el bienestar de sus compañeros de piso, fumarán más de lo
+   que sería eficiente.
 
 b) /Incierta/: un impuesto reduce las ventas de cigarrillos, por lo
    que la ineficiencia asociada a los efectos externos disminuye o
@@ -41,9 +42,9 @@ c) /Falsa/: la presencia de externalidades negativas no implica que la
    sustitutivos del tabaco. A priori, no es posible saber si los
    beneficios de la prohibición serán mayores que sus costes.
 
-d) /Verdadera/: los agentes que generan las externalidades negativas
-   no las tienen en cuenta y producen o consumen una cantidad superior
-   a la socialmente óptima.
+d) /Verdadera/: cuando los agentes que generan externalidades
+   negativas no las tienen en cuenta, producen o consumen una cantidad
+   superior a la socialmente óptima.
 
 
 * Q.2
@@ -97,37 +98,30 @@ a) Cuando $N = 16$, cada barca produce:
    \]
    #+end_export
 
-b) Si entra una nueva barca, la producción de cada barca es:
+b) Si entra una nueva barca, la producción de cada pescador es:
    #+begin_export latex
    \[
      q_i = 1000 / 17^{1/2} \approx \units[kg]{242.54}.
-   \]
-   #+end_export
-   La producción de las 16 barcas que operaban antes se reduce:
-   #+begin_export latex
-   \[
-     \Delta q_i = 242.54 - 250 = \units[kg]{-7.46}.
    \]
    #+end_export
    En consecuencia, disminuye el beneficio de cada uno de los
    pescadores que faenaban antes de la entrada de la nueva barca:
    #+begin_export latex
    \[
-     \Delta \pi_i = P \Delta q_i = \money{-44.76}.
+     \Delta \pi_i = P \Delta q_i = 6 \cdot (242.54 - 250) = \money{-44.76}.
    \]
    #+end_export
-   El efecto externo total sería la suma de la pérdida de beneficios:
-   $16 \cdot (-44.76) = \money{-716,16}$.
+   El efecto externo total sería: $16 \cdot (-44.76) =
+   \money{-716,16}$.
 
-c) Si no hay restricciones a la entrada, entrarán nuevos pescadores
-   mientras consigan beneficios positivos. En el equilibrio a largo
-   plazo $\pi_i = 0$ y el número de barcas sería:
+c) Si no hay barreras a la entrada, los beneficios positivos atraerán
+   a nuevos pescadores. En el equilibrio a largo plazo $\pi_i = 0$:
    #+begin_export latex
    \[
-     6 \cdot 1000 / N^{1/2} - 1000 = 0
+     \pi_i = 6 \cdot 1000 / N^{1/2} - 1000 = 0
    \]
    #+end_export
-   La ecuación anterior se satisface cuando $N = 36\,\text{barcas}$.
+   Esta condición se satisface cuando $N = 36\,\text{barcas}$.
 
 d) El número socialmente óptimo de barcas es el que maximiza el
    beneficio total de los pescadores:
@@ -144,19 +138,19 @@ d) El número socialmente óptimo de barcas es el que maximiza el
       \frac{\diff N \pi_i}{\diff N} = 3000 N^{-1/2} - 1000 = 0.
    \]
    #+end_export
-   Resolviendo la ecuación anterior, se obtiene que el número
-   eficiente de barcas es $N = 9\,\text{barcas}$.
+   Resolviendo la ecuación anterior, se obtiene que $9$ es el número
+   eficiente de barcas.
 
-e) La licencia debería desincentivar la entrada de más de 9
-   barcas. Cuando $N = 9$ los beneficios individuales son:
+e) Cuando $N = 9$ los beneficios individuales son:
    #+begin_export latex
    \[
-     6 \cdot 1000 / 9^{1/2} - 1000 = \money{1000}
+     \pi_i(9) = 6 \cdot 1000 / 9^{1/2} - 1000 = \money{1000}
    \]
    #+end_export
-   El ayuntamiento debería cobrar \money{1000} por cada licencia
-   (teniendo en cuenta que $N$ es un entero, bastaría con que cobrase
-   \money{898} por licencia).
+   El ayuntamiento debería cobrar \money{1000} por cada licencia para
+   desincentivar la entrada de más de 9 barcas (teniendo en cuenta que
+   $N$ es un entero, bastaría con que cobrase \money{898} por
+   licencia, cantidad que es ligeramente superior a $\pi_i(10)$).
 
 * Q.3
 
@@ -259,18 +253,18 @@ d) ¿Cuál de las dos medidas, impuesto o subvención, preferirían las
 
 ** Answer
 
-a) Se obtiene la curva de beneficio marginal social, \BMS, a partir de
-   la curva de demanda:
+a) La curva de beneficio marginal social, \BMS, coincide con la curva
+   inversa de demanda:
    #+begin_export latex
    \[
      \BMS = 360 - 4 Q.
    \]
    #+end_export
-   El coste marginal privado, \CMP, coincide con la curva inversa de
-   oferta:
+   En un mercado competitivo, el coste marginal privado, \CMP, es la
+   curva inversa de oferta:
    #+begin_export latex
    \[
-     \CMP = 6 Q
+     \CMP = 6 Q.
    \]
    #+end_export
    En el equilibrio de mercado $\BMS = \CMP$:
@@ -293,8 +287,8 @@ a) Se obtiene la curva de beneficio marginal social, \BMS, a partir de
      360 - 4 Q_e = 6 Q_e + 2 Q_e,
    \]
    #+end_export
-   de donde se obtiene $Q_e = \units{30}$. La producción eficiente se
-   vendería al precio $P_e = \price{240}$.
+   y se obtiene $Q_e = \units{30}$. La producción eficiente se
+   vendería al precio $P_e = \BMS(Q_e) = \price{240}$.
 
    #+ATTR_LATEX: :options {0.60\linewidth}
    #+xxx: col
@@ -302,11 +296,10 @@ a) Se obtiene la curva de beneficio marginal social, \BMS, a partir de
    #+xxx: fig file:fig-07_1047-ex4-a-*.pdf
    #+ATTR_LATEX: :options {0.38\linewidth}
    #+xxx: col
-   La producción de mercado sería superior a la eficiente. Se produce
-   una pérdida irrecuperable de eficiencia en la producción que excede
-   el nivel eficiente porque su valoración social es inferior a su
-   coste social.
+   La producción de mercado sería superior a la eficiente y se produce
+   una ineficiencia igual al área sombreada.
    #+xxx: endcol
+
    La ineficiencia generada por la externalidad es:
    #+begin_export latex
    \[
@@ -353,7 +346,8 @@ b) Para corregir los efectos de la externalidad, se debería introducir
    \]
    #+end_export
    Después de la introducción del impuesto, las empresas venden menos
-   e ingresan menos por unidad vendida. La variación del excedente de los productores es negativa:
+   e ingresan menos por unidad vendida. La variación del excedente de
+   los productores es negativa:
    #+begin_export latex
    \[
      \VEP = (P_e - t - P_m) (Q_e + Q_m) / 2 = \money{-1188}.
@@ -362,10 +356,10 @@ b) Para corregir los efectos de la externalidad, se debería introducir
 
 c) Para contrarrestar los efectos de la externalidad, el gobierno
    puede introducir una subvención a la reducción de la producción:
-   por cada unidad que se produzca por debajo de $Q_m$ se pagaría una
-   cantidad fija de $s$ euros por unidad. Para conseguir que la
-   producción se reduzca hasta el nivel eficiente, la subvención debe
-   ser igual al daño marginal evaluado en $Q_e$:
+   por cada unidad que se produzca por debajo de $Q_m$ se pagaría a
+   las empresas una cantidad fija de $s$ euros por unidad. Para
+   conseguir que la producción se reduzca hasta el nivel eficiente, la
+   subvención debe ser igual al daño marginal evaluado en $Q_e$:
    #+begin_export latex
    \[
      s = \DM(Q_e) = \price{60}.
@@ -406,31 +400,35 @@ c) Para contrarrestar los efectos de la externalidad, el gobierno
    #+end_export
 
 d) Tanto el impuesto como la subvención consiguen eliminar la
-   ineficiencia de la externalidad y consiguen reducir los costes
-   externos a las empresas:
+   ineficiencia de la externalidad y reducen los costes externos que
+   la producción de las empresas impone al resto de la sociedad:
    #+begin_export latex
    \[
-      (Q_e - Q_m) (\DM(Q_e) + \DM(Q_m)) / 2 = \money{-396}.
+      (Q_e - Q_m) \big(\DM(Q_e) + \DM(Q_m)\big) / 2 = \money{-396}.
    \]
    #+end_export
-   Sin embargo, las dos medidas tienen efectos muy distintos sobre los
-   agentes económicos.
+   Sin embargo, las dos medidas tienen efectos distributivos muy
+   distintos. El cuadro siguiente muestra como se altera el bienestar
+   de los agentes económicos afectados por las dos medidas analizadas.
 
    #+ATTR_LATEX: :booktabs t :align lrr
-   |                | Impuesto | Subvención |
-   |----------------+----------+------------|
-   | Consumidores   | $-792$   | $-792$     |
-   | Empresas       | $-1188$  | $972$      |
-   | Contribuyentes | $1800$   | $-360$     |
+   |                         | Con impuesto (€) | Con subvención (€) |
+   |-------------------------+------------------+--------------------|
+   | Reducción contaminación | $396$            | $396$              |
+   | Consumidores            | $-792$           | $-792$             |
+   | Empresas                | $-1188$          | $972$              |
+   | Contribuyentes          | $1800$           | $-360$             |
+   |-------------------------+------------------+--------------------|
+   | Total                   | $216$            | $216$              |
+
 
    Los consumidores se mostrarían indiferentes entre el impuesto y la
    subvención ya que ambas medidas les suponen una pérdida de
    bienestar idéntica. La introducción del impuesto reduciría los
    beneficios empresariales y las empresas prefieren la subvención:
    sus beneficios aumentarían tanto por la propia subvención como por
-   el aumento del excedente de los productores. Los contribuyentes
-   preferirían el impuesto que aumentaría los ingresos del sector
-   público frente a la subvención que los reduciría.
+   el aumento del excedente de los productores. Por último, los
+   contribuyentes preferirían el impuesto a la subvención.
 
 * Q.5
 
@@ -494,12 +492,16 @@ a) La curva inversa de demanda de mercado representa el beneficio
    La solución eficiente se obtiene igualando \BMS y \CMS:
    #+begin_export latex
    \[
-     100 - Q_e / 30 = 40 + Q_e / 45.
+     100 - Q_e / 30 = 40 + Q_e / 45,
    \]
    #+end_export
-   Resolviendo la ecuación anterior se obtiene $Q_e =
-   \units{1080}$. El precio se obtiene sustituyendo $Q_e$ en la curva
-   de beneficio marginal social: $P_e = \price{64}$.
+   lo que implica $Q_e = \units{1080}$. El precio se obtiene a partir
+   de la curva de beneficio marginal social:
+   #+begin_export latex
+   \[
+     P_e = \BMS(Q_e) = \price{64}.
+   \]
+   #+end_export
    #+xxx: endcol
 
 b) El monopolista ignora la externalidad y produce la cantidad que
@@ -523,7 +525,7 @@ b) El monopolista ignora la externalidad y produce la cantidad que
      100 - Q_m / 15 = 20 + Q_m / 45.
    \]
    #+end_export
-   Por lo tanto, $Q_m = \units{900}$. Sustituyendo esta cantidad en la
+   De donde $Q_m = \units{900}$. Sustituyendo esta cantidad en la
    curva inversa de demanda, se obtiene el precio del monopolio: $P_m
    = \price{70}$.
    #+xxx: endcol
@@ -537,14 +539,15 @@ b) El monopolista ignora la externalidad y produce la cantidad que
       (Q_e - Q_m) \big(P_m - \CMS(Q_m)\big) / 2 = \money{900}.
    \]
    #+end_export
-c) Si la empresa fijara el precio competitivo, produciría la cantidad que iguala el precio al coste marginal privado:
+c) Si la empresa fijara el precio competitivo, produciría la cantidad
+   que iguala el precio al coste marginal privado:
    #+begin_export latex
    \[
      100 - Q_c / 30 = 20 + Q_c / 45.
    \]
    #+end_export
-   Por tanto, la cantidad y el precio competitivos son $Q_c =
-   \units{1440}$ y $P_c = \price{52}$.
+   La cantidad y el precio competitivos son $Q_c = \units{1440}$ y
+   $P_c = \price{52}$.
 
    #+ATTR_LATEX: :options {0.50\linewidth}
    #+xxx: col
@@ -553,7 +556,7 @@ c) Si la empresa fijara el precio competitivo, produciría la cantidad que igual
    #+ATTR_LATEX: :options {0.49\linewidth}
    #+xxx: col
    En este caso, la ineficiencia se traduce en una producción superior
-   a la óptima. La pérdida irrecuperable de eficiencia es:
+   a la óptima. La pérdida de eficiencia es:
    #+begin_export latex
    \[
      (Q_c - Q_e) \DM(Q_c) / 2 = \money{3600}.
@@ -562,8 +565,8 @@ c) Si la empresa fijara el precio competitivo, produciría la cantidad que igual
    #+xxx: endcol
 
 d) Las dos situaciones analizadas en este ejercicio son
-   ineficientes. La ineficiencia asociada al monopolio es menor, por
-   lo que sería preferible al comportamiento competitivo.
+   ineficientes. La ineficiencia asociada al monopolio es menor y
+   sería preferible al comportamiento competitivo.
 
 
 * Q.6
@@ -586,11 +589,9 @@ c) ¿Qué multa por unidad de polución debería fijarse para
 
 
 ** Answer
-a) La reducción de vertidos debería llevarse a cabo siempre que el
-   beneficio marginal que la sociedad obtiene por reducir una tonelada
-   adicional de residuos sea mayor que el coste de conseguir esa
-   reducción. El nivel de reducción de vertidos óptimo es el que
-   satisface $\BMS = \CM$:
+a) Los vertidos deberían reducirse mientras el beneficio marginal
+   social sea mayor que el coste marginal. El nivel de reducción de
+   vertidos óptimo es el que satisface $\BMS = \CM$:
    #+begin_export latex
    \[
      200 - 5 R^* = 20 + R^*,
@@ -611,15 +612,15 @@ a) La reducción de vertidos debería llevarse a cabo siempre que el
 
 b) La empresa comparará el coste de reducir sus vertidos en una
    tonelada adicional con la multa que tendría que pagar si no lleva a
-   cabo la reducción. Mientras $\CM \leq f$ le resulta más barato
-   reducir que pagar la multa. La reducción que llevará a cabo
-   satisface: $f = \CM(R_f)$:
+   cabo esa reducción. Mientras $\CM \leq f$, a la empresa le resulta
+   más barato reducir que pagar la multa. La reducción que llevará a
+   cabo satisface: $f = \CM(R_f)$:
    #+begin_export latex
    \[
      35 = 20 + R_{f},
    \]
    #+end_export
-   Por lo que la empresa reducirá sus vertidos en $R_f =
+   Por tanto, la empresa reducirá sus vertidos en $R_f =
    15\,\text{Tm}$.
 
    #+ATTR_LATEX: :options {0.60\linewidth}

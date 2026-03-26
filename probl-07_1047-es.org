@@ -574,7 +574,7 @@ d) Las dos situaciones analizadas en este ejercicio son
 El Gobierno quiere mejorar la calidad de las aguas de un río en el que
 una empresa vierte 50 toneladas de residuos. El beneficio marginal
 social de reducir los vertidos en $R$ toneladas es: $\BMS = 200 - 5
-R$.  El coste marginal de reducir los vertidos es: $\CM = 20 +
+R$, mientras que el coste marginal de reducir los vertidos es: $\CM = 20 +
 R$.
 
 a) ¿Cuál es el nivel de reducción óptimo desde el punto de vista

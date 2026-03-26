@@ -79,7 +79,7 @@
 #+end_src
 
 #+begin_src latex :noweb-ref ex4-pie
-  \draw[fill, solarizedGreen!50]
+  \draw[fill, LightGray!50]
     (e) -- (h) -- (g) -- cycle
     ;
 
@@ -117,7 +117,7 @@
   \begin{tikzpicture}[<<ex4-scale>>]
     <<ex4-coordinates>>
 
-    \draw[fill, solarizedYellow!50]
+    \draw[fill, LightGray!50]
       (a) rectangle (g)
       ;
 
@@ -146,7 +146,7 @@
   \begin{tikzpicture}[<<ex4-scale>>]
     <<ex4-coordinates>>
 
-    \draw[fill, solarizedBlue!50]
+    \draw[fill, LightGray!50]
       (b) rectangle (i)
       ;
 
@@ -288,13 +288,13 @@
 #+end_src
 
 #+begin_src latex :noweb-ref ex5-pie-m
-  \draw[fill, solarizedYellow!50]
+  \draw[fill, LightGray!50]
     (P-1) -- (E-1) -- (N-1) -- cycle
     ;
 #+end_src
 
 #+begin_src latex :noweb-ref ex5-pie-c
-  \draw[fill, solarizedGreen!50]
+  \draw[fill, LightGray!50]
     (C-1) -- (E-1) -- (O-1) -- cycle
     ;
   \draw[help lines]
@@ -455,7 +455,7 @@
   \begin{tikzpicture}[<<ex6-scale>>]
     <<ex6-coordinates>>
 
-    \draw[fill, solarizedYellow!50]
+    \draw[fill, LightGray!50]
       (F-1) rectangle (R0)
       ;
 
@@ -490,7 +490,7 @@
   \begin{tikzpicture}[<<ex6-scale>>]
     <<ex6-coordinates>>
 
-    \draw[fill, solarizedYellow!50]
+    \draw[fill, LightGray!50]
       (E-1) rectangle (R0)
       ;
 

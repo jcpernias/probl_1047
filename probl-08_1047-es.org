@@ -1,5 +1,3 @@
-# -*- ispell-dictionary: "castellano" -*-
-
 #+SETUPFILE: ./probl-es.org
 
 #+TITLE: {{{unit08}}}: ejercicios
@@ -117,9 +115,152 @@ b) ¿Cambiaría su respuesta al apartado anterior si se cobrara un
    peaje de \money{0.40} por trayecto?
 
 
-** Answer
+** COMMENT Answer
 
-Por hacer.
+Síntesis: no se debería construir el puente ni en (a) ni en (b).
+
+Voy paso a paso.
+
+1. Situación actual: ferry
+
+La demanda anual de cruces es
+
+q=125000-50000p
+
+o, en forma inversa,
+
+p=2.5-\frac{q}{50000}.
+
+El ferry cobra actualmente p=2, así que
+
+q=125000-50000(2)=25000,
+
+como dice el enunciado.
+
+Excedente del consumidor actual
+
+El precio de reserva máximo es 2.5. Por tanto,
+
+EC_0=\frac{1}{2}(25000)(2.5-2)=6250.
+
+Beneficio del ferry
+
+El coste variable es 1.5 por vehículo y trayecto, así que
+
+\pi_0=(2-1.5)\cdot 25000=12500.
+
+Bienestar social actual
+
+W_0=EC_0+\pi_0=6250+12500=18750 \quad \text{al año}.
+
+⸻
+
+2. Apartado (a): puente sin peaje
+
+Si el puente no cobra peaje, p=0. Entonces
+
+q_1=125000-50000(0)=125000.
+
+Excedente del consumidor con puente
+
+EC_1=\frac{1}{2}(125000)(2.5-0)=156250.
+
+Coste de mantenimiento
+
+CM=50000 \quad \text{al año}.
+
+Como no hay peaje, no hay ingresos. El ferry desaparece, así que tampoco hay beneficios del ferry.
+
+Bienestar social con puente
+
+W_1=156250-50000=106250 \quad \text{al año}.
+
+Ganancia anual neta
+
+\Delta W = W_1-W_0=106250-18750=87500.
+
+⸻
+
+3. Valor actual neto del proyecto
+
+El puente tarda un año en construirse. Supondremos que el coste de construcción de 1 millón se realiza hoy y que los beneficios anuales empiezan dentro de un año.
+
+Como la duración es infinita, el valor actual de una perpetuidad de 87500 es
+
+VA=\frac{87500}{0.10}=875000.
+
+Por tanto,
+
+VAN=-1000000+875000=-125000.
+
+Conclusión del apartado (a)
+
+Como el VAN es negativo,
+
+\boxed{\text{No se debería construir el puente.}}
+
+⸻
+
+4. Apartado (b): puente con peaje de 0.40
+
+Ahora p=0.40. La cantidad demandada sería
+
+q_2=125000-50000(0.40)=105000.
+
+Excedente del consumidor
+
+EC_2=\frac{1}{2}(105000)(2.5-0.4).
+
+Como 2.5-0.4=2.1,
+
+EC_2=\frac{1}{2}(105000)(2.1)=110250.
+
+Ingresos por peaje
+
+R=0.4\cdot 105000=42000.
+
+Coste de mantenimiento
+
+CM=50000.
+
+Bienestar social con puente y peaje
+
+El peaje es una transferencia, pero como lo recauda la autoridad pública forma parte del bienestar social:
+
+W_2=EC_2+R-CM=110250+42000-50000=102250.
+
+Ganancia anual neta respecto a la situación actual
+
+\Delta W = 102250-18750=83500.
+
+Valor actual
+
+VA=\frac{83500}{0.10}=835000.
+
+Entonces,
+
+VAN=-1000000+835000=-165000.
+
+Conclusión del apartado (b)
+
+Tampoco conviene construirlo:
+
+\boxed{\text{No, la respuesta no cambia.}}
+
+De hecho, con peaje de 0.40 el proyecto es aún menos atractivo que en (a), porque reduce el excedente del consumidor y el ingreso por peaje no compensa esa pérdida.
+
+⸻
+
+Respuesta final
+
+a) No se debería construir el puente, porque el valor actual neto es
+
+\boxed{VAN=-125000}.
+
+b) Tampoco se debería construir si se cobra un peaje de 0.40, ya que
+
+\boxed{VAN=-165000}.
+
 
 
 * COMMENT Q.6
@@ -138,3 +279,7 @@ programa de formación?
 ** Answer
 
 Por hacer.
+
+# Local Variables:
+# ispell-dictionary: "spanish"
+# End:

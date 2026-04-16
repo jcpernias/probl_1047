@@ -1,5 +1,3 @@
-# -*- ispell-dictionary: "castellano" -*-
-
 #+SETUPFILE: ./probl-es.org
 
 #+TITLE: {{{unit09}}}: ejercicios
@@ -154,3 +152,7 @@ y del problema 4).
 
 Una vez tenemos $Q^*$, los precios de Lindahl coinciden con las
 disposiciones a pagar de cada individuo.
+
+# Local Variables:
+# ispell-dictionary: "spanish"
+# End:

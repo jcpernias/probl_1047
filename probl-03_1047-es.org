@@ -320,15 +320,14 @@ Por hacer
 
 * COMMENT Q.9
 
-En un país sólo viven dos ciudadanos: Blanca y Teo. Blanca es
-abogada y gana \money{50} por hora. Cuando la tasa impositiva sobre
-la renta es $t = \SI{0}{\percent}$, Blanca trabaja 20 horas a la
-semana; si $t = \SI{25}{\percent}$, trabajaría 16 horas; y si $t =
-\SI{40}{\percent}$ sólo trabajaría 8 horas. Teo trabaja en un
-pequeño taller de reparaciones y gana \money{6} por hora. Teo
-siempre trabaja 20 horas por semana sea cual sea la tasa
-impositiva. El gobierno está pensando en gravar la renta de Blanca
-y transferir la recaudación a Teo.
+En un país sólo viven dos ciudadanos: Blanca y Teo. Blanca es abogada
+y gana \money{50} por hora. Cuando la tasa impositiva sobre la renta
+es $t = \pct{0}$, Blanca trabaja 20 horas a la semana; si $t =
+\pct{25}$, trabajaría 16 horas; y si $t = \pct{40}$ sólo trabajaría 8
+horas. Teo trabaja en un pequeño taller de reparaciones y gana
+\money{6} por hora. Teo siempre trabaja 20 horas por semana sea cual
+sea la tasa impositiva. El gobierno está pensando en gravar la renta
+de Blanca y transferir la recaudación a Teo.
 
 a) Blanca y Teo tienen la misma función de utilidad: $U(Y) =
    Y^{1/2}$ donde $Y$ es la renta después de impuestos y
@@ -348,7 +347,202 @@ c) Suponga ahora que Blanca y Teo tienen funciones de utilidad
 
 ** Answer
 
-Por hacer
+Sí. Vamos a resolverlo comparando las tres tasas: t=0\%, t=25\% y t=40\%.
+
+1. Rentas de Blanca y Teo
+
+Blanca
+
+Salario: \(\money{50}\) por hora.
+	•	Si t=0\%: trabaja 20 horas
+R_B^b = 50\cdot 20 = 1000
+Como no paga impuesto:
+Y_B=1000
+	•	Si t=25\%: trabaja 16 horas
+R_B^b = 50\cdot 16 = 800
+Impuesto recaudado:
+T=0.25\cdot 800=200
+Renta neta:
+Y_B=800-200=600
+	•	Si t=40\%: trabaja 8 horas
+R_B^b = 50\cdot 8 = 400
+Impuesto recaudado:
+T=0.40\cdot 400=160
+Renta neta:
+Y_B=400-160=240
+
+Teo
+
+Salario: \(\money{6}\) por hora, trabaja siempre 20 horas.
+
+R_T^b = 6\cdot 20 = 120
+
+Teo no cambia sus horas y recibe toda la recaudación del impuesto sobre Blanca.
+	•	Si t=0\%:
+Y_T=120
+	•	Si t=25\%:
+Y_T=120+200=320
+	•	Si t=40\%:
+Y_T=120+160=280
+
+Por tanto:
+
+\begin{array}{c|cc}
+t & Y_B & Y_T\\
+\hline
+0\% & 1000 & 120\\
+25\% & 600 & 320\\
+40\% & 240 & 280
+\end{array}
+
+⸻
+
+a) U(Y)=Y^{1/2}
+
+Utilidades individuales
+
+t=0\%
+U_B=\sqrt{1000}\approx 31.62,\qquad U_T=\sqrt{120}\approx 10.95
+Suma utilitarista:
+W_U=31.62+10.95=42.57
+Criterio rawlsiano:
+W_R=\min(31.62,10.95)=10.95
+
+t=25\%
+U_B=\sqrt{600}\approx 24.49,\qquad U_T=\sqrt{320}\approx 17.89
+Suma utilitarista:
+W_U=24.49+17.89=42.38
+Criterio rawlsiano:
+W_R=\min(24.49,17.89)=17.89
+
+t=40\%
+U_B=\sqrt{240}\approx 15.49,\qquad U_T=\sqrt{280}\approx 16.73
+Suma utilitarista:
+W_U=15.49+16.73=32.22
+Criterio rawlsiano:
+W_R=\min(15.49,16.73)=15.49
+
+Conclusión del apartado (a)
+
+Criterio utilitarista
+Comparamos las sumas:
+
+42.57,\quad 42.38,\quad 32.22
+
+La mayor es la correspondiente a t=0\%.
+
+\boxed{\text{Utilitarista: } t=0\%}
+
+Criterio rawlsiano
+Comparamos el mínimo nivel de utilidad:
+
+10.95,\quad 17.89,\quad 15.49
+
+La mayor es la de t=25\%.
+
+\boxed{\text{Rawlsiano: } t=25\%}
+
+⸻
+
+b) U(Y)=Y^{1/5}
+
+Calculamos de nuevo.
+
+t=0\%
+U_B=1000^{1/5}\approx 3.981,\qquad U_T=120^{1/5}\approx 2.605
+W_U=3.981+2.605=6.586,\qquad W_R=\min(3.981,2.605)=2.605
+
+t=25\%
+U_B=600^{1/5}\approx 3.594,\qquad U_T=320^{1/5}\approx 3.170
+W_U=3.594+3.170=6.764,\qquad W_R=3.170
+
+t=40\%
+U_B=240^{1/5}\approx 2.993,\qquad U_T=280^{1/5}\approx 3.086
+W_U=2.993+3.086=6.079,\qquad W_R=2.993
+
+Conclusión del apartado (b)
+
+Criterio utilitarista
+6.586,\quad 6.764,\quad 6.079
+
+La mayor suma se obtiene con t=25\%.
+
+\boxed{\text{Utilitarista: } t=25\%}
+
+Criterio rawlsiano
+2.605,\quad 3.170,\quad 2.993
+
+El máximo también se alcanza con t=25\%.
+
+\boxed{\text{Rawlsiano: } t=25\%}
+
+Respuesta
+
+Sí, cambian parcialmente las conclusiones: con esta función de utilidad más cóncava, el criterio utilitarista pasa de preferir t=0\% a preferir t=25\%. El criterio rawlsiano sigue prefiriendo t=25\%.
+
+⸻
+
+c) Utilidades diferentes
+
+Ahora:
+
+U_B(Y)=0.25Y^{1/2},\qquad U_T(Y)=Y^{1/2}
+
+t=0\%
+
+U_B=0.25\sqrt{1000}\approx 7.91,\qquad U_T=\sqrt{120}\approx 10.95
+W_U=7.91+10.95=18.86,\qquad W_R=\min(7.91,10.95)=7.91
+
+t=25\%
+
+U_B=0.25\sqrt{600}\approx 6.12,\qquad U_T=\sqrt{320}\approx 17.89
+W_U=6.12+17.89=24.01,\qquad W_R=\min(6.12,17.89)=6.12
+
+t=40\%
+
+U_B=0.25\sqrt{240}\approx 3.87,\qquad U_T=\sqrt{280}\approx 16.73
+W_U=3.87+16.73=20.61,\qquad W_R=\min(3.87,16.73)=3.87
+
+Conclusión del apartado (c)
+
+Criterio utilitarista
+24.01 > 20.61 > 18.86
+
+Por tanto:
+
+\boxed{t=25\% \succ t=40\% \succ t=0\%}
+
+Criterio rawlsiano
+El menor nivel de utilidad es siempre el de Blanca, porque su utilidad está multiplicada por 0.25. Por tanto, el criterio rawlsiano ordena las alternativas según la utilidad de Blanca:
+
+7.91 > 6.12 > 3.87
+
+Así que:
+
+\boxed{t=0\% \succ t=25\% \succ t=40\%}
+
+⸻
+
+Resumen final
+
+a) Con U(Y)=Y^{1/2}
+	•	Utilitarista:
+\boxed{t=0\%}
+	•	Rawlsiano:
+\boxed{t=25\%}
+
+b) Con U(Y)=Y^{1/5}
+	•	Utilitarista:
+\boxed{t=25\%}
+	•	Rawlsiano:
+\boxed{t=25\%}
+
+c) Con U_B(Y)=0.25Y^{1/2} y U_T(Y)=Y^{1/2}
+	•	Utilitarista:
+\boxed{25\% \succ 40\% \succ 0\%}
+	•	Rawlsiano:
+\boxed{0\% \succ 25\% \succ 40\%}
+
 
 
 * COMMENT Q.11

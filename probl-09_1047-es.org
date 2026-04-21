@@ -2,7 +2,7 @@
 
 #+TITLE: {{{unit09}}}: ejercicios
 
-* Q.1
+* COMMENT Q.1
 
 Suponga que 5 votantes (1, 2, 3, 4 y 5) ordenan de más a menos
 preferido los proyectos A, B, C y D como muestra la siguiente tabla:
@@ -26,49 +26,11 @@ b) ¿Es posible agregar de forma consistente las preferencias
 
 Por hacer.
 
+* Q.1
 
-* Q.2
-
-En una liga deportiva se usa un sistema de votación para elegir el
-jugador más valioso de cada temporada. Cada votante asigna 5 puntos al
-que considera mejor jugador, 3 puntos al segundo mejor y 1 punto al
-tercero. Los puntos que otorgan los votantes se suman y gana el premio
-el jugador que consigue más puntos. Suponga que hay tres votantes (1,
-2 y 3) y 5 jugadores (A, B, C, D y E) y que las valoraciones de los
-votantes son:
-
-#+ATTR_LATEX: :booktabs t :center t
-| Valoración    | 1 | 2 | 3 |
-|---------------+---+---+---|
-| Mejor         | A | A | B |
-| Segundo mejor | C | C | C |
-| Tercero mejor | B | B | D |
-| Cuarto mejor  | D | E | E |
-| Quinto mejor  | E | D | A |
-
-El jugador B está envuelto en un escándalo de uso de sustancias
-prohibidas. El veredicto acerca de la inocencia o culpabilidad de B
-llegará el día antes de las votaciones y si B es declarado culpable
-se anularía su candidatura al premio.
-
-a) ¿Quién ganaría el premio si B es declarado inocente?
-
-b) ¿Y si es declarado culpable?
-
-c) ¿Qué problema de la agregación consistente de las preferencias
-   individuales se manifiesta en este ejemplo?
-
-** Answer
-
-Por hacer.
-
-
-* Q.3
-
-Algunos autores piensan que las preferencias con respecto a la
-financiación de la sanidad pública presentan con frecuencia un patrón
-bimodal. ¿En qué situaciones podría esperarse que se diera esta
-situación? ¿Por qué?
+Algunos autores piensan que las preferencias sobre el nivel de gasto
+público en sanidad presentan con frecuencia un patrón bimodal. ¿En qué
+circunstancias podría aparecer este patrón? ¿Por qué?
 
 ** Answer
 
@@ -77,35 +39,93 @@ varias veces en el vídeo.
 
 
 
+* Q.2
+
+Suponga que en una ciudad hay tres grupos de personas (pobres, renta
+media y ricos) de igual tamaño y que votan en bloque. Para decidir el
+tipo del impuesto sobre la renta aplicable a cada grupo se someten a
+votación tres alternativas (A, B y C) que generan la misma recaudación
+total:
+#+ATTR_LATEX: :booktabs t :center t :align w{l}{2.5cm}*{3}{>{$}w{c}{2cm}<{$}}
+|             | \text{A} | \text{B} | \text{C} |
+|-------------+----------+----------+----------|
+| Pobres      | \pct{20} | \pct{18} | \pct{17} |
+| Renta media | \pct{20} | \pct{18} | \pct{21} |
+| Ricos       | \pct{20} | \pct{23} | \pct{22} |
+Las preferencias de cada grupo dependen exclusivamente del tipo
+impositivo que les correspondería en cada una de las alternativas.
+
+a) Muestre que la regla de la mayoría generaría una pauta cíclica de
+   votaciones.
+
+b) Suponga que, para evitar pautas cíclicas, se eliminan las
+   alternativas que no resulten elegidas en cada votación. Si un
+   representante del grupo de renta media decide qué par de
+   alternativas se votará primero, ¿cuáles elegirá?
+
+c) Suponga que el representante del grupo de renta media elige el
+   orden de las votaciones. Tanto el grupo de pobres como el de renta
+   media votan sinceramente, mientras que el grupo de ricos es el
+   único que vota estratégicamente, sin que los demás lo prevean. ¿Qué
+   opción resultaría elegida?
+
+
+
+* Q.3
+
+En una liga deportiva se usa un sistema de votación para elegir el
+jugador más valioso de cada temporada. Cada votante asigna 5 puntos al
+que considera mejor jugador, 3 puntos al segundo mejor y 1 punto al
+tercero. Los puntos que otorgan los votantes se suman y gana el premio
+el jugador que obtiene más puntos. Suponga que hay tres votantes (1, 2
+y 3) y 5 jugadores (A, B, C, D y E) y que las ordenaciones de
+preferencia de los votantes son:
+#+ATTR_LATEX: :booktabs t :center t
+| Valoración    | 1 | 2 | 3 |
+|---------------+---+---+---|
+| Mejor         | A | A | B |
+| Segundo mejor | C | C | C |
+| Tercero mejor | B | B | D |
+| Cuarto mejor  | D | E | E |
+| Quinto mejor  | E | D | A |
+El jugador B está envuelto en un escándalo de uso de sustancias
+prohibidas. El veredicto acerca de la inocencia o culpabilidad de B
+llegará el día antes de las votaciones y si B es declarado culpable
+quedaría excluido de la votación.
+
+a) ¿Quién ganaría el premio si B es declarado inocente?
+
+b) ¿Y si es declarado culpable?
+
+c) ¿Qué problema de la agregación de las preferencias individuales se
+   manifiesta en este ejemplo?
+
+** Answer
+
+Por hacer.
+
+
 * Q.4
 
 Alicia, Bruno, Celia, David y Elena son los cinco filántropos más
 acaudalados de una ciudad y quieren donar parte de sus riquezas a una
-causa benéfica. Para evitar odiosas comparaciones, han decidido que
-todos aportarán la misma cantidad de dinero. Las propuestas de cada
-uno de los filántropos se presentan en la siguiente tabla:
-#+begin_export latex
-\begin{center}
-  \begin{tabular}{@{}l*{4}{p{0.3cm}l@{}}}
-    \toprule
-    Alicia && Bruno && Celia && David && Elena \\
-    \midrule
-    \money{500000} && \money{100000} &&
-    \money{50000} && \money{250000} &&
-    \money{200000} \\
-    \bottomrule
-  \end{tabular}
-\end{center}
-#+end_export
-La cantidad que donará cada uno de ellos se seleccionará usando
-votaciones por mayoría entre los diferentes pares de propuestas.
+causa benéfica. Para evitar comparaciones entre las aportaciones
+individuales, han decidido que todos donarán la misma cantidad de
+dinero. Las propuestas de cada uno de los filántropos se presentan en
+la siguiente tabla:
+#+ATTR_LATEX: :booktabs t :center t :align *{5}{w{c}{2cm}}
+| Alicia         | Bruno          | Celia         | David          | Elena          |
+|----------------+----------------+---------------+----------------+----------------|
+| \money{500000} | \money{100000} | \money{50000} | \money{250000} | \money{200000} |
+La cantidad que aportará cada uno se seleccionará mediante votaciones
+por mayoría entre pares de propuestas.
 
 Sabiendo que las preferencias de cada uno de los potentados alcanzan
-un máximo en su propuesta y disminuyen conforme se alejan de esa
+un máximo en su propuesta y disminuyen cuanto más se alejan de su
 donación preferida, responda a las siguientes preguntas:
 
 a) ¿Es posible determinar sin ambigüedad cuál será la propuesta
-   elegida?
+   elegida mediante votaciones por mayoría?
 
 b) ¿Es posible encontrar una ordenación colectiva consistente con las
    preferencias individuales? Si su respuesta es afirmativa, ¿cuál es
@@ -130,19 +150,21 @@ las colectivas.
 * Q.5
 
 Andrea, Blas y Carla son los únicos habitantes de una pequeña
-ciudad. Cada uno de ellos valora la protección policial de forma
-diferente. Sus demandas son:
+ciudad. Cada uno de ellos tiene una demanda diferente de protección
+policial:
+
 - Andrea: $Q = 55 - 5 P_A$
 
 - Blas: $Q = 80 - 4 P_B$
 
 - Carla: $Q = 100 - 10 P_C$
-donde $Q$ son las horas de protección policial en la ciudad y $P_i$
-el precio que tendría que pagar el habitante $i$ por cada hora que
-se contrate.  Si el coste marginal de proporcionar una hora
-adicional de protección policial es \wage{13.5}, ¿cuál es el nivel
-socialmente óptimo de $Q$? Si se utiliza la propuesta de Lindahl,
-¿qué parte de la carga impositiva soportaría cada ciudadano?
+
+donde $Q$ es el número de horas de protección policial en la ciudad y
+$P_i$ es el precio que debe pagar el habitante $i$ por cada hora que
+se contrate.  Si el coste marginal de proporcionar una hora adicional
+de protección policial es \wage{13.5}, ¿cuál es el nivel socialmente
+óptimo de $Q$? Si se utiliza la propuesta de Lindahl, ¿qué parte de la
+carga impositiva soportaría cada ciudadano?
 
 ** Answer
 
@@ -156,3 +178,5 @@ disposiciones a pagar de cada individuo.
 # Local Variables:
 # ispell-dictionary: "spanish"
 # End:
+
+#  LocalWords:  bimodal Andrea Lindahl Answer Elena Bruno

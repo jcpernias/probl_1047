@@ -1,5 +1,3 @@
-# -*- ispell-dictionary: "castellano" -*-
-
 #+SETUPFILE: ./probl-es.org
 
 #+TITLE: Conceptos básicos
@@ -68,3 +66,7 @@ Responda concisamente las siguientes preguntas:
       #+begin_answer
 
       #+end_answer
+
+# Local Variables:
+# ispell-dictionary: "spanish"
+# End:

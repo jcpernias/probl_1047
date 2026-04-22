@@ -1,5 +1,3 @@
-# -*- ispell-dictionary: "castellano" -*-
-
 #+SETUPFILE: ./probl-es.org
 
 #+TITLE: {{{unit02}}}
@@ -97,3 +95,7 @@ b) ¿Cómo ha evolucionado cada tipo de impuesto en España a lo largo de
 ** Answer
 
 Esto es una respuesta.
+
+# Local Variables:
+# ispell-dictionary: "spanish"
+# End:

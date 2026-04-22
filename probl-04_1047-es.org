@@ -1,9 +1,215 @@
 #+SETUPFILE: ./probl-es.org
 
-#+TITLE: {{{unit04}}}: ejercicios
+#+TITLE: Tercera entrega
 
 
-* Q.1
+* Q.4
+
+
+En un país solo viven dos ciudadanos: Blanca y Teo. Blanca es abogada
+y gana $50$ euros por hora. Teo trabaja en un pequeño taller de
+reparaciones y gana $10$ euros por hora.
+
+El gobierno está considerando gravar la renta de Blanca y transferir
+íntegramente la recaudación a Teo. Se consideran seis tipos
+impositivos sobre la renta de Blanca: \pct{0}, \pct{10}, \pct{30},
+\pct{40}, \pct{60} y \pct{80}. Cualquiera que sea el tipo impositivo,
+Teo trabaja siempre 40 horas semanales. La oferta semanal de trabajo
+de Blanca depende del tipo impositivo y es la siguiente:
+#+ATTR_LATEX: :booktabs t :align cc
+| Tipo impositivo | Horas trabajadas por Blanca |
+|-----------------+-----------------------------|
+| 0 %             |                          40 |
+| 10 %            |                          38 |
+| 30 %            |                          34 |
+| 40 %            |                          29 |
+| 60 %            |                          24 |
+| 80 %            |                          20 |
+
+a) Suponga que Blanca y Teo tienen la misma función de utilidad:
+   #+begin_export latex
+   \[
+     U(Y) = Y^{1/2},
+   \]
+   #+end_export
+   donde $Y$ representa la renta disponible semanal, después de
+   impuestos y transferencias. ¿Cuál de los seis tipos impositivos
+   sería socialmente óptimo según un criterio utilitarista? ¿Y según
+   un criterio rawlsiano?
+
+b) Suponga ahora que Blanca y Teo siguen teniendo la misma función de
+   utilidad, pero esta pasa a ser:
+   #+begin_export latex
+   \[
+     U(Y) = Y^{1/4}.
+   \]
+   #+end_export
+   Determine los tipos impositivos socialmente óptimos según el
+   criterio utilitarista y según el criterio rawlsiano.
+
+c) Suponga ahora que Blanca y Teo tienen funciones de utilidad
+   distintas. La utilidad de Teo es
+   #+begin_export latex
+   \[
+     U_T(Y) = Y^{1/2},
+   \]
+   #+end_export
+   mientras que la de Blanca es
+   #+begin_export latex
+   \[
+     U_B(Y) = Y^{4/10}.
+   \]
+   #+end_export
+   La diferencia refleja que Blanca sufre una discapacidad, por lo que
+   necesita más renta para alcanzar el mismo nivel de
+   utilidad. Calcule los tipos óptimos desde los puntos de vista
+   utilitarista y rawlsiano.
+
+** COMMENT Answer
+
+*** Rentas netas
+
+Teo trabaja siempre 40 horas, por lo que su renta bruta semanal es
+
+10 × 40 = 400.
+
+Si Blanca trabaja h_B horas y el tipo impositivo es t, entonces
+
+Y_B = (1 - t) 50 h_B
+Y_T = 400 + t 50 h_B
+
+La tabla de rentas netas es:
+
+| t   | Horas Blanca | Y_B | Y_T |
+|-----+--------------+-----+-----|
+| 0%  |           40 |2000 | 400 |
+|10%  |           38 |1710 | 590 |
+|30%  |           34 |1190 | 910 |
+|40%  |           29 | 870 | 980 |
+|60%  |           24 | 480 |1120 |
+|80%  |           20 | 200 |1200 |
+
+
+*** a) U(Y) = Y^{1/2}
+
+**** Criterio utilitarista
+
+W = sqrt(Y_B) + sqrt(Y_T)
+
+| t   | W |
+|-----+------|
+|0%   |64.72 |
+|10%  |65.64 |
+|30%  |64.66 |
+|40%  |60.80 |
+|60%  |55.38 |
+|80%  |48.78 |
+
+El máximo se alcanza con t = 10 %.
+
+**** Criterio rawlsiano
+
+W = min{sqrt(Y_B), sqrt(Y_T)}
+
+| t   | W |
+|-----+------|
+|0%   |20.00 |
+|10%  |24.29 |
+|30%  |30.17 |
+|40%  |29.50 |
+|60%  |21.91 |
+|80%  |14.14 |
+
+El máximo se alcanza con t = 30 %.
+
+Resultado:
+
+- utilitarista: 10 %
+- rawlsiano: 30 %
+
+
+*** b) U(Y) = Y^{1/4}
+
+**** Criterio utilitarista
+
+W = Y_B^{1/4} + Y_T^{1/4}
+
+| t   | W |
+|-----+------|
+|0%   |11.16 |
+|10%  |11.36 |
+|30%  |11.37 |
+|40%  |11.03 |
+|60%  |10.47 |
+|80%  | 9.65 |
+
+El máximo se alcanza con t = 30 %.
+
+**** Criterio rawlsiano
+
+W = min{Y_B^{1/4}, Y_T^{1/4}}
+
+| t   | W |
+|-----+------|
+|0%   |4.47 |
+|10%  |4.93 |
+|30%  |5.49 |
+|40%  |5.43 |
+|60%  |4.68 |
+|80%  |3.76 |
+
+El máximo se alcanza con t = 30 %.
+
+Resultado:
+
+- utilitarista: 30 %
+- rawlsiano: 30 %
+
+
+*** c) U_B(Y) = Y^{0.4}, U_T(Y) = Y^{1/2}
+
+**** Criterio utilitarista
+
+W = Y_B^{0.4} + sqrt(Y_T)
+
+| t   | W |
+|-----+------|
+|0%   |40.91 |
+|10%  |43.93 |
+|30%  |47.16 |
+|40%  |46.30 |
+|60%  |45.28 |
+|80%  |42.97 |
+
+El máximo se alcanza con t = 30 %.
+
+**** Criterio rawlsiano
+
+W = min{Y_B^{0.4}, sqrt(Y_T)}
+
+| t   | W |
+|-----+------|
+|0%   |20.00 |
+|10%  |19.64 |
+|30%  |16.99 |
+|40%  |14.99 |
+|60%  |11.82 |
+|80%  | 8.33 |
+
+El máximo se alcanza con t = 0 %.
+
+Resultado:
+
+- utilitarista: 30 %
+- rawlsiano: 0 %
+
+
+** Answer
+
+Por hacer
+
+
+* COMMENT Q.1
 
 Imagine una economía donde sólo habitan dos consumidores, Aurora y Bernardo.
 
@@ -31,81 +237,8 @@ d) Suponga que la función de posibilidades de utilidad es:
 Por hacer
 
 
-* Q.2
 
-Se está discutiendo la implantación de un programa público que
-elevaría ligeramente el bienestar de los ciudadanos más pobres pero
-disminuiría considerablemente el bienestar del resto de
-ciudadanos. ¿Sería aconsejable este programa desde el punto de vista
-del criterio utilitarista?  ¿Y si se utilizara el criterio
-/rawlsiano/?
-
-** Answer
-
-Por hacer
-
-
-* Q.3
-
-Considere un programa por el que se transfiera renta de ciudadanos
-pertenecientes a la clase media a ciudadanos tanto pobres como
-ricos. ¿Apoyaría un /rawlsiano/ esa redistribución? ¿Y un
-utilitarista?
-
-
-* Q.4
-
-En un país sólo viven dos ciudadanos: Blanca y Teo. Blanca es
-abogada y gana \money{50} por hora. Cuando la tasa impositiva sobre
-la renta es $t = \SI{0}{\percent}$, Blanca trabaja 20 horas a la
-semana; si $t = \SI{25}{\percent}$, trabajaría 16 horas; y si $t =
-\SI{40}{\percent}$ sólo trabajaría 8 horas. Teo trabaja en un
-pequeño taller de reparaciones y gana \money{6} por hora. Teo
-siempre trabaja 20 horas por semana sea cual sea la tasa
-impositiva. El gobierno está pensando en gravar la renta de Blanca
-y transferir la recaudación a Teo.
-
-a) Blanca y Teo tienen la misma función de utilidad: $U_B(Y) = U_T(Y)
-   = Y^{1/2}$ donde $Y$ es la renta semanal después de impuestos y
-   transferencias. ¿Cuál de las tres tasas impositivas sería óptima
-   desde un punto de vista utilitarista? ¿Y si se utiliza una función
-   de bienestar social /rawlsiana/?
-
-b) ¿Cambiarían las conclusiones del apartado anterior si las funciones
-   de utilidad fueran $U_B(Y) = U_T(Y) = Y^{1/5}$?.
-
-c) Suponga ahora que Blanca y Teo tienen funciones de utilidad
-   diferentes. La utilidad de Blanca es $U_B(Y) = 0.25 Y^{1/2}$ y la
-   de Teo es $U_T(Y) = Y^{1/2}$. La diferencia es debida a que Blanca
-   sufre una discapacidad por lo que necesita más renta para alcanzar
-   el mismo nivel de utilidad. ¿Cómo ordenarían ahora las diferentes
-   alternativas los criterios utilitarista y /rawlsiano/?
-
-** Answer
-
-Por hacer
-
-
-* Q.5
-
-Suponga que sólo hay dos consumidores, Aurelio y Beatriz, los cuales
-deben repartirse una renta fija de \money{100}. En el caso de
-Aurelio, la utilidad marginal de la renta es $\UMgY_A = 400 - 2 Y_A$, y
-en el caso de Beatriz es $\UMgY_B = 400 - 6 Y_B$, siendo $Y_A$ e $Y_B$
-la renta que obtiene Aurelio y Beatriz respectivamente.
-
-a) ¿Cuál es la distribución óptima de la renta si la función de
-   bienestar social es la utilitarista?
-
-b) ¿Cuál es la distribución óptima si la sociedad sólo valora la
-   utilidad de Beatriz? ¿Y si sólo valorase la utilidad de Aurelio?
-
-c) Responda a los apartados anteriores suponiendo ahora que la
-   utilidad marginal de la renta de ambos consumidores es igual a una
-   constante: $\UMgY_A = \UMgY_B = 400$.
-
-
-* Q.6
+* COMMENT Q.6
 
 En una economía hay dos consumidores y la función de utilidad de cada
 uno de ellos es $U_i = \log(Y_i)$, $i = 1, 2$, donde $Y_i$ es la renta
@@ -118,33 +251,6 @@ a) ¿Sería óptima la distribución $Y_1 = \money{200}$ e $Y_2 =
 
 b) Obtenga la distribución óptima de la renta.
 
-
-* Q.7
-
-Discuta la veracidad de las siguientes afirmaciones sobre una economía
-con dos consumidores:
-
-a) Si la función de bienestar social es utilitarista, $W = U_1 + U_2$,
-   la sociedad se muestra indiferente entre dar \money{1} a un
-   consumidor o al otro.
-
-b) Una función de bienestar social como $W = U_1 + 8 U_2$ valora más
-   la felicidad del consumidor 2 que la del consumidor 1.
-
-c) Si la función de bienestar social es $W = \min\{U_1, U_2\}$, la
-   distribución de la renta óptima es completamente igualitaria.
-
-
-* Q.13
-
-Analice la veracidad o falsedad de las siguientes afirmaciones:
-
-a) La aplicación del criterio /rawlsiano/ conduce necesariamente a una
-   distribución igualitaria de la renta.
-
-b) Dada una curva de posibilidades de utilidad para dos individuos, la
-   aplicación del criterio utilitarista llevará siempre a una
-   distribución menos igualitaria que la del criterio /rawlsiano/.
 
 
 * COMMENT Q.11
@@ -216,3 +322,5 @@ c) igualitarista.
 # Local Variables:
 # ispell-local-dictionary: "spanish"
 # End:
+
+#  LocalWords:  Teo rawlsiano Answer

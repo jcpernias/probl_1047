@@ -233,14 +233,14 @@ Se obtiene la curva de demanda colectiva sumando las curvas de demanda
 inversa. El beneficio marginal social, \BMS, es:
 #+begin_export latex
 \[
-  \BMS = (11 - 0.2Q) + (20 - 0.25Q) + (10 - 0.1Q)= 41 - 0.55Q.
+  \BMS = (11 - Q / 5) + (20 - Q / 4) + (10 - Q / 10)= 41 - 11 Q / 20.
 \]
 #+end_export
 
 El óptimo social satisface:
 #+begin_export latex
 \[
-  41 - 0.55Q^* = 13.5,
+  41 - 11 Q^* / 20 = 13.5,
 \]
 #+end_export
 de donde: $Q^* = 50$ horas.
@@ -250,14 +250,14 @@ ya que representan las disposiciones marginales a pagar de cada
 individuo:
 #+begin_export latex
 \begin{gather*}
-P_A = 11 - 0.2 \cdot 50 = \wage{1}, \\
-P_B = 20 - 0.25 \cdot 50 = \wage{7.5}, \\
-P_C = 10 - 0.1 \cdot 50 = \wage{5}.
+P_A = 11 - 50 / 5 = \wage{1}, \\
+P_B = 20 - 50 / 4 = \wage{7.5}, \\
+P_C = 10 - 50 / 10 = \wage{5}.
 \end{gather*}
 #+end_export
 
 Pagos totales:
-#+ATTR_LATEX: :booktabs nil :center t :align ll
+#+ATTR_LATEX: :booktabs nil :center t :align lr
 | Andrea: | 1  \cdot  50 = \money{50}    |
 | Blas:  | 7.5  \cdot  50 = \money{375} |
 | Carla: | 5  \cdot  50 = \money{250}   |

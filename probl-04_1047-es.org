@@ -154,6 +154,58 @@ d) Suponga ahora que un misterioso benefactor se hace cargo del coste
    impuesto. ¿Se obtienen en este caso los mismos resultados que en el
    apartado anterior?
 
+** COMMENT Alternative 2b) answer
+
+b) <<item:2b>>El óptimo social se obtiene maximizando la suma de utilidades de
+   Ana y Belén:
+   #+begin_export latex
+   \[
+     W = 4 \log Y_A + 2 \log N + 4 \log Y_B + 2 \log N.
+   \]
+   #+end_export
+   sujeto a la restricción presupuestaria conjunta:
+   #+begin_export latex
+   \[
+      10Y_A + 10Y_B + 8N = 1200.
+   \]
+   #+end_export
+   Como ambas personas son idénticas, en el óptimo se cumple $Y_A =
+   Y_B = Y$. Teniendo esto en cuenta, la restricción se puede
+   escribir como:
+   #+begin_export latex
+   \begin{equation}\label{eq:1}
+     Y = (600 - 4 N) / 5.
+   \end{equation}
+   #+end_export
+   Por otro lado, la función de bienestar social se puede escribir:
+   #+begin_export latex
+   \begin{equation}\label{eq:2}
+     W = 8 \log Y + 4 \log N.
+   \end{equation}
+   #+end_export
+   Sustituyendo \eqref{eq:1} en \eqref{eq:2}:
+   #+begin_export latex
+   \[
+     W = 8 \log \left(\frac{600 - 4N}{5}\right) + 4 \log N.
+   \]
+   #+end_export
+   Derivando con respecto de $N$ e igualando a $0$, se obtiene la
+   condición de primer orden:
+   #+begin_export latex
+   \[
+     \frac{\diff W}{\diff N} = -\frac{32}{600 - 4N} + \frac{4}{N} = 0.
+   \]
+   #+end_export
+   Resolviendo la ecuación anterior se obtiene que el número óptimo de
+   horas de limpieza a la semana es $N = 50$.
+   #+latex: \smallskip
+
+   Este resultado difiere del apartado anterior porque, con
+   aportaciones voluntarias, cada persona tiene en cuenta sólo el
+   beneficio privado de su contribución y no el beneficio que también
+   obtiene la otra. En consecuencia, la provisión privada es
+   inferior a la socialmente óptima.
+
 
 ** Answer
 
@@ -206,54 +258,54 @@ a) <<item:2a>>Cada persona decide cuánto aportar voluntariamente a la
    funciones de reacción se obtiene $N_A = N_B = 15$ horas. Por tanto
    se contratarán $N_A + N_B = 30$ horas semanales.
 
-b) El óptimo social se obtiene maximizando la suma de utilidades de
-   Ana y Belén:
+b) <<item:2b>>La condición de eficiencia con bienes públicos requiere
+   que la suma de las relaciones marginales de sustitución se iguale a
+   la relación marginal de transformación.
+
+   En primer lugar, se calcula la suma de las \RMS:
    #+begin_export latex
    \[
-     W = 4 \log Y_A + 2 \log N + 4 \log Y_B + 2 \log N.
+     \RMS_A + \RMS_B =
+     \frac{\partial U_A / \partial N_A}{\partial U_A / \partial Y_A} +
+     \frac{\partial U_B / \partial N_B}{\partial U_B / \partial Y_B} =
+     \frac{1}{2}\frac{Y_A + Y_B}{N}.
    \]
    #+end_export
-   sujeto a la restricción presupuestaria conjunta:
+   El nivel socialmente óptimo de horas de limpieza se encuentra
+   igualando la suma de relaciones marginales de sustitución con los
+   precios relativos:
    #+begin_export latex
    \[
-      10Y_A + 10Y_B + 8N = 1200.
+     \RMS_A + \RMS_B =
+     \frac{1}{2}\frac{Y_A + Y_B}{N} =\frac{P_N}{P_Y} = \frac{8}{10},
    \]
    #+end_export
-   Como ambas personas son idénticas, en el óptimo se cumple $Y_A =
-   Y_B = Y$. Teniendo esto en cuenta, la restricción se puede
-   escribir como:
-   #+begin_export latex
-   \begin{equation}\label{eq:1}
-     Y = (600 - 4 N) / 5.
-   \end{equation}
-   #+end_export
-   Por otro lado, la función de bienestar social se puede escribir:
-   #+begin_export latex
-   \begin{equation}\label{eq:2}
-     W = 8 \log Y + 4 \log N.
-   \end{equation}
-   #+end_export
-   Sustituyendo \eqref{eq:1} en \eqref{eq:2}:
+   de donde:
    #+begin_export latex
    \[
-     W = 8 \log \left(\frac{600 - 4N}{5}\right) + 4 \log N.
+     5 (Y_A + Y_B) = 8 N.
    \]
    #+end_export
-   Derivando con respecto de $N$ e igualando a $0$, se obtiene la
-   condición de primer orden:
+   La restricción presupuestaria conjunta es la suma de las
+   restricciones de Ana y Belén:
    #+begin_export latex
    \[
-     \frac{\diff W}{\diff N} = -\frac{32}{600 - 4N} + \frac{4}{N} = 0.
+      10(Y_A + Y_B) + 8N = 1200.
    \]
    #+end_export
-   Resolviendo la ecuación anterior se obtiene que el número óptimo de
-   horas de limpieza a la semana es $N = 50$.
+   Combinando las dos últimas expresiones, resulta:
+   #+begin_export latex
+   \[
+      16 N + 8N = 1200,
+   \]
+   #+end_export
+   por lo que el número eficiente de horas de limpieza es $N = 50$.
    #+latex: \smallskip
 
    Este resultado difiere del apartado anterior porque, con
    aportaciones voluntarias, cada persona tiene en cuenta sólo el
    beneficio privado de su contribución y no el beneficio que también
-   obtiene la otra. En consecuencia, la provisión privada es
+   obtienen otras personas. En consecuencia, la provisión privada es
    inferior a la socialmente óptima.
 
 c) <<item:2c>>El ayuntamiento provee $20$ horas adicionales de
@@ -546,4 +598,4 @@ c) igualitarista.
 # ispell-local-dictionary: "spanish"
 # End:
 
-#  LocalWords:  Teo rawlsiano Answer
+#  LocalWords:  Teo rawlsiano answer alternative

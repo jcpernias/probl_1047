@@ -19,12 +19,12 @@ de Blanca depende del tipo impositivo y es la siguiente:
 #+ATTR_LATEX: :booktabs t :align cc
 | Tipo impositivo | Horas trabajadas por Blanca |
 |-----------------+-----------------------------|
-| 0 %             |                          40 |
-| 10 %            |                          38 |
-| 30 %            |                          34 |
-| 40 %            |                          29 |
-| 60 %            |                          24 |
-| 80 %            |                          20 |
+| \pct{ 0}        | \num{40}                    |
+| \pct{10}        | \num{38}                    |
+| \pct{30}        | \num{34}                    |
+| \pct{40}        | \num{29}                    |
+| \pct{60}        | \num{24}                    |
+| \pct{80}        | \num{20}                    |
 
 a) Suponga que Blanca y Teo tienen la misma función de utilidad: $U(Y)
    = Y^{1/2}$, donde $Y$ representa la renta disponible semanal,
@@ -44,148 +44,75 @@ c) Suponga ahora que Blanca y Teo tienen funciones de utilidad
    alcanzar el mismo nivel de utilidad. Calcule los tipos óptimos
    desde los puntos de vista utilitarista y rawlsiano.
 
-** COMMENT Answer
-
-*** Rentas netas
-
-Teo trabaja siempre 40 horas, por lo que su renta bruta semanal es
-
-10 × 40 = 400.
-
-Si Blanca trabaja h_B horas y el tipo impositivo es t, entonces
-
-Y_B = (1 - t) 50 h_B
-Y_T = 400 + t 50 h_B
-
-La tabla de rentas netas es:
-
-| t   | Horas Blanca | Y_B | Y_T |
-|-----+--------------+-----+-----|
-| 0%  |           40 |2000 | 400 |
-|10%  |           38 |1710 | 590 |
-|30%  |           34 |1190 | 910 |
-|40%  |           29 | 870 | 980 |
-|60%  |           24 | 480 |1120 |
-|80%  |           20 | 200 |1200 |
-
-
-*** a) U(Y) = Y^{1/2}
-
-**** Criterio utilitarista
-
-W = sqrt(Y_B) + sqrt(Y_T)
-
-| t   | W |
-|-----+------|
-|0%   |64.72 |
-|10%  |65.64 |
-|30%  |64.66 |
-|40%  |60.80 |
-|60%  |55.38 |
-|80%  |48.78 |
-
-El máximo se alcanza con t = 10 %.
-
-**** Criterio rawlsiano
-
-W = min{sqrt(Y_B), sqrt(Y_T)}
-
-| t   | W |
-|-----+------|
-|0%   |20.00 |
-|10%  |24.29 |
-|30%  |30.17 |
-|40%  |29.50 |
-|60%  |21.91 |
-|80%  |14.14 |
-
-El máximo se alcanza con t = 30 %.
-
-Resultado:
-
-- utilitarista: 10 %
-- rawlsiano: 30 %
-
-
-*** b) U(Y) = Y^{1/4}
-
-**** Criterio utilitarista
-
-W = Y_B^{1/4} + Y_T^{1/4}
-
-| t   | W |
-|-----+------|
-|0%   |11.16 |
-|10%  |11.36 |
-|30%  |11.37 |
-|40%  |11.03 |
-|60%  |10.47 |
-|80%  | 9.65 |
-
-El máximo se alcanza con t = 30 %.
-
-**** Criterio rawlsiano
-
-W = min{Y_B^{1/4}, Y_T^{1/4}}
-
-| t   | W |
-|-----+------|
-|0%   |4.47 |
-|10%  |4.93 |
-|30%  |5.49 |
-|40%  |5.43 |
-|60%  |4.68 |
-|80%  |3.76 |
-
-El máximo se alcanza con t = 30 %.
-
-Resultado:
-
-- utilitarista: 30 %
-- rawlsiano: 30 %
-
-
-*** c) U_B(Y) = Y^{0.4}, U_T(Y) = Y^{1/2}
-
-**** Criterio utilitarista
-
-W = Y_B^{0.4} + sqrt(Y_T)
-
-| t   | W |
-|-----+------|
-|0%   |40.91 |
-|10%  |43.93 |
-|30%  |47.16 |
-|40%  |46.30 |
-|60%  |45.28 |
-|80%  |42.97 |
-
-El máximo se alcanza con t = 30 %.
-
-**** Criterio rawlsiano
-
-W = min{Y_B^{0.4}, sqrt(Y_T)}
-
-| t   | W |
-|-----+------|
-|0%   |20.00 |
-|10%  |19.64 |
-|30%  |16.99 |
-|40%  |14.99 |
-|60%  |11.82 |
-|80%  | 8.33 |
-
-El máximo se alcanza con t = 0 %.
-
-Resultado:
-
-- utilitarista: 30 %
-- rawlsiano: 0 %
-
-
 ** Answer
 
-Por hacer
+a) Blanca trabaja $H_B$ horas. Su renta disponible es:
+   #+begin_export latex
+   \[
+     Y_B = (1 - t) 50 H_B
+   \]
+   #+end_export
+   La renta disponible de Teo es la suma de su renta salarial y la
+   transferencia recibida, que coincide con la recaudación del
+   impuesto:
+   #+begin_export latex
+   \[
+     Y_T = 400 + t 50 H_B
+   \]
+   #+end_export
+
+   Las rentas disponibles de ambos dependen del tipo impositivo:
+   #+ATTR_LATEX: :booktabs t :align *{4}{w{r}{1.5cm}}
+   | $t$      | $H_B$    | $Y_B$      | $Y_T$      |
+   |----------+----------+------------+------------|
+   | \pct{ 0} | \num{40} | \num{2000} | \num{ 400} |
+   | \pct{10} | \num{38} | \num{1710} | \num{ 590} |
+   | \pct{30} | \num{34} | \num{1190} | \num{ 910} |
+   | \pct{40} | \num{29} | \num{ 870} | \num{ 980} |
+   | \pct{60} | \num{24} | \num{ 480} | \num{1120} |
+   | \pct{80} | \num{20} | \num{ 200} | \num{1200} |
+
+   La siguiente tabla muestra las utilidades de Blanca, $U_B$, y de
+   Teo, $U_T$, y las funciones de bienestar social utilitarista,
+   $W_U$, y rawlsiana, $W_R$:
+   #+ATTR_LATEX: :booktabs t :align *{6}{w{r}{1.2cm}}
+   | $t$      | $U_B$       | $U_T$       | $W_U$       | $W_R$       |
+   |----------+-------------+-------------+-------------+-------------|
+   | \pct{ 0} | \num{44.72} | \num{20.00} | \num{64.72} | \num{20.00} |
+   | \pct{10} | \num{41.35} | \num{24.29} | \num{65.64} | \num{24.29} |
+   | \pct{30} | \num{34.50} | \num{30.17} | \num{64.66} | \num{30.17} |
+   | \pct{40} | \num{29.50} | \num{31.30} | \num{60.80} | \num{29.50} |
+   | \pct{60} | \num{21.91} | \num{33.47} | \num{55.38} | \num{21.91} |
+   | \pct{80} | \num{14.14} | \num{34.64} | \num{48.78} | \num{14.14} |
+   El máximo de $W_U$ se alcanza con $t=\pct{10}$, mientras que el
+   máximo de $W_R$ se produce cuando $t=\pct{30}$.
+
+b) Cálculo de las funciones de bienestar social:
+   #+ATTR_LATEX: :booktabs t :align *{6}{w{r}{1.2cm}}
+   | $t$      | $U_B$      | $U_T$      | $W_U$       | $W_R$      |
+   |----------+------------+------------+-------------+------------|
+   | \pct{ 0} | \num{6.69} | \num{4.47} | \num{11.16} | \num{4.47} |
+   | \pct{10} | \num{6.43} | \num{4.93} | \num{11.36} | \num{4.93} |
+   | \pct{30} | \num{5.87} | \num{5.49} | \num{11.37} | \num{5.49} |
+   | \pct{40} | \num{5.43} | \num{5.60} | \num{11.03} | \num{5.43} |
+   | \pct{60} | \num{4.68} | \num{5.79} | \num{10.47} | \num{4.68} |
+   | \pct{80} | \num{3.76} | \num{5.89} | \num{ 9.65} | \num{3.76} |
+   En este caso, las dos funciones de bienestar social alcanzan su valor
+   máximo con $t=\pct{30}$.
+
+c) Cálculo de las funciones de bienestar social:
+   #+ATTR_LATEX: :booktabs t :align *{6}{w{r}{1.2cm}}
+   | $t$      | $U_B$       | $U_T$       | $W_U$       | $W_R$       |
+   |----------+-------------+-------------+-------------+-------------|
+   | \pct{ 0} | \num{20.91} | \num{20.00} | \num{40.91} | \num{20.00} |
+   | \pct{10} | \num{19.64} | \num{24.29} | \num{43.93} | \num{19.64} |
+   | \pct{30} | \num{16.99} | \num{30.17} | \num{47.16} | \num{16.99} |
+   | \pct{40} | \num{14.99} | \num{31.30} | \num{46.30} | \num{14.99} |
+   | \pct{60} | \num{11.82} | \num{33.47} | \num{45.28} | \num{11.82} |
+   | \pct{80} | \num{ 8.33} | \num{34.64} | \num{42.97} | \num{ 8.33} |
+   La aplicación del criterio utilitarista llevaría a fijar
+   $t=\pct{30}$. El criterio rawlsiano seleccionaría $t=\pct{0}$ en
+   este caso.
 
 
 * Q.2
@@ -228,320 +155,197 @@ d) Suponga ahora que un misterioso benefactor se hace cargo del coste
    apartado anterior?
 
 
-** COMMENT Answer
-
-*** a)
-
-Cada persona decide cuánto aportar voluntariamente a la financiación del
-servicio de limpieza municipal.
-
-Si Belén aporta \(N_B\), Ana resuelve
-
-\[
-\max_{N_A}\; 4 \log Y_A + 2 \log (N_A + N_B)
-\]
-
-sujeto a
-
-\[
-10Y_A + 8N_A = 600.
-\]
-
-Despejando \(Y_A\):
-
-\[
-Y_A = \frac{600 - 8N_A}{10}.
-\]
-
-Sustituyendo en la función de utilidad:
-
-\[
-U_A = 4 \log \left(\frac{600 - 8N_A}{10}\right) + 2 \log (N_A + N_B).
-\]
-
-La condición de primer orden es
-
-\[
--\frac{32}{600 - 8N_A} + \frac{2}{N_A + N_B} = 0.
-\]
-
-Reordenando:
-
-\[
-600 - 8N_A = 16(N_A + N_B)
-\]
-
-\[
-600 = 24N_A + 16N_B
-\]
-
-\[
-N_A = 25 - \frac{2}{3}N_B.
-\]
-
-Por simetría, la función de reacción de Belén es
-
-\[
-N_B = 25 - \frac{2}{3}N_A.
-\]
-
-En equilibrio \(N_A = N_B = n\). Sustituyendo:
-
-\[
-n = 25 - \frac{2}{3}n
-\]
-
-\[
-\frac{5}{3}n = 25
-\]
-
-\[
-n = 15.
-\]
-
-Por tanto,
-
-\[
-N = N_A + N_B = 15 + 15 = 30.
-\]
-
-/Se financiarán 30 horas semanales de limpieza municipal./
-
-*** b)
-
-El óptimo social se obtiene maximizando la suma de utilidades de Ana y Belén:
-
-\[
-W = 4 \log Y_A + 2 \log N + 4 \log Y_B + 2 \log N.
-\]
-
-La restricción de recursos es
-
-\[
-10Y_A + 10Y_B + 8N = 1200.
-\]
-
-Como ambas personas son idénticas, en el óptimo se cumple
-
-\[
-Y_A = Y_B = Y.
-\]
-
-Entonces la restricción se puede escribir como
-
-\[
-20Y + 8N = 1200,
-\]
-
-de donde
-
-\[
-Y = 60 - 0.4N.
-\]
-
-Sustituyendo en la función de bienestar:
-
-\[
-W = 8 \log (60 - 0.4N) + 4 \log N.
-\]
-
-La condición de primer orden es
-
-\[
--\frac{3.2}{60 - 0.4N} + \frac{4}{N} = 0.
-\]
-
-Reordenando:
-
-\[
-4(60 - 0.4N) = 3.2N
-\]
-
-\[
-240 - 1.6N = 3.2N
-\]
-
-\[
-240 = 4.8N
-\]
-
-\[
-N = 50.
-\]
-
-/El número socialmente óptimo de horas de limpieza es 50./
-
-Este resultado difiere del apartado anterior porque, con aportaciones
-voluntarias, cada persona tiene en cuenta sólo el beneficio privado de su
-contribución y no el beneficio que también obtiene la otra. Por eso aparece
-el problema del /free rider/ y la provisión privada es ineficientemente baja.
-
-*** c)
-
-El ayuntamiento provee 20 horas adicionales de limpieza y las financia
-mediante un impuesto de 80 € a cada habitante.
-
-La renta disponible de cada persona pasa a ser
-
-\[
-600 - 80 = 520.
-\]
-
-El nivel total de limpieza es ahora
-
-\[
-N = 20 + N_A + N_B.
-\]
-
-Ana resuelve
-
-\[
-\max_{N_A}\; 4 \log Y_A + 2 \log (20 + N_A + N_B)
-\]
-
-sujeto a
-
-\[
-10Y_A + 8N_A = 520.
-\]
-
-Despejando \(Y_A\):
-
-\[
-Y_A = \frac{520 - 8N_A}{10}.
-\]
-
-Sustituyendo en la utilidad y derivando, la condición de primer orden es
-
-\[
--\frac{32}{520 - 8N_A} + \frac{2}{20 + N_A + N_B} = 0.
-\]
-
-Reordenando:
-
-\[
-520 - 8N_A = 16(20 + N_A + N_B)
-\]
-
-\[
-520 - 8N_A = 320 + 16N_A + 16N_B
-\]
-
-\[
-200 = 24N_A + 16N_B
-\]
-
-\[
-N_A = \frac{25}{3} - \frac{2}{3}N_B.
-\]
-
-Por simetría, en equilibrio \(N_A = N_B = n\):
-
-\[
-n = \frac{25}{3} - \frac{2}{3}n
-\]
-
-\[
-\frac{5}{3}n = \frac{25}{3}
-\]
-
-\[
-n = 5.
-\]
-
-Por tanto,
-
-\[
-N = 20 + 5 + 5 = 30.
-\]
-
-/El número total de horas de limpieza sigue siendo 30./
-
-No se ha alcanzado el óptimo social, que era 50 horas. Las 20 horas
-adicionales financiadas públicamente desplazan exactamente 20 horas de
-aportaciones privadas: antes cada persona aportaba 15 horas y ahora aporta
-5. Se produce /desplazamiento completo/ (/complete crowding out/).
-
-*** d)
-
-Ahora un benefactor financia el coste de las 20 horas adicionales, por lo
-que desaparece el impuesto. Cada persona vuelve a disponer de su renta
-completa de 600 €.
-
-El nivel total del bien público es
-
-\[
-N = 20 + N_A + N_B.
-\]
-
-Ana resuelve
-
-\[
-\max_{N_A}\; 4 \log Y_A + 2 \log (20 + N_A + N_B)
-\]
-
-sujeto a
-
-\[
-10Y_A + 8N_A = 600.
-\]
-
-Despejando \(Y_A\):
-
-\[
-Y_A = \frac{600 - 8N_A}{10}.
-\]
-
-La condición de primer orden es
-
-\[
--\frac{32}{600 - 8N_A} + \frac{2}{20 + N_A + N_B} = 0.
-\]
-
-Reordenando:
-
-\[
-600 - 8N_A = 16(20 + N_A + N_B)
-\]
-
-\[
-600 - 8N_A = 320 + 16N_A + 16N_B
-\]
-
-\[
-280 = 24N_A + 16N_B
-\]
-
-\[
-N_A = \frac{35}{3} - \frac{2}{3}N_B.
-\]
-
-Por simetría, en equilibrio \(N_A = N_B = n\):
-
-\[
-n = \frac{35}{3} - \frac{2}{3}n
-\]
-
-\[
-\frac{5}{3}n = \frac{35}{3}
-\]
-
-\[
-n = 7.
-\]
-
-Entonces,
-
-\[
-N = 20 + 7 + 7 = 34.
-\]
-
-/No se obtienen los mismos resultados que en el apartado anterior./ En este
-caso el número total de horas de limpieza es 34.
-
-La razón es que ahora las 20 horas adicionales no reducen la renta disponible
-de Ana y Belén. Por eso sus aportaciones privadas disminuyen, pero menos que
-en el apartado c). Hay /desplazamiento parcial/, no completo.
+** Answer
+
+a) <<item:2a>>Cada persona decide cuánto aportar voluntariamente a la
+   financiación del servicio de limpieza municipal.
+
+   Ana decide los valores óptimos de $Y_A$ y $N_A$ maximizando su
+   función de utilidad:
+   #+begin_export latex
+   \[
+     U_A = 4 \log Y_A + 2 \log (N_A + N_B),
+   \]
+   #+end_export
+   sujeto a su restricción presupuestaria
+   #+begin_export latex
+   \[
+     10Y_A + 8N_A = 600.
+   \]
+   #+end_export
+   Despejando $Y_A$ en la restricción presupuestaria y sustituyendo en
+   la función de utilidad:
+   #+begin_export latex
+   \[
+     U_A = 4 \log \left(\frac{600 - 8N_A}{10}\right) + 2 \log (N_A + N_B).
+   \]
+   #+end_export
+   La condición de primer orden es:
+   #+begin_export latex
+   \[
+     \frac{\diff U_A}{\diff N_A} =
+     -\frac{32}{600 - 8N_A} + \frac{2}{N_A + N_B} = 0.
+   \]
+   #+end_export
+   Reordenando, se obtiene:
+   #+begin_export latex
+   \[
+     N_A = 25 - 2 N_B / 3.
+   \]
+   #+end_export
+
+   La función de utilidad de Belén es idéntica a la de Ana y ambas
+   disponen de la misma renta y se enfrentan a los mismos precios. Por
+   tanto, la función de reacción de Belén es simétrica a la de Ana:
+   #+begin_export latex
+   \[
+     N_B = 25 - 2 N_A / 3.
+   \]
+   #+end_export
+   En equilibrio, $N_A = N_B$. Sustituyendo en cualquiera de las
+   funciones de reacción se obtiene $N_A = N_B = 15$ horas. Por tanto
+   se contratarán $N_A + N_B = 30$ horas semanales.
+
+b) El óptimo social se obtiene maximizando la suma de utilidades de
+   Ana y Belén:
+   #+begin_export latex
+   \[
+     W = 4 \log Y_A + 2 \log N + 4 \log Y_B + 2 \log N.
+   \]
+   #+end_export
+   sujeto a la restricción presupuestaria conjunta:
+   #+begin_export latex
+   \[
+      10Y_A + 10Y_B + 8N = 1200.
+   \]
+   #+end_export
+   Como ambas personas son idénticas, en el óptimo se cumple $Y_A =
+   Y_B = Y$. Teniendo esto en cuenta, la restricción se puede
+   escribir como:
+   #+begin_export latex
+   \begin{equation}\label{eq:1}
+     Y = (600 - 4 N) / 5.
+   \end{equation}
+   #+end_export
+   Por otro lado, la función de bienestar social se puede escribir:
+   #+begin_export latex
+   \begin{equation}\label{eq:2}
+     W = 8 \log Y + 4 \log N.
+   \end{equation}
+   #+end_export
+   Sustituyendo \eqref{eq:1} en \eqref{eq:2}:
+   #+begin_export latex
+   \[
+     W = 8 \log \left(\frac{600 - 4N}{5}\right) + 4 \log N.
+   \]
+   #+end_export
+   Derivando con respecto de $N$ e igualando a $0$, se obtiene la
+   condición de primer orden:
+   #+begin_export latex
+   \[
+     \frac{\diff W}{\diff N} = -\frac{32}{600 - 4N} + \frac{4}{N} = 0.
+   \]
+   #+end_export
+   Resolviendo la ecuación anterior se obtiene que el número óptimo de
+   horas de limpieza a la semana es $N = 50$.
+   #+latex: \smallskip
+
+   Este resultado difiere del apartado anterior porque, con
+   aportaciones voluntarias, cada persona tiene en cuenta sólo el
+   beneficio privado de su contribución y no el beneficio que también
+   obtiene la otra. En consecuencia, la provisión privada es
+   inferior a la socialmente óptima.
+
+c) <<item:2c>>El ayuntamiento provee $20$ horas adicionales de
+   limpieza y las financia mediante un impuesto de \money{80} a cada
+   habitante. El número de horas total de limpieza es:
+   #+begin_export latex
+   \[
+     N = N_A + N_B + 20.
+   \]
+   #+end_export
+   La utilidad de Ana es:
+   #+begin_export latex
+   \[
+     U_A = 4 \log Y_A + 2 \log (N_A + N_B + 20).
+   \]
+   #+end_export
+   La restricción presupuestaria de Ana se ve modificada con la
+   introducción del impuesto:
+   #+begin_export latex
+   \[
+     10Y_A + 8N_A = 520.
+   \]
+   #+end_export
+   Despejando $Y_A$ y sustituyendo en la función de utilidad:
+   #+begin_export latex
+   \[
+     U_A = 4 \log \left(\frac{520 - 8N_A}{10}\right) + 2 \log (N_A + N_B + 20).
+   \]
+   #+end_export
+   La condición de primer orden es:
+   #+begin_export latex
+   \[
+     \frac{\diff U_A}{\diff N_A} =
+     -\frac{32}{520 - 8N_A} + \frac{2}{N_A + N_B + 20} = 0.
+   \]
+   #+end_export
+   Reordenando, se obtiene:
+   #+begin_export latex
+   \[
+     N_A = (25 - 2 N_B) / 3.
+   \]
+   #+end_export
+   Dado que el problema es simétrico para Ana y Belén, el número de
+   horas que contrata cada una de ellas es el mismo. Por tanto, $N_A =
+   N_B = 5$ horas. El número total de horas de limpieza sigue siendo
+   $N_A + N_B + 20 = 30$.
+   #+latex: \smallskip
+
+   A pesar de la intervención del ayuntamiento, no se ha alcanzado el
+   óptimo social, que corresponde a $50$ horas semanales. Las $20$
+   horas adicionales financiadas públicamente desplazan exactamente
+   $20$ horas de aportaciones privadas: antes cada persona aportaba
+   $15$ horas y ahora aporta solamente $5$.
+
+d) Ahora un benefactor financia el coste de las 20 horas adicionales,
+   por lo que desaparece el impuesto. Cada persona vuelve a disponer
+   de su renta completa de \money{600}.
+
+   La función de utilidad de Ana es:
+   #+begin_export latex
+   \[
+     U_A = 4 \log Y_A + 2 \log (N_A + N_B + 20),
+   \]
+   #+end_export
+   y su restricción presupuestaria es:
+   #+begin_export latex
+   \[
+     10Y_A + 8N_A = 600.
+   \]
+   #+end_export
+   La condición de primer orden para la maximización de la utilidad es:
+   #+begin_export latex
+   \[
+     \frac{\diff U_A}{\diff N_A} =
+     -\frac{32}{600 - 8N_A} + \frac{2}{N_A + N_B + 20} = 0.
+   \]
+   #+end_export
+   Reordenando:
+   #+begin_export latex
+   \[
+     N_A = (35 - 2 N_B) / 3.
+   \]
+   #+end_export
+   Por simetría, en equilibrio $N_A = N_B = 7$ horas a la semana. El
+   número total de horas de limpieza es $N_A + N_B + 20 = 34$.
+   #+latex: \smallskip
+
+   No se obtienen los mismos resultados que en el apartado anterior,
+   ya que ahora las 20 horas adicionales no reducen la renta
+   disponible de Ana y Belén.  En comparación con el apartado [[item:2a]],
+   sus aportaciones privadas disminuyen, pero menos que en el apartado
+   [[item:2c]].
 
 * Q.3
 
@@ -569,116 +373,65 @@ c) Suponga ahora que, si se aprueba la provisión del bien público, su
    renta. ¿Cuál sería el resultado de la votación? ¿Sería eficiente
    ese resultado?
 
-** COMMENT Answer
 
-*** a)
+** COMMENT Sugerencia
 
-La provisión del bien público es eficiente si la suma de las
-disposiciones a pagar de los tres individuos es mayor que el coste total.
+Cambiar los números para que en el apartado c) Alicia vote en
+contra. Bastaría con cambiar la disposición a pagar a 12, ¿no?. Por
+otro lado, Carlos pagaría exactamente su disposición máxima. Se podría
+aumentar.
 
-En este caso:
 
-\[
-20 + 20 + 60 = 100.
-\]
+** Answer
 
-Como el coste del sistema es de 90 euros, se cumple que
+a) La provisión del bien público es eficiente si la suma de las
+   disposiciones a pagar de los tres individuos es mayor que el coste
+   total. En este caso, la disposición a pagar colectiva es: $16 +
+   20 + 60 = \money{96}$ al mes. Dado que el coste mensual del
+   sistema es de \money{90}, sería eficiente proveer el bien público.
 
-\[
-100 > 90.
-\]
+b) Si el coste se financia mediante una capitación, cada persona debe
+   pagar la misma cantidad. Como el coste total es $90$ euros y hay tres
+   personas, la contribución de cada una sería de $30$ euros.
+   Cada persona votará a favor si su disposición a pagar es al menos
+   igual a la cantidad que debe pagar.
+   #+latex: \smallskip
 
-Por tanto, /sí es eficiente proveer el bien público/, ya que la suma de
-las disposiciones a pagar supera el coste de provisión.
+   Tanto Alicia como Beatriz votarían en contra, ya que su disposición
+   a pagar ($16$ y $20$ euros, respectivamente) es inferior al
+   impuesto de $30$ euros. Tan solo Carlos votaría a favor.
+   #+latex: \smallskip
 
-*** b)
+   El resultado de la votación sería, por tanto, dos votos en contra y
+   uno a favor, de modo que se llega a una situación ineficiente donde
+   el bien público no se provee.
 
-Si el coste se financia mediante una capitación, cada persona debe pagar
-la misma cantidad. Como el coste total es 90 euros y hay tres personas,
-la contribución de cada una sería
+c) Se establece un impuesto proporcional a la renta para financiar el
+   sistema de vigilancia. El tipo impositivo, $t$, se determina
+   igualando la recaudación del impuesto al coste del bien público:
+   #+begin_export latex
+   \[
+     1500 t + 1500 t + 6000 t = 90,
+   \]
+   #+end_export
+   por lo que $t = \pct{1}$.
+   #+latex: \smallskip
+   La tabla siguiente muestra para cada persona su disposición a
+   pagar, el impuesto correspondiente y el beneficio neto:
 
-\[
-\frac{90}{3} = 30.
-\]
+   #+ATTR_LATEX: :booktabs t :align lrrr
+   |         | Disp. a pagar | Impuesto | Beneficio neto |
+   |---------+---------------+----------+----------------|
+   | Alicia  | \num{16}      | \num{15} | \num{1}        |
+   | Beatriz | \num{20}      | \num{15} | \num{5}        |
+   | Carlos  | \num{60}      | \num{60} | \num{0}        |
+   En este caso, ninguna de las disposiciones a pagar es inferior al
+   impuesto correspondiente y todos votarían a favor. En conclusión,
+   se aprobaría la propuesta y se alcanzaría la solución eficiente
+   consistente en la instalación del sistema de vigilancia y alerta
+   temprana.
 
-Cada persona votará a favor si su disposición a pagar es al menos igual
-a la cantidad que debe pagar.
 
-- Alicia pagaría 30 euros y su disposición a pagar es 20 euros. Por tanto,
-  votará /en contra/.
-- Beatriz pagaría 30 euros y su disposición a pagar es 20 euros. Por
-  tanto, votará /en contra/.
-- Carlos pagaría 30 euros y su disposición a pagar es 60 euros. Por
-  tanto, votará /a favor/.
-
-El resultado de la votación sería, por tanto, /dos votos en contra y uno
-a favor/, de modo que el bien público /no se proveería/.
-
-Este resultado /no es eficiente/, porque en el apartado anterior hemos
-visto que sí era eficiente proveer el bien público. La regla de
-financiación mediante capitación hace que dos individuos soporten una
-carga superior a su disposición a pagar, aunque la suma de beneficios
-sociales sea superior al coste.
-
-*** c)
-
-Si el coste se financia mediante un impuesto proporcional sobre la
-renta, cada individuo pagará una fracción del coste igual a su peso en
-la renta total.
-
-La renta total es
-
-\[
-1\,500 + 1\,500 + 6\,000 = 9\,000.
-\]
-
-Por tanto:
-
-- Alicia representa \(\frac{1\,500}{9\,000} = \frac{1}{6}\) de la renta total.
-- Beatriz representa \(\frac{1\,500}{9\,000} = \frac{1}{6}\) de la renta total.
-- Carlos representa \(\frac{6\,000}{9\,000} = \frac{2}{3}\) de la renta total.
-
-Sus pagos serían:
-
-\[
-\frac{1}{6}\cdot 90 = 15
-\]
-
-para Alicia,
-
-\[
-\frac{1}{6}\cdot 90 = 15
-\]
-
-para Beatriz, y
-
-\[
-\frac{2}{3}\cdot 90 = 60
-\]
-
-para Carlos.
-
-Comparamos ahora estos pagos con sus disposiciones a pagar:
-
-- Alicia pagaría 15 euros y su disposición a pagar es 20 euros. Votará /a favor/.
-- Beatriz pagaría 15 euros y su disposición a pagar es 20 euros. Votará /a favor/.
-- Carlos pagaría 60 euros y su disposición a pagar es 60 euros. Votará /a favor/.
-
-El resultado sería /tres votos a favor/, de modo que el bien público /sí
-se proveería/.
-
-Este resultado /sí es eficiente/, ya que coincide con el criterio de
-eficiencia obtenido en el apartado a).
-
-*** Conclusión
-
-La provisión del bien público es eficiente porque la suma de las
-disposiciones a pagar es mayor que el coste.
-
-- Con /capitación/, el bien público no se aprueba y el resultado es
-  /ineficiente/.
-- Con /impuesto proporcional sobre la renta/, el bien público sí se
-  aprueba y el resultado es /eficiente/.
 
 * COMMENT Q.1
 

@@ -23,6 +23,7 @@ c) ¿Cuál es el exceso de gravamen que soporta Adam?
 
 ** Answer
 
+Por hacer
 
 * Q.2
 
@@ -122,13 +123,15 @@ b) ¿Cómo cambiaría su respuesta al apartado anterior si el consumo de
 
 ** Answer
 
+Por hacer.
+
 
 * Q.7
 
 Las autoridades locales de una comarca están estudiando introducir un
-impuesto a los arrendatarios de tierra para usos agrícolas de
-\price[hectare]{4} al año.  La oferta de tierra en la comarca es fija:
-$Q^o = \SI{314000}{\hectare}$. La demanda de tierra viene dada por la
+impuesto a los arrendatarios de tierra para usos agrícolas de 4 euros
+por hectárea al año.  La oferta de tierra en la comarca es fija: $Q^o
+= \num{314000}$ hectáreas. La demanda de tierra viene dada por la
 ecuación:
 #+begin_export latex
 \[
@@ -155,3 +158,5 @@ Por hacer.
 # Local Variables:
 # ispell-local-dictionary: "spanish"
 # End:
+
+#  LocalWords:  Answer

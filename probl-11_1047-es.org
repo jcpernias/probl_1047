@@ -14,10 +14,9 @@ productos lácteos; o c) sobre todos los productos alimenticios. ¿Cuál
 de esas tres alternativas tendría un mayor impacto sobre los precios
 de los productos gravados? ¿Por qué?
 
-#+begin_answer
+** Answer
 
-#+end_answer
-
+Por hacer.
 
 * Q.2
 
@@ -29,9 +28,9 @@ equitativo". Teniendo en cuenta que el impuesto era pagado por los
 empleadores, ¿bajo qué condiciones estaría justificada la
 preocupación del presidente filipino?
 
-#+begin_answer
+** Answer
 
-#+end_answer
+Por hacer.
 
 
 * Q.3
@@ -41,23 +40,15 @@ Considere un mercado competitivo con curva de demanda: $P = 20 - Q /
 a) Analice la incidencia de un impuesto de \money{3} por unidad
    vendida.
 
-   #+begin_answer
-
-   #+end_answer
-
 b) Analice la incidencia de un impuesto sobre las ventas del
-   \SI{25}{\percent} sobre el precio.
-
-   #+begin_answer
-
-   #+end_answer
+   \pct{25} sobre el precio.
 
 c) Compare los resultados obtenidos en los dos apartados
    anteriores.
 
-   #+begin_answer
+** Answer
 
-   #+end_answer
+Por hacer.
 
 
 * Q.4
@@ -67,9 +58,9 @@ Considere un monopolista con curva de demanda: $Q =
 la incidencia de un impuesto específico de \price{1} por unidad
 vendida.
 
-#+begin_answer
+** Answer
 
-#+end_answer
+Por hacer.
 
 
 * Q.5
@@ -80,23 +71,15 @@ constantes: $\CM = \price{10}$.
 
 a) Determine la incidencia de un impuesto específico de \price{2.50}.
 
-   #+begin_answer
-
-   #+end_answer
-
 b) Determine la incidencia de un impuesto del 25% sobre el precio
    de venta.
-
-   #+begin_answer
-
-   #+end_answer
 
 c) ¿Es diferente la recaudación del impuesto si el impuesto es
    específico o es /ad valorem/?
 
-   #+begin_answer
+** Answer
 
-   #+end_answer
+Por hacer.
 
 
 * Q.6
@@ -115,17 +98,12 @@ a) ¿Cuál sería la incidencia de un impuesto de \wage{4} pagado por
    los empleadores? ¿Cómo cambiaría su respuesta si el impuesto
    fuese pagado a partes iguales por empleadores y empleados?
 
-   #+begin_answer
-
-   #+end_answer
-
 b) Suponga ahora que una nueva ley establece un salario mínimo de
    \wage{8}. Repita el análisis del apartado anterior.
 
-   #+begin_answer
+** Answer
 
-   #+end_answer
-
+Por hacer.
 
 
 * Q.7
@@ -149,20 +127,18 @@ incidencia del impuesto a corto plazo (un mes) y a largo plazo
 
 a) ¿Cómo se repartiría la incidencia del impuesto a corto plazo?
 
-   #+begin_answer
-
-   #+end_answer
-
 b) ¿Y a largo plazo?
-
-   #+begin_answer
-
-   #+end_answer
 
 c) ¿Cómo cambiarían sus respuestas si los hoteles de las localidades
    cercanas fueran sustitutos perfectos de los situados dentro de la
    ciudad?
 
-   #+begin_answer
+** Answer
 
-   #+end_answer
+Por hacer.
+
+# Local Variables:
+# ispell-dictionary: "spanish"
+# End:
+
+#  LocalWords:  Answer valorem

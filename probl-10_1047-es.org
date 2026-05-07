@@ -1,0 +1,55 @@
+#+SETUPFILE: ./probl-es.org
+
+#+TITLE: {{{unit10}}}: ejercicios
+
+
+* Q.1
+
+El impuesto sobre las nóminas destinado al seguro de desempleo en un
+determinado país grava todos los salarios hasta un máximo de
+\num{30000} euros por trabajador con un tipo fijo del \pct{5}. ¿Cuáles
+son los tipos impositivo marginal y medio sobre los salarios para cada
+uno de los tres trabajadores siguientes?
+
+a) Un trabajador de un restaurante con un salario anual de \num{18000}
+   euros.
+
+b) Un administrativo de un banco con un salario anual de \num{35000}
+   euros.
+
+c) Un director ejecutivo de una gran empresa con un salario anual de
+   \num{500000} euros.
+
+d) ¿Es este impuesto progresivo, proporcional o regresivo?  Justifique
+   su respuesta.
+
+** Answer
+
+a) Como el salario anual del trabajador de un restaurante es de
+   \num{18000} euros, todo su salario está sujeto al impuesto y pagará
+   $0.05 \cdot \num{18000} = \money{900}$. En consecuencia, tanto el
+   tipo impositivo medio como el marginal es del \pct{5}.
+
+b) El salario anual del administrativo de un banco supera el máximo
+   gravado por el impuesto. Por lo tanto, los últimos \money{5000} no
+   forman parte de la base imponible y el tipo marginal sería del
+   \pct{0}. El administrativo pagaría un impuesto de $0.05 \cdot
+   \num{30000} = \money{1500}$. El tipo impositivo medio es:
+   $\num{1500}/\num{35000} \approx \pct{4.29}$.
+
+c) En el caso del director ejecutivo con un salario anual es de
+   \num{500000} euros, también paga la cuota máxima de \num{1500}
+   euros y el tipo marginal es del \pct{0}. El tipo impositivo medio
+   es: $\num{1500}/\num{500000} \approx \pct{0.3}$.
+
+d)  Este impuesto es regresivo. La existencia de un límite máximo de
+   base imponible hace que el tipo impositivo medio disminuya conforme
+   aumenta el salario. Por tanto, los trabajadores con salarios más
+   altos pagan una proporción menor de su renta en este impuesto.
+
+
+# Local Variables:
+# ispell-dictionary: "spanish"
+# End:
+
+#  LocalWords:  Answer valorem

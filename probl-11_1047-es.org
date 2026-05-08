@@ -80,7 +80,7 @@ c) ¿Es diferente la recaudación del impuesto si el impuesto es
 Por hacer.
 
 
-* Q.6
+* COMMENT Q.6
 
 Las curvas de demanda y oferta de un mercado de trabajo competitivo
 son:
@@ -104,7 +104,7 @@ b) Suponga ahora que una nueva ley establece un salario mínimo de
 Por hacer.
 
 
-* Q.7
+* COMMENT Q.7
 
 Una ciudad está considerando introducir un impuesto del 10% de los
 ingresos de los hoteles situados en el término municipal. A pesar de

@@ -28,28 +28,140 @@ d) ¿Es este impuesto progresivo, proporcional o regresivo?  Justifique
 a) Como el salario anual del trabajador de un restaurante es de
    \num{18000} euros, todo su salario está sujeto al impuesto y pagará
    $0.05 \cdot \num{18000} = \money{900}$. En consecuencia, tanto el
-   tipo impositivo medio como el marginal es del \pct{5}.
+   tipo medio como el tipo marginal son del \pct{5}.
 
 b) El salario anual del administrativo de un banco supera el máximo
    gravado por el impuesto. Por lo tanto, los últimos \money{5000} no
-   forman parte de la base imponible y el tipo marginal sería del
+   forman parte de la base imponible y el tipo marginal es del
    \pct{0}. El administrativo pagaría un impuesto de $0.05 \cdot
    \num{30000} = \money{1500}$. El tipo impositivo medio es:
    $\num{1500}/\num{35000} \approx \pct{4.29}$.
 
-c) En el caso del director ejecutivo con un salario anual es de
+c) En el caso del director ejecutivo con un salario anual de
    \num{500000} euros, también paga la cuota máxima de \num{1500}
    euros y el tipo marginal es del \pct{0}. El tipo impositivo medio
    es: $\num{1500}/\num{500000} \approx \pct{0.3}$.
 
-d)  Este impuesto es regresivo. La existencia de un límite máximo de
-   base imponible hace que el tipo impositivo medio disminuya conforme
-   aumenta el salario. Por tanto, los trabajadores con salarios más
-   altos pagan una proporción menor de su renta en este impuesto.
+d) Este impuesto es regresivo. La existencia de un límite máximo de
+   base imponible hace que, para salarios superiores a \num{30000}
+   euros, el tipo impositivo medio disminuya conforme aumenta el
+   salario. Por tanto, los trabajadores con salarios más altos pagan
+   una proporción menor de su renta en este impuesto.
 
+
+* Q.2
+
+Considere tres matrimonios:
+- Ana gana \num{60000} euros y Bruno gana \num{60000} euros.
+- Clara gana \num{100000} euros y Daniel gana \num{20000} euros.
+- Elena gana \num{120000} euros y Felipe no obtiene renta.
+El impuesto sobre la renta tiene la siguiente escala:
+#+ATTR_LATEX: :booktabs t :align lr
+| Base imponible                                      | Tipo impositivo |
+|-----------------------------------------------------+-----------------|
+| Hasta \num{50000} euros                             | \pct{20}        |
+| Más de \num{50000} euros y hasta \num{100000} euros | \pct{30}        |
+| Más de \num{100000} euros                           | \pct{40}        |
+
+
+a) Suponga que cada persona tributa individualmente, de forma que el
+   impuesto se calcula por separado sobre la renta de cada
+   cónyuge. Calcule el impuesto que paga cada cónyuge y el impuesto
+   total pagado por cada matrimonio. ¿Pagan lo mismo las tres
+   familias?  ¿Se cumple la equidad horizontal entre las diferentes
+   familias?  Explique cómo influye la progresividad del impuesto en
+   este resultado.
+
+b) Calcule cuánto pagaría cada familia si la base imponible es la
+   renta total del matrimonio. Compare lo que paga cada familia con lo
+   que pagarían si los dos cónyuges no estuvieran casados y tributasen
+   individualmente. ¿Existe un impuesto al matrimonio? ¿Se cumple
+   ahora la equidad horizontal?
+
+c) Suponga ahora que se mantiene la tributación familiar, pero los
+   matrimonios disfrutan de una exención de \num{15000} euros en la
+   base imponible familiar. Calcule el impuesto que pagaría cada
+   matrimonio y compare esta cantidad con la que pagarían si no
+   estuvieran casados y tributasen individualmente. ¿Existe un
+   impuesto al matrimonio o una subvención al matrimonio? ¿Afecta
+   igual a los tres matrimonios?
+
+** Answer
+
+a) Tanto Ana como Bruno pagan: $0.20 \cdot \num{50000} + 0.30 \cdot
+   \num{10000} = \num{13000}$ euros, por lo que esta familia paga en
+   total \money{26000}.
+   #+latex: \smallskip
+
+   Por otro lado, Clara paga: $0.20 \cdot \num{50000} + 0.30 \cdot
+   \num{50000} = \num{25000}$ euros, mientras que Daniel paga: $0.20
+   \cdot \num{20000} = \num{4000}$ euros. La segunda familia paga
+   \money{29000} en total.
+   #+latex: \smallskip
+
+   Finalmente, en la tercera familia solo Elena obtiene rentas por las
+   que paga: $0.20 \cdot \num{50000} + 0.30 \cdot \num{50000} + 0.40
+   \cdot \num{20000} = \num{33000}$ euros.
+   #+latex: \smallskip
+
+   Aunque las tres familias tienen la misma renta total, no pagan lo
+   mismo.  No se cumple la equidad horizontal entre las
+   familias.  La diferencia en lo que paga cada familias se
+   debe a la progresividad del impuesto: cuanto más concentrada está
+   la renta en un solo perceptor, mayor es la proporción gravada a
+   tipos altos.
+
+b) Con tributación familiar, las tres familias tienen una base
+   imponible de \num{120000} euros. Por tanto, todas pagan: $0.20
+   \cdot \num{50000} + 0.30 \cdot \num{50000} + 0.40 \cdot \num{20000}
+   = \num{33000}$. Por tanto, la integración de las bases de los
+   cónyuges restablece la equidad horizontal entre los matrimonios.
+   #+latex: \smallskip
+
+   Sin embargo, los impuestos que pagaría cada pareja serían
+   diferentes si no estuvieran casados. En concreto, al estar casados
+   Ana y Bruno pagan ${33000} - \num{26000} = \num{7000}$ euros
+   más. También Clara y Daniel pagan más impuestos por estar casados:
+   $\num{33000} - \num{29000} = \num{4000}$ euros más. La única familia que paga lo mismo con tributación individual y familiar es la formada por Elena y Felipe.
+   #+latex: \smallskip
+
+   Los cálculos anteriores muestran que los matrimonios con dos
+   perceptores de renta sufren un impuesto al matrimonio, dado que
+   pagarían menos impuestos si no estuvieran casados.  Con tributación
+   familiar se cumple la equidad horizontal entre los diferentes
+   matrimonios, que a igualdad de rentas pagan los mismos
+   impuestos. Pero no se cumpliría la equidad horizontal entre
+   matrimonios y parejas no casadas.
+
+c) La exención reduce la base imponible familiar en \num{15000}
+   euros. Por tanto, la base imponible de cada matrimonio es:
+   $\num{120000} - \num{15000} = \num{105000}$ euros. Cada matrimonio
+   pagaría: $0.20 \cdot \num{50000} + 0.30 \cdot \num{50000} + 0.40
+   \cdot \num{5000} = \money{27000}$.
+   #+latex: \smallskip
+
+   Comparando esta cantidad con la tributación individual, Ana y Bruno
+   siguen sufriendo un impuesto al matrimonio de $\num{27000} -
+   \num{26000} = \num{1000}$ euros.
+   #+latex: \smallskip
+
+   Sin embargo, los otros dos matrimonios disfrutan ahora de una
+   subvención al matrimonio, ya que ahora pagan menos que si tuvieran
+   que tributar individualmente. Por un lado, Clara y Daniel pagan
+   $\num{29000} - \num{27000} = \num{2000}$ euros menos y Elena y
+   Felipe pagan $\num{33000} - \num{27000} = \num{6000}$ euros menos.
+   #+latex: \smallskip
+
+   Al igual que en el apartado anterior, se cumple la equidad
+   horizontal entre las parejas casadas pero no entre matrimonios y
+   parejas de hecho. La exención reduce el impuesto al matrimonio para
+   todas las familias, pero solo lo elimina en algunos casos. Para Ana
+   y Bruno sigue existiendo un impuesto al matrimonio de \num{1000}
+   euros; para Clara y Daniel, y para Elena y Felipe, ahora existe una
+   subvención al matrimonio.
 
 # Local Variables:
 # ispell-dictionary: "spanish"
 # End:
 
-#  LocalWords:  Answer valorem
+#  LocalWords:  Answer valorem Daniel Felipe Elena

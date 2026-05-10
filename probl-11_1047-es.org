@@ -16,12 +16,13 @@ de los productos gravados? ¿Por qué?
 
 El mayor impacto sobre los precios de los productos gravados cabe
 esperarlo en el impuesto sobre todos los productos alimenticios. En
-ese caso, las posibilidades de sustitución son menores que cuando se
-grava únicamente la leche semidesnatada o los productos lácteos.  Por
-tanto, si la oferta no cambia sustancialmente entre alternativas, la
-demanda será más inelástica cuanto más amplio sea el conjunto de
-bienes gravados. La traslación del impuesto a los precios pagados por
-los consumidores será entonces mayor.
+ese caso, las posibilidades de sustitución por parte de los
+consumidores son menores que cuando se grava únicamente la leche
+semidesnatada o los productos lácteos.  Por tanto, si la oferta no
+cambia sustancialmente entre alternativas, la demanda será más
+inelástica cuanto más amplio sea el conjunto de bienes gravados. La
+traslación del impuesto a los precios pagados por los consumidores
+será entonces mayor.
 
 * Q.2
 
@@ -38,11 +39,10 @@ preocupación del presidente filipino?
 La preocupación del presidente filipino estaría justificada si una
 parte importante del impuesto acabara siendo soportada por los
 asistentes domésticos extranjeros, aunque legalmente lo pagasen los
-empleadores.  Esto ocurriría especialmente si la oferta de estos
-trabajadores fuese relativamente inelástica y la demanda por parte
-de los empleadores fuese relativamente elástica. En ese caso, el
-impuesto tendería a trasladarse hacia salarios netos más bajos para
-los trabajadores.
+empleadores. Esto ocurriría especialmente si la oferta de estos
+trabajadores fuese relativamente inelástica y la demanda por parte de
+los empleadores fuese relativamente elástica. En ese caso, el impuesto
+tendería a trasladarse hacia salarios más bajos para los trabajadores.
 
 
 * Q.3
@@ -59,12 +59,24 @@ c) Compare los resultados obtenidos en los dos apartados
    anteriores.
 
 ** Answer
-a) Sin impuesto, el equilibrio competitivo se obtiene en $P =
-   \price{14}$ y $Q = \num{24000}$ unidades. Con un impuesto
-   específico de $3$ euros por unidad vendida, se introduce una brecha
-   entre el precio pagado por los consumidores y el precio recibido
-   por los vendedores: $P_c = P_v + 3$.  El nuevo equilibrio es $Q =
-   \num{20000}$ unidades, $P_c = \price{15}$ y $P_v = \price{12}$.
+a) Sin impuesto, en el equilibrio competitivo el precio es $P =
+   \price{14}$ y se intercambian $Q = \num{24000}$ unidades.
+   #+latex: \smallskip
+
+   Con un impuesto específico de $3$ euros por unidad vendida, se
+   introduce una brecha entre el precio pagado por los consumidores y
+   el precio recibido por los vendedores: $P_c - P_v = \price{3}$.
+   Por tanto:
+   #+begin_export latex
+   \[
+     (20 - Q / \num{4000}) = (2  +  Q / \num{2000}) + 3.
+   \]
+   #+end_export
+   Resolviendo la ecuación anterior, se obtiene el nuevo equilibrio:
+   $Q = \num{20000}$ unidades, $P_c = \price{15}$ y $P_v =
+   \price{12}$.
+   #+latex: \smallskip
+
    Por tanto, el precio pagado por los consumidores aumenta en
    $1$ euro y el precio recibido por los vendedores disminuye en
    $2$ euros. La mayor parte de la carga del impuesto recae sobre los
@@ -72,18 +84,26 @@ a) Sin impuesto, el equilibrio competitivo se obtiene en $P =
    euros.
 
 b) Con un impuesto /ad valorem/ del \pct{25} sobre el precio recibido
-   por los vendedores, se cumple $P_c = 1.25 P_v$. El equilibrio es,
-   de nuevo, $Q = \num{20000}$ unidades, $P_c = \price{15}$ y $P_v =
-   \price{12}$. La cuña fiscal por unidad es $P_c - P_v = 3$, por lo
-   que el resultado coincide con el del impuesto específico del
-   apartado anterior. La recaudación es también $3 \cdot \num{20000} =
-   \num{60000}$ euros.
+   por los vendedores, se cumple $P_c = 1.25 P_v$:
+   #+begin_export latex
+   \[
+     (20 - Q / \num{4000}) = 1.25 (2  +  Q / \num{2000}).
+   \]
+   #+end_export
+   El equilibrio es, de nuevo, $Q = \num{20000}$ unidades, $P_c =
+   \price{15}$ y $P_v = \price{12}$.
+   #+latex: \smallskip
 
-c) En este caso, ambos impuestos generan el mismo resultado porque el
-   impuesto /ad valorem/ del \pct{25} sobre $P_v = \price{12}$
-   equivale a un impuesto específico de 3 euros por unidad. Por tanto,
-   la cantidad, los precios relevantes, la incidencia económica y la
-   recaudación son iguales en los dos apartados.
+   La cuña fiscal por unidad es $P_c - P_v = 3$, por lo que el
+   resultado coincide con el del apartado anterior. Por tanto, la
+   incidencia del impuesto /ad valorem/ sobre compradores y vendedores
+   es la misma que la del impuesto específico.
+
+c) Los impuestos son equivalentes ya que el mercado es competitivo y
+   los efectos de ambos impuestos sobre la cantidad son los mismos.
+   La cantidad intercambiada, los precios relevantes, la incidencia
+   económica y la recaudación son idénticos en los dos apartados
+   anteriores.
 
 
 * Q.4
@@ -96,15 +116,14 @@ vendida.
 ** Answer
 
 La demanda es $Q = \num{10000}/P^2$, por lo que tiene elasticidad
-constante igual a $-2$. En monopolio, esto implica que el ingreso
-marginal es $\IMg = 50/Q^{1/2}$.  Sin impuesto, el monopolista elige
-$P = \price{1}$ y $Q = \num{10000}$ unidades.  Con un impuesto
-específico de $1$ euro por unidad, el coste marginal relevante pasa a
-ser $CM + t = 1.5$. La condición de maximización da $P = 3$ euros por
-unidad y $Q = \num{1111.11}$ unidades.  El impuesto aumenta el precio
-pagado por los consumidores en $2$ euros, aunque el impuesto es de
-solo $1$ euro por unidad. Por tanto, en este caso hay sobretraslación
-del impuesto.
+constante igual a $-2$. El ingreso marginal del monopolio es $\IMg =
+50/Q^{1/2}$.  Sin impuesto, el monopolista elige $P = \price{1}$ y $Q
+= \num{10000}$ unidades.  Con un impuesto específico de $1$ euro por
+unidad, el coste marginal relevante pasa a ser $CM + t = 1.5$. La
+condición de maximización da $P = 3$ euros por unidad y $Q =
+\num{1111.11}$ unidades.  El impuesto aumenta el precio pagado por los
+consumidores en $2$ euros, aunque el impuesto es de solo $1$ euro por
+unidad. Por tanto, en este caso hay sobretraslación del impuesto.
 
 
 * Q.5
@@ -123,21 +142,52 @@ c) ¿Es diferente la recaudación del impuesto si el impuesto es
 
 ** Answer
 
-a) Sin impuesto, el monopolista elige $Q = 400$ unidades y $P = 30$
-   euros por unidad. Con un impuesto específico de $2.50$ euros por
-   unidad, el coste marginal relevante pasa a ser $CM + t =
-   \price{12.50}$.  El nuevo equilibrio es $Q = 375$ unidades, $P_c =
-   \price{31.25}$ y $P_v = \price{28.75}$.  El precio pagado por los
-   consumidores aumenta en $1.25$ euros y el precio recibido por el
-   vendedor disminuye en $1.25$ euros. En este caso, la carga del
-   impuesto se reparte por igual entre consumidores y vendedor.  La
-   recaudación es $2.50 \cdot 375 = \money{937.5}$.
+a) Sin impuesto, el monopolista iguala el ingreso marginal al coste
+   marginal:
+   #+begin_export latex
+   \[
+     \IMg = 50 - 0.1 Q = \CMg = 10.
+   \]
+   #+end_export
+   En equilibrio, el monopolio vende $Q = 400$ unidades a un precio $P
+   = 30$ euros por unidad.
+   #+latex: \smallskip
+
+   Con un impuesto específico de $2.50$ euros por unidad, el precio
+   recibido por el vendedor es $P_v = P_c - 2.50$. El ingreso marginal
+   se reduce también en la cuantía del impuesto. La condición de
+   maximización de beneficios es:
+   #+begin_export latex
+   \[
+     \IMg - t = 50 - 0.1 Q - 2.50 = \CMg = 10.
+   \]
+   #+end_export
+   El nuevo equilibrio es $Q = 375$ unidades, $P_c = \price{31.25}$ y
+   $P_v = \price{28.75}$.
+   #+latex: \smallskip
+
+   El precio pagado por los consumidores aumenta en $1.25$ euros y el
+   precio recibido por el vendedor disminuye en $1.25$ euros. En este
+   caso, la carga del impuesto se reparte por igual entre consumidores
+   y vendedor.  La recaudación es $2.50 \cdot 375 = \money{937.5}$.
 
 b) Con un impuesto /ad valorem/ del \pct{25} sobre el precio recibido
-   por los vendedores, se cumple $P_c = 1.25 P_v$.  El equilibrio es
-   $Q = 375$ unidades, $P_v = \price{25}$ y $P_c = \price{31.25}$.  La
-   recaudación por unidad es $P_c - P_v = 6.25$ y la recaudación total
-   es $6.25 \cdot 375 = \num{2343.75}$.
+   por los vendedores, se cumple $P_c = 1.25 P_v$. La demanda
+   relevante para el monopolio es:
+   #+begin_export latex
+   \[
+      P_v = P_c / (1 + t) = (50 - 0.05 Q) / 1.25.
+   \]
+   #+end_export
+   La condición de maximización del beneficio es:
+   #+begin_export latex
+   \[
+     \IMg / (1 + t) = (50 - 0.1 Q) / 1.25 = \CMg = 10.
+   \]
+   #+end_export
+   El equilibrio es $Q = 375$ unidades, $P_v = \price{25}$ y $P_c =
+   \price{31.25}$.  La recaudación por unidad es $P_c - P_v = 6.25$ y
+   la recaudación total es $6.25 \cdot 375 = \money{2343.75}$.
 
 c) Sí. Aunque ambos impuestos generan la misma cantidad vendida y el
    mismo precio pagado por los consumidores, la recaudación es
@@ -151,8 +201,8 @@ Las curvas de demanda y oferta de un mercado de trabajo competitivo
 son:
 #+begin_export latex
 \begin{gather*}
-  L^{d} = \num{60000} - \num{3000} w \\
-  L^{s} = \num{20000} + \num{1000} w
+  L^{d} = \num{60000} - \num{3000} w, \\
+  L^{s} = \num{20000} + \num{1000} w,
 \end{gather*}
 #+end_export
 donde $L$ se mide en horas y $w$ es el salario por hora.
@@ -166,42 +216,86 @@ b) Suponga ahora que una nueva ley establece un salario mínimo de
 
 ** Answer
 
-
-
-a) Sin impuesto, el equilibrio competitivo es $w = \wage{10}$ y $L =
-   \num{30000}$ horas.  Si se introduce un impuesto de $4$ euros por
-   hora pagado por los empleadores, el coste laboral para las empresas
-   es 4 euros superior al salario recibido por los trabajadores.  En
-   el nuevo equilibrio el coste laboral para la empresa es de
-   \wage{11} y se contratan \num{27000} horas.  Respecto al equilibrio
-   inicial, los trabajadores reciben $3$ euros menos por hora y los
-   empleadores pagan $1$ euro más. Por tanto, la mayor parte de la
-   carga económica del impuesto recae sobre los trabajadores.
+a) <<item:6a>>Las curvas inversas de demanda y oferta de trabajo son:
+   #+begin_export latex
+   \begin{gather*}
+   w = 20 - L / \num{3000}, \\
+   w = -20 + L / \num{1000}.
+   \end{gather*}
+   #+end_export
+   Sin impuesto, el equilibrio competitivo es $w = \wage{10}$ y $L =
+   \num{30000}$ horas.
    #+latex: \smallskip
 
-   Si el impuesto fuese pagado legalmente a partes iguales por
-   empleadores y empleados, el resultado sería el mismo: el salario
-   neto de los trabajadores es \wage{7}, el coste laboral de las
-   empresas es \wage{11} y se contratan \num{27000} horas. La
+   Para analizar el equilibrio con diferentes combinaciones de
+   impuestos pagados por los empleadores, $t_d$, e impuestos pagados
+   por los empleados, $t_o$, es conveniente reescribir las curvas de
+   oferta y demanda como:
+   #+begin_export latex
+   \begin{gather*}
+   w + t_d = 20 - L / \num{3000}, \\
+   w - t_o = -20 + L / \num{1000}.
+   \end{gather*}
+   #+end_export
+   El lado izquierdo de la ecuación de demanda corresponde al
+   coste laboral por hora que pagan los empleadores. En el lado
+   izquierdo de la ecuación de oferta de trabajo aparece el salario
+   por hora neto de impuestos que perciben los empleados.
+   #+latex: \smallskip
+
+   Si se introduce un impuesto de $4$ euros por hora pagado por los
+   empleadores, las curvas de demanda y oferta de trabajo son:
+   #+begin_export latex
+   \begin{gather*}
+   w + 4 = 20 - L / \num{3000}, \\
+   w = -20 + L / \num{1000}.
+   \end{gather*}
+   #+end_export
+   En el nuevo equilibrio, el salario es $w = \wage{7}$, el coste
+   laboral para la empresa es de $w + t_d = \wage{11}$ y se contratan
+   \num{27000} horas.  Respecto al equilibrio inicial, los
+   trabajadores reciben $3$ euros menos por hora y los empleadores
+   pagan $1$ euro más. Por tanto, la mayor parte de la carga económica
+   del impuesto recae sobre los trabajadores.
+   #+latex: \smallskip
+
+   Si la ley del impuesto establece que tiene que ser pagado a partes
+   iguales por empleadores y empleados, las curvas de demanda y oferta
+   son:
+   #+begin_export latex
+   \begin{gather*}
+   w + 2 = 20 - L / \num{3000}, \\
+   w - 2 = -20 + L / \num{1000}.
+   \end{gather*}
+   #+end_export
+   El salario es ahora $w = \wage{9}$, pero la incidencia sería la
+   misma que cuando el impuesto lo pagan solo los empleadores.  El
+   salario neto de los trabajadores es \wage{7}, el coste laboral de
+   las empresas es \wage{11} y se contratan \num{27000} horas. En
+   ausencia de limitaciones al funcionamiento del mercado, la
    incidencia económica no depende de quién tenga la obligación legal
    de pagar el impuesto.
 
-b) Con un salario mínimo de 8 euros por hora, y sin impuesto, el
-   salario mínimo no es vinculante, porque el salario de equilibrio
-   competitivo es $w = \wage{10}$.  Con el impuesto de $4$ euros por
-   hora pagado por los empleadores, el equilibrio sin salario mínimo
-   implicaría que los trabajadores perciben un salario de
-   $7$ euros. Por tanto, el salario mínimo sí pasa a ser vinculante.
-   Si los trabajadores deben recibir al menos $8$_euros por hora, el
-   coste por hora para los empleadores es de $8 + 4 = 12$ euros. A ese
-   coste, la demanda de trabajo es $L^d = \num{24000}$ horas y se
-   produciría un exceso de oferta de trabajo de \num{4000} horas.  En
-   este caso, el salario mínimo altera la incidencia del impuesto: los
-   trabajadores reciben 8 euros, los empleadores pagan 12 euros y el
-   empleo cae más que en el caso sin salario mínimo.
+b) Cuando no hay impuesto, el salario mínimo de $\wage{8}$ no afecta
+   al salario de equilibrio competitivo: $w = \wage{10}$.
+   #+latex: \smallskip
+
+   Cuando los empleadores pagan el impuesto de $4$ euros por hora, el
+   salario ya no puede ajustarse por debajo de \wage{8}, como ocurría
+   sin salario mínimo.  Por tanto, el salario es igual al salario
+   mínimo, $w = \wage{8}$, el coste por hora para los empleadores es
+   de $8 + 4 = 12$ euros, la demanda de trabajo es $L^d = \num{24000}$
+   horas y se produciría un exceso de oferta de trabajo de \num{4000}
+   horas.  En este caso, el salario mínimo altera la incidencia del
+   impuesto: la introducción del impuesto hace que los trabajadores
+   reciban 2 euros menos y los empleadores paguen 2 euros más.
+   #+latex: \smallskip
 
    Si el impuesto se paga a partes iguales por empleadores y
-   empleados, el salario mínimo no es vinculante y se obtendría el mismo resultado que en el apartado anterior.
+   empleados, el salario mínimo no es vinculante y se obtendría el
+   mismo resultado que en el apartado [[item:6a]], sin salario mínimo. Al
+   establecer el impuesto, los empleados reciben 3 euros menos y los
+   empleadores pagan 1 euro más.
 
 
 * COMMENT Q.7
@@ -241,4 +335,4 @@ Por hacer.
 # ispell-dictionary: "spanish"
 # End:
 
-#  LocalWords:  Answer valorem ad sobretraslación
+#  LocalWords:  Answer valorem ad sobretraslación semidesnatada

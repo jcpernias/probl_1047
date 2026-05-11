@@ -4,28 +4,28 @@
 
 * Q.1
 
-Adam solo consume los bienes $X$ e $Y$. Elige la cesta $E_0$ cuando
+Mónica solo consume los bienes $X$ e $Y$. Elige la cesta $E_0$ cuando
 los precios son $P_X = \price{5}$ y $P_Y = \price{6}$. Sin embargo, la
-elección óptima de Adam es $E_1$ después de que se establezca un
+elección óptima de Mónica es $E_1$ después de que se establezca un
 impuesto sobre las compras del bien $X$ de \money{5} por unidad que se
 traslada por completo a los compradores. El gráfico siguiente muestra
-las elecciones de Adam, las rectas presupuestarias antes y después del
+las elecciones de Mónica, las rectas presupuestarias antes y después del
 impuesto y las curvas de indiferencia de $E_0$ y $E_1$.
 
 #+xxx: fig file:fig-12_1047-01-*.pdf
 
-a) ¿Cuánto paga Adam por el impuesto sobre las compras de $X$?
+a) ¿Cuánto paga Mónica por el impuesto sobre las compras de $X$?
 b) Determine a cuánto ascendería un impuesto de cuantía fija
    equivalente al impuesto sobre las compras de $X$, en el sentido de
-   que ambos dejarían a Adam con la misma utilidad.
-c) ¿Cuál es el exceso de gravamen que soporta Adam?
+   que ambos dejarían a Mónica con la misma utilidad.
+c) ¿Cuál es el exceso de gravamen que soporta Mónica?
 
 
 ** Answer
 
 Por hacer
 
-* Q.2
+* COMMENT Q.2
 
 El gobierno trata de reducir el consumo de sal y para ello establece
 un impuesto específico de $t$ euros por cada kg de sal. El impuesto se
@@ -126,7 +126,7 @@ b) ¿Cómo cambiaría su respuesta al apartado anterior si el consumo de
 Por hacer.
 
 
-* Q.7
+* COMMENT Q.7
 
 Las autoridades locales de una comarca están estudiando introducir un
 impuesto a los arrendatarios de tierra para usos agrícolas de 4 euros

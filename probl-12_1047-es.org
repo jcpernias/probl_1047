@@ -23,24 +23,32 @@ c) ¿Cuál es el exceso de gravamen que soporta Mónica?
 
 ** Answer
 
-Por hacer
+a) Después del impuesto, el precio de $X$ pasa a ser $P_X = 10$ euros
+   por unidad. En $E_1$, Mónica consume $9$ unidades de $X$. Por
+   tanto, paga $5\cdot 9 = 45$ euros por el impuesto.
 
-* COMMENT Q.2
+b) La elección óptima de Mónica a los precios iniciales es $E_0$. Por
+   tanto, la renta de Mónica es $M = 5\cdot 24 + 6\cdot 15 = 210$
+   euros.
+   #+latex: \smallskip
 
-El gobierno trata de reducir el consumo de sal y para ello establece
-un impuesto específico de $t$ euros por cada kg de sal. El impuesto se
-traslada por completo a los compradores. Dulce no ha modificado en
-absoluto su consumo de sal después de la introducción del
-impuesto. ¿Quiere esto decir que no hay un exceso de gravamen en el
-caso de Dulce? ¿Por qué? Represente gráficamente.
+   El impuesto de cuantía fija equivalente no modifica los precios
+   relativos y debe dejar la elección óptima de Mónica en la misma
+   curva de indiferencia que el impuesto unitario, es decir, sobre
+   $I_1$. Con los precios iniciales, la cesta $E_2 = (18, 10)$ permite
+   alcanzar esa utilidad.
+   #+latex: \smallskip
+
+   El coste de $E_2$ a los precios iniciales es
+   $5\cdot 18 + 6\cdot 10 = 150$ euros. Por tanto, el impuesto de
+   cuantía fija equivalente sería $210 - 150 = 60$ euros.
+
+c) El exceso de gravamen es la diferencia entre el impuesto de cuantía
+   fija equivalente y la recaudación del impuesto unitario: $60 - 45 =
+   15$ euros.
 
 
-** Answer
-
-Por hacer.
-
-
-* Q.3
+* Q.2
 
 Un producto se vende en un mercado competitivo cuyas curvas de
 demanda y oferta son:
@@ -56,10 +64,36 @@ unidad vendida.
 
 ** Answer
 
-Por hacer.
+En ausencia de impuesto, el equilibrio se obtiene igualando demanda y
+oferta:
+#+begin_export latex
+\[
+  150 - 100P/3 = 25 + 50P.
+\]
+#+end_export
+De ahí se obtiene $P = \price{1.5}$ y $Q_0 = 100$ unidades.
+#+latex: \smallskip
+
+Con un impuesto de $0.50$ euros por unidad, el precio pagado por los
+compradores es $P_c = P_v + 0.50$. El nuevo equilibrio cumple:
+#+begin_export latex
+\[
+  150 - 100(P_v + 0.50)/3 = 25 + 50P_v,
+\]
+#+end_export
+por lo que $P_v = \price{1.3}$, $P_c = \price{1.8}$ y $Q_1 =
+90$ unidades.
+
+El exceso de gravamen del impuesto es:
+#+begin_export latex
+\[
+  (Q_0 - Q_1) t / 2 = (100 - 90) 0.5 / 2 = \money{2.5}.
+\]
+#+end_export
 
 
-* Q.4
+
+* Q.3
 
 La demanda de mercado de un producto viene dada por $P = 20 - 0.001
 Q$. La curva de oferta de mercado es perfectamente elástica: $P =
@@ -71,17 +105,36 @@ a) Calcule el exceso de gravamen si se establece un impuesto de
 b) Calcule el exceso de gravamen si el impuesto fuera de \money{3}
    por unidad producida.
 
-c) Compare los resultados obtenidos en los apartados anterior. ¿Cómo
+c) Compare los resultados obtenidos en los apartados anteriores. ¿Cómo
    cambia la ineficiencia generada por el impuesto cuando cambia la
    tasa impositiva?
 
 
 ** Answer
 
-Por hacer.
+a) Sin impuesto, la cantidad de equilibrio es de \num{10000} unidades.
+   Con un impuesto de $2$ euros, el precio por unidad pagado por los
+   consumidores pasa a ser de $12$ euros. La cantidad demandada es $Q
+   = \num{8000}$ unidades.
+   #+latex: \smallskip
 
+   La cantidad se reduce en \num{2000} unidades a causa del
+   impuesto. El exceso de gravamen es $t \Delta Q / 2 = 2\cdot
+   \num{2000} / 2 = \money{2000}$.
 
-* Q.5
+b) Con un impuesto de 3 euros, el precio pagado por los consumidores
+   pasa a ser 13 y la cantidad es $Q = \num{7000}$ unidades.  Con
+   respecto a la situación sin impuesto, la reducción de la cantidad
+   es \num{3000}. El exceso de gravamen es, por tanto, igual a $3\cdot
+   \num{3000}/2 = \num{4500}$ euros.
+
+c) Cuando el impuesto pasa de $2$ a $3$ euros, el exceso de gravamen
+   aumenta de \num{2000} a \num{4500} euros. La ineficiencia no
+   aumenta proporcionalmente al impuesto, sino más que
+   proporcionalmente. En este caso, al multiplicar el impuesto por
+   $3/2$, el exceso de gravamen se multiplica por $(3/2)^2 = 2.25$.
+
+* Q.4
 
 En el mercado de un bien la curva de demanda es: $P = 10 - 0.01 Q$. El
 bien es producido por un monopolista y los costes marginales son
@@ -98,12 +151,45 @@ b) ¿Cómo cambiaría su respuesta al apartado anterior si el productor
 
 ** Answer
 
-Por hacer.
+a) Sin impuesto, el monopolista elige la cantidad que iguala ingreso
+   marginal y coste marginal: $10 - 0.02Q_0 = 2$. Por tanto, $Q_0 =
+   400$ unidades y $P_0 = \price{6}$.
+   #+latex: \smallskip
+
+   Con un impuesto de $2$ euros por unidad, el coste marginal
+   relevante para el monopolista pasa a ser de \price{4}. La nueva
+   cantidad cumple $10 - 0.02Q_1 = 4$, por lo que $Q_1 = 300$ unidades
+   y $P_1 = \price{7}$.
+   #+latex: \smallskip
+
+   El exceso de gravamen del impuesto es la pérdida de excedente
+   social por reducir la cantidad de $400$ a $300$:
+   #+begin_export latex
+   \[
+     (Q_0 - Q_1) \big((P_0 + P1) / 2 - \CMg\big) = 100 (6.5 - 2) = \money{450}.
+   \]
+   #+end_export
+
+b) Si el mercado fuera competitivo, sin impuesto se producirían $Q_0 =
+   800$ unidades que se venderían a un precio $P_0 = \CMg =
+   \price{2}$.
+   #+latex: \smallskip
+
+   Con un impuesto de $2$ euros, el precio pagado por los consumidores
+   sería $P_1 = \price{4}$ y la cantidad sería $Q_1 = 600$ unidades.
+   El exceso de gravamen sería $(Q_0 - Q_1) (P_1 - P_0) / 2 = 200
+   \cdot 2 / 2 = 200$ euros.
+   #+latex: \smallskip
+
+   El impuesto genera un exceso de gravamen mayor en el monopolio que
+   en el mercado competitivo. La razón es que el monopolio ya producía
+   una cantidad inferior a la eficiente antes del impuesto; el
+   impuesto reduce todavía más la cantidad producida.
 
 
-* Q.6
+* Q.5
 
-El mercado de gasoil de un pequeño país es competitivo. Las curvas de
+El mercado de gasóleo de un pequeño país es competitivo. Las curvas de
 demanda y oferta son:
 #+begin_export latex
 \begin{gather*}
@@ -111,14 +197,74 @@ demanda y oferta son:
   Q^{o} = \num{-1300} + \num{1500} P.
 \end{gather*}
 #+end_export
-El gobierno piensa que los precios del gasoil son muy elevados y
+El gobierno piensa que los precios del gasóleo son muy elevados y
 establece una subvención a los compradores de \price[litre]{0.20}.
 
 a) Calcule la ineficiencia asociada a la subvención.
 
 b) ¿Cómo cambiaría su respuesta al apartado anterior si el consumo de
-   gasoil produjera una externalidad negativa igual a
+   gasóleo produjera una externalidad negativa igual a
    \price[litre]{0.40}? Represente gráficamente.
+
+
+** Answer
+
+a) Sin subvención, el precio de equilibrio competitivo es $P_c =
+   1.4$ euros por litro y $Q_c = 800$ litros.
+   #+latex: \smallskip
+
+   Con una subvención a los compradores de $s = \price[litre]{0.20}$,
+   en equilibrio se cumple:
+   #+begin_export latex
+   \[
+     5000 - 3000 (P_s - 0.2) = -1300 + 1500 P_s,
+   \]
+   #+end_export
+   de donde se obtiene $P_s = 1.53$ euros por litro y $Q_s =
+   \num{1000}$ litros. La ineficiencia asociada a la subvención es
+   igual a $(Q_s - Q_c) s / 2 = 200 \cdot 0.20 / 2 = 20$ euros.
+
+b) Con una externalidad negativa de consumo que provoca un daño
+   marginal de $\DM = 0.4$ euros por litro, la cantidad eficiente se
+   obtiene igualando la demanda al coste marginal social:
+   #+begin_export latex
+   \[
+     (5000 - Q)/3000 - 0.40 = (Q + 1300)/1500.
+   \]
+   #+end_export
+   La cantidad eficiente es $Q^* = 400$ litros.
+   #+latex: \smallskip
+
+   Sin subvención, la cantidad competitiva, $Q_c = 800$ litros, es
+   superior a la eficiente, por lo que la ineficiencia asociada a la
+   externalidad es: $(Q_c - Q^*)\DM / 2 = 400 \cdot 0.4 / 2 = 80$
+   euros.
+   #+latex: \smallskip
+
+   Con la subvención, la cantidad consumida es $Q_s = \num{1000}$
+   litros. La ineficiencia total de la externalidad y la subvención es
+   $(Q_s - Q^*) (\DM + s) / 2 = 600 \cdot 0.6 / 2 = 180$ euros.
+   #+latex: \smallskip
+
+   En consecuencia, en presencia de una externalidad negativa, la
+   introducción de la subvención incrementa la ineficiencia en $180 -
+   80 = 100$ euros.
+   #+latex: \smallskip
+
+   Comparando estos resultados con los del apartado anterior, se
+   observa que la ineficiencia atribuible a la subvención es mayor en
+   presencia de externalidades negativas.
+
+
+
+* COMMENT Q.2
+
+El gobierno trata de reducir el consumo de sal y para ello establece
+un impuesto específico de $t$ euros por cada kg de sal. El impuesto se
+traslada por completo a los compradores. Dulce no ha modificado en
+absoluto su consumo de sal después de la introducción del
+impuesto. ¿Quiere esto decir que no hay un exceso de gravamen en el
+caso de Dulce? ¿Por qué? Represente gráficamente.
 
 
 ** Answer
@@ -152,6 +298,17 @@ c) ¿Cuál es el exceso de gravamen?
 ** Answer
 
 Por hacer.
+* COMMENT ChatGPT
+
+
+
+** Ejercicio 5
+
+
+*** a)
+
+
+*** b)
 
 
 
